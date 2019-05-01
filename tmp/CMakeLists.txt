@@ -12,6 +12,34 @@ function(JOIN OUT GLUE)
 endfunction()
 
 
+cmake_minimum_required(VERSION 3.11)
+project(MyCpp LANGUAGES CXX)
+message(${PROJECT_NAME})
+
+set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_CXX_STANDARD 14)
+
+add_subdirectory(CppUtils)
+
+set(CPP_SOURCE_FILES
+        AData.h
+        AData.cpp
+        ACalc.h
+        ACalc.cpp
+        )
+
+add_library(${PROJECT_NAME} STATIC ${CPP_SOURCE_FILES})
+
+target_link_libraries(${PROJECT_NAME} CppUtils)
+
+project(MyCppTest)
+
+add_executable(${PROJECT_NAME} test.cpp.cpp)
+
+target_link_libraries(${PROJECT_NAME} MyCpp CppUtils)
+
+
+
 project(compute_lib C CXX)
 
 
@@ -24,8 +52,6 @@ set(LIB_SOURCES
 add_library(${PROJECT_NAME} ${LIB_SOURCES})
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 11 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS ON)
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
-
-
 
 
 project(OpenMPI_NonBlocking)

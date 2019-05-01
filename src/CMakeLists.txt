@@ -1,16 +1,7 @@
 
 
 
-add_subdirectory(cpp)
+add_subdirectory(bin)
+add_subdirectory(lib)
 
-if (OMPI_FOUND)
-    #add_subdirectory(ompi)
-endif()
 
-if (BOOST_FOUND)
-   # add_subdirectory(boost)
-endif()
-
-if(BOOST_FOUND AND OMPI_FOUND)
-    # add_subdirectory(boost_ompi)
-endif()

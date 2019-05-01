@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Boost_Example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\bin\;CMake Files\src\bin\boost\;CMake Files\src\bin\boost_ompi\;CMake Files\src\bin\ompi\;CMake Files\src\bin\ompi\CppUtils\;CMake Files\src\bin\cpp\;CMake Files\src\lib\;CMake Files\src\lib\boost\;CMake Files\modules_cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Boost_Example_Regex">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/Boost_Example_Regex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI"/>
+					<Add option="-DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib"/>
+					<Add option="-DWITH_BOOST=1"/>
+					<Add directory="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 Boost_Example_Regex"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Boost_Example_Regex/fast">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/Boost_Example_Regex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI"/>
+					<Add option="-DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib"/>
+					<Add option="-DWITH_BOOST=1"/>
+					<Add directory="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 Boost_Example_Regex/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Boost_Example_Matmul">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/Boost_Example_Matmul" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI"/>
+					<Add option="-DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib"/>
+					<Add option="-DWITH_BOOST=1"/>
+					<Add directory="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 Boost_Example_Matmul"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Boost_Example_Matmul/fast">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/Boost_Example_Matmul" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI"/>
+					<Add option="-DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib"/>
+					<Add option="-DWITH_BOOST=1"/>
+					<Add directory="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 Boost_Example_Matmul/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Boost_Example_Filesystem">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/Boost_Example_Filesystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI"/>
+					<Add option="-DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib"/>
+					<Add option="-DWITH_BOOST=1"/>
+					<Add directory="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 Boost_Example_Filesystem"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Boost_Example_Filesystem/fast">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/Boost_Example_Filesystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI"/>
+					<Add option="-DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib"/>
+					<Add option="-DWITH_BOOST=1"/>
+					<Add directory="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 Boost_Example_Filesystem/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost/main.cpp">
+			<Option target="Boost_Example_Filesystem"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost/main.regex.cpp">
+			<Option target="Boost_Example_Regex"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost/matmul_boost.cpp">
+			<Option target="Boost_Example_Matmul"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/run_mpi.sh.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\boost\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost_ompi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\boost_ompi\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\ompi\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\ompi\CppUtils\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\cpp\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lib\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib/boost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lib\boost\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/Boost.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/CMakeCommon.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/Colors.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/OpenMPI.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

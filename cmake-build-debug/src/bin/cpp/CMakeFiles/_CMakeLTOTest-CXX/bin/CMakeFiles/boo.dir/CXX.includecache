@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+

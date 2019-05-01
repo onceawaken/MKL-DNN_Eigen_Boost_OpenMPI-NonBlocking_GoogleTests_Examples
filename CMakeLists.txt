@@ -6,16 +6,26 @@ unset(DO_TARGET CACHE)
 unset(DO_OMPI CACHE)
 unset(DO_BOOST CACHE)
 unset(DO_PYTHON CACHE)
+unset(DO_EIGEN CACHE)
+unset(DO_MKL_DNN CACHE)
+unset(DO_OMP CACHE)
+
+set(CMAKE_LIBRARY_DIR_RELATIVE extern_libs)
+
+set(CMAKE_LIBRARY_PATH ${CMAKE_SOURCE_DIR}/${CMAKE_LIBRARY_DIR_RELATIVE})
 
 
 option(DO_PYTHON "Build python modules" OFF)
 option(DO_GTEST "Use google tests to perform bunch of tests..." OFF)
 option(DO_TARGET "Build targets from src dir..." ON)
-option(DO_OMPI "Build targets/tests for OpenMPI..." OFF)
-option(DO_BOOST "Build targets/tests for Boost..." OFF)
+option(DO_OMPI "Build targets/tests for OpenMPI..." ON)
+option(DO_BOOST "Build targets/tests for Boost..." ON)
+option(DO_EIGEN "Build targets/tests for Eigen..." OFF)
+option(DO_MKL_DNN "Build targets/tests/libs for MKL-DNN" OFF)
+option(DO_OMP "Build targets/tests with multi-threading by OpenMP" OFF)
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/modules_cmake")
 
 include(CMakeCommon)
 include(Colors)
@@ -41,6 +51,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 #Default build NAME
 
+if (DO_OMP)
+
+    find_package(OpenMP REQUIRED)
+
+endif ()
+
 
 if (DO_PYTHON)
     ppr_red("DO_PYTHON")
@@ -64,6 +80,13 @@ if (DO_BOOST)
 
 endif ()
 
+if (DO_MKL_DNN)
+    ppr_red("DO_MKL_DNN")
+    include(MKLDNN)
+    setup_mkl_dnn()
+    assert_mkl_dnn()
+endif ()
+
 
 # Setup Target
 
@@ -82,7 +105,7 @@ endif (DO_TARGET)
 
 if (DO_GTEST)
     message("DO_GTEST is set...")
-    add_subdirectory(extern/GoogleTest)
+    add_subdirectory(extern_libs/GoogleTest)
     add_subdirectory(test)
 
 else (DO_GTEST)

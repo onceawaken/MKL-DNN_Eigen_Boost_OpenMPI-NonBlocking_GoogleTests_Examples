@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.62/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/egrzrbr/W/W.priv/Examples/Boost_OpenMPI_GoogleTests_Examples
+CMAKE_SOURCE_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/egrzrbr/W/W.priv/Examples/Boost_OpenMPI_GoogleTests_Examples/cmake-build-release
+CMAKE_BINARY_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/egrzrbr/W/W.priv/Examples/Boost_OpenMPI_GoogleTests_Exa
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.62/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.62/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egrzrbr/W/W.priv/Examples/Boost_OpenMPI_GoogleTests_Examples/cmake-build-release/CMakeFiles /home/egrzrbr/W/W.priv/Examples/Boost_OpenMPI_GoogleTests_Examples/cmake-build-release/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/CMakeFiles /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egrzrbr/W/W.priv/Examples/Boost_OpenMPI_GoogleTests_Examples/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,30 +111,199 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cpp_Example_BOOST
+# Target rules for targets named Cpp_Example_Maybe_Boost
 
 # Build rule for target.
-Cpp_Example_BOOST: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Example_BOOST
-.PHONY : Cpp_Example_BOOST
+Cpp_Example_Maybe_Boost: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Example_Maybe_Boost
+.PHONY : Cpp_Example_Maybe_Boost
 
 # fast build rule for target.
-Cpp_Example_BOOST/fast:
-	$(MAKE) -f src/cpp/CMakeFiles/Cpp_Example_BOOST.dir/build.make src/cpp/CMakeFiles/Cpp_Example_BOOST.dir/build
-.PHONY : Cpp_Example_BOOST/fast
+Cpp_Example_Maybe_Boost/fast:
+	$(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build
+.PHONY : Cpp_Example_Maybe_Boost/fast
 
 #=============================================================================
-# Target rules for targets named Cpp_Example
+# Target rules for targets named Cpp_Example_Simple
 
 # Build rule for target.
-Cpp_Example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Example
-.PHONY : Cpp_Example
+Cpp_Example_Simple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Example_Simple
+.PHONY : Cpp_Example_Simple
 
 # fast build rule for target.
-Cpp_Example/fast:
-	$(MAKE) -f src/cpp/CMakeFiles/Cpp_Example.dir/build.make src/cpp/CMakeFiles/Cpp_Example.dir/build
-.PHONY : Cpp_Example/fast
+Cpp_Example_Simple/fast:
+	$(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build
+.PHONY : Cpp_Example_Simple/fast
+
+#=============================================================================
+# Target rules for targets named Cpp_Example_Simple_Lib
+
+# Build rule for target.
+Cpp_Example_Simple_Lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Example_Simple_Lib
+.PHONY : Cpp_Example_Simple_Lib
+
+# fast build rule for target.
+Cpp_Example_Simple_Lib/fast:
+	$(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build
+.PHONY : Cpp_Example_Simple_Lib/fast
+
+#=============================================================================
+# Target rules for targets named OpenMPI_Tests_Boost
+
+# Build rule for target.
+OpenMPI_Tests_Boost: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenMPI_Tests_Boost
+.PHONY : OpenMPI_Tests_Boost
+
+# fast build rule for target.
+OpenMPI_Tests_Boost/fast:
+	$(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build
+.PHONY : OpenMPI_Tests_Boost/fast
+
+#=============================================================================
+# Target rules for targets named OpenMPI_NonBlocking
+
+# Build rule for target.
+OpenMPI_NonBlocking: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenMPI_NonBlocking
+.PHONY : OpenMPI_NonBlocking
+
+# fast build rule for target.
+OpenMPI_NonBlocking/fast:
+	$(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build
+.PHONY : OpenMPI_NonBlocking/fast
+
+#=============================================================================
+# Target rules for targets named OpenMPI_Tests
+
+# Build rule for target.
+OpenMPI_Tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenMPI_Tests
+.PHONY : OpenMPI_Tests
+
+# fast build rule for target.
+OpenMPI_Tests/fast:
+	$(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build
+.PHONY : OpenMPI_Tests/fast
+
+#=============================================================================
+# Target rules for targets named CppUtils
+
+# Build rule for target.
+CppUtils: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CppUtils
+.PHONY : CppUtils
+
+# fast build rule for target.
+CppUtils/fast:
+	$(MAKE) -f src/bin/ompi/CppUtils/CMakeFiles/CppUtils.dir/build.make src/bin/ompi/CppUtils/CMakeFiles/CppUtils.dir/build
+.PHONY : CppUtils/fast
+
+#=============================================================================
+# Target rules for targets named Boost_Example_Regex
+
+# Build rule for target.
+Boost_Example_Regex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Boost_Example_Regex
+.PHONY : Boost_Example_Regex
+
+# fast build rule for target.
+Boost_Example_Regex/fast:
+	$(MAKE) -f src/bin/boost/CMakeFiles/Boost_Example_Regex.dir/build.make src/bin/boost/CMakeFiles/Boost_Example_Regex.dir/build
+.PHONY : Boost_Example_Regex/fast
+
+#=============================================================================
+# Target rules for targets named Boost_Example_Matmul
+
+# Build rule for target.
+Boost_Example_Matmul: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Boost_Example_Matmul
+.PHONY : Boost_Example_Matmul
+
+# fast build rule for target.
+Boost_Example_Matmul/fast:
+	$(MAKE) -f src/bin/boost/CMakeFiles/Boost_Example_Matmul.dir/build.make src/bin/boost/CMakeFiles/Boost_Example_Matmul.dir/build
+.PHONY : Boost_Example_Matmul/fast
+
+#=============================================================================
+# Target rules for targets named Boost_Example_Filesystem
+
+# Build rule for target.
+Boost_Example_Filesystem: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Boost_Example_Filesystem
+.PHONY : Boost_Example_Filesystem
+
+# fast build rule for target.
+Boost_Example_Filesystem/fast:
+	$(MAKE) -f src/bin/boost/CMakeFiles/Boost_Example_Filesystem.dir/build.make src/bin/boost/CMakeFiles/Boost_Example_Filesystem.dir/build
+.PHONY : Boost_Example_Filesystem/fast
+
+#=============================================================================
+# Target rules for targets named boost_mpi.boost-ompi
+
+# Build rule for target.
+boost_mpi.boost-ompi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boost_mpi.boost-ompi
+.PHONY : boost_mpi.boost-ompi
+
+# fast build rule for target.
+boost_mpi.boost-ompi/fast:
+	$(MAKE) -f src/bin/boost_ompi/CMakeFiles/boost_mpi.boost-ompi.dir/build.make src/bin/boost_ompi/CMakeFiles/boost_mpi.boost-ompi.dir/build
+.PHONY : boost_mpi.boost-ompi/fast
+
+#=============================================================================
+# Target rules for targets named boost_mpi_p2p_nonblocking.boost-ompi
+
+# Build rule for target.
+boost_mpi_p2p_nonblocking.boost-ompi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boost_mpi_p2p_nonblocking.boost-ompi
+.PHONY : boost_mpi_p2p_nonblocking.boost-ompi
+
+# fast build rule for target.
+boost_mpi_p2p_nonblocking.boost-ompi/fast:
+	$(MAKE) -f src/bin/boost_ompi/CMakeFiles/boost_mpi_p2p_nonblocking.boost-ompi.dir/build.make src/bin/boost_ompi/CMakeFiles/boost_mpi_p2p_nonblocking.boost-ompi.dir/build
+.PHONY : boost_mpi_p2p_nonblocking.boost-ompi/fast
+
+#=============================================================================
+# Target rules for targets named boost_mpi_p2p_blocking.boost-ompi
+
+# Build rule for target.
+boost_mpi_p2p_blocking.boost-ompi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boost_mpi_p2p_blocking.boost-ompi
+.PHONY : boost_mpi_p2p_blocking.boost-ompi
+
+# fast build rule for target.
+boost_mpi_p2p_blocking.boost-ompi/fast:
+	$(MAKE) -f src/bin/boost_ompi/CMakeFiles/boost_mpi_p2p_blocking.boost-ompi.dir/build.make src/bin/boost_ompi/CMakeFiles/boost_mpi_p2p_blocking.boost-ompi.dir/build
+.PHONY : boost_mpi_p2p_blocking.boost-ompi/fast
+
+#=============================================================================
+# Target rules for targets named boost_mpi_fielsystem.boost-ompi
+
+# Build rule for target.
+boost_mpi_fielsystem.boost-ompi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boost_mpi_fielsystem.boost-ompi
+.PHONY : boost_mpi_fielsystem.boost-ompi
+
+# fast build rule for target.
+boost_mpi_fielsystem.boost-ompi/fast:
+	$(MAKE) -f src/bin/boost_ompi/CMakeFiles/boost_mpi_fielsystem.boost-ompi.dir/build.make src/bin/boost_ompi/CMakeFiles/boost_mpi_fielsystem.boost-ompi.dir/build
+.PHONY : boost_mpi_fielsystem.boost-ompi/fast
+
+#=============================================================================
+# Target rules for targets named boost_threading_mpi.boost-ompi
+
+# Build rule for target.
+boost_threading_mpi.boost-ompi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boost_threading_mpi.boost-ompi
+.PHONY : boost_threading_mpi.boost-ompi
+
+# fast build rule for target.
+boost_threading_mpi.boost-ompi/fast:
+	$(MAKE) -f src/bin/boost_ompi/CMakeFiles/boost_threading_mpi.boost-ompi.dir/build.make src/bin/boost_ompi/CMakeFiles/boost_threading_mpi.boost-ompi.dir/build
+.PHONY : boost_threading_mpi.boost-ompi/fast
 
 # Help Target
 help:
@@ -144,8 +313,21 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Cpp_Example_BOOST"
-	@echo "... Cpp_Example"
+	@echo "... Cpp_Example_Maybe_Boost"
+	@echo "... Cpp_Example_Simple"
+	@echo "... Cpp_Example_Simple_Lib"
+	@echo "... OpenMPI_Tests_Boost"
+	@echo "... OpenMPI_NonBlocking"
+	@echo "... OpenMPI_Tests"
+	@echo "... CppUtils"
+	@echo "... Boost_Example_Regex"
+	@echo "... Boost_Example_Matmul"
+	@echo "... Boost_Example_Filesystem"
+	@echo "... boost_mpi.boost-ompi"
+	@echo "... boost_mpi_p2p_nonblocking.boost-ompi"
+	@echo "... boost_mpi_p2p_blocking.boost-ompi"
+	@echo "... boost_mpi_fielsystem.boost-ompi"
+	@echo "... boost_threading_mpi.boost-ompi"
 .PHONY : help
 
 

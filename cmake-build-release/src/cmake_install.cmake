@@ -1,4 +1,4 @@
-# Install script for directory: /home/egrzrbr/W/W.priv/Examples/Boost_OpenMPI_GoogleTests_Examples/src
+# Install script for directory: /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/egrzrbr/W/W.priv/Examples/Boost_OpenMPI_GoogleTests_Examples/cmake-build-release/src/cpp/cmake_install.cmake")
+  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/cmake_install.cmake")
+  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/lib/cmake_install.cmake")
 
 endif()
 
