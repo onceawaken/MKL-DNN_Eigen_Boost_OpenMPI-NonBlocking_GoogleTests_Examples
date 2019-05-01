@@ -5,7 +5,7 @@
 		<Option title="Cpp_Example_Maybe_Boost"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\bin\;CMake Files\src\bin\boost\;CMake Files\src\bin\boost_ompi\;CMake Files\src\bin\ompi\;CMake Files\src\bin\ompi\CppUtils\;CMake Files\src\bin\cpp\;CMake Files\src\lib\;CMake Files\src\lib\boost\;CMake Files\modules_cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\bin\;CMake Files\src\bin\boost\;CMake Files\src\bin\boost_ompi\;CMake Files\src\bin\cpp\;CMake Files\src\bin\ompi\;CMake Files\src\lib\;CMake Files\src\lib\boost\;CMake Files\modules_cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp"/>
@@ -197,14 +197,11 @@
 		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost_ompi/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\bin\boost_ompi\"/>
 		</Unit>
-		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\bin\ompi\"/>
-		</Unit>
-		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\bin\ompi\CppUtils\"/>
-		</Unit>
 		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\bin\cpp\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\ompi\"/>
 		</Unit>
 		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\lib\"/>

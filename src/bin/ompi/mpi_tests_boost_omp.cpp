@@ -20,12 +20,3 @@ int test_boost_mpi_omp() {
 }
 
 
-
-
-int main() {
-
-	std::cout << "OK" << std::endl;
-	test_boost_mpi_omp();
-
-
-}

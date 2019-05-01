@@ -1199,6 +1199,9 @@ src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../extern_libs/
 src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../extern_libs/Boost/include/boost/weak_ptr.hpp
 src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../extern_libs/OpenMPI/include/mpi.h
 src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../extern_libs/OpenMPI/include/mpi_portable_platform.h
+src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../src/bin/ompi/mpi_global_local_ranks.hxx
+src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../src/bin/ompi/mpi_non_blocking_bcast.hxx
+src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../src/bin/ompi/mpi_non_blocking_p2p.hxx
 src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../src/bin/ompi/mpi_tests.cpp
 src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o: ../src/bin/ompi/mpi_tests.h
 

@@ -11,12 +11,8 @@
 /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir
 /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CMakeFiles/rebuild_cache.dir
 /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CMakeFiles/edit_cache.dir
-/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir
-/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir
 /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir
-/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CppUtils/CMakeFiles/rebuild_cache.dir
-/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CppUtils/CMakeFiles/CppUtils.dir
-/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CppUtils/CMakeFiles/edit_cache.dir
+/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir
 /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/CMakeFiles/rebuild_cache.dir
 /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/CMakeFiles/edit_cache.dir
 /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost/CMakeFiles/Boost_Example_Regex.dir

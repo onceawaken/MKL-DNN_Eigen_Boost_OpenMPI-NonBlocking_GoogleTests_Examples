@@ -150,32 +150,6 @@ Cpp_Example_Simple_Lib/fast:
 .PHONY : Cpp_Example_Simple_Lib/fast
 
 #=============================================================================
-# Target rules for targets named OpenMPI_Tests_Boost
-
-# Build rule for target.
-OpenMPI_Tests_Boost: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenMPI_Tests_Boost
-.PHONY : OpenMPI_Tests_Boost
-
-# fast build rule for target.
-OpenMPI_Tests_Boost/fast:
-	$(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build
-.PHONY : OpenMPI_Tests_Boost/fast
-
-#=============================================================================
-# Target rules for targets named OpenMPI_NonBlocking
-
-# Build rule for target.
-OpenMPI_NonBlocking: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenMPI_NonBlocking
-.PHONY : OpenMPI_NonBlocking
-
-# fast build rule for target.
-OpenMPI_NonBlocking/fast:
-	$(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build
-.PHONY : OpenMPI_NonBlocking/fast
-
-#=============================================================================
 # Target rules for targets named OpenMPI_Tests
 
 # Build rule for target.
@@ -189,17 +163,17 @@ OpenMPI_Tests/fast:
 .PHONY : OpenMPI_Tests/fast
 
 #=============================================================================
-# Target rules for targets named CppUtils
+# Target rules for targets named OpenMPI_Tests_Boost
 
 # Build rule for target.
-CppUtils: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CppUtils
-.PHONY : CppUtils
+OpenMPI_Tests_Boost: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenMPI_Tests_Boost
+.PHONY : OpenMPI_Tests_Boost
 
 # fast build rule for target.
-CppUtils/fast:
-	$(MAKE) -f src/bin/ompi/CppUtils/CMakeFiles/CppUtils.dir/build.make src/bin/ompi/CppUtils/CMakeFiles/CppUtils.dir/build
-.PHONY : CppUtils/fast
+OpenMPI_Tests_Boost/fast:
+	$(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build
+.PHONY : OpenMPI_Tests_Boost/fast
 
 #=============================================================================
 # Target rules for targets named Boost_Example_Regex
@@ -316,10 +290,8 @@ help:
 	@echo "... Cpp_Example_Maybe_Boost"
 	@echo "... Cpp_Example_Simple"
 	@echo "... Cpp_Example_Simple_Lib"
-	@echo "... OpenMPI_Tests_Boost"
-	@echo "... OpenMPI_NonBlocking"
 	@echo "... OpenMPI_Tests"
-	@echo "... CppUtils"
+	@echo "... OpenMPI_Tests_Boost"
 	@echo "... Boost_Example_Regex"
 	@echo "... Boost_Example_Matmul"
 	@echo "... Boost_Example_Filesystem"

@@ -16,58 +16,13 @@
 },
 {
   "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
-  "command": "/usr/bin/g++-8  -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_BOOST=1 -DWITH_BOOST_MPI=1 -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/mpi_tests.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/mpi_tests.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
-  "command": "/usr/bin/g++-8  -DDEBUG=3 -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_NonBlocking.dir/main.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/main.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/main.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
-  "command": "/usr/bin/g++-8  -DDEBUG=3 -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_NonBlocking.dir/main.mpi.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/main.mpi.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/main.mpi.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
-  "command": "/usr/bin/g++-8  -DDEBUG=3 -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_NonBlocking.dir/MpiMaster.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/MpiMaster.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/MpiMaster.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
-  "command": "/usr/bin/g++-8  -DDEBUG=3 -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_NonBlocking.dir/MpiSlave.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/MpiSlave.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/MpiSlave.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
-  "command": "/usr/bin/g++-8  -DDEBUG=3 -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_NonBlocking.dir/ACalc.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/ACalc.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/ACalc.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
-  "command": "/usr/bin/g++-8  -DDEBUG=3 -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_NonBlocking.dir/AData.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/AData.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/AData.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
   "command": "/usr/bin/g++-8  -DDEBUG=4 -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_Tests.dir/mpi_tests.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/mpi_tests.cpp",
   "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/mpi_tests.cpp"
 },
 {
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CppUtils",
-  "command": "/usr/bin/g++-8    -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/CppUtils.dir/template_utils.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils/template_utils.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils/template_utils.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CppUtils",
-  "command": "/usr/bin/g++-8    -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/CppUtils.dir/Containers/std_vector_3d.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils/Containers/std_vector_3d.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils/Containers/std_vector_3d.cpp"
-},
-{
-  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi/CppUtils",
-  "command": "/usr/bin/g++-8    -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/CppUtils.dir/Containers/std_vector_2d.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils/Containers/std_vector_2d.cpp",
-  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils/Containers/std_vector_2d.cpp"
+  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/ompi",
+  "command": "/usr/bin/g++-8  -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_BOOST=1 -DWITH_BOOST_MPI=1 -DWITH_MPI=1 -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include  -O3 -DNDEBUG   \"-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread\" -std=gnu++17 -o CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/mpi_tests.cpp",
+  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/mpi_tests.cpp"
 },
 {
   "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/boost",

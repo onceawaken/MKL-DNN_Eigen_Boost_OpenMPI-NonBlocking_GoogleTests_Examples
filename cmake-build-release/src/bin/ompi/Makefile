@@ -111,36 +111,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/rule:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/rule
-.PHONY : src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/rule
-
-# Convenience name for target.
-OpenMPI_Tests_Boost: src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/rule
-
-.PHONY : OpenMPI_Tests_Boost
-
-# fast build rule for target.
-OpenMPI_Tests_Boost/fast:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build
-.PHONY : OpenMPI_Tests_Boost/fast
-
-# Convenience name for target.
-src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/rule:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/rule
-.PHONY : src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/rule
-
-# Convenience name for target.
-OpenMPI_NonBlocking: src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/rule
-
-.PHONY : OpenMPI_NonBlocking
-
-# fast build rule for target.
-OpenMPI_NonBlocking/fast:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build
-.PHONY : OpenMPI_NonBlocking/fast
-
-# Convenience name for target.
 src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/rule:
 	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/rule
 .PHONY : src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/rule
@@ -155,167 +125,20 @@ OpenMPI_Tests/fast:
 	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build
 .PHONY : OpenMPI_Tests/fast
 
-ACalc.o: ACalc.cpp.o
+# Convenience name for target.
+src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/rule:
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/rule
+.PHONY : src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/rule
 
-.PHONY : ACalc.o
+# Convenience name for target.
+OpenMPI_Tests_Boost: src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/rule
 
-# target to build an object file
-ACalc.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/ACalc.cpp.o
-.PHONY : ACalc.cpp.o
+.PHONY : OpenMPI_Tests_Boost
 
-ACalc.i: ACalc.cpp.i
-
-.PHONY : ACalc.i
-
-# target to preprocess a source file
-ACalc.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/ACalc.cpp.i
-.PHONY : ACalc.cpp.i
-
-ACalc.s: ACalc.cpp.s
-
-.PHONY : ACalc.s
-
-# target to generate assembly for a file
-ACalc.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/ACalc.cpp.s
-.PHONY : ACalc.cpp.s
-
-AData.o: AData.cpp.o
-
-.PHONY : AData.o
-
-# target to build an object file
-AData.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/AData.cpp.o
-.PHONY : AData.cpp.o
-
-AData.i: AData.cpp.i
-
-.PHONY : AData.i
-
-# target to preprocess a source file
-AData.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/AData.cpp.i
-.PHONY : AData.cpp.i
-
-AData.s: AData.cpp.s
-
-.PHONY : AData.s
-
-# target to generate assembly for a file
-AData.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/AData.cpp.s
-.PHONY : AData.cpp.s
-
-MpiMaster.o: MpiMaster.cpp.o
-
-.PHONY : MpiMaster.o
-
-# target to build an object file
-MpiMaster.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/MpiMaster.cpp.o
-.PHONY : MpiMaster.cpp.o
-
-MpiMaster.i: MpiMaster.cpp.i
-
-.PHONY : MpiMaster.i
-
-# target to preprocess a source file
-MpiMaster.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/MpiMaster.cpp.i
-.PHONY : MpiMaster.cpp.i
-
-MpiMaster.s: MpiMaster.cpp.s
-
-.PHONY : MpiMaster.s
-
-# target to generate assembly for a file
-MpiMaster.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/MpiMaster.cpp.s
-.PHONY : MpiMaster.cpp.s
-
-MpiSlave.o: MpiSlave.cpp.o
-
-.PHONY : MpiSlave.o
-
-# target to build an object file
-MpiSlave.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/MpiSlave.cpp.o
-.PHONY : MpiSlave.cpp.o
-
-MpiSlave.i: MpiSlave.cpp.i
-
-.PHONY : MpiSlave.i
-
-# target to preprocess a source file
-MpiSlave.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/MpiSlave.cpp.i
-.PHONY : MpiSlave.cpp.i
-
-MpiSlave.s: MpiSlave.cpp.s
-
-.PHONY : MpiSlave.s
-
-# target to generate assembly for a file
-MpiSlave.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/MpiSlave.cpp.s
-.PHONY : MpiSlave.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-main.mpi.o: main.mpi.cpp.o
-
-.PHONY : main.mpi.o
-
-# target to build an object file
-main.mpi.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/main.mpi.cpp.o
-.PHONY : main.mpi.cpp.o
-
-main.mpi.i: main.mpi.cpp.i
-
-.PHONY : main.mpi.i
-
-# target to preprocess a source file
-main.mpi.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/main.mpi.cpp.i
-.PHONY : main.mpi.cpp.i
-
-main.mpi.s: main.mpi.cpp.s
-
-.PHONY : main.mpi.s
-
-# target to generate assembly for a file
-main.mpi.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_NonBlocking.dir/main.mpi.cpp.s
-.PHONY : main.mpi.cpp.s
+# fast build rule for target.
+OpenMPI_Tests_Boost/fast:
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build
+.PHONY : OpenMPI_Tests_Boost/fast
 
 mpi_tests.o: mpi_tests.cpp.o
 
@@ -323,8 +146,8 @@ mpi_tests.o: mpi_tests.cpp.o
 
 # target to build an object file
 mpi_tests.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o
 	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/mpi_tests.cpp.o
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.o
 .PHONY : mpi_tests.cpp.o
 
 mpi_tests.i: mpi_tests.cpp.i
@@ -333,8 +156,8 @@ mpi_tests.i: mpi_tests.cpp.i
 
 # target to preprocess a source file
 mpi_tests.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.i
 	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/mpi_tests.cpp.i
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.i
 .PHONY : mpi_tests.cpp.i
 
 mpi_tests.s: mpi_tests.cpp.s
@@ -343,8 +166,8 @@ mpi_tests.s: mpi_tests.cpp.s
 
 # target to generate assembly for a file
 mpi_tests.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.s
 	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/mpi_tests.cpp.s
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/mpi_tests.cpp.s
 .PHONY : mpi_tests.cpp.s
 
 # Help Target
@@ -355,27 +178,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... OpenMPI_Tests_Boost"
-	@echo "... OpenMPI_NonBlocking"
 	@echo "... OpenMPI_Tests"
-	@echo "... ACalc.o"
-	@echo "... ACalc.i"
-	@echo "... ACalc.s"
-	@echo "... AData.o"
-	@echo "... AData.i"
-	@echo "... AData.s"
-	@echo "... MpiMaster.o"
-	@echo "... MpiMaster.i"
-	@echo "... MpiMaster.s"
-	@echo "... MpiSlave.o"
-	@echo "... MpiSlave.i"
-	@echo "... MpiSlave.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... main.mpi.o"
-	@echo "... main.mpi.i"
-	@echo "... main.mpi.s"
+	@echo "... OpenMPI_Tests_Boost"
 	@echo "... mpi_tests.o"
 	@echo "... mpi_tests.i"
 	@echo "... mpi_tests.s"

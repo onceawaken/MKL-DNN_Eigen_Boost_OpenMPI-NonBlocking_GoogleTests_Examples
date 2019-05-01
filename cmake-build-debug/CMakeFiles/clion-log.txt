@@ -31,10 +31,6 @@ BOOST_LIBS=-lboost_python27 -lboost_numpy27
 RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/debug/bin
 source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/resources
 destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/debug/bin/resources
-CppUtils
-DEBUG_LEVELS:
-[1;34mBuild EXE: OpenMPI_NonBlocking[m
-OMPI_FOUND=ON
 [1;34mBuild EXE: OpenMPI_Tests[m
 OMPI_FOUND=ON
 [1;34mBuild EXE: OpenMPI_Tests_Boost[m
