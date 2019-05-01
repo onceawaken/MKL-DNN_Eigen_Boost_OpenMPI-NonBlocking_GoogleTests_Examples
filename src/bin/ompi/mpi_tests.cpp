@@ -192,7 +192,7 @@ void test_isend_request(MPI_Request &sreq, int &ftests, MPI_Status &stest, int r
 		       rank, target, stest.MPI_SOURCE, stest.MPI_TAG, stest.MPI_ERROR);
 		MPI_Test(&sreq, &ftest, &stest);
 	} else {
-		//printf(" ----> [ %i/%i ]       : test send { TAG[%i] } \n", rank, target, TAG_REQUEST_E);
+		printf(" ----> [ %i/%i ]       : test send { TAG[%i] } \n", rank, target, TAG_REQUEST_E);
 	}
 
 }
@@ -274,13 +274,13 @@ int test_ibcast_all_to_all() {
 
 	sleep(1);
 	std::fill(std::begin(data), std::end(data), 1);
-	printf("MPI %d/%d bcast\n", rank, size);
 	MPI_Request reqSend, reqRecv[10];
 	MPI_Status sSend;
 	MPI_Status sRecv[10];
 	MPI_Ibcast(&data, 1e5, MPI_INT, rank, MPI_COMM_WORLD, &reqSend);
 
 	for (int i = 0; i < size; i++) {
+		if (i == rank) continue;
 		MPI_Ibcast(&recv[i][0], 1e5, MPI_INT, i, MPI_COMM_WORLD, &reqRecv[i]);
 	}
 
@@ -288,18 +288,24 @@ int test_ibcast_all_to_all() {
 
 	std::fill(std::begin(fprobe), std::end(fprobe), 0);
 
-	while (ftest == 0 || fprobes < size) {
+	while (ftest == 0 || fprobes < size - 1) {
 
 		if (!ftest) {
 			MPI_Test(&reqSend, &ftest, &sSend);
+			if (ftest){
+				printf("MPI %d/ALL bcast[SIZE:%d]\n", rank, size);
+			}
 		}
 
-		if (fprobes < size) {
+		if (fprobes < size - 1) {
 			for (int i = 0; i < size; i++) {
+				if (i == rank) continue;
 				MPI_Request_get_status(reqRecv[i], &fprobe[i], &sRecv[i]);
+
 				if (fprobe[i]) {
 					printf("MPI %d >>> %d Recv bcast data[size:%d]: %d\n", i, rank, size, data[0]);
 					fprobes++;
+					MPI_Test(&reqRecv[i], &fprobe[i], &sRecv[i]);
 				}
 			}
 		}
@@ -456,9 +462,9 @@ int main(int argc, char *argv[]) {
 
 	//mpi_nonblocking_broadcast_all_to_all(argc, argv);
 
-	//test_ibcast();
+	test_ibcast();
 
-	test_ibcast_all_to_all();
+	//test_ibcast_all_to_all();
 
 	return 0;
 
