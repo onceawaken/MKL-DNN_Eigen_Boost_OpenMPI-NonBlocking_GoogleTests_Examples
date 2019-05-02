@@ -5,7 +5,7 @@
 #ifndef NONBLOCKINGPROTOCOL_MPI_NON_BLOCKING_BCAST_HXX
 #define NONBLOCKINGPROTOCOL_MPI_NON_BLOCKING_BCAST_HXX
 
-void test_ibcast_send_request(MPI_Request &req, int &flag, MPI_Status &status, int rank) {
+void test_ibcast_send_request(MPI_Request &req, int &flag, int &flags, MPI_Status &status, int rank) {
 	/*
 	 Use: MPI_Request_get_status - that will preserve request status when request is complete.
 	 Reason: MPI_Test - that will clean request when its complete (flag is set to true).
@@ -13,9 +13,10 @@ void test_ibcast_send_request(MPI_Request &req, int &flag, MPI_Status &status, i
 
 	int err = MPI_Request_get_status(req, &flag, &status);
 	if (flag) {
-		printf(" >>>>> [ %i/ALL ]       : SEND data { STATUS[SRC:%i, TAG:%i, ERR:%i] }\n",
-		       rank, status.MPI_SOURCE, status.MPI_TAG, status.MPI_ERROR);
+		printf(" >>>>> [ %i/%i | %i ]       : SEND { STATUS[SRC:%i, TAG:%i, ERR:%i] }\n",
+		       rank, status.MPI_SOURCE, flags, status.MPI_SOURCE, status.MPI_TAG, status.MPI_ERROR);
 		MPI_Test(&req, &flag, &status);
+		flags++;
 	} else {
 		//printf(" ----> [ %i/ALL ]       : test send { TAG[%i] } \n", rank, TAG_REQUEST_E);
 	}
@@ -23,27 +24,23 @@ void test_ibcast_send_request(MPI_Request &req, int &flag, MPI_Status &status, i
 }
 
 
-int test_ibcast_recv_request(MPI_Request &req, int &flag, MPI_Status &status, int rank, int sender) {
+template<class container_t, size_t N>
+int test_ibcast_recv_request(MPI_Request &req, int &flag, int &flags, MPI_Status &status, int rank, int sender, const container_t &input) {
 
 	int err = MPI_Request_get_status(req, &flag, &status);
 	if (flag) {
-		printf("       [ %i/%i ] <<<<< : RECV data { STATUS[SRC:%i, TAG:%i, ERR:%i] }\n",
-		       rank, sender, status.MPI_SOURCE, status.MPI_TAG, status.MPI_ERROR);
+		printf("       [ %i/%i | %i ] <<<<< : RECV { STATUS[SRC:%i, TAG:%i, ERR:%i], DATA[ %i | %i | %i | %i ] }\n",
+		       rank, sender, flags, status.MPI_SOURCE, status.MPI_TAG, status.MPI_ERROR,
+		       input[0], input[1], input[N + 3 - 1], input[N + 4 - 1]
+
+		);
 		MPI_Test(&req, &flag, &status);
+		flags++;
 	} else {
 		//printf("       [ %i/%i ] <---- : test recv { false, TAG[%i] } \n", sender, rank, TAG_REQUEST_E);
 	}
 
 	return flag;
-}
-
-
-template<class container_t, size_t N>
-int ibcast_recv_check(MPI_Request &req, MPI_Status &status, int rank, container_t input) {
-
-	printf("       [ %i/%i ] <<<<< : RECV data { STATUS[SRC:%i, TAG:%i, ERR:%i], DATA[ %i | %i | %i | %i ] }\n",
-	       status.MPI_SOURCE, rank, status.MPI_SOURCE, status.MPI_TAG, status.MPI_ERROR,
-	       input[0], input[1], input[N + 3 - 1], input[N + 4 - 1]);
 }
 
 
@@ -59,6 +56,8 @@ int test_ibcast() {
 
 	printf("MPI start %d/%d\n", rank, size);
 
+	int flags = 0;
+
 	if (rank == 0) {
 		sleep(1);
 		std::fill(std::begin(data), std::end(data), 1);
@@ -69,7 +68,7 @@ int test_ibcast() {
 
 		int flag = 0;
 		while (flag == 0) {
-			test_ibcast_send_request(req, flag, status, 0);
+			test_ibcast_send_request(req, flag, flags, status, 0);
 		}
 		std::cout << "After wait" << std::endl;
 
@@ -80,7 +79,7 @@ int test_ibcast() {
 		MPI_Ibcast(&data, 1e5, MPI_INT, 0, MPI_COMM_WORLD, &req);
 
 		while (flag == 0) {
-			test_ibcast_recv_request(req, flag, status, rank, 0);
+			test_ibcast_recv_request<decltype(data), (int) 1e5>(req, flag, flags, status, rank, 0, data);
 			usleep(100 * 1000);
 		}
 		// MPI_Bcast can be done!
@@ -110,7 +109,7 @@ int test_ibcast_all_to_all() {
 	printf("MPI start %d/%d\n", rank, size);
 
 	sleep(1);
-	std::fill(std::begin(data) + 2, std::end(data) - 2, rank);
+	std::fill(std::begin(data) + 2, std::end(data) - 2, rank + 1);
 
 	data[0] = INT_MIN;
 	data[1] = vec_sum<int>(std::begin(data) + 2, std::end(data) - 2);
@@ -121,13 +120,9 @@ int test_ibcast_all_to_all() {
 	MPI_Status sSend;
 	MPI_Status sRecv[10];
 
-	auto reqRecv = std::vector<std::pair<int, MPI_Request>>(size);
-	{
-		int i = 0;
-		for (auto &p : reqRecv) {
-			p.first = i++;
-			p.second = MPI_REQUEST_NULL;
-		}
+	auto reqRecv = std::unordered_map<int, MPI_Request>(size);
+	for (int i = 0; i < size; i++) {
+		reqRecv[i] = MPI_REQUEST_NULL;
 	}
 
 	for (auto &p : reqRecv) {
@@ -143,20 +138,26 @@ int test_ibcast_all_to_all() {
 
 		for (auto &p : reqRecv) {
 			int i = p.first;
-			int fprobe = 0;
-			if (i == rank) {
-				test_ibcast_send_request(p.second, fprobe, sRecv[i], rank);
-			} else {
-				test_ibcast_recv_request(p.second, fprobe, sRecv[i], rank, i);
-				ibcast_recv_check<decltype(recv[i]), N>(p.second, sRecv[i], rank, recv[i]);
+			if (p.second != MPI_REQUEST_NULL) {
+				int fprobe = 0;
+				if (i == rank) {
+					test_ibcast_send_request(p.second, fprobe, ftests, sRecv[i], rank);
+				} else {
+					test_ibcast_recv_request<decltype(recv[i]), N>(p.second, fprobe, ftests, sRecv[i], rank, i, recv[i]);
+				}
+				if (fprobe) {
+					reqRecv[i] = MPI_REQUEST_NULL;
+				}
 			}
-
-			if (fprobe) {
-				ftests++;
-			}
-
 		}
-	} while (ftests < size - 1);
+
+		for (auto &p : reqRecv) {
+			if (p.second == MPI_REQUEST_NULL) {
+				reqRecv.erase(p.first);
+			}
+		}
+
+	} while (not reqRecv.empty());
 
 
 	// MPI_Bcast can be done!
