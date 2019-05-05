@@ -34,6 +34,7 @@ namespace CEng {
 
     }
 
+
     template<debug_e DEBUG_E, class Prev_Linked_Ptr_t, class Next_Linked_Ptr_t>
     void Engine
     ::InnerEngine<DEBUG_E, Prev_Linked_Ptr_t, Next_Linked_Ptr_t>
@@ -84,6 +85,9 @@ namespace CEng {
 
         }
 
+        //sigmoid
+
+        std::transform(b.cbegin(), b.cend(), V.begin(), [&] (const auto & bi) {return 1. / 1. + bi.array().exp(); });
 
         if constexpr (NEXT_EID == NNet::LAYER_OUTPUT) {
             if constexpr (DEBUG_E > DEBUG0) {
