@@ -1,4 +1,4 @@
-# Install script for directory: /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib
+# Install script for directory: /home/daisy/W/W.priv/NonBlockingProtocol/src/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,11 +35,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/lib/boost/cmake_install.cmake")
-
 endif()
 

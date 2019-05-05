@@ -1,89 +1,19 @@
-/home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol
+/home/daisy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /home/daisy/W/W.priv/NonBlockingProtocol
 [1;31mCMAKE_BUILD_TYPE=Debug[m
-[1;31mDO_OMPI[m
-OMPI_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI
-ENV{OPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI
-ENV{LD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib
-MPI_C_COMPILE_FLAGS=-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread
-
-MPI_CXX_COMPILE_FLAGS=-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread
-MPI_C_LINK_FLAGS=-pthread -Wl,-rpath -Wl,/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib -Wl,--enable-new-dtags -L/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib -lmpi
-
-MPI_CXX_LINK_FLAGS=-pthread -Wl,-rpath -Wl,/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib -Wl,--enable-new-dtags -L/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib -lmpi
-OMPI_FOUND=ON
-OMPI_FOUND=ON
-[1;31mDO_BOOST[m
-When calling setup_boost(BOOST_LIBS, ...), skip part '-lboost_' at each library in list BOOST_LIBS...
-BOOST_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost
-ENV{OPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI
-ENV{LD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib
-BOOST_FOUND=ON
-BOOST_FOUND=ON
 DO_TARGET is set...
 [1;34mBuild EXECUTABLE: Cpp_Example_Simple...[m
 [1;34mBuild LIBRARY: Cpp_Example_Simple_Lib...[m
 Build EXE: Cpp_Example_Maybe_Boost
-[1;34mBuild BOOST EXE: Cpp_Example_Maybe_Boost...[m
-[1;34madd_executable_boost : TARGET=Cpp_Example_Maybe_Boost; SOURCES=MUtil.h;matrix_operations.cpp...[m
-BOOST_FOUND=ON
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_python27 -lboost_numpy27
-RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/debug/bin
-source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/resources
-destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/debug/bin/resources
-[1;34mBuild EXE: OpenMPI_Tests[m
-OMPI_FOUND=ON
-[1;34mBuild EXE: OpenMPI_Tests_Boost[m
-BOOST_FOUND=ON
-OMPI_FOUND=ON
-[1;34mBUILD boost + ompi EXE with BOOST-LIBS: ...[m
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_mpi -lboost_serialization
-[1;34mBuild EXE: Boost_Example_Matmul[m
-[1;34madd_executable_boost : TARGET=Boost_Example_Matmul; SOURCES=matmul_boost.cpp...[m
-BOOST_FOUND=ON
-BOOST_FOUND=ON
-BOOST_LIBS=
-[1;34mBuild PROJECT (exe samples): Boost_Example[m
-[1;34madd_executable_boost : TARGET=Boost_Example_Filesystem; SOURCES=main.cpp...[m
-BOOST_FOUND=ON
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_filesystem
-[1;34madd_executable_boost : TARGET=Boost_Example_Regex; SOURCES=main.regex.cpp...[m
-BOOST_FOUND=ON
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_regex
-[1;34mBuild EXE: boost_mpi.boost-ompi[m
-BOOST_FOUND=ON
-OMPI_FOUND=ON
-[1;34mBUILD boost + ompi EXE with BOOST-LIBS: ...[m
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_mpi -lboost_serialization
-[1;34mBuild EXE: boost_mpi_fielsystem.boost-ompi[m
-BOOST_FOUND=ON
-OMPI_FOUND=ON
-[1;34mBUILD boost + ompi EXE with BOOST-LIBS: ...[m
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_mpi -lboost_serialization
-[1;34mBuild EXE: boost_mpi_p2p_blocking.boost-ompi[m
-BOOST_FOUND=ON
-OMPI_FOUND=ON
-[1;34mBUILD boost + ompi EXE with BOOST-LIBS: ...[m
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_mpi -lboost_serialization
-[1;34mBuild EXE: boost_mpi_p2p_nonblocking.boost-ompi[m
-BOOST_FOUND=ON
-OMPI_FOUND=ON
-[1;34mBUILD boost + ompi EXE with BOOST-LIBS: ...[m
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_mpi -lboost_serialization
-[1;34mBuild EXE: boost_threading_mpi.boost-ompi[m
-BOOST_FOUND=ON
-OMPI_FOUND=ON
-[1;34mBUILD boost + ompi EXE with BOOST-LIBS: ...[m
-BOOST_FOUND=ON
-BOOST_LIBS=-lboost_mpi -lboost_serialization
+[1;34mBuild EXE: Cpp_Example_Maybe_Boost...[m
+RUNTIME_OUTPUT_DIR = /home/daisy/W/W.priv/NonBlockingProtocol/target/debug/bin
+source = /home/daisy/W/W.priv/NonBlockingProtocol/resources
+destination = /home/daisy/W/W.priv/NonBlockingProtocol/target/debug/bin/resources
+Build EXE: Cpp_Boost_Multi_Perceptron
+RUNTIME_OUTPUT_DIR = /home/daisy/W/W.priv/NonBlockingProtocol/target/debug/bin
+source = /home/daisy/W/W.priv/NonBlockingProtocol/resources
+destination = /home/daisy/W/W.priv/NonBlockingProtocol/target/debug/bin/resources
+[1;34mBuild EXECUTABLE: Cpp_Example_Eigen...[m
 DO_GTEST not set...
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug
+-- Build files have been written to: /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug

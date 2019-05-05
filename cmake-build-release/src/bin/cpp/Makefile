@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/daisy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/daisy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol
+CMAKE_SOURCE_DIR = /home/daisy/W/W.priv/NonBlockingProtocol
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release
+CMAKE_BINARY_DIR = /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-re
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/daisy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/daisy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/CMakeFiles /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/cpp/CMakeFiles/progress.marks
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/CMakeFiles 0
+	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/CMakeFiles /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/src/bin/cpp/CMakeFiles/progress.marks
+	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/clean
+	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,144 +97,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/preinstall
+	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/preinstall
+	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-# Convenience name for target.
-src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/rule:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/rule
-.PHONY : src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/rule
-
-# Convenience name for target.
-Cpp_Example_Maybe_Boost: src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/rule
-
-.PHONY : Cpp_Example_Maybe_Boost
-
-# fast build rule for target.
-Cpp_Example_Maybe_Boost/fast:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build
-.PHONY : Cpp_Example_Maybe_Boost/fast
-
-# Convenience name for target.
-src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/rule:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/rule
-.PHONY : src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/rule
-
-# Convenience name for target.
-Cpp_Example_Simple: src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/rule
-
-.PHONY : Cpp_Example_Simple
-
-# fast build rule for target.
-Cpp_Example_Simple/fast:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build
-.PHONY : Cpp_Example_Simple/fast
-
-# Convenience name for target.
-src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/rule:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/rule
-.PHONY : src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/rule
-
-# Convenience name for target.
-Cpp_Example_Simple_Lib: src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/rule
-
-.PHONY : Cpp_Example_Simple_Lib
-
-# fast build rule for target.
-Cpp_Example_Simple_Lib/fast:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build
-.PHONY : Cpp_Example_Simple_Lib/fast
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-matrix_operations.o: matrix_operations.cpp.o
-
-.PHONY : matrix_operations.o
-
-# target to build an object file
-matrix_operations.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/matrix_operations.cpp.o
-.PHONY : matrix_operations.cpp.o
-
-matrix_operations.i: matrix_operations.cpp.i
-
-.PHONY : matrix_operations.i
-
-# target to preprocess a source file
-matrix_operations.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/matrix_operations.cpp.i
-.PHONY : matrix_operations.cpp.i
-
-matrix_operations.s: matrix_operations.cpp.s
-
-.PHONY : matrix_operations.s
-
-# target to generate assembly for a file
-matrix_operations.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/matrix_operations.cpp.s
-.PHONY : matrix_operations.cpp.s
-
-simple_lib.o: simple_lib.cpp.o
-
-.PHONY : simple_lib.o
-
-# target to build an object file
-simple_lib.cpp.o:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o
-.PHONY : simple_lib.cpp.o
-
-simple_lib.i: simple_lib.cpp.i
-
-.PHONY : simple_lib.i
-
-# target to preprocess a source file
-simple_lib.cpp.i:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.i
-.PHONY : simple_lib.cpp.i
-
-simple_lib.s: simple_lib.cpp.s
-
-.PHONY : simple_lib.s
-
-# target to generate assembly for a file
-simple_lib.cpp.s:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.s
-.PHONY : simple_lib.cpp.s
 
 # Help Target
 help:
@@ -244,18 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Cpp_Example_Maybe_Boost"
-	@echo "... Cpp_Example_Simple"
-	@echo "... Cpp_Example_Simple_Lib"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... matrix_operations.o"
-	@echo "... matrix_operations.i"
-	@echo "... matrix_operations.s"
-	@echo "... simple_lib.o"
-	@echo "... simple_lib.i"
-	@echo "... simple_lib.s"
 .PHONY : help
 
 
@@ -267,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
