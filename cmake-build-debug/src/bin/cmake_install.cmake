@@ -40,9 +40,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/cmake_install.cmake")
+  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/eigen/cmake_install.cmake")
   include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/ompi/cmake_install.cmake")
   include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/boost/cmake_install.cmake")
   include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/boost_ompi/cmake_install.cmake")
+  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/mkl-dnn/cmake_install.cmake")
 
 endif()
 

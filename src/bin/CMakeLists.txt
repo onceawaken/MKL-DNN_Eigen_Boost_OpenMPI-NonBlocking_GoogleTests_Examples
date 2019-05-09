@@ -2,6 +2,7 @@
 
 add_subdirectory(cpp)
 
+
 if (DO_EIGEN)
     add_subdirectory(eigen)
 endif ()

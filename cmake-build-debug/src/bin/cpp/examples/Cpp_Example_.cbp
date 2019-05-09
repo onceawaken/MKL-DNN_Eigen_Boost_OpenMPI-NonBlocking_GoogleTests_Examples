@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Cpp_Example_"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\bin\;CMake Files\src\bin\boost\;CMake Files\src\bin\boost_ompi\;CMake Files\src\bin\cpp\;CMake Files\src\bin\cpp\examples\;CMake Files\src\bin\cpp\multi_perceptron\;CMake Files\src\bin\mkl-dnn\;CMake Files\src\bin\mkl-dnn\examples\;CMake Files\src\bin\ompi\;CMake Files\src\bin\ompi\examples\;CMake Files\src\lib\;CMake Files\src\lib\boost_python\;CMake Files\modules_cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp_Example_Maybe_Boost">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/debug/bin/Cpp_Example_Maybe_Boost" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI"/>
+					<Add option="-DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Debug/lib"/>
+					<Add option="-DWITH_BOOST=1"/>
+					<Add directory="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 Cpp_Example_Maybe_Boost"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp_Example_Maybe_Boost/fast">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/debug/bin/Cpp_Example_Maybe_Boost" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI"/>
+					<Add option="-DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Debug/lib"/>
+					<Add option="-DWITH_BOOST=1"/>
+					<Add directory="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 Cpp_Example_Maybe_Boost/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp_Example_">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Cpp_Example_" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 Cpp_Example_"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp_Example_/fast">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Cpp_Example_" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 Cpp_Example_/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp_Example_Simple">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/debug/bin/Cpp_Example_Simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 Cpp_Example_Simple"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp_Example_Simple/fast">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/debug/bin/Cpp_Example_Simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 Cpp_Example_Simple/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp_Example_Simple_Lib">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/libCpp_Example_Simple_Lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 Cpp_Example_Simple_Lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cpp_Example_Simple_Lib/fast">
+				<Option output="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/libCpp_Example_Simple_Lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 Cpp_Example_Simple_Lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/MUtil.h">
+			<Option target="Cpp_Example_Maybe_Boost"/>
+			<Option target="Cpp_Example_"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/MUtil.h">
+			<Option target="Cpp_Example_Maybe_Boost"/>
+			<Option target="Cpp_Example_"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/main.cpp">
+			<Option target="Cpp_Example_Simple"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/matrix_operations.cpp">
+			<Option target="Cpp_Example_Maybe_Boost"/>
+			<Option target="Cpp_Example_"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp">
+			<Option target="Cpp_Example_Simple_Lib"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.hpp">
+			<Option target="Cpp_Example_Simple_Lib"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/run.sh.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/run_mpi.sh.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\boost\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost_ompi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\boost_ompi\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\cpp\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\cpp\examples\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/multi_perceptron/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\cpp\multi_perceptron\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/mkl-dnn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\mkl-dnn\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/mkl-dnn/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\mkl-dnn\examples\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\ompi\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\ompi\examples\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lib\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib/boost_python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lib\boost_python\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/Boost.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/CMakeCommon.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/Colors.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/MKLDNN.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+		<Unit filename="/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/modules_cmake/OpenMPI.cmake">
+			<Option virtualFolder="CMake Files\modules_cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -20,18 +20,34 @@ ENV{OPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenM
 ENV{LD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib
 BOOST_FOUND=ON
 BOOST_FOUND=ON
+[1;31mDO_MKL_DNN[m
+MKL_DNN_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release
+>>>ENV{OPAL_PREFIX}=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI
+>>>ENV{LD_LIBRARY_PATH}=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib
+MKL_DNN_FOUND=ON
+MKL_DNN_FOUND=ON
 DO_TARGET is set...
 [1;34mBuild EXECUTABLE: Cpp_Example_Simple...[m
 [1;34mBuild LIBRARY: Cpp_Example_Simple_Lib...[m
 Build EXE: Cpp_Example_Maybe_Boost
 [1;34mBuild BOOST EXE: Cpp_Example_Maybe_Boost...[m
-[1;34madd_executable_boost : TARGET=Cpp_Example_Maybe_Boost; SOURCES=MUtil.h;matrix_operations.cpp...[m
+[1;34madd_executable_boost : TARGET=Cpp_Example_Maybe_Boost; SOURCES=../MUtil.h;MUtil.h;matrix_operations.cpp...[m
 BOOST_FOUND=ON
 BOOST_FOUND=ON
 BOOST_LIBS=-lboost_python27 -lboost_numpy27
 RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin
 source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/resources
 destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/resources
+[1;34mBuild EXE: Cpp_Example_Matrix_Operations[m
+Build EXE: Cpp_Multi_Perceptron_Boost
+[1;34madd_executable_boost : TARGET=Cpp_Multi_Perceptron_Boost; SOURCES=main.std.stl.NN.layers.vararg.cpp;NNet.hpp;NNet.hxx;DGen.hxx;DGen.hpp;MUtil.h;../MUtil.h;CEng.hxx;CEng.hpp;tests.hpp...[m
+BOOST_FOUND=ON
+BOOST_FOUND=ON
+BOOST_LIBS=
+RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin
+source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/resources
+destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/resources
+[1;34mBuild EXECUTABLE: Cpp_Example_Eigen...[m
 [1;34mBuild EXE: OpenMPI_Tests[m
 OMPI_FOUND=ON
 [1;34mBuild EXE: OpenMPI_Tests_Boost[m
@@ -84,6 +100,40 @@ OMPI_FOUND=ON
 [1;34mBUILD boost + ompi EXE with BOOST-LIBS: ...[m
 BOOST_FOUND=ON
 BOOST_LIBS=-lboost_mpi -lboost_serialization
+[1;34mBuild EXECUTABLE: MKL_DNN_Example_Simple_Net_Cpp...[m
+[1;34madd_executable_MKL_DNN : TARGET=MKL_DNN_Example_Simple_Net_Cpp; SOURCES=simple_net.cpp...[m
+MKL_DNN_FOUND=ON
+>>> MKL_DNN_LIBS : mkldnn;mklml_intel;iomp5
+>>> LD_LIBRARY_PATH : :/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib
+RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin
+>>> TARGET MKL_DNN_Example_Simple_Net_Cpp GET COPY OF LIB mkldnn
+source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib/libmkldnn.so
+destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/libmkldnn.so
+RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin
+>>> TARGET MKL_DNN_Example_Simple_Net_Cpp GET COPY OF LIB mklml_intel
+source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib/libmklml_intel.so
+destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/libmklml_intel.so
+RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin
+>>> TARGET MKL_DNN_Example_Simple_Net_Cpp GET COPY OF LIB iomp5
+source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib/libiomp5.so
+destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/libiomp5.so
+[1;34mBuild EXECUTABLE: MKL_DNN_Example_Simple_Training_Net...[m
+[1;34madd_executable_MKL_DNN : TARGET=MKL_DNN_Example_Simple_Training_Net; SOURCES=simple_training_net.cpp...[m
+MKL_DNN_FOUND=ON
+>>> MKL_DNN_LIBS : mkldnn;mklml_intel;iomp5
+>>> LD_LIBRARY_PATH : :/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib
+RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin
+>>> TARGET MKL_DNN_Example_Simple_Training_Net GET COPY OF LIB mkldnn
+source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib/libmkldnn.so
+destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/libmkldnn.so
+RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin
+>>> TARGET MKL_DNN_Example_Simple_Training_Net GET COPY OF LIB mklml_intel
+source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib/libmklml_intel.so
+destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/libmklml_intel.so
+RUNTIME_OUTPUT_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin
+>>> TARGET MKL_DNN_Example_Simple_Training_Net GET COPY OF LIB iomp5
+source = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib/libiomp5.so
+destination = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/libiomp5.so
 DO_GTEST not set...
 -- Configuring done
 -- Generating done

@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/lib/boost/cmake_install.cmake")
+  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/lib/boost_python/cmake_install.cmake")
 
 endif()
 

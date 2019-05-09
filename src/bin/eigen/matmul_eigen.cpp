@@ -67,7 +67,6 @@ void mat_arange(Matrix_t &m) {
 template<typename T, size_t N, size_t TRIALS>
 void test_trials(const char opt = 'r') {
 
-
 	int c;
 	clock_t t;
 
@@ -105,7 +104,6 @@ void test_trials(const char opt = 'r') {
 			mat_arange(a);
 			mat_arange(b);
 		}
-
 
 		t = clock();
 
@@ -177,7 +175,6 @@ void vecN1_mul_vec1N(const char opt = 'r') {
 	EIGEN_COUT(c)
 }
 
-
 template<typename T, size_t N, size_t M>
 void matNM_mul_vecM1(const char opt = 'r') {
 
@@ -206,7 +203,6 @@ void matNM_mul_vecM1(const char opt = 'r') {
 	EIGEN_COUT(c)
 }
 
-
 template<typename T, size_t N>
 void vec1N_mul_vecN1(const char opt = 'r') {
 
@@ -233,8 +229,70 @@ void vec1N_mul_vecN1(const char opt = 'r') {
 	EIGEN_COUT(a)
 	EIGEN_COUT(b)
 	EIGEN_COUT(c)
+
 }
 
+template<class Matrix_a, class Matrix_b>
+constexpr auto eigen_multiply(const Matrix_a &A, const Matrix_b &B) {
+
+	std::cout << "[SIZEOF] A : " << sizeof(A) << std::endl;
+	std::cout << "[SIZEOF] B : " << sizeof(B) << std::endl;
+
+	return A * B;
+
+}
+
+template<typename T, size_t N>
+void pass_eigen_ptr(const char opt = 'r') {
+
+	clock_t t;
+	Matrix<T, 1, N> a;
+	Matrix<T, N, 1> b;
+	Matrix<T, 1, 1> c;
+
+	if (opt == 'r') {
+		mat_gen_random_ublas(a);
+		mat_gen_random_ublas(b);
+	} else {
+		mat_arange(a);
+		mat_arange(b);
+	}
+
+	std::cout << "[SIZEOF] A : " << sizeof(a) << std::endl;
+	std::cout << "[SIZEOF] B : " << sizeof(b) << std::endl;
+
+	t = clock();
+
+	c = eigen_multiply(a, b);
+
+	std::cout << c.size() << std::endl;
+	fprintf(stderr, "CPU time: %g\n", (double) (clock() - t) / CLOCKS_PER_SEC);
+	if (N > 10) return;
+	EIGEN_COUT(a)
+	EIGEN_COUT(b)
+	EIGEN_COUT(c)
+}
+
+template<typename T, size_t N, size_t mB>
+void matmul_batches(char opt) {
+	Matrix<T, N, N> W;
+	Matrix<T, mB, N> X;
+	std::array<Matrix<T, N, 1>, mB> b;
+
+	if (opt == 'r') {
+		mat_gen_random_ublas(W);
+		mat_gen_random_ublas(X);
+	} else {
+		mat_arange(W);
+		mat_arange(X);
+	}
+
+	for (int i = 0; i < mB; i++) {
+		EIGEN_COUT(b[i])
+		//		b[i] = W * X[i];
+	}
+
+}
 
 int main(int argc, char *argv[]) {
 
@@ -248,11 +306,14 @@ int main(int argc, char *argv[]) {
 	vecN1_mul_vec1N<float, N>();
 	vec1N_mul_vecN1<float, N>();
 
-
 	matNN_mul_matNN<float, 5>(0);
 	matNM_mul_vecM1<float, 5, 4>(0);
 	vecN1_mul_vec1N<float, 5>(0);
 	vec1N_mul_vecN1<float, 5>(0);
+
+	pass_eigen_ptr<float, 500>(0);
+
+	matmul_batches<float, 5, 2>(0);
 
 	return 0;
 }

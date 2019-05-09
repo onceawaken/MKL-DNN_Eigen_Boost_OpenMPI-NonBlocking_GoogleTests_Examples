@@ -120,7 +120,7 @@ Cpp_Example_Maybe_Boost: cmake_check_build_system
 
 # fast build rule for target.
 Cpp_Example_Maybe_Boost/fast:
-	$(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build
+	$(MAKE) -f src/bin/cpp/examples/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build.make src/bin/cpp/examples/CMakeFiles/Cpp_Example_Maybe_Boost.dir/build
 .PHONY : Cpp_Example_Maybe_Boost/fast
 
 #=============================================================================
@@ -133,8 +133,21 @@ Cpp_Example_Simple: cmake_check_build_system
 
 # fast build rule for target.
 Cpp_Example_Simple/fast:
-	$(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple.dir/build
+	$(MAKE) -f src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple.dir/build.make src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple.dir/build
 .PHONY : Cpp_Example_Simple/fast
+
+#=============================================================================
+# Target rules for targets named Cpp_Example_Matrix_Operations
+
+# Build rule for target.
+Cpp_Example_Matrix_Operations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Example_Matrix_Operations
+.PHONY : Cpp_Example_Matrix_Operations
+
+# fast build rule for target.
+Cpp_Example_Matrix_Operations/fast:
+	$(MAKE) -f src/bin/cpp/examples/CMakeFiles/Cpp_Example_Matrix_Operations.dir/build.make src/bin/cpp/examples/CMakeFiles/Cpp_Example_Matrix_Operations.dir/build
+.PHONY : Cpp_Example_Matrix_Operations/fast
 
 #=============================================================================
 # Target rules for targets named Cpp_Example_Simple_Lib
@@ -146,8 +159,34 @@ Cpp_Example_Simple_Lib: cmake_check_build_system
 
 # fast build rule for target.
 Cpp_Example_Simple_Lib/fast:
-	$(MAKE) -f src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build.make src/bin/cpp/CMakeFiles/Cpp_Example_Simple_Lib.dir/build
+	$(MAKE) -f src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/build.make src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/build
 .PHONY : Cpp_Example_Simple_Lib/fast
+
+#=============================================================================
+# Target rules for targets named Cpp_Multi_Perceptron_Boost
+
+# Build rule for target.
+Cpp_Multi_Perceptron_Boost: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Multi_Perceptron_Boost
+.PHONY : Cpp_Multi_Perceptron_Boost
+
+# fast build rule for target.
+Cpp_Multi_Perceptron_Boost/fast:
+	$(MAKE) -f src/bin/cpp/multi_perceptron/CMakeFiles/Cpp_Multi_Perceptron_Boost.dir/build.make src/bin/cpp/multi_perceptron/CMakeFiles/Cpp_Multi_Perceptron_Boost.dir/build
+.PHONY : Cpp_Multi_Perceptron_Boost/fast
+
+#=============================================================================
+# Target rules for targets named Cpp_Example_Eigen
+
+# Build rule for target.
+Cpp_Example_Eigen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Example_Eigen
+.PHONY : Cpp_Example_Eigen
+
+# fast build rule for target.
+Cpp_Example_Eigen/fast:
+	$(MAKE) -f src/bin/eigen/CMakeFiles/Cpp_Example_Eigen.dir/build.make src/bin/eigen/CMakeFiles/Cpp_Example_Eigen.dir/build
+.PHONY : Cpp_Example_Eigen/fast
 
 #=============================================================================
 # Target rules for targets named OpenMPI_Tests
@@ -159,7 +198,7 @@ OpenMPI_Tests: cmake_check_build_system
 
 # fast build rule for target.
 OpenMPI_Tests/fast:
-	$(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests.dir/build
+	$(MAKE) -f src/bin/ompi/examples/CMakeFiles/OpenMPI_Tests.dir/build.make src/bin/ompi/examples/CMakeFiles/OpenMPI_Tests.dir/build
 .PHONY : OpenMPI_Tests/fast
 
 #=============================================================================
@@ -172,7 +211,7 @@ OpenMPI_Tests_Boost: cmake_check_build_system
 
 # fast build rule for target.
 OpenMPI_Tests_Boost/fast:
-	$(MAKE) -f src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/CMakeFiles/OpenMPI_Tests_Boost.dir/build
+	$(MAKE) -f src/bin/ompi/examples/CMakeFiles/OpenMPI_Tests_Boost.dir/build.make src/bin/ompi/examples/CMakeFiles/OpenMPI_Tests_Boost.dir/build
 .PHONY : OpenMPI_Tests_Boost/fast
 
 #=============================================================================
@@ -279,6 +318,32 @@ boost_threading_mpi.boost-ompi/fast:
 	$(MAKE) -f src/bin/boost_ompi/CMakeFiles/boost_threading_mpi.boost-ompi.dir/build.make src/bin/boost_ompi/CMakeFiles/boost_threading_mpi.boost-ompi.dir/build
 .PHONY : boost_threading_mpi.boost-ompi/fast
 
+#=============================================================================
+# Target rules for targets named MKL_DNN_Example_Simple_Net_Cpp
+
+# Build rule for target.
+MKL_DNN_Example_Simple_Net_Cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MKL_DNN_Example_Simple_Net_Cpp
+.PHONY : MKL_DNN_Example_Simple_Net_Cpp
+
+# fast build rule for target.
+MKL_DNN_Example_Simple_Net_Cpp/fast:
+	$(MAKE) -f src/bin/mkl-dnn/examples/CMakeFiles/MKL_DNN_Example_Simple_Net_Cpp.dir/build.make src/bin/mkl-dnn/examples/CMakeFiles/MKL_DNN_Example_Simple_Net_Cpp.dir/build
+.PHONY : MKL_DNN_Example_Simple_Net_Cpp/fast
+
+#=============================================================================
+# Target rules for targets named MKL_DNN_Example_Simple_Training_Net
+
+# Build rule for target.
+MKL_DNN_Example_Simple_Training_Net: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MKL_DNN_Example_Simple_Training_Net
+.PHONY : MKL_DNN_Example_Simple_Training_Net
+
+# fast build rule for target.
+MKL_DNN_Example_Simple_Training_Net/fast:
+	$(MAKE) -f src/bin/mkl-dnn/examples/CMakeFiles/MKL_DNN_Example_Simple_Training_Net.dir/build.make src/bin/mkl-dnn/examples/CMakeFiles/MKL_DNN_Example_Simple_Training_Net.dir/build
+.PHONY : MKL_DNN_Example_Simple_Training_Net/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -289,7 +354,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... Cpp_Example_Maybe_Boost"
 	@echo "... Cpp_Example_Simple"
+	@echo "... Cpp_Example_Matrix_Operations"
 	@echo "... Cpp_Example_Simple_Lib"
+	@echo "... Cpp_Multi_Perceptron_Boost"
+	@echo "... Cpp_Example_Eigen"
 	@echo "... OpenMPI_Tests"
 	@echo "... OpenMPI_Tests_Boost"
 	@echo "... Boost_Example_Regex"
@@ -300,6 +368,8 @@ help:
 	@echo "... boost_mpi_p2p_blocking.boost-ompi"
 	@echo "... boost_mpi_fielsystem.boost-ompi"
 	@echo "... boost_threading_mpi.boost-ompi"
+	@echo "... MKL_DNN_Example_Simple_Net_Cpp"
+	@echo "... MKL_DNN_Example_Simple_Training_Net"
 .PHONY : help
 
 

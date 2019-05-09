@@ -21,10 +21,10 @@ BOOST_FOUND:BOOL=ON
 Boost_Example_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/boost
 
 //Value Computed by CMake
-Boost_Example_Lib_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/lib/boost
+Boost_Example_Lib_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/lib/boost_python
 
 //Value Computed by CMake
-Boost_Example_Lib_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib/boost
+Boost_Example_Lib_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib/boost_python
 
 //Value Computed by CMake
 Boost_Example_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/boost
@@ -250,25 +250,79 @@ CppUtils_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-
 CppUtils_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/CppUtils
 
 //Value Computed by CMake
-Cpp_Example_Maybe_Boost_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp
+Cpp_Example_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/multi_perceptron
 
 //Value Computed by CMake
-Cpp_Example_Maybe_Boost_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp
+Cpp_Example_Eigen_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/eigen
 
 //Value Computed by CMake
-Cpp_Example_Simple_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp
+Cpp_Example_Eigen_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/eigen
 
 //Value Computed by CMake
-Cpp_Example_Simple_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp
+Cpp_Example_Matrix_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_Matrix_O_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_Matrix_O_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_Matrix_Operations_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_Matrix_Operations_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_Matrix_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_Maybe_Boost_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_Maybe_Boost_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/multi_perceptron
+
+//Value Computed by CMake
+Cpp_Example_Simple_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example_Simple_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example__BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Example__SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples
+
+//Value Computed by CMake
+Cpp_Multi_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/multi_perceptron
+
+//Value Computed by CMake
+Cpp_Multi_Perceptron_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/multi_perceptron
+
+//Value Computed by CMake
+Cpp_Multi_Perceptron_Boost_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/multi_perceptron
+
+//Value Computed by CMake
+Cpp_Multi_Perceptron_Boost_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/multi_perceptron
+
+//Value Computed by CMake
+Cpp_Multi_Perceptron_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/multi_perceptron
+
+//Value Computed by CMake
+Cpp_Multi_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/multi_perceptron
 
 //Build targets/tests for Boost...
 DO_BOOST:BOOL=ON
 
 //Build targets/tests for Eigen...
-DO_EIGEN:BOOL=OFF
+DO_EIGEN:BOOL=ON
 
 //Build targets/tests/libs for MKL-DNN
-DO_MKL_DNN:BOOL=OFF
+DO_MKL_DNN:BOOL=ON
 
 //Build targets/tests with multi-threading by OpenMP
 DO_OMP:BOOL=OFF
@@ -282,6 +336,21 @@ DO_PYTHON:BOOL=OFF
 //Build targets from src dir...
 DO_TARGET:BOOL=ON
 
+//Value Computed by CMake
+MKL_DNN_Example_Simple_Net_Cpp_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/mkl-dnn/examples
+
+//Value Computed by CMake
+MKL_DNN_Example_Simple_Net_Cpp_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/mkl-dnn/examples
+
+//Value Computed by CMake
+MKL_DNN_Example_Simple_Training_Net_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/mkl-dnn/examples
+
+//Value Computed by CMake
+MKL_DNN_Example_Simple_Training_Net_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/mkl-dnn/examples
+
+//Set flag that MKL_DNN is found now
+MKL_DNN_FOUND:BOOL=ON
+
 //Set flag that OMPI is found now
 OMPI_FOUND:BOOL=ON
 
@@ -292,10 +361,10 @@ OpenMPI_NonBlocking_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProt
 OpenMPI_NonBlocking_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi
 
 //Value Computed by CMake
-OpenMPI_Tests_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/ompi
+OpenMPI_Tests_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/ompi/examples
 
 //Value Computed by CMake
-OpenMPI_Tests_Boost_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/ompi
+OpenMPI_Tests_Boost_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/ompi/examples
 
 //Value Computed by CMake
 OpenMPI_Tests_Boost_Parallel_Example_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/ompi
@@ -304,10 +373,10 @@ OpenMPI_Tests_Boost_Parallel_Example_BINARY_DIR:STATIC=/home/egrzrbr/W/W.priv/HP
 OpenMPI_Tests_Boost_Parallel_Example_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi
 
 //Value Computed by CMake
-OpenMPI_Tests_Boost_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi
+OpenMPI_Tests_Boost_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/examples
 
 //Value Computed by CMake
-OpenMPI_Tests_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi
+OpenMPI_Tests_SOURCE_DIR:STATIC=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/ompi/examples
 
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
@@ -430,7 +499,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

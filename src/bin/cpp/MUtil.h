@@ -3,7 +3,6 @@
 //
 
 
-
 #ifndef CPP_EXAMPLE_MUTIL_H
 #define CPP_EXAMPLE_MUTIL_H
 
@@ -27,10 +26,13 @@ clock_t TIME_0;
 
 #define WAIT std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
-#define obj_assert_ptr(obj) assert(std::is_pointer<decltype(obj)>::value !=0)
-#define type_assert_ptr(type) assert(std::is_pointer<type>::value !=0)
 
 #endif
+
+#define obj_assert_ptr(obj)  assert(std::is_pointer<decltype(obj)>::value !=0)
+#define type_assert_ptr(type) assert(std::is_pointer<type>::value !=0)
+
+#define print_sizeof(x) std::cout << "[SIZE] " << #x << " : " << sizeof(x) << std::endl;
 
 std::string ts2h(const time_t rawtime) {
 

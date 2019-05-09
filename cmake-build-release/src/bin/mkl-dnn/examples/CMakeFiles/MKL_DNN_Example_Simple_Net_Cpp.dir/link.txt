@@ -1,0 +1,1 @@
+/usr/bin/g++-8  -O3 -DNDEBUG   CMakeFiles/MKL_DNN_Example_Simple_Net_Cpp.dir/simple_net.cpp.o  -o ../../../../../target/release/bin/MKL_DNN_Example_Simple_Net_Cpp  -L/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib -Wl,-rpath,/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib -lmkldnn -lmklml_intel -liomp5 -lm 

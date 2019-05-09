@@ -3,7 +3,7 @@
 echo "OpenMPI_Tests RUNNER..."
 
 OPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI
-LD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib
+LD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib
 MPI_RUN=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/bin/mpirun
 TARGET=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/target/release/bin/OpenMPI_Tests
 

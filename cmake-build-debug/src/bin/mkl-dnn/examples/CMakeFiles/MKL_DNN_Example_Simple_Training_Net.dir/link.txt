@@ -1,0 +1,1 @@
+/usr/bin/g++-8  -g   CMakeFiles/MKL_DNN_Example_Simple_Training_Net.dir/simple_training_net.cpp.o  -o ../../../../../target/debug/bin/MKL_DNN_Example_Simple_Training_Net  -L/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Debug/lib -Wl,-rpath,/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Debug/lib -lmkldnn -lmklml_intel -liomp5 -lm 

@@ -10,6 +10,8 @@ endfunction()
 
 macro(setup_boost)
     unset(BOOST_FOUND CACHE)
+    unset(PYTHON_FOUND CACHE)
+    unset(DO_BOOST_PYTHON CACHE)
 
     if (DEFINED ARGN1)
         set(BOOST_DIR ${ARGN1})
@@ -29,7 +31,10 @@ macro(setup_boost)
     MESSAGE(ENV{LD_LIBRARY_PATH=$ENV{LD_LIBRARY_PATH})
 
     option(BOOST_FOUND "Set flag that BOOST is found now" ON)
-
+    if (PYTHON_FOUND)
+        option(BOOST_PYTHON_FOUND "" ON)
+        option(DO_BOOST_PYTHON "" ON)
+    endif ()
     message("BOOST_FOUND=${BOOST_FOUND}")
 endmacro()
 
@@ -87,6 +92,53 @@ macro(add_executable_boost TARGET SOURCES BOOST_LIBS)
 
 
 endmacro()
+
+macro(add_executable_boost_python27 TARGET SOURCES BOOST_LIBS)
+
+
+
+    if (DEFINED ARGN)
+        set(BOOST_LIBS ${ARGN})
+    else ()
+        set(BOOST_LIBS)
+    endif ()
+
+
+    ppr_blue("add_executable_boost_python27 : TARGET=${TARGET}; SOURCES=${SOURCES}...")
+    assert_boost()
+    assert_python()
+
+    if (NOT DEFINED PROJECT_NAME)
+        message("BOOST project not defined. Set PROJECT(${TARGET})...")
+        PROJECT(${TARGET})
+    endif ()
+
+
+    add_executable(${TARGET} ${SOURCES})
+    #if(DEFINED FAKE_TARGET_BOOST)
+    #  add_dependencies(${TARGET} ${FAKE_TARGET_BOOST})
+    #endif()
+
+    # Attach directories
+    target_link_directories(${TARGET} PRIVATE ${BOOST_LIB_PATH})
+    target_include_directories(${TARGET} PRIVATE ${BOOST_INCLUDE_PATH})
+    target_link_libraries_boost(${TARGET} ${BOOST_LIBS} numpy27 python27)
+
+
+    set_target_properties(${TARGET} PROPERTIES FOLDER ${CMAKE_LIBRARY_PATH})
+
+    target_compile_definitions(${TARGET} PRIVATE
+            OPAL_PREFIX=$ENV{OPAL_PREFIX}
+            LD_LIBRARY_PATH=$ENV{LD_LIBRARY_PATH}
+            WITH_BOOST=1
+            WITH_BOOST_PYTHON=1
+            )
+
+    config_bin_output(${TARGET})
+
+
+endmacro()
+
 
 macro(add_module_boost_python TARGET SOURCES)
 

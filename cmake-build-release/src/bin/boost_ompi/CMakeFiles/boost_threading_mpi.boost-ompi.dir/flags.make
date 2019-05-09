@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++-8
 CXX_FLAGS = -O3 -DNDEBUG   "-I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -pthread" -std=gnu++17
 
-CXX_DEFINES = -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_BOOST=1 -DWITH_BOOST_MPI=1 -DWITH_MPI=1
+CXX_DEFINES = -DLD_LIBRARY_PATH=:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/lib:/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/MKL_DNN/Release/lib -DOPAL_PREFIX=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI -DWITH_BOOST=1 -DWITH_BOOST_MPI=1 -DWITH_MPI=1
 
 CXX_INCLUDES = -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/OpenMPI/include -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Boost/include 
 

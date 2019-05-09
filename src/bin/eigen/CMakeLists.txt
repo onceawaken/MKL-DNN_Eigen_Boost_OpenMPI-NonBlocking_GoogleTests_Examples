@@ -1,12 +1,12 @@
 project(Cpp_Example_Eigen LANGUAGES C CXX)
 ppr_blue("Build EXECUTABLE: ${PROJECT_NAME}...")
 add_executable(${PROJECT_NAME} matmul_eigen.cpp)
-set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 11 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS ON)
+set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS ON)
 
 # create simple lib
 
 #ppr_blue("Build LIBRARY: ${PROJECT_NAME}_Lib...")
-#add_library(${PROJECT_NAME}_Lib simple_lib.cpp simple_lib.hpp)
+#add_library(${PROJECT_NAME}_Lib simple_lib.multi_perceptron simple_lib.hpp)
 #config_lib_output(${PROJECT_NAME}_Lib)
 #set_target_properties(${PROJECT_NAME}_Lib PROPERTIES CXX_STANDARD 11 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS ON)
 
