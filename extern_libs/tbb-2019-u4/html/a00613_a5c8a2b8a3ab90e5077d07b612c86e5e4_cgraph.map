@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::queue_node::try_put_and_add_task" name="tbb::flow::interface10::queue_node::try_put_and_add_task">
+<area shape="rect" id="node2" href="$a01115.html#a69076d97267af5d3009b43a8edad1342" title="tbb::flow::interface10\l::combine_tasks" alt="" coords="203,5,347,47"/>
+<area shape="rect" id="node3" href="$a00666.html#a51c2764edb41f567d1452e2b9c3379c8" title="tbb::flow::interface10\l::internal::round_robin\l_cache::try_put_task" alt="" coords="201,70,348,126"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="internal::item_buffer::destroy_front" name="internal::item_buffer::destroy_front">
+<area shape="rect" id="node2" href="$a00652.html#af3b66b1c95176b5642840db7988518f0" title="internal::reservable\l_item_buffer::consume_front" alt="" coords="191,5,379,47"/>
+<area shape="rect" id="node3" href="$a00294.html#aa99e517c52ad2e0e5eea747b91d1fffd" title="internal::function\l_input_queue::pop" alt="" coords="221,71,349,112"/>
+<area shape="rect" id="node4" href="$a00414.html#ab2541b289d48841c9679c0ad17feae4f" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::pop_front" alt="" coords="195,136,374,177"/>
+</map>

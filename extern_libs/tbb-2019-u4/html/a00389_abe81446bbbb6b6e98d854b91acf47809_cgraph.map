@@ -1,0 +1,4 @@
+<map id="tbb::tick_count::interval_t::seconds" name="tbb::tick_count::interval_t::seconds">
+<area shape="rect" id="node2" href="$a00827.html#aaf6a0d91e7d40f7d68e0ad6b79350e58" title="Return the resolution of the clock in seconds per tick. " alt="" coords="212,13,384,39"/>
+<area shape="rect" id="node3" href="$a00389.html#ac50065a6fabb3bd25d3ee7ec8e9a09ec" title="tbb::tick_count::interval\l_t::ticks_per_second" alt="" coords="432,5,591,47"/>
+</map>

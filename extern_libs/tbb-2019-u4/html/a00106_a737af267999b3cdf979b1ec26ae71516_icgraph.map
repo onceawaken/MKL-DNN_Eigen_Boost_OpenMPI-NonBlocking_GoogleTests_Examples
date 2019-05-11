@@ -1,0 +1,6 @@
+<map id="tbb::internal::binary_semaphore::V" name="tbb::internal::binary_semaphore::V">
+<area shape="rect" id="node2" href="$a00145.html#ade8e90627ee0cb157bcdffd12b22003f" title="Abort any sleeping threads at the time of the call; Relaxed version. " alt="" coords="192,5,371,47"/>
+<area shape="rect" id="node3" href="$a00885.html#a04ee8eb618b1ee0e14568319e1ce608f" title="Should be overridden by derived classes. " alt="" coords="204,71,359,112"/>
+<area shape="rect" id="node4" href="$a00145.html#a3a1925f904f6e7967d0af1dfb35d9dd4" title="Notify all waiting threads of the event; Relaxed version. " alt="" coords="191,136,372,177"/>
+<area shape="rect" id="node5" href="$a00145.html#a24bfa3b8eae09a60d454e374620bd4dd" title="Notify one thread about the event. Relaxed version. " alt="" coords="187,201,376,243"/>
+</map>

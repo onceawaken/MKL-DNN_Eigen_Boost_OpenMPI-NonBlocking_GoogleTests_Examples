@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::streaming_node&lt; tuple&lt; Ports... &gt;, JP, StreamFactory &gt;::device_selector&lt; UserFunctor &gt;" name="tbb::flow::interface10::streaming_node&lt; tuple&lt; Ports... &gt;, JP, StreamFactory &gt;::device_selector&lt; UserFunctor &gt;">
+<area shape="rect" id="node2" href="$a00213.html" title="{tbb::flow::interface10\l::streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::device_selector_base\n||+ operator()()\l+ clone()\l+ ~device_selector_base()\l}" alt="" coords="5,5,212,156"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="237,42,394,119"/>
+</map>

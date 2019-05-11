@@ -1,0 +1,5 @@
+<map id="tbb::internal::generic_scheduler::receive_or_steal_task" name="tbb::internal::generic_scheduler::receive_or_steal_task">
+<area shape="rect" id="node2" href="$a00059.html#aff17fc29650655b080b795be34179d20" title="Registers the worker with the arena and enters TBB scheduler dispatch loop. " alt="" coords="207,13,337,54"/>
+<area shape="rect" id="node3" href="$a00489.html#a574c6275a73f185d391151478e4a7634" title="tbb::internal::market\l::process" alt="" coords="385,13,524,54"/>
+<area shape="rect" id="node4" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="572,13,711,54"/>
+</map>

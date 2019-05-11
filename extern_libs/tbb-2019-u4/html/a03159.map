@@ -1,0 +1,4 @@
+<map id="tbb::interface9::internal::range_vector&lt; T, MaxCapacity &gt;" name="tbb::interface9::internal::range_vector&lt; T, MaxCapacity &gt;">
+<area shape="rect" id="node2" href="$a00042.html" title="{tbb::aligned_space\l\&lt; T, MaxCapacity \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="15,204,219,340"/>
+<area shape="rect" id="node3" href="$a00042.html" title="Block of space aligned sufficiently to construct an array T with N elements. " alt="" coords="15,5,219,141"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="combinable.h" name="combinable.h">
+<area shape="rect" id="node2" href="$a00994.html" title="enumerable_thread_specific.h" alt="" coords="1293,80,1487,107"/>
+<area shape="rect" id="node18" href="$a00972.html" title="cache_aligned_allocator.h" alt="" coords="5,319,177,345"/>
+<area shape="rect" id="node3" href="$a00965.html" title="atomic.h" alt="" coords="1523,319,1595,345"/>
+<area shape="rect" id="node10" href="$a00986.html" title="concurrent_vector.h" alt="" coords="732,155,869,181"/>
+<area shape="rect" id="node15" href="$a01082.html" title="tbb_allocator.h" alt="" coords="451,319,558,345"/>
+<area shape="rect" id="node20" href="$a01095.html" title="tbb_profiling.h" alt="" coords="1060,237,1163,263"/>
+<area shape="rect" id="node27" href="$a01100.html" title="tbb_thread.h" alt="" coords="1367,155,1461,181"/>
+<area shape="rect" id="node29" href="$a00954.html" title="internal/_tbb_hash\l_compare_impl.h" alt="" coords="1187,229,1315,271"/>
+<area shape="rect" id="node33" href="$a00962.html" title="aligned_space.h" alt="" coords="1620,319,1736,345"/>
+<area shape="rect" id="node34" href="$a00958.html" title="internal/_template\l_helpers.h" alt="" coords="1598,483,1723,524"/>
+<area shape="rect" id="node5" href="$a01089.html" title="tbb_machine.h" alt="" coords="1417,401,1523,427"/>
+<area shape="rect" id="node6" href="$a01098.html" title="tbb_stddef.h" alt="" coords="969,490,1064,517"/>
+<area shape="rect" id="node7" href="$a01085.html" title="tbb_config.h" alt="" coords="1430,572,1523,599"/>
+<area shape="rect" id="node11" href="$a01088.html" title="tbb_exception.h" alt="" coords="531,237,646,263"/>
+<area shape="rect" id="node19" href="$a00967.html" title="blocked_range.h" alt="" coords="958,401,1075,427"/>
+<area shape="rect" id="node24" href="$a00937.html" title="internal/_allocator\l_traits.h" alt="" coords="243,393,367,435"/>
+<area shape="rect" id="node21" href="$a00955.html" title="internal/_tbb_strings.h" alt="" coords="1140,319,1291,345"/>
+<area shape="rect" id="node30" href="$a01103.html" title="tick_count.h" alt="" coords="1390,237,1483,263"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tbb::concurrent_vector::internal_loop_guide::init" name="tbb::concurrent_vector::internal_loop_guide::init">
+<area shape="rect" id="node2" href="$a00168.html#a12b1a671033a824c0027720427072328" title="Construct n instances of T, starting at &quot;begin&quot;. " alt="" coords="220,5,372,47"/>
+<area shape="rect" id="node3" href="$a00168.html#a615b7ebb3f9219014924b523c44e085e" title="Copy&#45;construct n instances of T, starting at &quot;begin&quot;. " alt="" coords="220,71,372,112"/>
+</map>

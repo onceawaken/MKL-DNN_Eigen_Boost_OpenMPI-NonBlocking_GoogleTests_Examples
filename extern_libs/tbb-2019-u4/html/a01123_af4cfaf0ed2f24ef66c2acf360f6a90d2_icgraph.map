@@ -1,0 +1,4 @@
+<map id="tbb::interface5::fetch_and_and" name="tbb::interface5::fetch_and_and">
+<area shape="rect" id="node2" href="$a00634.html#ae3756b1d4f49ba8caff3631584b81cfc" title="Relinquishes write lock to next waiting writer or group of readers. " alt="" coords="196,5,352,47"/>
+<area shape="rect" id="node3" href="$a00634.html#ad2567a723d160b812f2a637e12e3091a" title="Releases the reader_writer_lock. " alt="" coords="400,5,549,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbb::task_group_context::reset" name="tbb::task_group_context::reset">
+<area shape="rect" id="node2" href="$a00308.html#a6a16a577444f8eb0cecc2452fbfec539" title="tbb::flow::interface10\l::graph::reset" alt="" coords="216,5,360,47"/>
+<area shape="rect" id="node3" href="$a00783.html#a9a05d8b3350796df951c701978cec816" title="tbb::internal::task\l_group_base::wait" alt="" coords="224,71,352,112"/>
+<area shape="rect" id="node4" href="$a00765.html#a0578ff577290a108d395ab29a0a04e04" title="tbb::structured_task\l_group::wait" alt="" coords="408,71,547,112"/>
+</map>

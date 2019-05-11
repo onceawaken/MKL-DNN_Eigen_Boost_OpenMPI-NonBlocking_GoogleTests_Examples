@@ -1,0 +1,17 @@
+<map id="tbb::internal::custom_scheduler::local_wait_for_all" name="tbb::internal::custom_scheduler::local_wait_for_all">
+<area shape="rect" id="node2" href="$a01133.html#a35e1c039fac0fa1b7d8b4f491d557a86" title="tbb::internal::assert\l_task_valid" alt="" coords="214,73,349,115"/>
+<area shape="rect" id="node3" href="$a01133.html#a87ff64e432be3c5ddee9ddca98f7d0d5" title="tbb::internal::Concurrent\lWaitsEnabled" alt="" coords="407,5,569,47"/>
+<area shape="rect" id="node5" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="431,202,545,229"/>
+<area shape="rect" id="node6" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="617,261,771,287"/>
+<area shape="rect" id="node9" href="$a00778.html#a092e58368b7684207bd3020c6d104f2a" title="Should be overridden by derived classes. " alt="" coords="218,257,345,283"/>
+<area shape="rect" id="node10" href="$a00307.html#a14d4453f34a770b1c983c2ed38570e31" title="Used to check validity of the local scheduler TLS contents. " alt="" coords="207,308,355,349"/>
+<area shape="rect" id="node11" href="$a00778.html#a9d50759d59a2d300287158f38b317798" title="task on whose behalf this task is working, or NULL if this is a root. " alt="" coords="223,398,340,425"/>
+<area shape="rect" id="node12" href="$a01133.html#a58dafd43fac118e984cc4f19f3901609" title="tbb::internal::poison\l_pointer" alt="" coords="213,449,349,491"/>
+<area shape="rect" id="node13" href="$a00778.html#ab82188cc88d0306a706fac651621c4c8" title="The internal reference count. " alt="" coords="214,515,349,542"/>
+<area shape="rect" id="node14" href="$a01133.html#a7a454ca6d8bb2b9fccde7e52a0c31856" title="tbb::internal::reset\l_extra_state" alt="" coords="218,191,345,232"/>
+<area shape="rect" id="node15" href="$a00173.html#a6b26a53fd3c6eafe84d5b7865bc154d4" title="tbb::internal::context\l_guard_helper::set_ctx" alt="" coords="204,617,359,659"/>
+<area shape="rect" id="node16" href="$a00778.html#a22ef8282e09458a46131843219cb71e5" title="Current execution state. " alt="" coords="226,683,337,710"/>
+<area shape="rect" id="node4" href="$a00799.html#a4bd4ba0d501021013d1473d21b020b69" title="Creates and returns pointer to the deep copy of this exception object. " alt="" coords="423,136,553,177"/>
+<area shape="rect" id="node8" href="$a01133.html#a0ddf43033695d442c64c4a44f6d6c211" title="Report a runtime warning. " alt="" coords="417,71,559,112"/>
+<area shape="rect" id="node7" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="629,195,759,236"/>
+</map>

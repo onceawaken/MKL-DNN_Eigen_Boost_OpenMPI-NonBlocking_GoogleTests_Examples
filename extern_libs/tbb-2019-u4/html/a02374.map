@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface10::internal::continue_input&lt; Output, Policy &gt;" name="tbb::flow::interface10::internal::continue_input&lt; Output, Policy &gt;">
+<area shape="rect" id="node6" href="$a00178.html" title="Implements an executable node that supports continue_msg &#45;&gt; Output. " alt="" coords="11,1268,181,1433"/>
+<area shape="rect" id="node2" href="$a00179.html" title="Base class for receivers of completion messages. " alt="" coords="12,648,180,901"/>
+<area shape="rect" id="node3" href="$a00644.html" title="{tbb::flow::interface10\l::receiver\&lt; continue_msg \&gt;\n||+ try_put()\l+ try_put()\l# try_put_task_wrapper()\l# try_put_task()\l}" alt="" coords="5,463,187,599"/>
+<area shape="rect" id="node4" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="24,5,203,215"/>
+<area shape="rect" id="node5" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="113,264,279,400"/>
+</map>

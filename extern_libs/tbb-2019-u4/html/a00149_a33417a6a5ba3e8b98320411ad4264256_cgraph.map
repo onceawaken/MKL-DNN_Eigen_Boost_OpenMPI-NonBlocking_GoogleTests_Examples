@@ -1,0 +1,4 @@
+<map id="tbb::internal::concurrent_queue_base_v3::internal_abort" name="tbb::internal::concurrent_queue_base_v3::internal_abort">
+<area shape="rect" id="node2" href="$a00145.html#aba73b319c5ccbef0ba26bf83f6a34e33" title="Abort any sleeping threads at the time of the call. " alt="" coords="260,5,419,47"/>
+<area shape="rect" id="node3" href="$a01113.html#a33e73b97b02726c692bd8d9da8e3fb1b" title="Sequentially consistent full memory fence. " alt="" coords="467,13,593,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::remove_edge" name="tbb::flow::interface10::remove_edge">
+<area shape="rect" id="node2" href="$a01115.html#a31e1d0e4f543d3ea2f59324460cc9167" title="tbb::flow::interface10\l::remove_edge" alt="" coords="201,5,345,47"/>
+<area shape="rect" id="node3" href="$a00933.html#adb420aa442364711a0a8a8cd763c04be" title="Put item to successor; return task to run the successor if possible. " alt="" coords="197,70,348,126"/>
+</map>

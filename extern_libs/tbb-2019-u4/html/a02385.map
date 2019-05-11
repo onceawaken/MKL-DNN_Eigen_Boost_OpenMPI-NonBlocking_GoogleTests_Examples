@@ -1,0 +1,10 @@
+<map id="tbb::flow::interface10::internal::decrementer&lt; T &gt;" name="tbb::flow::interface10::internal::decrementer&lt; T &gt;">
+<area shape="rect" id="node2" href="$a00179.html" title="Base class for receivers of completion messages. " alt="" coords="275,832,443,1071"/>
+<area shape="rect" id="node3" href="$a00644.html" title="{tbb::flow::interface10\l::receiver\&lt; continue_msg \&gt;\n||+ try_put()\l+ try_put()\l# try_put_task_wrapper()\l# try_put_task()\l}" alt="" coords="85,611,267,747"/>
+<area shape="rect" id="node4" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="5,132,184,341"/>
+<area shape="rect" id="node5" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="94,391,261,527"/>
+<area shape="rect" id="node6" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="291,589,437,769"/>
+<area shape="rect" id="node7" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="286,405,442,512"/>
+<area shape="rect" id="node8" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="349,191,496,283"/>
+<area shape="rect" id="node9" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="344,5,501,83"/>
+</map>

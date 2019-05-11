@@ -1,0 +1,17 @@
+<map id="tbb::flow::interface10::internal::queueing_port&lt; T &gt;" name="tbb::flow::interface10::internal::queueing_port&lt; T &gt;">
+<area shape="rect" id="node2" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="103,2148,270,2284"/>
+<area shape="rect" id="node3" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="5,1693,184,1902"/>
+<area shape="rect" id="node4" href="$a00413.html" title="{tbb::flow::interface10\l::internal::item_buffer\&lt; T \&gt;\n||+ item_buffer()\l+ ~item_buffer()\l+ reset()\l# buffer_empty()\l# item()\l# item()\l# my_item_valid()\l# my_item_reserved()\l# get_my_item()\l# set_my_item()\l# fetch_item()\l# move_item()\l# place_item()\land 16 more...\l}" alt="" coords="385,2075,562,2357"/>
+<area shape="rect" id="node5" href="$a00837.html" title="type mimicking std::pair but with trailing fill to ensure each element of an array ..." alt="" coords="439,1362,595,1498"/>
+<area shape="rect" id="node7" href="$a00413.html" title="{tbb::flow::interface10\l::internal::item_buffer\l\&lt; T, A \&gt;\n||+ item_buffer()\l+ ~item_buffer()\l+ reset()\l# buffer_empty()\l# item()\l# item()\l# my_item_valid()\l# my_item_reserved()\l# get_my_item()\l# set_my_item()\l# fetch_item()\l# move_item()\l# place_item()\land 16 more...\l}" alt="" coords="370,1649,518,1946"/>
+<area shape="rect" id="node10" href="$a00277.html" title="{tbb::flow::interface10\l::internal::forwarding_base\n||+ forwarding_base()\l+ ~forwarding_base()\l+ decrement_port_count()\l+ increment_port_count()\l}" alt="" coords="1178,2148,1353,2284"/>
+<area shape="rect" id="node11" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="1509,5,1667,83"/>
+<area shape="rect" id="node13" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="947,139,1093,231"/>
+<area shape="rect" id="node12" href="$a00308.html" title="The graph class. " alt="" coords="1124,1627,1297,1968"/>
+<area shape="rect" id="node20" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="948,2155,1092,2277"/>
+<area shape="rect" id="node22" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="942,448,1098,555"/>
+<area shape="rect" id="node24" href="$a00784.html" title="Used to form groups of tasks. " alt="" coords="1036,725,1236,1316"/>
+<area shape="rect" id="node16" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="1274,301,1489,701"/>
+<area shape="rect" id="node18" title="STL class. " alt="" coords="1517,463,1614,540"/>
+<area shape="rect" id="node21" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="941,1340,1088,1520"/>
+</map>

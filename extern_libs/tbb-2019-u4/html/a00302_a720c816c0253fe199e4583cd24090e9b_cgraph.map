@@ -1,0 +1,11 @@
+<map id="tbb::internal::generic_scheduler::free_nonlocal_small_task" name="tbb::internal::generic_scheduler::free_nonlocal_small_task">
+<area shape="rect" id="node2" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="246,5,405,32"/>
+<area shape="rect" id="node3" href="$a00302.html#ad965858a5e7cb5574926d8d1692063b5" title="Return task object to the memory allocator. " alt="" coords="233,107,417,149"/>
+<area shape="rect" id="node4" href="$a01147.html#ga7814c9ccc02b8fe5f712fb6fd8a2b607" title="Free memory allocated by NFS_Allocate. " alt="" coords="475,56,633,83"/>
+<area shape="rect" id="node6" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="497,173,611,200"/>
+<area shape="rect" id="node9" href="$a00302.html#abb580929e3e34d6da1728e6fee8b6979" title="Special value used to mark my_return_list as not taking any more entries. " alt="" coords="224,225,427,266"/>
+<area shape="rect" id="node10" href="$a00778.html#a22ef8282e09458a46131843219cb71e5" title="Current execution state. " alt="" coords="270,291,381,317"/>
+<area shape="rect" id="node5" href="$a01133.html#a58dafd43fac118e984cc4f19f3901609" title="tbb::internal::poison\l_pointer" alt="" coords="486,107,622,149"/>
+<area shape="rect" id="node7" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="681,144,835,171"/>
+<area shape="rect" id="node8" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="693,195,823,237"/>
+</map>

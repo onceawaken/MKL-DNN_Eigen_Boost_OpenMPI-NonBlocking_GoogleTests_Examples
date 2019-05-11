@@ -1,0 +1,10 @@
+<map id="governor.h" name="governor.h">
+<area shape="rect" id="node2" href="$a01077.html" title="tbb/task_scheduler\l_init.h" alt="" coords="5,80,137,121"/>
+<area shape="rect" id="node10" href="$a01093.html" title="tbb_misc.h" alt="" coords="304,87,391,114"/>
+<area shape="rect" id="node13" href="$a01104.html" title="tls.h" alt="" coords="441,87,488,114"/>
+<area shape="rect" id="node3" href="$a01098.html" title="tbb_stddef.h" alt="" coords="149,333,244,360"/>
+<area shape="rect" id="node4" href="$a01085.html" title="tbb_config.h" alt="" coords="53,408,146,435"/>
+<area shape="rect" id="node11" href="$a01089.html" title="tbb/tbb_machine.h" alt="" coords="235,259,364,285"/>
+<area shape="rect" id="node12" href="$a00965.html" title="tbb/atomic.h" alt="" coords="325,177,420,203"/>
+<area shape="rect" id="node14" href="$a01105.html" title="tbb/machine/windows\l_api.h" alt="" coords="444,169,592,211"/>
+</map>

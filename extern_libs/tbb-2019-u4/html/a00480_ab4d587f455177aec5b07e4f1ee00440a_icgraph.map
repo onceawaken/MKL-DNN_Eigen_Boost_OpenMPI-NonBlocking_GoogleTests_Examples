@@ -1,0 +1,5 @@
+<map id="tbb::internal::mail_inbox::detach" name="tbb::internal::mail_inbox::detach">
+<area shape="rect" id="node2" href="$a00059.html#aff17fc29650655b080b795be34179d20" title="Registers the worker with the arena and enters TBB scheduler dispatch loop. " alt="" coords="176,5,307,47"/>
+<area shape="rect" id="node3" href="$a00489.html#a574c6275a73f185d391151478e4a7634" title="tbb::internal::market\l::process" alt="" coords="355,5,493,47"/>
+<area shape="rect" id="node4" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="541,5,680,47"/>
+</map>

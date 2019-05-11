@@ -1,0 +1,7 @@
+<map id="tbb::internal::circular_doubly_linked_list_with_sentinel::size" name="tbb::internal::circular_doubly_linked_list_with_sentinel::size">
+<area shape="rect" id="node2" href="$a00128.html#aaad12df188a6d94fcf1110357dac703f" title="tbb::internal::circular\l_doubly_linked_list_with\l_sentinel::empty" alt="" coords="216,97,379,153"/>
+<area shape="rect" id="node3" href="$a00145.html#ade8e90627ee0cb157bcdffd12b22003f" title="Abort any sleeping threads at the time of the call; Relaxed version. " alt="" coords="437,5,615,47"/>
+<area shape="rect" id="node4" href="$a00145.html#a3a1925f904f6e7967d0af1dfb35d9dd4" title="Notify all waiting threads of the event; Relaxed version. " alt="" coords="435,71,617,112"/>
+<area shape="rect" id="node5" href="$a00145.html#a24bfa3b8eae09a60d454e374620bd4dd" title="Notify one thread about the event. Relaxed version. " alt="" coords="431,136,621,177"/>
+<area shape="rect" id="node6" href="$a00145.html#afa5d41039e34cf954626ae1d55d4386e" title="dtor " alt="" coords="427,201,625,243"/>
+</map>

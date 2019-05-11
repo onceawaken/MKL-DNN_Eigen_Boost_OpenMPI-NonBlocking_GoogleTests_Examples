@@ -1,0 +1,5 @@
+<map id="tbb::get_flag" name="tbb::get_flag">
+<area shape="rect" id="node2" href="$a00684.html#a50fb02b77f02a01c74754d163157ec77" title="Release lock. " alt="" coords="148,5,305,47"/>
+<area shape="rect" id="node4" href="$a00684.html#ae0f28ecfbbc5f8b3024cd47048b72b5b" title="Upgrade reader to become a writer. " alt="" coords="148,70,305,126"/>
+<area shape="rect" id="node3" href="$a00684.html#a6cb16cc55f884bbbd5a69430c47b288f" title="Release lock (if lock is held). " alt="" coords="353,41,545,83"/>
+</map>

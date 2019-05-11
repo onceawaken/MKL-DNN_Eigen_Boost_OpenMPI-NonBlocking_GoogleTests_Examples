@@ -1,0 +1,6 @@
+<map id="tbb::interface6::aggregator_ext&lt; handler_type &gt;" name="tbb::interface6::aggregator_ext&lt; handler_type &gt;">
+<area shape="rect" id="node4" href="$a00036.html" title="{tbb::interface6::aggregator\l_ext\&lt; internal::basic_handler \&gt;\n|&#45; mailbox\l&#45; handler_busy\l&#45; handle_operations\l|+ aggregator_ext()\l+ process()\l# execute_impl()\l&#45; start_handle_operations()\l}" alt="" coords="5,501,207,667"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="33,132,179,224"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="27,5,185,83"/>
+<area shape="rect" id="node5" href="$a00034.html" title="Basic aggregator interface. " alt="" coords="19,716,193,808"/>
+</map>

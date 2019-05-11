@@ -1,0 +1,3 @@
+<map id="tbb::interface7::task_arena" name="tbb::interface7::task_arena">
+<area shape="rect" id="node2" href="$a00780.html" title="{tbb::interface7::internal\l::task_arena_base\n|+ automatic\l+ not_initialized\l# my_arena\l# my_context\l# my_max_concurrency\l# my_master_slots\l# my_version_and_traits\l|# task_arena_base()\l# internal_initialize()\l# internal_terminate()\l# internal_attach()\l# internal_enqueue()\l# internal_execute()\l# internal_wait()\l# internal_current_slot()\l# internal_max_concurrency()\l}" alt="" coords="5,5,199,303"/>
+</map>

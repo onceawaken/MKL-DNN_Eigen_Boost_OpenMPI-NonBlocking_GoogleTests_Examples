@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00575.html" title="tbb::internal::partition\l_type_base\&lt; auto_partition_type \&gt;" alt="" coords="5,20,228,61"/>
+<area shape="rect" id="node2" href="$a00027.html" title="tbb::interface9::internal\l::adaptive_mode\&lt; auto_partition_type \&gt;" alt="" coords="276,20,528,61"/>
+<area shape="rect" id="node3" href="$a00232.html" title="tbb::interface9::internal\l::dynamic_grainsize_mode\l\&lt; adaptive_mode\&lt; auto_partition\l_type \&gt; \&gt;" alt="" coords="576,5,788,76"/>
+<area shape="rect" id="node4" href="$a00099.html" title="tbb::interface9::internal\l::auto_partition_type" alt="" coords="836,20,991,61"/>
+</map>

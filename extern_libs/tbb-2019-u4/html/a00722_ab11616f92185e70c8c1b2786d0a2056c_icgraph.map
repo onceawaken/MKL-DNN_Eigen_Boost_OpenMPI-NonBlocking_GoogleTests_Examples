@@ -1,0 +1,4 @@
+<map id="tbb::spin_rw_mutex_v3::internal_release_reader" name="tbb::spin_rw_mutex_v3::internal_release_reader">
+<area shape="rect" id="node2" href="$a00722.html#abe7bd52786921ba0f923444c91232b08" title="Internal upgrade reader to become a writer. " alt="" coords="210,5,357,47"/>
+<area shape="rect" id="node3" href="$a00690.html#a99e279a995a51abfb87b865e886949f8" title="Release lock. " alt="" coords="196,71,371,112"/>
+</map>

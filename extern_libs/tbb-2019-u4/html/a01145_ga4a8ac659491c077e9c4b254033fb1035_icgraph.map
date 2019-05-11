@@ -1,0 +1,5 @@
+<map id="tbb::interface9::internal::select_parallel_do" name="tbb::interface9::internal::select_parallel_do">
+<area shape="rect" id="node2" href="$a01145.html#ga533f6732498ade8634a9470cbf89192d" title="Parallel iteration over a range, with optional addition of more work. " alt="" coords="208,42,319,69"/>
+<area shape="rect" id="node3" href="$a00568.html#a6feb63b5a2eff38d040399ca2a5b0f5a" title="tbb::internal::parallel\l_for_each_impl::doit" alt="" coords="367,5,505,47"/>
+<area shape="rect" id="node4" href="$a01145.html#ga135f72b966cd78a14f6aa1ddf0480701" title="tbb::parallel_do" alt="" coords="381,71,491,98"/>
+</map>

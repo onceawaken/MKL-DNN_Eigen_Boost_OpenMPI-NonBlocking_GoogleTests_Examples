@@ -1,0 +1,7 @@
+<map id="tbb::internal::is_bit_set" name="tbb::internal::is_bit_set">
+<area shape="rect" id="node2" href="$a00793.html#ad034dbcc7bd22f6af5fbeef7aae9c60e" title="Destroys all remaining tasks in every lane. Returns the number of destroyed tasks. " alt="" coords="239,5,391,61"/>
+<area shape="rect" id="node3" href="$a00793.html#a7eb7e2f599540e2a0cda5d4f6efe5dea" title="Try finding and popping a task. " alt="" coords="239,85,391,141"/>
+<area shape="rect" id="node4" href="$a00793.html#aefd3bd1de3f40584d2a2b5007d54083e" title="Try finding and popping a related task. " alt="" coords="237,165,393,221"/>
+<area shape="rect" id="node5" href="$a00793.html#a9d7a47a8c307c67a94860bae95ccea0e" title="Returns pointer to task on successful pop, otherwise &#45; NULL. " alt="" coords="239,245,391,301"/>
+<area shape="rect" id="node6" href="$a00612.html#a645881e0897e03b1b29b30d91302d46d" title="tbb::internal::queue\l_and_mutex::~queue_and_mutex" alt="" coords="208,325,423,366"/>
+</map>

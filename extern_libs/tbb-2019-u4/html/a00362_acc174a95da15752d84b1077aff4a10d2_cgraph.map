@@ -1,0 +1,5 @@
+<map id="tbb::internal::input_buffer::destroy_my_tls" name="tbb::internal::input_buffer::destroy_my_tls">
+<area shape="rect" id="node2" href="$a00105.html#a9984a1875a97676a751467ad3624b306" title="tbb::internal::basic\l_tls::destroy" alt="" coords="215,5,345,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="212,71,348,112"/>
+<area shape="rect" id="node4" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="396,71,532,112"/>
+</map>

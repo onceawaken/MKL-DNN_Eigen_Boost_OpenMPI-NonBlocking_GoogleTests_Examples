@@ -1,0 +1,5 @@
+<map id="tbb::internal::destroy_process_mask" name="tbb::internal::destroy_process_mask">
+<area shape="rect" id="node2" href="$a01133.html#abbc9695c3864361824bcb4f7f263bd11" title="check for transaction support. " alt="" coords="224,5,347,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="226,71,345,112"/>
+<area shape="rect" id="node4" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="195,136,376,177"/>
+</map>

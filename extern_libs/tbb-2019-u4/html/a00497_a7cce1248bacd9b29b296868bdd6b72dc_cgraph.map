@@ -1,0 +1,8 @@
+<map id="tbb::internal::micro_queue::assign" name="tbb::internal::micro_queue::assign">
+<area shape="rect" id="node2" href="$a00497.html#ac452eec7729e4ea11f227ce2f8793179" title="tbb::internal::micro\l_queue::make_copy" alt="" coords="189,37,327,79"/>
+<area shape="rect" id="node5" href="$a00497.html#a6f97a68520f2c6a7cf67d03c476ca4ef" title="tbb::internal::micro\l_queue::make_invalid" alt="" coords="184,103,332,144"/>
+<area shape="rect" id="node6" href="$a01133.html#ae4046a97e0542e3bb86bf9c54b0861e2" title="A function to compute arg modulo divisor where divisor is a power of 2. " alt="" coords="188,168,328,209"/>
+<area shape="rect" id="node3" href="$a00149.html#a2df8f1ca6bc7635e07aa2f84b0d5296f" title="custom allocator " alt="" coords="387,5,595,47"/>
+<area shape="rect" id="node4" href="$a00149.html#a3a7950445a7c25528666d0bb3ab9fb4c" title="tbb::internal::concurrent\l_queue_base_v3::copy_page_item" alt="" coords="380,71,603,112"/>
+<area shape="rect" id="node7" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="416,168,567,209"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="mailbox.h" name="mailbox.h">
+<area shape="rect" id="node2" href="$a01098.html" title="tbb/tbb_stddef.h" alt="" coords="913,453,1029,480"/>
+<area shape="rect" id="node7" href="$a00972.html" title="tbb/cache_aligned_allocator.h" alt="" coords="5,379,200,405"/>
+<area shape="rect" id="node9" href="$a01063.html" title="scheduler_common.h" alt="" coords="832,80,979,107"/>
+<area shape="rect" id="node16" href="$a00965.html" title="atomic.h" alt="" coords="713,304,785,331"/>
+<area shape="rect" id="node3" href="$a01085.html" title="tbb_config.h" alt="" coords="924,528,1017,555"/>
+<area shape="rect" id="node10" href="$a01089.html" title="tbb/tbb_machine.h" alt="" coords="959,379,1089,405"/>
+<area shape="rect" id="node12" href="$a01097.html" title="tbb_statistics.h" alt="" coords="1346,229,1457,256"/>
+<area shape="rect" id="node13" href="$a01073.html" title="tbb/task.h" alt="" coords="725,155,805,181"/>
+<area shape="rect" id="node18" href="$a01088.html" title="tbb/tbb_exception.h" alt="" coords="377,304,513,331"/>
+<area shape="rect" id="node24" href="$a01068.html" title="tbb/spin_mutex.h" alt="" coords="1025,155,1148,181"/>
+<area shape="rect" id="node14" href="$a01095.html" title="tbb_profiling.h" alt="" coords="714,229,817,256"/>
+<area shape="rect" id="node15" href="$a00955.html" title="internal/_tbb_strings.h" alt="" coords="810,304,961,331"/>
+<area shape="rect" id="node21" href="$a01082.html" title="tbb_allocator.h" alt="" coords="224,379,331,405"/>
+<area shape="rect" id="node25" href="$a00962.html" title="aligned_space.h" alt="" coords="1138,304,1254,331"/>
+<area shape="rect" id="node26" href="$a00952.html" title="internal/_mutex_padding.h" alt="" coords="943,229,1118,256"/>
+</map>

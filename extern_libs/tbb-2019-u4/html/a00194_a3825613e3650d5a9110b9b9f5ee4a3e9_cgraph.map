@@ -1,0 +1,8 @@
+<map id="tbb::internal::custom_scheduler::receive_or_steal_task" name="tbb::internal::custom_scheduler::receive_or_steal_task">
+<area shape="rect" id="node2" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="207,13,361,39"/>
+<area shape="rect" id="node5" href="$a01133.html#a0c5ac9e978873b08137acc8b6d584567" title="tbb::internal::prolonged\l_pause" alt="" coords="207,64,361,105"/>
+<area shape="rect" id="node3" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="438,13,551,39"/>
+<area shape="rect" id="node4" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="628,5,759,47"/>
+<area shape="rect" id="node6" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="640,98,747,125"/>
+<area shape="rect" id="node7" href="$a00082.html#ab191a4e1ce3ad928beb0dfd86ebd5d50" title="Pause for a few times and return false if saturated. " alt="" coords="409,119,580,160"/>
+</map>

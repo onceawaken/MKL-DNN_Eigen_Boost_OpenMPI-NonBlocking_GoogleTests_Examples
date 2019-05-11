@@ -1,0 +1,8 @@
+<map id="tbb::interface6::enumerable_thread_specific::enumerable_thread_specific" name="tbb::interface6::enumerable_thread_specific::enumerable_thread_specific">
+<area shape="rect" id="node2" href="$a01113.html#ac41903d6b80e61bd6c605412e7820e08" title="tbb::move" alt="" coords="245,46,325,73"/>
+<area shape="rect" id="node3" href="$a01133.html#abb11c7c316e44b5f97962d62e9ea5f70" title="tbb::internal::move_v3" alt="" coords="373,46,524,73"/>
+<area shape="rect" id="node4" href="$a00808.html#a4ddee0e2030f8fa947fd93f403178104" title="tbb::internal::tbb\l_thread_v3::joinable" alt="" coords="753,5,892,47"/>
+<area shape="rect" id="node5" href="$a00808.html#aed1dc35a70fc537682452a1c7bd77faf" title="When detach() returns, *this no longer represents the possibly continuing thread of execution..." alt="" coords="572,69,705,111"/>
+<area shape="rect" id="node6" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="755,71,891,112"/>
+<area shape="rect" id="node7" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="940,100,1076,141"/>
+</map>

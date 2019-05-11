@@ -1,0 +1,5 @@
+<map id="tbb::spin_mutex::try_lock" name="tbb::spin_mutex::try_lock">
+<area shape="rect" id="node2" href="$a01089.html#ad95ec7e5b7103614f039c4019bf3b3f6" title="__TBB_TryLockByte" alt="" coords="223,5,365,32"/>
+<area shape="rect" id="node4" href="$a00042.html#aefcd343548f92c6e738febedf1d75f74" title="Pointer to beginning of array. " alt="" coords="229,57,359,98"/>
+<area shape="rect" id="node3" href="$a01107.html#a1ba16e606202cdec1e611e5c0df2b9f6" title="__TBB_machine_cmpswp1" alt="" coords="413,5,595,32"/>
+</map>

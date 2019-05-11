@@ -1,0 +1,4 @@
+<map id="tbb::interface9::internal::parallel_quick_sort" name="tbb::interface9::internal::parallel_quick_sort">
+<area shape="rect" id="node2" href="$a01145.html#gabdc90813499f91d3e32298cd6dc2fe45" title="Sorts the data in [begin,end) using the given comparator. " alt="" coords="208,13,327,39"/>
+<area shape="rect" id="node3" href="$a01145.html#ga73b58ac9249f49587d0b081c152af551" title="Sorts the data in [begin,end) with a default comparator std::less&lt;RandomAccessIterator&gt; ..." alt="" coords="375,13,493,39"/>
+</map>

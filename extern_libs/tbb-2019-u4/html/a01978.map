@@ -1,0 +1,6 @@
+<map id="tbb::mutex::scoped_lock" name="tbb::mutex::scoped_lock">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,132,157,224"/>
+<area shape="rect" id="node5" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="106,273,262,380"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,5,163,83"/>
+<area shape="rect" id="node4" href="$a00511.html" title="Wrapper around the platform&#39;s native lock. " alt="" coords="107,429,253,653"/>
+</map>

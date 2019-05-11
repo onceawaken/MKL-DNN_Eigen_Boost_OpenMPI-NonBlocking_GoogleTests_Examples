@@ -1,0 +1,9 @@
+<map id="tbb::aligned_space&lt; T, N &gt;" name="tbb::aligned_space&lt; T, N &gt;">
+<area shape="rect" id="node2" href="$a00042.html" title="{tbb::aligned_space\&lt; R \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="5,233,209,355"/>
+<area shape="rect" id="node3" href="$a00042.html" title="{tbb::aligned_space\l\&lt; T, MaxCapacity \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="233,226,437,362"/>
+<area shape="rect" id="node4" href="$a00042.html" title="{tbb::aligned_space\l\&lt; Range \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="461,226,665,362"/>
+<area shape="rect" id="node5" href="$a00042.html" title="{tbb::aligned_space\l\&lt; Item, max_arg_size \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="689,226,893,362"/>
+<area shape="rect" id="node6" href="$a00042.html" title="{tbb::aligned_space\l\&lt; tbb::internal::binary\l_semaphore \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="917,219,1121,369"/>
+<area shape="rect" id="node7" href="$a00042.html" title="{tbb::aligned_space\l\&lt; AlignType, MaxNElements \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="1145,226,1349,362"/>
+<area shape="rect" id="node8" href="$a00042.html" title="{tbb::aligned_space\l\&lt; Body \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="1373,226,1577,362"/>
+</map>

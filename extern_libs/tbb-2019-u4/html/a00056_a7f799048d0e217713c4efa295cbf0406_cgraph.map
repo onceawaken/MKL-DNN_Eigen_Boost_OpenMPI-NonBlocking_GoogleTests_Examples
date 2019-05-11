@@ -1,0 +1,9 @@
+<map id="tbb::internal::allowed_parallelism_control::apply_active" name="tbb::internal::allowed_parallelism_control::apply_active">
+<area shape="rect" id="node2" href="$a00489.html#a50bb92619e74a81b3f8552ccca139c9f" title="Set number of active workers. " alt="" coords="199,122,373,163"/>
+<area shape="rect" id="node3" href="$a01133.html#a9c086de4bb6ce45fe69a8fb911e5ebea" title="Utility template function returning lesser of the two values. " alt="" coords="435,5,554,32"/>
+<area shape="rect" id="node4" href="$a00489.html#af3e43d97626c3beff0b708c8089984fd" title="Recalculates the number of workers assigned to each arena in the list. " alt="" coords="425,57,564,98"/>
+<area shape="rect" id="node5" href="$a00391.html#a27a1cf03b6f163c2835d861fc6519aba" title="tbb::internal::intrusive\l_list_base::begin" alt="" coords="421,122,568,163"/>
+<area shape="rect" id="node6" href="$a00391.html#a61fa0658a500c11ff2cdf4c294c33e97" title="tbb::internal::intrusive\l_list_base::end" alt="" coords="421,187,568,229"/>
+<area shape="rect" id="node7" href="$a00489.html#a76b1783a39252c34da34d0cebfe101b5" title="Decrements market&#39;s refcount and destroys it in the end. " alt="" coords="425,253,564,294"/>
+<area shape="rect" id="node8" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="616,253,755,294"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface10::opencl_program::init" name="tbb::flow::interface10::opencl_program::init">
+<area shape="rect" id="node2" href="$a00535.html#ac100871628e92da33834b6ce989ff59f" title="tbb::flow::interface10\l::opencl_device::compiler\l_available" alt="" coords="200,5,371,61"/>
+<area shape="rect" id="node3" href="$a00254.html#afbcfb1334f89b9e6704ae897d22d4629" title="tbb::flow::interface10\l::opencl_program::file\l_reader::content" alt="" coords="212,85,359,141"/>
+<area shape="rect" id="node4" href="$a01115.html#a2404e93e290bab51602a278ff9ae5bd6" title="tbb::flow::interface10\l::enforce_cl_retcode" alt="" coords="213,165,357,206"/>
+<area shape="rect" id="node5" href="$a00254.html#a4257eeeed6120f1c7490c550b6a06db6" title="tbb::flow::interface10\l::opencl_program::file\l_reader::length" alt="" coords="212,229,359,285"/>
+<area shape="rect" id="node6" href="$a00535.html#af532566a5da4d9ac29cbd203473c4d2c" title="tbb::flow::interface10\l::opencl_device::linker\l_available" alt="" coords="209,309,361,365"/>
+</map>

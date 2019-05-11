@@ -1,0 +1,10 @@
+<map id="tbb::interface6::internal::aggregator_generic::start_handle_operations" name="tbb::interface6::internal::aggregator_generic::start_handle_operations">
+<area shape="rect" id="node2" href="$a01133.html#aea57866db2fc3fe1018c89b58109b39a" title="tbb::internal::__TBB\l_store_with_release" alt="" coords="635,44,773,86"/>
+<area shape="rect" id="node3" href="$a01133.html#ae998b9627068b137cb2047f9979fc9c1" title="tbb::internal::call\l_itt_notify" alt="" coords="255,40,374,82"/>
+<area shape="rect" id="node4" href="$a00083.html#a99458cf30b2b15d756c4366697f6cbd1" title="tbb::internal::atomic\l_impl::fetch_and_store" alt="" coords="237,106,392,147"/>
+<area shape="rect" id="node5" href="$a01133.html#ac4715a28e1dc69356c2dae5c2e84b5f4" title="tbb::internal::itt\l_store_word_with_release" alt="" coords="228,171,401,212"/>
+<area shape="rect" id="node7" href="$a01133.html#a9006317b947d3f9f7a457e295e5b8330" title="Spin UNTIL the value of the variable is equal to a given value. " alt="" coords="253,236,376,278"/>
+<area shape="rect" id="node6" href="$a01133.html#aca67a648bfa612f17afbe381b8f84720" title="tbb::internal::itt\l_store_pointer_with\l_release_v3" alt="" coords="451,98,585,154"/>
+<area shape="rect" id="node8" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="449,236,587,278"/>
+<area shape="rect" id="node9" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="651,244,757,270"/>
+</map>

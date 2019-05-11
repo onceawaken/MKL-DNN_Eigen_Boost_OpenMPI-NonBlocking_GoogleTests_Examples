@@ -1,0 +1,5 @@
+<map id="tbb::internal::preceding_lane_selector" name="tbb::internal::preceding_lane_selector">
+<area shape="rect" id="node2" href="$a00472.html" title="{tbb::internal::lane\l_selector_base\n|+ my_previous\l|+ lane_selector_base()\l}" alt="" coords="19,271,174,363"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="23,131,170,223"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="18,5,175,83"/>
+</map>

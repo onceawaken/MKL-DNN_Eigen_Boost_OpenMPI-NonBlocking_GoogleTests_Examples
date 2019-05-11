@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::opencl_memory::get_cl_mem" name="tbb::flow::interface10::opencl_memory::get_cl_mem">
+<area shape="rect" id="node2" href="$a00538.html#a877b0b9c000b673a55d89fa48c7cc3d4" title="tbb::flow::interface10\l::opencl_factory\&lt; default\l_device_filter \&gt;::enqueue\l_map_buffer" alt="" coords="255,5,423,76"/>
+<area shape="rect" id="node3" href="$a00538.html#ae57f4ae9af1e7ac5502cc0db43def837" title="tbb::flow::interface10\l::opencl_factory\&lt; default\l_device_filter \&gt;::enqueue\l_unmap_buffer" alt="" coords="255,100,423,171"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::opencl_device_list" name="tbb::flow::interface10::opencl_device_list">
+<area shape="rect" id="node3" href="$a00535.html" title="{tbb::flow::interface10\l::opencl_device\n|&#45; my_cl_device_id\l&#45; my_cl_command_queue\l|+ opencl_device()\l+ opencl_device()\l+ opencl_device()\l+ platform_profile()\l+ platform_version()\l+ platform_name()\l+ platform_vendor()\l+ platform_extensions()\l+ info()\l+ version()\land 21 more...\l}" alt="" coords="5,145,176,399"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="201,233,317,311"/>
+</map>

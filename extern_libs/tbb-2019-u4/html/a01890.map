@@ -1,0 +1,5 @@
+<map id="tbb::affinity_partitioner" name="tbb::affinity_partitioner">
+<area shape="rect" id="node2" href="$a00031.html" title="Defines entry point for affinity partitioner into tbb run&#45;time library. " alt="" coords="13,271,155,436"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,131,157,223"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,5,163,83"/>
+</map>

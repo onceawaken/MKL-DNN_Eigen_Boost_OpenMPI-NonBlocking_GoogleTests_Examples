@@ -1,0 +1,121 @@
+<map id="tbb::internal::make_critical" name="tbb::internal::make_critical">
+<area shape="rect" id="node2" href="$a00059.html#a334aae7c4cbeabb8f3924589517c0c5f" title="enqueue a task into starvation&#45;resistance queue " alt="" coords="764,730,895,771"/>
+<area shape="rect" id="node6" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="234,1434,347,1461"/>
+<area shape="rect" id="node105" href="$a01116.html#a3c767231059bfe26f0420ffd2294e6c1" title="Spawns a task inside graph arena. " alt="" coords="184,3322,397,3363"/>
+<area shape="rect" id="node3" href="$a00780.html#a8f872f1315ce7417dd9c00f2550d1abe" title="tbb::interface7::internal\l::task_arena_base::internal\l_enqueue" alt="" coords="1000,994,1179,1050"/>
+<area shape="rect" id="node4" href="$a00780.html#aa214b4121b92399cfa50b223500219fd" title="tbb::interface7::internal\l::task_arena_base::internal\l_execute" alt="" coords="1000,722,1179,778"/>
+<area shape="rect" id="node5" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="1018,802,1161,843"/>
+<area shape="rect" id="node7" href="$a00049.html#a42e1d669adc9327b70273179101805ab" title="tbb::internal::allocate\l_continuation_proxy::allocate" alt="" coords="734,416,925,458"/>
+<area shape="rect" id="node8" href="$a00048.html#a4ff38c5560806b0695506c33a19bc0c1" title="tbb::internal::allocate\l_child_proxy::allocate" alt="" coords="755,286,903,327"/>
+<area shape="rect" id="node9" href="$a00302.html#aa0d316e9f3063c6b57fa21e0716d4d77" title="Allocate task object, either from the heap or a free list. " alt="" coords="475,410,646,451"/>
+<area shape="rect" id="node10" href="$a00302.html#ad7c11742ee005f6d377095062b42a5d8" title="tbb::internal::generic\l_scheduler::generic_scheduler" alt="" coords="730,351,929,392"/>
+<area shape="rect" id="node11" href="$a00302.html#a8a62642cb4b1ba391b8d3b9a00dca541" title="Checks if t is affinitized to another thread, and if so, bundles it as proxy. " alt="" coords="750,598,909,654"/>
+<area shape="rect" id="node12" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="1007,354,1172,395"/>
+<area shape="rect" id="node13" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="1273,110,1439,166"/>
+<area shape="rect" id="node16" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="1283,502,1429,543"/>
+<area shape="rect" id="node20" href="$a01133.html#a35e1c039fac0fa1b7d8b4f491d557a86" title="tbb::internal::assert\l_task_valid" alt="" coords="493,527,628,568"/>
+<area shape="rect" id="node22" href="$a00194.html#a5e2c5878baf724264214e91070844487" title="Scheduler loop that dispatches tasks. " alt="" coords="754,846,905,902"/>
+<area shape="rect" id="node23" href="$a00302.html#aa101d77dc7a5e986270073e1c0e09cf6" title="tbb::internal::generic\l_scheduler::attach_arena" alt="" coords="477,1927,645,1968"/>
+<area shape="rect" id="node24" href="$a00059.html#aff17fc29650655b080b795be34179d20" title="Registers the worker with the arena and enters TBB scheduler dispatch loop. " alt="" coords="764,2572,895,2614"/>
+<area shape="rect" id="node31" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="741,2126,917,2167"/>
+<area shape="rect" id="node33" href="$a00302.html#aec1108924834fb3c3e1bc0d2142bccb0" title="Initialize a scheduler for a worker thread. " alt="" coords="1269,2346,1443,2387"/>
+<area shape="rect" id="node35" href="$a00302.html#ad965858a5e7cb5574926d8d1692063b5" title="Return task object to the memory allocator. " alt="" coords="469,1654,653,1695"/>
+<area shape="rect" id="node36" href="$a00302.html#a66e6dd672693eb34cd6fd46ed7a7c6a6" title="Destroy and deallocate this scheduler object. " alt="" coords="1000,1698,1179,1739"/>
+<area shape="rect" id="node43" href="$a00302.html#a720c816c0253fe199e4583cd24090e9b" title="Free a small task t that that was allocated by a different scheduler. " alt="" coords="744,1690,915,1746"/>
+<area shape="rect" id="node44" href="$a00781.html#a75c0c291f0020cf9be1234013ec4990b" title="Destroy a task. " alt="" coords="1012,1610,1167,1651"/>
+<area shape="rect" id="node45" href="$a00778.html#a391face6a5f6fee8eef31c737106ba7e" title="Enqueue task for starvation&#45;resistant execution. " alt="" coords="495,2058,626,2085"/>
+<area shape="rect" id="node46" href="$a00790.html#a3a144ac1ce1252f4b4da060d5d3f5ded" title="Returns a pointer to the encapsulated task or NULL, and frees proxy if necessary. ..." alt="" coords="490,1486,631,1527"/>
+<area shape="rect" id="node47" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="758,1523,901,1564"/>
+<area shape="rect" id="node48" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="1013,1262,1166,1303"/>
+<area shape="rect" id="node49" href="$a00302.html#a12dd37171af77214add72a973e6b71ba" title="Put task on free list. " alt="" coords="756,1458,903,1499"/>
+<area shape="rect" id="node54" href="$a00780.html#a8a4eade77ceb6be2604e8c99370e7e3a" title="tbb::interface7::internal\l::task_arena_base::internal\l_current_slot" alt="" coords="471,2109,650,2165"/>
+<area shape="rect" id="node55" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="484,1012,637,1038"/>
+<area shape="rect" id="node57" href="$a00194.html#ad4ec695868b3ae27a95f3e393601243a" title="Decrements ref_count of a predecessor. " alt="" coords="736,1006,923,1062"/>
+<area shape="rect" id="node58" href="$a00302.html#a868812dd8d875a225a6f589fdbaafe54" title="True if t is a task_proxy. " alt="" coords="489,1238,632,1279"/>
+<area shape="rect" id="node59" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="736,1188,923,1230"/>
+<area shape="rect" id="node60" href="$a00302.html#a33519b4cf710f8c46129672f79fb6ec4" title="tbb::internal::generic\l_scheduler::is_version\l_3_task" alt="" coords="485,1354,637,1410"/>
+<area shape="rect" id="node61" href="$a00793.html#a696c8d1310bde0ff575e04cc3b1daea8" title="tbb::internal::task\l_stream\&lt; num_priority\l_levels \&gt;::look_specific" alt="" coords="481,2189,640,2245"/>
+<area shape="rect" id="node62" href="$a00514.html#a52c89c3dcc4b72e4543bedbcd2953e19" title="tbb::internal::nested\l_arena_context::mimic\l_outermost_level" alt="" coords="483,2269,638,2325"/>
+<area shape="rect" id="node63" href="$a00098.html#ae85fb42cc6116169fcf448eb36333226" title="tbb::internal::auto\l_empty_task::prefix" alt="" coords="761,118,898,159"/>
+<area shape="rect" id="node64" href="$a00788.html#a378e7c8d7a89afe3940b9c0e236bca09" title="Push task onto back of list. " alt="" coords="477,1825,645,1852"/>
+<area shape="rect" id="node69" href="$a00778.html#a52ad4704f6241097b1e8cc19c082c35e" title="Change this to be a child of new_parent. " alt="" coords="499,1992,622,2034"/>
+<area shape="rect" id="node72" href="$a01133.html#a7a454ca6d8bb2b9fccde7e52a0c31856" title="tbb::internal::reset\l_extra_state" alt="" coords="497,942,624,983"/>
+<area shape="rect" id="node73" href="$a00778.html#a537d5c946c6715e0d76974dc53e616bc" title="sets parent task pointer to specified value " alt="" coords="489,2400,632,2426"/>
+<area shape="rect" id="node78" href="$a00781.html#aaa7fca7c3a53b5e7b2a55625cf2c00d8" title="Schedule task for execution when a worker becomes available. " alt="" coords="483,2516,638,2558"/>
+<area shape="rect" id="node79" href="$a00778.html#af19c8ef47d1feb6dae459a99efb8bd31" title="Spawn task allocated by allocate_root, wait for it to complete, and deallocate it. " alt="" coords="487,2752,635,2794"/>
+<area shape="rect" id="node96" href="$a00302.html#a2a0f285acb9cfb21b7df95a386bd6860" title="tbb::internal::generic\l_scheduler::wait_until_empty" alt="" coords="465,2818,656,2859"/>
+<area shape="rect" id="node98" href="$a00302.html#a4e7eff5365d63114c100e0a490e04884" title="True if the scheduler is on the outermost dispatch level in a worker thread. " alt="" coords="445,2451,676,2492"/>
+<area shape="rect" id="node104" href="$a00206.html#a0c46d15569d9df879a84be6ae6a39cd9" title="tbb::interface7::internal\l::delegated_task::~delegated_task" alt="" coords="449,2634,672,2675"/>
+<area shape="rect" id="node17" href="$a00047.html#a76de2db486f756635b3baf8ffab39eef" title="tbb::internal::allocate\l_additional_child_of_proxy\l::allocate" alt="" coords="1002,642,1177,698"/>
+<area shape="rect" id="node15" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="1286,354,1426,395"/>
+<area shape="rect" id="node14" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="1529,110,1689,166"/>
+<area shape="rect" id="node18" href="$a00047.html#ad10174176746913b5819549011883c3f" title="tbb::internal::allocate\l_additional_child_of_proxy\l::allocate_additional_child\l_of_proxy" alt="" coords="1269,952,1443,1023"/>
+<area shape="rect" id="node19" href="$a00051.html#a5803f3b67100086520196b8d395d2a14" title="tbb::internal::allocate\l_root_with_context_proxy\l::allocate_root_with_context_proxy" alt="" coords="1244,1282,1468,1338"/>
+<area shape="rect" id="node21" href="$a00302.html#a10c72a4aad7308d944cef26502ece55e" title="Get a task from the local pool. " alt="" coords="758,534,901,575"/>
+<area shape="rect" id="node27" href="$a00302.html#a7c98d05ea5c1e309b836335ea9af79fa" title="tbb::internal::generic\l_scheduler::nested_arena_entry" alt="" coords="726,2243,933,2284"/>
+<area shape="rect" id="node29" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="1015,2164,1163,2206"/>
+<area shape="rect" id="node25" href="$a00489.html#a574c6275a73f185d391151478e4a7634" title="tbb::internal::market\l::process" alt="" coords="1539,2599,1678,2640"/>
+<area shape="rect" id="node26" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="1754,2396,1893,2438"/>
+<area shape="rect" id="node28" href="$a00514.html#a836d39a027baf51a4ff995cc44adee05" title="tbb::internal::nested\l_arena_context::nested\l_arena_context" alt="" coords="1010,2229,1169,2285"/>
+<area shape="rect" id="node30" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="1288,2164,1424,2206"/>
+<area shape="rect" id="node32" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="1015,2099,1163,2140"/>
+<area shape="rect" id="node34" href="$a00489.html#ae5f4653c1ea43b7011f9099348849467" title="tbb::internal::market\l::create_one_job" alt="" coords="1539,2287,1678,2328"/>
+<area shape="rect" id="node37" href="$a00302.html#ae6a0b659589202963562cbdb23465807" title="Perform necessary cleanup when a worker thread finishes. " alt="" coords="1264,2012,1448,2054"/>
+<area shape="rect" id="node39" href="$a00302.html#ac223f7892d65e496c37190c4009ea1f7" title="Perform necessary cleanup when a master thread stops using TBB. " alt="" coords="1516,1904,1701,1946"/>
+<area shape="rect" id="node38" href="$a00489.html#a32eca56b49c13d239a2869c33c4a17b0" title="tbb::internal::market\l::cleanup" alt="" coords="1539,2108,1678,2150"/>
+<area shape="rect" id="node40" href="$a00307.html#a0962408ba1eaf67d0ad741a0749f3a4e" title="Processes scheduler termination request (possibly nested) in a master thread. " alt="" coords="1749,1938,1897,1979"/>
+<area shape="rect" id="node42" href="$a00307.html#a5fbd38947c75c1e8494bc1bac598a9fe" title="The internal routine to undo automatic initialization. " alt="" coords="1749,1872,1897,1914"/>
+<area shape="rect" id="node41" href="$a00791.html#a2647279bff44f88c82eead707d4c7a14" title="tbb::task_scheduler\l_init::internal_terminate" alt="" coords="1945,1938,2103,1979"/>
+<area shape="rect" id="node50" href="$a00098.html#ab443866ef525c5e113e38d7bc0f65a0b" title="tbb::internal::auto\l_empty_task::~auto_empty_task" alt="" coords="983,1458,1196,1499"/>
+<area shape="rect" id="node51" href="$a00049.html#a681282ec77816457ee409a6775aa415e" title="tbb::internal::allocate\l_continuation_proxy::free" alt="" coords="1005,1327,1173,1368"/>
+<area shape="rect" id="node52" href="$a00048.html#a2a6b401b674d801ae26402dc778b21bf" title="tbb::internal::allocate\l_child_proxy::free" alt="" coords="1018,1392,1161,1434"/>
+<area shape="rect" id="node53" href="$a00047.html#a65fbfed257af0abda4e109a27576667e" title="tbb::internal::allocate\l_additional_child_of_proxy::free" alt="" coords="987,1523,1192,1564"/>
+<area shape="rect" id="node56" href="$a00194.html#a3825613e3650d5a9110b9b9f5ee4a3e9" title="Try getting a task from the mailbox or stealing from another scheduler. " alt="" coords="753,926,906,982"/>
+<area shape="rect" id="node65" href="$a00886.html#a1377f3dd127981bcb99990996bed7fb9" title="Should be overridden by derived classes. " alt="" coords="756,1822,903,1863"/>
+<area shape="rect" id="node66" href="$a00218.html#a91131ee96dac1ac1b6e23ba708205200" title="Should be overridden by derived classes. " alt="" coords="747,1886,912,1942"/>
+<area shape="rect" id="node67" href="$a00219.html#a59c601e88ba31f2818ebcc3955599482" title="Should be overridden by derived classes. " alt="" coords="750,1966,909,2022"/>
+<area shape="rect" id="node68" href="$a00228.html#aebb622ab2f9e46491a9d7cdcf300c8bd" title="tbb::interface9::internal\l::do_task_iter::run_for\l_random_access_iterator" alt="" coords="745,2046,913,2102"/>
+<area shape="rect" id="node70" href="$a00771.html#ab1ee899f7cc6123ec8d0b0053d7f3e8a" title="tbb::internal::sum\l_node::create_child" alt="" coords="762,2308,897,2350"/>
+<area shape="rect" id="node71" href="$a00771.html#a53e6f29d8e3085e45d8896372be1bd0b" title="Should be overridden by derived classes. " alt="" coords="1028,2308,1151,2350"/>
+<area shape="rect" id="node74" href="$a01132.html#ac4236dcd3fe30778e6930c3785bd463c" title="allocate right task with new parent " alt="" coords="752,2499,907,2540"/>
+<area shape="rect" id="node75" href="$a00729.html#a176a32f32cd87efa33faf53d19a15c96" title="spawn right task, serves as callback for partitioner " alt="" coords="1012,2570,1167,2611"/>
+<area shape="rect" id="node76" href="$a00731.html#a01f8832834bde49b03c7d4b617acb06d" title="spawn right task, serves as callback for partitioner " alt="" coords="1004,2635,1175,2676"/>
+<area shape="rect" id="node77" href="$a00728.html#afe17dace21bda2ab77d9952903f319a6" title="tbb::interface9::internal\l::start_deterministic_reduce\l::offer_work" alt="" coords="998,2490,1181,2546"/>
+<area shape="rect" id="node80" href="$a00729.html#aa1762bde7c3f7fc628123175f52790c4" title="tbb::interface9::internal\l::start_for::run" alt="" coords="752,2752,907,2794"/>
+<area shape="rect" id="node87" href="$a00731.html#a36a113c75a7a83185efffd849efc9c76" title="tbb::interface9::internal\l::start_reduce::run" alt="" coords="752,2818,907,2859"/>
+<area shape="rect" id="node89" href="$a00732.html#a148a612f5856ab9514df63e688a78d06" title="tbb::internal::start\l_scan::run" alt="" coords="767,2883,891,2924"/>
+<area shape="rect" id="node92" href="$a00728.html#a5b1d6b6891c80f9694e1ad6ed7ee2b8b" title="tbb::interface9::internal\l::start_deterministic_reduce::run" alt="" coords="725,2948,934,2990"/>
+<area shape="rect" id="node95" href="$a00589.html#a9dd57c1b58dd2cd3a9b22db10c604726" title="Run the pipeline to completion. " alt="" coords="770,2701,889,2728"/>
+<area shape="rect" id="node81" href="$a01145.html#gaa8444c29dc4d2e527a1036717d109aef" title="Parallel iteration over range with default partitioner. " alt="" coords="1034,2770,1145,2797"/>
+<area shape="rect" id="node82" href="$a00569.html#afaeacfcdb47ebb412e1748e011278b8c" title="tbb::internal::parallel\l_for_each_impl\&lt; Iterator,\l Function, std::random_access\l_iterator_tag \&gt;::doit" alt="" coords="1255,2675,1457,2746"/>
+<area shape="rect" id="node83" href="$a01141.html#af7e92accea40b9e372385af8f21d74b0" title="Implementation of parallel iteration over stepped range of integers with explicit step and partitione..." alt="" coords="1281,2770,1431,2811"/>
+<area shape="rect" id="node84" href="$a01145.html#ga8ea99adce8e471393803c5abca0c34fe" title="Wrapper method to initiate the sort by calling parallel_for. " alt="" coords="1279,2835,1433,2876"/>
+<area shape="rect" id="node85" href="$a01145.html#gabdc90813499f91d3e32298cd6dc2fe45" title="Sorts the data in [begin,end) using the given comparator. " alt="" coords="1549,2842,1668,2869"/>
+<area shape="rect" id="node86" href="$a01145.html#ga73b58ac9249f49587d0b081c152af551" title="Sorts the data in [begin,end) with a default comparator std::less&lt;RandomAccessIterator&gt; ..." alt="" coords="1764,2842,1883,2869"/>
+<area shape="rect" id="node88" href="$a01145.html#ga7b1ce9568e0a0efe1bd2d55677bc6687" title="Parallel iteration with reduction and default partitioner. " alt="" coords="1022,2825,1157,2852"/>
+<area shape="rect" id="node90" href="$a01145.html#gae7eaaf124471a6c603b28fc925e8fbbb" title="Parallel prefix with default partitioner. " alt="" coords="1027,2894,1151,2921"/>
+<area shape="rect" id="node91" href="$a01145.html#ga7dd68a232bb3102788792fcf081a2ab6" title="Parallel prefix with default partitioner. " alt="" coords="1294,2901,1418,2928"/>
+<area shape="rect" id="node93" href="$a01145.html#ga1fd7e3c43592dfe1ae3e3572bd80d4f6" title="Parallel iteration with deterministic reduction and default simple partitioner. " alt="" coords="1004,2948,1175,2990"/>
+<area shape="rect" id="node94" href="$a01145.html#ga7f69e6a632acb51ed26a43ebd331f349" title="Parallel iteration with deterministic reduction and default simple partitioner. " alt="" coords="1271,2952,1441,2994"/>
+<area shape="rect" id="node97" href="$a00780.html#ac2e8d6966eaf2b8c898bc6aa65149193" title="tbb::interface7::internal\l::task_arena_base::internal_wait" alt="" coords="724,3014,935,3055"/>
+<area shape="rect" id="node99" href="$a00059.html#a2730864663493597ac0fed43356e953b" title="Completes arena shutdown, destructs and deallocates it. " alt="" coords="764,2428,895,2470"/>
+<area shape="rect" id="node100" href="$a00489.html#a798355f9d896223c97ac403c879987be" title="Removes the arena from the market&#39;s list. " alt="" coords="1020,2426,1159,2467"/>
+<area shape="rect" id="node101" href="$a00059.html#af5ce7404b60b78dee1ce689cfe903734" title="Notification that worker or master leaves its arena. " alt="" coords="1289,2420,1423,2462"/>
+<area shape="rect" id="node102" href="$a00780.html#ae01d134b4edd1c8887f166fb55c66aa5" title="tbb::interface7::internal\l::task_arena_base::internal\l_initialize" alt="" coords="1519,2352,1698,2408"/>
+<area shape="rect" id="node103" href="$a00780.html#ac4dfdae54413299145035fee965972dd" title="tbb::interface7::internal\l::task_arena_base::internal\l_terminate" alt="" coords="1519,2432,1698,2488"/>
+<area shape="rect" id="node106" href="$a00289.html#adaed0573e472e2cb8feb8e456ee03215" title="internal::function\l_input::apply_body_impl\l_bypass" alt="" coords="479,3282,642,3338"/>
+<area shape="rect" id="node107" href="$a00947.html#a740e246d8fe4cc94c2fbf465038a242b" title="check_task_and_spawn" alt="" coords="479,3362,642,3389"/>
+<area shape="rect" id="node110" href="$a00439.html#a5f4ce87d6301ec077af52123735a1fec" title="internal::join_node\l_FE\&lt; reserving, InputTuple,\l OutputTuple \&gt;::decrement\l_port_count" alt="" coords="469,3414,653,3484"/>
+<area shape="rect" id="node111" href="$a00437.html#a1b004a712695c89d46184c333dda7ec5" title="internal::join_node\l_FE\&lt; queueing, InputTuple,\l OutputTuple \&gt;::decrement\l_port_count" alt="" coords="469,3508,652,3579"/>
+<area shape="rect" id="node112" href="$a00435.html#a1c7c2e9686e298e99d1ed5e6f54f909f" title="internal::join_node\l_FE\&lt; key_matching\&lt; K,\l KHash \&gt;, InputTuple,\l OutputTuple \&gt;::fill_output\l_buffer" alt="" coords="474,3604,647,3689"/>
+<area shape="rect" id="node113" href="$a00475.html#aca3f2d22118ca2eea8106d75a0a917da" title="tbb::flow::interface10\l::limiter_node::forward_task" alt="" coords="469,3714,652,3755"/>
+<area shape="rect" id="node114" href="$a00429.html#aa28b193214aee745acb2d83bd511e686" title="internal::join_node\l_base::handle_operations" alt="" coords="475,3779,646,3820"/>
+<area shape="rect" id="node115" href="$a00475.html#a4691b0a2f13afe88e4e4071db30cdf60" title="Adds src to the list of cached predecessors. " alt="" coords="485,3844,636,3900"/>
+<area shape="rect" id="node116" href="$a00475.html#aef51f38076243cef1eec6cc80e82fed8" title="Replace the current successor with this new successor. " alt="" coords="485,2882,636,2938"/>
+<area shape="rect" id="node117" href="$a00550.html#ab916be127a0e573e6482c10981e1bd94" title="Add a new successor to this node. " alt="" coords="476,2962,645,3018"/>
+<area shape="rect" id="node118" href="$a00308.html#a6a16a577444f8eb0cecc2452fbfec539" title="tbb::flow::interface10\l::graph::reset" alt="" coords="489,3042,633,3083"/>
+<area shape="rect" id="node119" href="$a00291.html#a56cff970f89d207a6b731ff4afa8b78f" title="Spawns a task that calls forward() " alt="" coords="445,3108,676,3193"/>
+<area shape="rect" id="node120" href="$a00716.html#aef0299ba24789d0126a1ee6cafc26b97" title="Spawns a task that applies the body. " alt="" coords="473,3218,648,3259"/>
+<area shape="rect" id="node108" href="$a00235.html#a999d3613df0d984df9cc61e4f9c049d1" title="internal::emit_element\l::emit_this" alt="" coords="754,3387,905,3428"/>
+<area shape="rect" id="node109" href="$a00237.html#a26dc5762a8e336c03189094107632447" title="internal::emit_element\l\&lt; 1 \&gt;::emit_this" alt="" coords="754,3322,905,3363"/>
+</map>

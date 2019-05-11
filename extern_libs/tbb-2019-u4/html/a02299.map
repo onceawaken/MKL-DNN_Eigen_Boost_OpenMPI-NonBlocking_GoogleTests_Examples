@@ -1,0 +1,16 @@
+<map id="tbb::flow::interface10::split_node&lt; TupleType, Allocator &gt;" name="tbb::flow::interface10::split_node&lt; TupleType, Allocator &gt;">
+<area shape="rect" id="node2" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="891,1472,1035,1593"/>
+<area shape="rect" id="node5" href="$a00308.html" title="The graph class. " alt="" coords="407,1700,580,2041"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="313,191,460,283"/>
+<area shape="rect" id="node13" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="93,551,249,657"/>
+<area shape="rect" id="node15" href="$a00784.html" title="Used to form groups of tasks. " alt="" coords="109,828,309,1419"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="308,5,465,83"/>
+<area shape="rect" id="node8" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="497,404,711,804"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="743,565,841,643"/>
+<area shape="rect" id="node12" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="5,1443,152,1623"/>
+<area shape="rect" id="node16" href="$a00644.html" title="{tbb::flow::interface10\l::receiver\&lt; TupleType \&gt;\n||+ try_put()\l+ try_put()\l# try_put_task_wrapper()\l# try_put_task()\l}" alt="" coords="1121,1465,1287,1601"/>
+<area shape="rect" id="node17" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="1009,132,1188,341"/>
+<area shape="rect" id="node18" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="1121,536,1287,672"/>
+<area shape="rect" id="node19" href="$a00910.html" title="{tbb::flow::interface10\l::internal::wrap_tuple\l_elements\&lt; N, internal\l::multifunction_output,\l TupleType \&gt;\n||}" alt="" coords="1325,1465,1480,1601"/>
+<area shape="rect" id="node20" href="$a00910.html" title="{tbb::flow::interface10\l::internal::wrap_tuple\l_elements\&lt; N, PT, TypeTuple \&gt;\n||}" alt="" coords="1311,551,1521,657"/>
+</map>

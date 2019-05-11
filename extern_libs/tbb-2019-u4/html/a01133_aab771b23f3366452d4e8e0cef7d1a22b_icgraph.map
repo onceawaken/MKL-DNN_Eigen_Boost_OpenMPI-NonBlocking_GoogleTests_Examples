@@ -1,0 +1,8 @@
+<map id="tbb::internal::fgt_multiinput_multioutput_node_desc" name="tbb::internal::fgt_multiinput_multioutput_node_desc">
+<area shape="rect" id="node2" href="$a00135.html#a5392274349f8403f94d3c6394340ac0c" title="tbb::flow::interface10\l::composite_node\&lt; tbb\l::flow::tuple\&lt; InputTypes...\l \&gt;, tbb::flow::tuple\&lt; OutputTypes...\l \&gt; \&gt;::add_nodes" alt="" coords="210,5,437,91"/>
+<area shape="rect" id="node3" href="$a00136.html#ac6bbc417249dc95c10a72d999a608770" title="tbb::flow::interface10\l::composite_node\&lt; tbb\l::flow::tuple\&lt; InputTypes...\l \&gt;, tbb::flow::tuple\&lt;\&gt; \&gt;::add_nodes" alt="" coords="210,115,437,186"/>
+<area shape="rect" id="node4" href="$a00137.html#acc4bca8b48e2cd48554284708a7be83d" title="tbb::flow::interface10\l::composite_node\&lt; tbb\l::flow::tuple\&lt;\&gt;, tbb::flow\l::tuple\&lt; OutputTypes... \&gt;\l \&gt;::add_nodes" alt="" coords="239,211,408,296"/>
+<area shape="rect" id="node5" href="$a00135.html#adfe813b68bed298aa264eaa6057ad15c" title="tbb::flow::interface10\l::composite_node\&lt; tbb\l::flow::tuple\&lt; InputTypes...\l \&gt;, tbb::flow::tuple\&lt; OutputTypes...\l \&gt; \&gt;::reset_node" alt="" coords="210,320,437,405"/>
+<area shape="rect" id="node6" href="$a00136.html#a5ded5a7a3c265fba0bfa56e327211822" title="tbb::flow::interface10\l::composite_node\&lt; tbb\l::flow::tuple\&lt; InputTypes...\l \&gt;, tbb::flow::tuple\&lt;\&gt; \&gt;::reset_node" alt="" coords="209,430,437,501"/>
+<area shape="rect" id="node7" href="$a00137.html#a0018dc8e4a055620f620bf8317155c52" title="tbb::flow::interface10\l::composite_node\&lt; tbb\l::flow::tuple\&lt;\&gt;, tbb::flow\l::tuple\&lt; OutputTypes... \&gt;\l \&gt;::reset_node" alt="" coords="239,525,408,611"/>
+</map>

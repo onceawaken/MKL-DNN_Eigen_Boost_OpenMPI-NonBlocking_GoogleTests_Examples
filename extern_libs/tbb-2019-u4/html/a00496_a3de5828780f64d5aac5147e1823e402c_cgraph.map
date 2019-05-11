@@ -1,0 +1,9 @@
+<map id="tbb::strict_ppl::internal::micro_queue::spin_wait_until_my_turn" name="tbb::strict_ppl::internal::micro_queue::spin_wait_until_my_turn">
+<area shape="rect" id="node2" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="220,5,357,47"/>
+<area shape="rect" id="node4" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="223,71,354,112"/>
+<area shape="rect" id="node3" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="417,13,524,39"/>
+<area shape="rect" id="node5" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="405,71,536,112"/>
+<area shape="rect" id="node6" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="615,5,734,47"/>
+<area shape="rect" id="node7" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="584,71,765,112"/>
+<area shape="rect" id="node8" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="589,137,761,163"/>
+</map>

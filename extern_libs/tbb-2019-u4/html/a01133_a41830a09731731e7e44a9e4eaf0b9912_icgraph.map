@@ -1,0 +1,4 @@
+<map id="tbb::internal::fgt_multioutput_node_desc" name="tbb::internal::fgt_multioutput_node_desc">
+<area shape="rect" id="node2" href="$a00076.html#a233564a3ef67e4dcc8161f820b38c05c" title="tbb::flow::interface10\l::async_node::gateway" alt="" coords="241,5,399,47"/>
+<area shape="rect" id="node3" href="$a00436.html#a628436ef228b0585d0ef109a00db8c4e" title="tbb::flow::interface10\l::internal::join_node\l_FE\&lt; key_matching\&lt; K, KHash\l \&gt;, InputTuple, OutputTuple\l \&gt;::tuple_build_may_succeed" alt="" coords="216,71,424,157"/>
+</map>

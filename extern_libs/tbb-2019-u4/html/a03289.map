@@ -1,0 +1,8 @@
+<map id="tbb::internal::concurrent_monitor" name="tbb::internal::concurrent_monitor">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="335,139,482,231"/>
+<area shape="rect" id="node4" href="$a00128.html" title="Circular doubly&#45;linked list with sentinel. " alt="" coords="85,301,255,599"/>
+<area shape="rect" id="node8" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="331,397,487,503"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="330,5,487,83"/>
+<area shape="rect" id="node6" href="$a00521.html" title="{tbb::internal::circular\l_doubly_linked_list_with\l_sentinel::node_t\n||+ node_t()\l}" alt="" coords="87,132,250,239"/>
+<area shape="rect" id="node7" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="331,648,478,828"/>
+</map>

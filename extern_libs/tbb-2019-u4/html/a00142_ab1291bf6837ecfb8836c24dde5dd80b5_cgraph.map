@@ -1,0 +1,11 @@
+<map id="tbb::concurrent_bounded_queue::~concurrent_bounded_queue" name="tbb::concurrent_bounded_queue::~concurrent_bounded_queue">
+<area shape="rect" id="node2" href="$a00147.html#ad3384818fb6350a494d5ec62445e59ee" title="Clear the queue. not thread&#45;safe. " alt="" coords="292,35,463,77"/>
+<area shape="rect" id="node9" href="$a00148.html#a318f1cb91ca3fa2feb2dbb0d5210f4da" title="free any remaining pages " alt="" coords="293,115,461,171"/>
+<area shape="rect" id="node3" href="$a00147.html#aeda3156929d0c250faed7b807ca6ab0e" title="Equivalent to size()==0. " alt="" coords="511,21,681,62"/>
+<area shape="rect" id="node5" href="$a00147.html#aabb1acef18196fa11ed7db8e046c3943" title="Attempt to dequeue an item from head of queue. " alt="" coords="511,86,681,127"/>
+<area shape="rect" id="node4" href="$a00148.html#a8ad9bde66278affddce018f7848da572" title="check if the queue is empty; thread safe " alt="" coords="729,5,897,61"/>
+<area shape="rect" id="node6" href="$a00148.html#aba7c8bda7a044dce67f46a971dc7193a" title="Attempt to dequeue item from queue. " alt="" coords="729,85,897,141"/>
+<area shape="rect" id="node7" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="945,57,1123,98"/>
+<area shape="rect" id="node8" href="$a00158.html#a18c4afb8c4d7675520e4c3f3b8cd272e" title="tbb::strict_ppl::internal\l::concurrent_queue_rep\l::choose" alt="" coords="955,121,1113,177"/>
+<area shape="rect" id="node10" href="$a01142.html#a7c1f291b58668d6c1227cb00d527aaeb" title="tbb::strict_ppl::internal\l::is_valid_page" alt="" coords="521,151,671,193"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tbb::internal::DummyFree" name="tbb::internal::DummyFree">
+<area shape="rect" id="node2" href="$a01133.html#ac6c57720b7096491ee91d3c2fe1c4240" title="Returns true if standard malloc/free are used to work with memory. " alt="" coords="224,5,377,47"/>
+<area shape="rect" id="node3" href="$a00797.html#aa4606cff0156ec4237c1571204851bfb" title="Returns current allocator. " alt="" coords="425,5,548,47"/>
+</map>

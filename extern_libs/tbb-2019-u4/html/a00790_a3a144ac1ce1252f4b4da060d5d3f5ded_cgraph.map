@@ -1,0 +1,9 @@
+<map id="tbb::internal::task_proxy::extract_task" name="tbb::internal::task_proxy::extract_task">
+<area shape="rect" id="node2" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="205,5,343,47"/>
+<area shape="rect" id="node3" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="195,71,353,98"/>
+<area shape="rect" id="node4" href="$a00790.html#a364254f54e3817ee490eab693b9ee916" title="True if the proxy is stored both in its sender&#39;s pool and in the destination mailbox. " alt="" coords="211,123,337,164"/>
+<area shape="rect" id="node5" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="217,189,331,215"/>
+<area shape="rect" id="node8" href="$a00790.html#a692bc943f855fd765269bcb65695b283" title="Returns a pointer to the encapsulated task or NULL. " alt="" coords="213,240,335,281"/>
+<area shape="rect" id="node6" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="401,159,555,186"/>
+<area shape="rect" id="node7" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="413,211,543,252"/>
+</map>

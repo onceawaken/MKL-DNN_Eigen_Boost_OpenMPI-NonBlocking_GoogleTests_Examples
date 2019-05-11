@@ -1,0 +1,6 @@
+<map id="tbb::internal::concurrent_queue_base_v3" name="tbb::internal::concurrent_queue_base_v3">
+<area shape="rect" id="node4" href="$a00150.html" title="For internal use only. " alt="" coords="9,645,209,825"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="36,131,183,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="31,5,188,83"/>
+<area shape="rect" id="node5" href="$a00142.html" title="A high&#45;performance thread&#45;safe blocking concurrent bounded queue. " alt="" coords="16,873,203,1317"/>
+</map>

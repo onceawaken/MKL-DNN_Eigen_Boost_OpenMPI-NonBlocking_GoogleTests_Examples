@@ -1,0 +1,25 @@
+var a00076 =
+[
+    [ "receiver_gateway_impl", "a00646.html", "a00646" ],
+    [ "try_put_functor", "a00835.html", "a00835" ],
+    [ "async_body_base_type", "a00076.html#a3fafeb59609d573ca0205cb92e73125f", null ],
+    [ "base_type", "a00076.html#aef8cb06fc052641c73748361e16bd55b", null ],
+    [ "gateway_type", "a00076.html#a427fbd0a653d63d67f4817630bf8d619", null ],
+    [ "input_type", "a00076.html#a7849dda6f6d0a5f9b4be27a1fe04b70d", null ],
+    [ "mfn_input_type", "a00076.html#afc7514de145cbff17ea0f92467f9bdfe", null ],
+    [ "output_ports_type", "a00076.html#a39bff4488644aba804c3a2c2326bebca", null ],
+    [ "output_type", "a00076.html#abc52b74df63b968102f6146b1a8ec60c", null ],
+    [ "predecessor_type", "a00076.html#a59b05d34f4c1a3bc2a020fe1868ee7b3", null ],
+    [ "receiver_type", "a00076.html#af0f5c725a712c1bafc29eeba2358f430", null ],
+    [ "successor_type", "a00076.html#a4031056ddb5760357a24b9753552bb50", null ],
+    [ "async_node", "a00076.html#a7fb34f240f66420afa8c9be00a4e5cb4", null ],
+    [ "async_node", "a00076.html#a74ec477cdf28f5cdaf96b3d7fcfc2fd5", null ],
+    [ "copy_function_object", "a00076.html#af934be9868f95931341aa6ca8875fbe6", null ],
+    [ "gateway", "a00076.html#a233564a3ef67e4dcc8161f820b38c05c", null ],
+    [ "register_successor", "a00076.html#a34c07c1ff2daf20a07660b37afffdbc5", null ],
+    [ "remove_successor", "a00076.html#a5d460ca731368bc0ce0d465f92f54192", null ],
+    [ "reset_node", "a00076.html#ad50b390e6a6571d19436a1b644d73ba3", null ],
+    [ "self", "a00076.html#ac4f48fb5f6aa63bd85e4e5314ad43121", null ],
+    [ "try_put_impl", "a00076.html#a77f8e4d1507b1b9ef57dc250f225b455", null ],
+    [ "my_gateway", "a00076.html#acddffd02a41453231fee872d61554a32", null ]
+];

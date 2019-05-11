@@ -1,0 +1,5 @@
+<map id="tbb::internal::set_one_bit" name="tbb::internal::set_one_bit">
+<area shape="rect" id="node2" href="$a00793.html#a1a280bfd897359f8334faadf48590f5e" title="Push a task into a lane. " alt="" coords="201,5,353,61"/>
+<area shape="rect" id="node3" href="$a00793.html#ab2ada2e594eb0cf73ef54ee5043e9c99" title="Returns true on successful push, otherwise &#45; false. " alt="" coords="201,85,353,141"/>
+<area shape="rect" id="node4" href="$a00612.html#a645881e0897e03b1b29b30d91302d46d" title="tbb::internal::queue\l_and_mutex::~queue_and_mutex" alt="" coords="169,165,384,206"/>
+</map>

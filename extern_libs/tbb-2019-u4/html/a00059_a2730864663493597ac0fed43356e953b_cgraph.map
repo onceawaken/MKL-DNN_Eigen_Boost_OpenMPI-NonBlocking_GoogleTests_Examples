@@ -1,0 +1,10 @@
+<map id="tbb::internal::arena::free_arena" name="tbb::internal::arena::free_arena">
+<area shape="rect" id="node2" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="220,5,379,32"/>
+<area shape="rect" id="node3" href="$a01147.html#ga7814c9ccc02b8fe5f712fb6fd8a2b607" title="Free memory allocated by NFS_Allocate. " alt="" coords="220,56,379,83"/>
+<area shape="rect" id="node4" href="$a00489.html#a76b1783a39252c34da34d0cebfe101b5" title="Decrements market&#39;s refcount and destroys it in the end. " alt="" coords="230,107,369,149"/>
+<area shape="rect" id="node6" href="$a00302.html#a4e7eff5365d63114c100e0a490e04884" title="True if the scheduler is on the outermost dispatch level in a worker thread. " alt="" coords="184,173,415,214"/>
+<area shape="rect" id="node5" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="463,107,601,149"/>
+<area shape="rect" id="node7" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="475,180,589,207"/>
+<area shape="rect" id="node8" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="649,151,803,177"/>
+<area shape="rect" id="node9" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="661,202,791,243"/>
+</map>

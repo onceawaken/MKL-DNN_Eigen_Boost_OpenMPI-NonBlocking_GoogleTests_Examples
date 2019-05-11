@@ -1,0 +1,10 @@
+<map id="tbb::queuing_mutex::scoped_lock::~scoped_lock" name="tbb::queuing_mutex::scoped_lock::~scoped_lock">
+<area shape="rect" id="node2" href="$a00681.html#ac6b9289521c6b7568eedc8e0ff4e96d8" title="Acquire lock on given mutex. " alt="" coords="256,71,409,112"/>
+<area shape="rect" id="node7" href="$a00681.html#a75112bddb38e011e9cfa69695050c771" title="Release lock. " alt="" coords="256,5,409,47"/>
+<area shape="rect" id="node9" href="$a00681.html#aa35c2a7b36eb58201a804be7a36b4ccd" title="Acquire lock on given mutex if free (i.e. non&#45;blocking) " alt="" coords="245,136,420,177"/>
+<area shape="rect" id="node3" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="476,71,599,112"/>
+<area shape="rect" id="node6" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="468,136,607,177"/>
+<area shape="rect" id="node4" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="655,71,792,112"/>
+<area shape="rect" id="node5" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="840,78,947,105"/>
+<area shape="rect" id="node8" href="$a01133.html#aea57866db2fc3fe1018c89b58109b39a" title="tbb::internal::__TBB\l_store_with_release" alt="" coords="468,5,607,47"/>
+</map>

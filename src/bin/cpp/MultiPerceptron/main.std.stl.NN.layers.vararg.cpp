@@ -16,7 +16,14 @@
 #include <iterator>
 #include <fstream>
 #include <time.h>
+#include <numeric>
+
 #include <Eigen/Dense>
+
+//#include <pstl/execution>
+//#include <pstl/algorithm>
+//#include <pstl/numeric>
+//#include <pstl/memory>
 
 #define RESOURCES_DATA_PATH (std::string) "resources/data"
 
@@ -30,71 +37,69 @@ namespace np = boost::python::numpy;
 
 #endif
 
-
 #include "MUtil.h"
 #include "DGen.hpp"
 #include "NNet.hpp"
 #include "CEng.hpp"
 #include "tests.hpp"
 
-
 int main() {
 
 #ifdef WITH_BOOST
-    Py_Initialize();
+	Py_Initialize();
 
-    boost::python::numpy::initialize();
+	boost::python::numpy::initialize();
 #endif
 
 
-    //dgen_tests();
+	//dgen_tests();
 
-    std::cout << "LOAD MNIST" << std::endl;
+	std::cout << "LOAD MNIST" << std::endl;
 
 #define IN_T float
 #define HL_T float
 
-    auto datain = DGen::LoadMnist<DEBUG0>("data");
+	auto datain = DGen::LoadMnist<DEBUG0>("data");
 
-    constexpr size_t INPUT_LAYER = datain.get_pattern_size();
-    constexpr size_t OUTPUT_LAYER = datain.get_labels_size();
-    constexpr size_t B = datain.get_train_batch_size();
-    constexpr size_t mB = 30;
+	constexpr size_t INPUT_LAYER = datain.get_pattern_size();
+	constexpr size_t OUTPUT_LAYER = datain.get_labels_size();
+	constexpr size_t B = datain.get_train_batch_size();
+	constexpr size_t mB = 2000;
 
+	{
+		TIME_START
 
-    {
-        TIME_START
+		//auto xtrainBegin = mnist->begin<DGen::data_e::TRAIN_IMG>();
+		//auto xtrainEnd = mnist->end<DGen::data_e::TRAIN_IMG>();
 
-        //auto xtrainBegin = mnist->begin<DGen::data_e::TRAIN_IMG>();
-        //auto xtrainEnd = mnist->end<DGen::data_e::TRAIN_IMG>();
+		//auto f = std::accumulate(xtrainBegin, xtrainEnd, 0.f, [&](MNIST_IN_t in, MNIST_IN_t &x) {return in + x;});
 
-        //auto f = std::accumulate(xtrainBegin, xtrainEnd, 0.f, [&](MNIST_IN_t in, MNIST_IN_t &x) {return in + x;});
+		//std::cout << "sum = " << f / double{256} << std::endl;
 
-        //std::cout << "sum = " << f / double{256} << std::endl;
+		TIME_CHECK
+	}
 
-        TIME_CHECK
-    }
+	std::srand(0);
 
-    std::srand(0);
+	constexpr size_t epochs = 30;
 
+	auto layersMaker = NNet::LayersMaker<IN_T, HL_T, B, mB, INPUT_LAYER, 100, OUTPUT_LAYER>();
 
-    constexpr size_t epochs = 30;
+	auto layersPtr = layersMaker.alloc<DEBUG1>();
 
-    auto layersMaker = NNet::LayersMaker<IN_T, HL_T, B, mB, INPUT_LAYER, 20, OUTPUT_LAYER>();
+	layersPtr->print();
 
-    auto layers = layersMaker.alloc<DEBUG1>();
+	auto datagen = DGen::Datagen<HL_T, DGen::RANDOM_NORMAL>();
 
-    auto datagen = DGen::Datagen<HL_T, DGen::RANDOM_NORMAL>();
+	auto engine = CEng::Engine();
 
-    auto engine = CEng::Engine();
+	auto network = NNet::Network(layersMaker, layersPtr, engine, datain, datagen);
 
-    auto network = NNet::Network(layersMaker, layers, engine, datain, datagen);
+	network.print();
 
-    network.print();
+	network.init<DEBUG1>();
 
-    network.init<DEBUG1>();
-
-    network.compute<DEBUG2>(epochs);
+	network.compute<DEBUG2>(epochs);
 
 
 
@@ -113,11 +118,11 @@ int main() {
 	std::cout << o << std::endl;
 */
 
-    //auto * lh = (LayerHidden<int, 100, 100, mB> * ) layersWrap.layersTraining[1];
-    //lh->V;
-    //layersWrap->print();
+	//auto * lh = (LayerHidden<int, 100, 100, mB> * ) layersWrap.layersTraining[1];
+	//lh->V;
+	//layersWrap->print();
 
-    std::cout << "Done." << std::endl;
+	std::cout << "Done." << std::endl;
 
-    return 0;
+	return 0;
 }

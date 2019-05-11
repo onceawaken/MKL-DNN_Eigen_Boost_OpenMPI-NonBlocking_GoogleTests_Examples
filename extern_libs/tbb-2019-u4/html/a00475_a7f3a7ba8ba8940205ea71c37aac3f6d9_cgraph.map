@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface10::limiter_node::reset_node" name="tbb::flow::interface10::limiter_node::reset_node">
+<area shape="rect" id="node2" href="$a00655.html#a378a404aa4c8bec77ea5a22d141166d6" title="tbb::flow::interface10\l::internal::reservable\l_predecessor_cache::clear" alt="" coords="225,5,404,61"/>
+<area shape="rect" id="node3" href="$a00767.html#a55fd959cc3c1cbdfd31fbcea25ad1d43" title="tbb::flow::interface10\l::internal::successor\l_cache::clear" alt="" coords="243,85,387,141"/>
+<area shape="rect" id="node4" href="$a01116.html#a12bf028bf2a7fd77e7811d856eedfebc" title="templated function to refer to input ports of the join node " alt="" coords="243,165,387,206"/>
+<area shape="rect" id="node5" href="$a00655.html#a3c5ed5d8e9d8aa0093c8376bfa3b579c" title="tbb::flow::interface10\l::internal::reservable\l_predecessor_cache::reset" alt="" coords="225,229,404,285"/>
+<area shape="rect" id="node6" href="$a00179.html#a8d3c9bfbf36e9e743bb7f5954e061d49" title="put receiver back in initial state " alt="" coords="230,309,399,365"/>
+</map>

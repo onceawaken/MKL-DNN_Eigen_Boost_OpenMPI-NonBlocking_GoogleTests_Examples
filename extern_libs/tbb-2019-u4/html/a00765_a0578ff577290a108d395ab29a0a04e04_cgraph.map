@@ -1,0 +1,6 @@
+<map id="tbb::structured_task_group::wait" name="tbb::structured_task_group::wait">
+<area shape="rect" id="node2" href="$a00783.html#a9a05d8b3350796df951c701978cec816" title="tbb::internal::task\l_group_base::wait" alt="" coords="192,57,320,98"/>
+<area shape="rect" id="node3" href="$a00778.html#aab6be2d551d52d8d62a92ef87f3ec508" title="Wait for reference count to become one, and set reference count to zero. " alt="" coords="397,5,543,32"/>
+<area shape="rect" id="node4" href="$a00784.html#af892e21ab275622d81c556214a4c877f" title="Forcefully reinitializes the context after the task tree it was associated with is completed..." alt="" coords="389,57,551,98"/>
+<area shape="rect" id="node5" href="$a00784.html#a08021e5a97f6ffbf40a95f3f6b11f807" title="Returns true if the context received cancellation request. " alt="" coords="368,122,572,163"/>
+</map>

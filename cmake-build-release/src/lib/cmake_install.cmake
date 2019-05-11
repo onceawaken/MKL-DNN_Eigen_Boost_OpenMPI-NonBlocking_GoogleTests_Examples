@@ -1,4 +1,4 @@
-# Install script for directory: /home/daisy/W/W.priv/NonBlockingProtocol/src/lib
+# Install script for directory: /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

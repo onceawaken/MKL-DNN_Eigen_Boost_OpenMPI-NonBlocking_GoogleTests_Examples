@@ -1,0 +1,7 @@
+<map id="tbb::internal::calc_workers_soft_limit" name="tbb::internal::calc_workers_soft_limit">
+<area shape="rect" id="node2" href="$a00489.html#a857327e374da8c7bb5c4b529aca05405" title="Reports active parallelism level according to user&#39;s settings. " alt="" coords="188,15,339,57"/>
+<area shape="rect" id="node4" href="$a00307.html#a87ef607c22c347eb97ddafa4384b4f1d" title="tbb::internal::governor\l::default_num_threads" alt="" coords="188,82,339,123"/>
+<area shape="rect" id="node6" href="$a01133.html#a80df3dc4f925e066864ab01691add3b0" title="Utility template function returning greater of the two values. " alt="" coords="202,148,325,175"/>
+<area shape="rect" id="node3" href="$a00056.html#a0addd7e87e390f82f623b1f5149672b4" title="tbb::internal::allowed\l_parallelism_control::\lactive_value_if_present" alt="" coords="387,5,545,61"/>
+<area shape="rect" id="node5" href="$a01133.html#a5f583dafcd8d7ffeb10905c4eb509cd9" title="Returns maximal parallelism level supported by the current OS configuration. " alt="" coords="391,85,541,126"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbb::flow::key_from_message" name="tbb::flow::key_from_message">
+<area shape="rect" id="node2" href="$a00210.html#af3b8f8b55fb38733221e9e8e59279d6c" title="streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::device_selector::get_key" alt="" coords="188,5,395,61"/>
+<area shape="rect" id="node3" href="$a01115.html#a01eb9d6d169b210df0d3e13352104273" title="tbb::flow::interface10\l::key_from_message" alt="" coords="219,85,363,126"/>
+<area shape="rect" id="node4" href="$a00859.html#a237f9f8304a5784bb0eaf8236ebe6c11" title="internal::unfolded\l_join_node::unfolded\l_join_node" alt="" coords="221,149,362,205"/>
+</map>

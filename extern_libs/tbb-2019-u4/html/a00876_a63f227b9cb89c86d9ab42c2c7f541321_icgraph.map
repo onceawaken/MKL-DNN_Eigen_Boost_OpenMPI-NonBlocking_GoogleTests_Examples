@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::internal::untyped_sender::remove_successor" name="tbb::flow::interface10::internal::untyped_sender::remove_successor">
+<area shape="rect" id="node2" href="$a01115.html#ac3a164e4a01ae8e37aa48cbb310b4868" title="tbb::flow::interface10\l::internal_remove_edge" alt="" coords="225,41,383,83"/>
+<area shape="rect" id="node3" href="$a01115.html#a80ae038cb22f61e697493a8524c30cde" title="Removes an edge between a single predecessor and a single successor. " alt="" coords="431,41,575,83"/>
+<area shape="rect" id="node4" href="$a01115.html#a31e1d0e4f543d3ea2f59324460cc9167" title="tbb::flow::interface10\l::remove_edge" alt="" coords="626,5,770,47"/>
+<area shape="rect" id="node5" href="$a00933.html#adb420aa442364711a0a8a8cd763c04be" title="Put item to successor; return task to run the successor if possible. " alt="" coords="623,70,773,126"/>
+</map>

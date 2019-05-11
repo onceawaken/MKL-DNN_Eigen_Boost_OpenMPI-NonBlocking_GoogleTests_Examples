@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::internal::reserving_port&lt; T &gt;" name="tbb::flow::interface10::internal::reserving_port&lt; T &gt;">
+<area shape="rect" id="node2" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="11,263,178,399"/>
+<area shape="rect" id="node3" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="5,5,184,215"/>
+</map>

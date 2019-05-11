@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface10::streaming_node&lt; tuple&lt; Ports... &gt;, JP, StreamFactory &gt;::args_storage&lt; Args &gt;" name="tbb::flow::interface10::streaming_node&lt; tuple&lt; Ports... &gt;, JP, StreamFactory &gt;::args_storage&lt; Args &gt;">
+<area shape="rect" id="node2" href="$a00067.html" title="{tbb::flow::interface10\l::streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::args_storage_base\n|# my_kernel\l# my_factory\l|+ enqueue()\l+ send()\l+ clone()\l+ ~args_storage_base()\l# args_storage_base()\l# args_storage_base()\l}" alt="" coords="5,287,212,496"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="35,132,182,224"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="30,5,187,83"/>
+<area shape="rect" id="node5" href="$a00737.html" title="{tbb::internal::stored\l_pack\&lt; Args... \&gt;\n||}" alt="" coords="236,345,371,437"/>
+<area shape="rect" id="node6" href="$a00737.html" title="Allows to store a function parameter pack as a variable and later pass it to another function..." alt="" coords="236,132,371,224"/>
+</map>

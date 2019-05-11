@@ -1,0 +1,11 @@
+<map id="partitioner.h" name="partitioner.h">
+<area shape="rect" id="node2" href="$a01038.html" title="parallel_for.h" alt="" coords="70,80,166,107"/>
+<area shape="rect" id="node3" href="$a01039.html" title="parallel_for.h" alt="" coords="190,80,286,107"/>
+<area shape="rect" id="node6" href="$a01081.html" title="tbb.h" alt="" coords="300,229,351,256"/>
+<area shape="rect" id="node8" href="$a01042.html" title="parallel_reduce.h" alt="" coords="408,155,528,181"/>
+<area shape="rect" id="node9" href="$a01043.html" title="parallel_scan.h" alt="" coords="552,155,662,181"/>
+<area shape="rect" id="node10" href="$a01072.html" title="task.cpp" alt="" coords="510,80,582,107"/>
+<area shape="rect" id="node4" href="$a01040.html" title="parallel_for_each.h" alt="" coords="24,155,155,181"/>
+<area shape="rect" id="node5" href="$a01049.html" title="ppl.h" alt="" coords="14,229,64,256"/>
+<area shape="rect" id="node7" href="$a01044.html" title="parallel_sort.h" alt="" coords="230,155,333,181"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="tbb::internal::generic_scheduler::init_stack_info" name="tbb::internal::generic_scheduler::init_stack_info">
+<area shape="rect" id="node2" href="$a01020.html#aeedc3ebf2bee4ce8767bfca043d5ac94" title="Retrieves the current RSE backing store pointer. IA64 specific. " alt="" coords="256,5,371,32"/>
+<area shape="rect" id="node3" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="244,57,383,98"/>
+<area shape="rect" id="node4" href="$a00679.html#a7c702117f08ae82d034a98b3d5510ffc" title="Acquire lock. " alt="" coords="231,122,396,163"/>
+<area shape="rect" id="node11" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="234,188,393,215"/>
+<area shape="rect" id="node12" href="$a01113.html#a33e73b97b02726c692bd8d9da8e3fb1b" title="Sequentially consistent full memory fence. " alt="" coords="250,239,377,265"/>
+<area shape="rect" id="node13" href="$a00302.html#a4451a0cd678c9d7f37c80d581e3d4b14" title="True if running on a worker thread, false otherwise. " alt="" coords="239,290,388,331"/>
+<area shape="rect" id="node14" href="$a01133.html#a9006317b947d3f9f7a457e295e5b8330" title="Spin UNTIL the value of the variable is equal to a given value. " alt="" coords="470,291,593,333"/>
+<area shape="rect" id="node15" href="$a00489.html#ac6ecbe31da77180a3ce42b7b3c46fc18" title="Returns the requested stack size of worker threads. " alt="" coords="244,409,383,450"/>
+<area shape="rect" id="node5" href="$a01089.html#aa570e2316a90880cbbc36586e6463534" title="__TBB_LockByte" alt="" coords="684,184,808,211"/>
+<area shape="rect" id="node10" href="$a00679.html#a56eb98743177c5d336313e2802aa135c" title="Like acquire, but with ITT instrumentation. " alt="" coords="449,178,614,219"/>
+<area shape="rect" id="node6" href="$a01089.html#ad95ec7e5b7103614f039c4019bf3b3f6" title="__TBB_TryLockByte" alt="" coords="873,183,1016,209"/>
+<area shape="rect" id="node8" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="876,234,1013,275"/>
+<area shape="rect" id="node7" href="$a01107.html#a1ba16e606202cdec1e611e5c0df2b9f6" title="__TBB_machine_cmpswp1" alt="" coords="1064,183,1245,209"/>
+<area shape="rect" id="node9" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="1101,241,1208,268"/>
+<area shape="rect" id="node16" href="$a00489.html#a50bb92619e74a81b3f8552ccca139c9f" title="Set number of active workers. " alt="" coords="444,409,619,450"/>
+<area shape="rect" id="node23" href="$a00489.html#a857327e374da8c7bb5c4b529aca05405" title="Reports active parallelism level according to user&#39;s settings. " alt="" coords="456,542,607,583"/>
+<area shape="rect" id="node17" href="$a01133.html#a9c086de4bb6ce45fe69a8fb911e5ebea" title="Utility template function returning lesser of the two values. " alt="" coords="687,292,805,319"/>
+<area shape="rect" id="node18" href="$a00489.html#af3e43d97626c3beff0b708c8089984fd" title="Recalculates the number of workers assigned to each arena in the list. " alt="" coords="677,343,815,385"/>
+<area shape="rect" id="node19" href="$a00391.html#a27a1cf03b6f163c2835d861fc6519aba" title="tbb::internal::intrusive\l_list_base::begin" alt="" coords="673,409,819,450"/>
+<area shape="rect" id="node20" href="$a00391.html#a61fa0658a500c11ff2cdf4c294c33e97" title="tbb::internal::intrusive\l_list_base::end" alt="" coords="673,474,819,515"/>
+<area shape="rect" id="node21" href="$a00489.html#a76b1783a39252c34da34d0cebfe101b5" title="Decrements market&#39;s refcount and destroys it in the end. " alt="" coords="677,539,815,581"/>
+<area shape="rect" id="node22" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="875,539,1014,581"/>
+<area shape="rect" id="node24" href="$a00056.html#a0addd7e87e390f82f623b1f5149672b4" title="tbb::internal::allowed\l_parallelism_control::\lactive_value_if_present" alt="" coords="667,604,825,660"/>
+</map>

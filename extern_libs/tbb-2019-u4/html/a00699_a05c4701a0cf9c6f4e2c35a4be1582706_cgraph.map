@@ -1,0 +1,5 @@
+<map id="tbb::internal::semaphore::semaphore" name="tbb::internal::semaphore::semaphore">
+<area shape="rect" id="node2" href="$a00699.html#ad8d750793df6145134e9cb399c5d746d" title="tbb::internal::semaphore\l::init_semaphore" alt="" coords="216,23,379,65"/>
+<area shape="rect" id="node3" href="$a00699.html#aa48d61f1792cffc3d2ea15506078e7c0" title="wait/acquire " alt="" coords="427,5,605,32"/>
+<area shape="rect" id="node4" href="$a00699.html#ab9d71af0a85d60e19f351be973a983a4" title="post/release " alt="" coords="427,56,605,83"/>
+</map>

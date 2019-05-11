@@ -1,0 +1,4 @@
+<map id="tbb::internal::task_proxy::extract_task" name="tbb::internal::task_proxy::extract_task">
+<area shape="rect" id="node2" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="200,5,343,47"/>
+<area shape="rect" id="node3" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="195,71,348,112"/>
+</map>

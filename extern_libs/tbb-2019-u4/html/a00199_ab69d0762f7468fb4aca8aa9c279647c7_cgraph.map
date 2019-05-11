@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::opencl_info::default_device_filter::operator()" name="tbb::flow::interface10::opencl_info::default_device_filter::operator()">
+<area shape="rect" id="node2" href="$a00537.html#a5f2dcec269732a38f3f32cf2488ba3d2" title="tbb::flow::interface10\l::opencl_device_list::add" alt="" coords="221,5,387,47"/>
+<area shape="rect" id="node3" href="$a00537.html#addec4ed607d1278273b0ca3372722c7f" title="tbb::flow::interface10\l::opencl_device_list::begin" alt="" coords="216,71,392,112"/>
+<area shape="rect" id="node4" href="$a00537.html#af520860cbb1e78737f93a366f47f37d4" title="tbb::flow::interface10\l::opencl_device_list::\lcbegin" alt="" coords="231,135,377,191"/>
+<area shape="rect" id="node5" href="$a00537.html#a712d456e2310603f9b94fd15857b19f9" title="tbb::flow::interface10\l::opencl_device_list::cend" alt="" coords="217,215,391,256"/>
+</map>

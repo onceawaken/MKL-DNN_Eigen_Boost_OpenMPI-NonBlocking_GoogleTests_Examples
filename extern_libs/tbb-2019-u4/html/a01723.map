@@ -1,0 +1,6 @@
+<map id="internal::matching_forwarding_base&lt; KeyType &gt;" name="internal::matching_forwarding_base&lt; KeyType &gt;">
+<area shape="rect" id="node2" href="$a00276.html" title="{internal::forwarding_base\n||+ forwarding_base()\l+ ~forwarding_base()\l+ decrement_port_count()\l+ increment_port_count()\l}" alt="" coords="108,145,279,267"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,5,163,83"/>
+<area shape="rect" id="node5" href="$a00748.html" title="{tbb::internal::strip\l\&lt; KeyType \&gt;\n||}" alt="" coords="303,160,425,252"/>
+<area shape="rect" id="node6" href="$a00748.html" title="Strips its template type argument from cv&#45; and ref&#45;qualifiers. " alt="" coords="287,5,441,83"/>
+</map>

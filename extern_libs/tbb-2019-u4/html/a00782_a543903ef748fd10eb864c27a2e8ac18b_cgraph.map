@@ -1,0 +1,8 @@
+<map id="tbb::task_group::run_and_wait" name="tbb::task_group::run_and_wait">
+<area shape="rect" id="node2" href="$a00785.html#a631d5c44c738a49cd95f28cf12b98e3e" title="tbb::task_handle::mark\l_scheduled" alt="" coords="192,64,347,105"/>
+<area shape="rect" id="node3" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="395,64,525,105"/>
+<area shape="rect" id="node4" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="573,64,704,105"/>
+<area shape="rect" id="node5" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="783,5,902,47"/>
+<area shape="rect" id="node6" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="757,71,929,98"/>
+<area shape="rect" id="node7" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="752,123,933,164"/>
+</map>

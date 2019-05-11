@@ -1,0 +1,5 @@
+<map id="tbb::blocked_range::is_divisible" name="tbb::blocked_range::is_divisible">
+<area shape="rect" id="node2" href="$a00107.html#aa5b02cb98cc0ad6c0cd5d29bb1271b7c" title="Auxiliary function used by the splitting constructor. " alt="" coords="193,5,325,47"/>
+<area shape="rect" id="node3" href="$a00108.html#ac84c6cc2ff8b0974ffa719fed804f586" title="True if range is divisible into two pieces. " alt="" coords="185,71,332,112"/>
+<area shape="rect" id="node4" href="$a00109.html#a0fce6bcae6269c37623c3a2cdbb8bcf0" title="True if range is divisible into two pieces. " alt="" coords="185,136,332,177"/>
+</map>

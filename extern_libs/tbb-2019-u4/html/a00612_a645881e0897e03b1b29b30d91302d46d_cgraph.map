@@ -1,0 +1,9 @@
+<map id="tbb::internal::queue_and_mutex::~queue_and_mutex" name="tbb::internal::queue_and_mutex::~queue_and_mutex">
+<area shape="rect" id="node2" href="$a01089.html#a5f6b1490b38bfa1bdef7400be89e1aeb" title="__TBB_AtomicAND" alt="" coords="471,35,609,61"/>
+<area shape="rect" id="node5" href="$a01089.html#a4c867c719a6d9d6df0501968642dacb2" title="__TBB_AtomicOR" alt="" coords="475,93,605,120"/>
+<area shape="rect" id="node6" href="$a01133.html#a35e44ff7e39744e48bcace6f18763043" title="tbb::internal::clear\l_one_bit" alt="" coords="282,27,409,69"/>
+<area shape="rect" id="node7" href="$a01133.html#a19b165478bcb38f4579535fb2702182c" title="tbb::internal::is_bit_set" alt="" coords="268,144,423,171"/>
+<area shape="rect" id="node8" href="$a01133.html#a64fdeb4cd3ee66fe698c0e9704af1189" title="tbb::internal::set\l_one_bit" alt="" coords="287,195,403,237"/>
+<area shape="rect" id="node3" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="657,57,795,98"/>
+<area shape="rect" id="node4" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="843,64,949,91"/>
+</map>

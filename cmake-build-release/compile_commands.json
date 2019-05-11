@@ -1,27 +1,27 @@
 [
 {
-  "directory": "/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/src/bin/cpp/examples",
-  "command": "/usr/bin/g++-8    -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/Cpp_Example_Maybe_Boost.dir/matrix_operations.cpp.o -c /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/matrix_operations.cpp",
-  "file": "/home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/matrix_operations.cpp"
+  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/cpp/examples",
+  "command": "/usr/bin/g++-8    -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/Cpp_Example_Maybe_Boost.dir/matrix_operations.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/matrix_operations.cpp",
+  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/matrix_operations.cpp"
 },
 {
-  "directory": "/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/src/bin/cpp/examples",
-  "command": "/usr/bin/g++-8    -O3 -DNDEBUG -flto -fno-fat-lto-objects   -std=gnu++11 -o CMakeFiles/Cpp_Example_Simple.dir/main.cpp.o -c /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/main.cpp",
-  "file": "/home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/main.cpp"
+  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/cpp/examples",
+  "command": "/usr/bin/g++-8    -O3 -DNDEBUG -flto -fno-fat-lto-objects   -std=gnu++11 -o CMakeFiles/Cpp_Example_Simple.dir/main.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/main.cpp",
+  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/main.cpp"
 },
 {
-  "directory": "/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/src/bin/cpp/examples",
-  "command": "/usr/bin/g++-8    -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o -c /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp",
-  "file": "/home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp"
+  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/cpp/examples",
+  "command": "/usr/bin/g++-8    -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp",
+  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp"
 },
 {
-  "directory": "/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/src/bin/cpp/MultiPerceptron",
-  "command": "/usr/bin/g++-8   -I/home/daisy/W/W.priv/NonBlockingProtocol/extern_libs/Eigen/include/eigen3  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/Cpp_Boost_Multi_Perceptron.dir/main.std.stl.NN.layers.vararg.cpp.o -c /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp",
-  "file": "/home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp"
+  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/cpp/MultiPerceptron",
+  "command": "/usr/bin/g++-8   -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Eigen/include/eigen3  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/Cpp_Boost_Multi_Perceptron.dir/main.std.stl.NN.layers.vararg.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp",
+  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp"
 },
 {
-  "directory": "/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/src/bin/eigen/examples",
-  "command": "/usr/bin/g++-8   -I/home/daisy/W/W.priv/NonBlockingProtocol/extern_libs/Eigen/include/eigen3  -O3 -DNDEBUG -flto -fno-fat-lto-objects   -std=gnu++11 -o CMakeFiles/Cpp_Example_Eigen.dir/matmul_eigen.cpp.o -c /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/eigen/examples/matmul_eigen.cpp",
-  "file": "/home/daisy/W/W.priv/NonBlockingProtocol/src/bin/eigen/examples/matmul_eigen.cpp"
+  "directory": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/eigen/examples",
+  "command": "/usr/bin/g++-8   -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Eigen/include/eigen3  -O3 -DNDEBUG -flto -fno-fat-lto-objects   -std=gnu++11 -o CMakeFiles/Cpp_Example_Eigen.dir/matmul_eigen.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/eigen/examples/matmul_eigen.cpp",
+  "file": "/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/eigen/examples/matmul_eigen.cpp"
 }
 ]

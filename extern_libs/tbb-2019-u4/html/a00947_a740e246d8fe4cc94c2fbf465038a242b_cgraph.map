@@ -1,0 +1,9 @@
+<map id="check_task_and_spawn" name="check_task_and_spawn">
+<area shape="rect" id="node2" href="$a01116.html#a3c767231059bfe26f0420ffd2294e6c1" title="Spawns a task inside graph arena. " alt="" coords="216,71,429,112"/>
+<area shape="rect" id="node3" href="$a00778.html#a3d541e86f39624d4cb8f8c90a39e57f9" title="Returns proxy for overloaded new that allocates a continuation task of *this. " alt="" coords="486,5,613,47"/>
+<area shape="rect" id="node4" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="484,71,615,112"/>
+<area shape="rect" id="node7" href="$a01116.html#acc478861d8f5bc0ddf7abad00bb89e46" title="Executes custom functor inside graph arena. " alt="" coords="477,135,621,191"/>
+<area shape="rect" id="node5" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="698,78,811,105"/>
+<area shape="rect" id="node6" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="888,78,1041,105"/>
+<area shape="rect" id="node8" href="$a01116.html#ab8685a8ff3216168bd16e201327f0227" title="tbb::flow::interface10\l::internal::is_graph_active" alt="" coords="669,143,840,184"/>
+</map>

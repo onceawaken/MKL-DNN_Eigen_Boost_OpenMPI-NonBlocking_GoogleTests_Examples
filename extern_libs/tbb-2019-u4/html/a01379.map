@@ -1,0 +1,13 @@
+<map id="task_arena.h" name="task_arena.h">
+<area shape="rect" id="node2" href="$a01073.html" title="task.h" alt="" coords="167,80,226,107"/>
+<area shape="rect" id="node13" href="$a01088.html" title="tbb_exception.h" alt="" coords="488,229,603,256"/>
+<area shape="rect" id="node20" href="$a00958.html" title="internal/_template\l_helpers.h" alt="" coords="706,379,831,420"/>
+<area shape="rect" id="node22" href="$a00962.html" title="aligned_space.h" alt="" coords="348,229,464,256"/>
+<area shape="rect" id="node3" href="$a01098.html" title="tbb_stddef.h" alt="" coords="285,386,380,413"/>
+<area shape="rect" id="node8" href="$a01089.html" title="tbb_machine.h" alt="" coords="98,304,204,331"/>
+<area shape="rect" id="node9" href="$a01095.html" title="tbb_profiling.h" alt="" coords="145,155,248,181"/>
+<area shape="rect" id="node4" href="$a01085.html" title="tbb_config.h" alt="" coords="543,468,636,495"/>
+<area shape="rect" id="node10" href="$a00955.html" title="internal/_tbb_strings.h" alt="" coords="121,229,272,256"/>
+<area shape="rect" id="node11" href="$a00965.html" title="atomic.h" alt="" coords="24,229,96,256"/>
+<area shape="rect" id="node17" href="$a01082.html" title="tbb_allocator.h" alt="" coords="604,304,711,331"/>
+</map>

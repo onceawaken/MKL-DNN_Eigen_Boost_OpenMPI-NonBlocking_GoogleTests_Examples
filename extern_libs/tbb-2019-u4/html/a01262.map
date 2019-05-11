@@ -1,0 +1,19 @@
+<map id="enumerable_thread_specific.h" name="enumerable_thread_specific.h">
+<area shape="rect" id="node2" href="$a00965.html" title="atomic.h" alt="" coords="1335,244,1407,271"/>
+<area shape="rect" id="node9" href="$a00986.html" title="concurrent_vector.h" alt="" coords="629,80,767,107"/>
+<area shape="rect" id="node14" href="$a01082.html" title="tbb_allocator.h" alt="" coords="322,244,429,271"/>
+<area shape="rect" id="node17" href="$a00972.html" title="cache_aligned_allocator.h" alt="" coords="24,244,196,271"/>
+<area shape="rect" id="node19" href="$a01095.html" title="tbb_profiling.h" alt="" coords="1000,162,1103,189"/>
+<area shape="rect" id="node26" href="$a01100.html" title="tbb_thread.h" alt="" coords="1397,80,1492,107"/>
+<area shape="rect" id="node28" href="$a00954.html" title="internal/_tbb_hash\l_compare_impl.h" alt="" coords="1229,155,1357,196"/>
+<area shape="rect" id="node32" href="$a00962.html" title="aligned_space.h" alt="" coords="1195,244,1311,271"/>
+<area shape="rect" id="node33" href="$a00958.html" title="internal/_template\l_helpers.h" alt="" coords="1637,408,1762,449"/>
+<area shape="rect" id="node4" href="$a01089.html" title="tbb_machine.h" alt="" coords="1147,326,1254,353"/>
+<area shape="rect" id="node5" href="$a01098.html" title="tbb_stddef.h" alt="" coords="857,415,952,442"/>
+<area shape="rect" id="node6" href="$a01085.html" title="tbb_config.h" alt="" coords="1469,497,1562,524"/>
+<area shape="rect" id="node10" href="$a01088.html" title="tbb_exception.h" alt="" coords="471,162,586,189"/>
+<area shape="rect" id="node18" href="$a00967.html" title="blocked_range.h" alt="" coords="750,326,867,353"/>
+<area shape="rect" id="node23" href="$a00937.html" title="internal/_allocator\l_traits.h" alt="" coords="120,319,244,360"/>
+<area shape="rect" id="node20" href="$a00955.html" title="internal/_tbb_strings.h" alt="" coords="1020,244,1171,271"/>
+<area shape="rect" id="node29" href="$a01103.html" title="tick_count.h" alt="" coords="1718,162,1811,189"/>
+</map>

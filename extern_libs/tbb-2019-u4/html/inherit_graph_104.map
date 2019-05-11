@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$a00859.html" title="unfolded_join_node : passes input_ports_type to join_node_base. We build the input port type ..." alt="" coords="100,5,347,47"/>
+<area shape="rect" id="node3" href="$a00862.html" title="internal::unfolded\l_join_node\&lt; 2, key_matching\l_port, OutputTuple, key_matching\l\&lt; K, KHash \&gt; \&gt;" alt="" coords="114,71,333,141"/>
+<area shape="rect" id="node4" href="$a00865.html" title="internal::unfolded\l_join_node\&lt; 3, key_matching\l_port, OutputTuple, key_matching\l\&lt; K, KHash \&gt; \&gt;" alt="" coords="114,165,333,236"/>
+<area shape="rect" id="node5" href="$a00866.html" title="internal::unfolded\l_join_node\&lt; 4, key_matching\l_port, OutputTuple, key_matching\l\&lt; K, KHash \&gt; \&gt;" alt="" coords="114,260,333,331"/>
+<area shape="rect" id="node6" href="$a00869.html" title="internal::unfolded\l_join_node\&lt; 5, key_matching\l_port, OutputTuple, key_matching\l\&lt; K, KHash \&gt; \&gt;" alt="" coords="114,355,333,425"/>
+</map>

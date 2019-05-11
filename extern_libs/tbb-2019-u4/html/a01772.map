@@ -1,0 +1,5 @@
+<map id="internal::reservable_predecessor_cache&lt; T, M &gt;" name="internal::reservable_predecessor_cache&lt; T, M &gt;">
+<area shape="rect" id="node4" href="$a00654.html" title="{internal::reservable\l_predecessor_cache\&lt; T,\l null_mutex \&gt;\n|&#45; reserved_src\l|+ reservable_predecessor\l_cache()\l+ try_reserve()\l+ try_release()\l+ try_consume()\l+ reset()\l+ clear()\l}" alt="" coords="16,692,188,887"/>
+<area shape="rect" id="node2" href="$a00600.html" title="A cache of predecessors that only supports try_get. " alt="" coords="25,264,179,400"/>
+<area shape="rect" id="node3" href="$a00520.html" title="A node_cache maintains a std::queue of elements of type T. Each operation is protected by a lock..." alt="" coords="31,5,173,215"/>
+</map>

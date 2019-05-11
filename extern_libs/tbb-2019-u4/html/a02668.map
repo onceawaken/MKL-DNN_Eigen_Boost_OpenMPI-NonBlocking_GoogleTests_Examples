@@ -1,0 +1,10 @@
+<map id="tbb::flow::interface10::internal::successor_cache&lt; continue_msg &gt;" name="tbb::flow::interface10::internal::successor_cache&lt; continue_msg &gt;">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,191,157,283"/>
+<area shape="rect" id="node5" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="95,419,251,525"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,5,163,83"/>
+<area shape="rect" id="node4" href="$a00722.html" title="Fast, unfair, spinning reader&#45;writer lock with backoff and writer&#45;preference. " alt="" coords="93,617,265,1047"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="298,433,395,511"/>
+<area shape="rect" id="node9" href="$a00702.html" title="{tbb::flow::interface10\l::sender\&lt; tbb::flow::interface10\l::continue_msg \&gt;\n||+ try_get()\l+ try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="429,757,632,907"/>
+<area shape="rect" id="node10" href="$a00876.html" title="{tbb::flow::interface10\l::internal::untyped_sender\n||+ ~untyped_sender()\l+ register_successor()\l+ remove_successor()\l+ try_release()\l+ try_consume()\l# try_get()\l# try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="425,132,597,341"/>
+<area shape="rect" id="node11" href="$a00702.html" title="Forward declaration section. " alt="" coords="509,404,667,540"/>
+</map>

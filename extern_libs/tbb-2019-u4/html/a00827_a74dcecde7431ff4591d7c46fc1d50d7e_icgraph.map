@@ -1,0 +1,7 @@
+<map id="tbb::tick_count::now" name="tbb::tick_count::now">
+<area shape="rect" id="node2" href="$a01133.html#ae4d0319f7c4e03cb63e4744873868e4b" title="tbb::internal::thread\l_sleep_v3" alt="" coords="195,37,329,79"/>
+<area shape="rect" id="node6" href="$a00827.html#a9f1daa0b7a4feb800f802b4be1f1e497" title="Construct an absolute timestamp initialized to zero. " alt="" coords="193,103,331,144"/>
+<area shape="rect" id="node3" href="$a00808.html#ae98915bfeccaa90d6f13add0ee1ab33a" title="tbb::internal::tbb\l_thread_v3::get_id" alt="" coords="383,5,512,47"/>
+<area shape="rect" id="node5" href="$a01144.html#a8d2129b112e33065c7fcea4e2ffc0767" title="The current thread blocks at least until the time specified. " alt="" coords="379,71,516,112"/>
+<area shape="rect" id="node4" href="$a00808.html#ab312527ce3848c27e18eedbf881fb943" title="The completion of the thread represented by *this happens before join() returns. " alt="" coords="564,5,680,47"/>
+</map>

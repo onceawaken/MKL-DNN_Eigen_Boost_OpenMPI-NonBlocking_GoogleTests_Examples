@@ -1,0 +1,63 @@
+<map id="tbb::internal::arena" name="tbb::internal::arena">
+<area shape="rect" id="node20" href="$a00489.html" title="{tbb::internal::market\n|&#45; my_server\l&#45; my_num_workers_hard\l_limit\l&#45; my_num_workers_soft\l_limit\l&#45; my_num_workers_requested\l&#45; my_total_demand\l&#45; my_arenas_aba_epoch\l&#45; my_ref_count\l&#45; my_public_ref_count\l&#45; my_join_workers\l&#45; my_workers_soft_limit\l_to_report\l&#45; theMarketMutex\l&#45; skip_soft_limit_warning\l|+ try_destroy_arena()\l+ detach_arena()\l+ release()\l+ adjust_demand()\l+ must_join_workers()\l+ worker_stack_size()\l+ create_arena()\l+ set_active_num_workers()\l+ app_parallelism_limit()\l+ max_num_workers()\l&#45; market()\l&#45; destroy()\l&#45; update_allotment()\l&#45; arena_in_need()\l&#45; assert_market_valid()\l&#45; insert_arena_into_list()\l&#45; remove_arena_from_list()\l&#45; arena_in_need()\l&#45; is_arena_in_list()\l&#45; version()\land 7 more...\l&#45; global_market()\l&#45; update_allotment()\l}" alt="" coords="1651,2247,1848,2852"/>
+<area shape="rect" id="node55" href="$a00678.html" title="{tbb::internal::scheduler\l_state\n|+ my_affinity_id\l|}" alt="" coords="592,4369,747,4461"/>
+<area shape="rect" id="node2" href="$a00551.html" title="{tbb::internal::padded\l\&lt; arena_base \&gt;\n||}" alt="" coords="2602,4015,2742,4107"/>
+<area shape="rect" id="node3" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; arena_base, NFS\l_MaxLineSize, sizeof(arena\l_base)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="2575,3823,2769,3945"/>
+<area shape="rect" id="node4" href="$a00060.html" title="The structure of an arena, except the array of slots. " alt="" coords="2409,3616,2610,3767"/>
+<area shape="rect" id="node5" href="$a00551.html" title="{tbb::internal::padded\l\&lt; intrusive_list_node \&gt;\n||}" alt="" coords="2933,1879,3088,1971"/>
+<area shape="rect" id="node6" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; intrusive_list\l_node, NFS_MaxLineSize,\l sizeof(intrusive_list\l_node)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="2824,950,3019,1086"/>
+<area shape="rect" id="node7" href="$a00392.html" title="Data structure to be inherited by the types that can form intrusive lists. " alt="" coords="2200,153,2347,245"/>
+<area shape="rect" id="node24" href="$a00391.html" title="{tbb::internal::intrusive\l_list_base\&lt; intrusive_list\l\&lt; arena \&gt;, arena \&gt;\n||+ intrusive_list_base()\l+ empty()\l+ size()\l+ begin()\l+ begin()\l+ end()\l+ end()\l+ push_front()\l+ remove()\l+ erase()\l&#45; assert_ok()\l&#45; node()\l&#45; item()\l}" alt="" coords="1849,877,2015,1159"/>
+<area shape="rect" id="node25" href="$a00391.html" title="List of element of type T, where T is derived from intrusive_list_node. " alt="" coords="1813,388,1963,656"/>
+<area shape="rect" id="node27" href="$a00391.html" title="{tbb::internal::intrusive\l_list_base\&lt; intrusive_list\l\&lt; T \&gt;, T \&gt;\n||+ intrusive_list_base()\l+ empty()\l+ size()\l+ begin()\l+ begin()\l+ end()\l+ end()\l+ push_front()\l+ remove()\l+ erase()\l&#45; assert_ok()\l&#45; node()\l&#45; item()\l}" alt="" coords="1655,877,1822,1159"/>
+<area shape="rect" id="node52" href="$a00302.html" title="Work stealing task scheduler. " alt="" coords="934,2944,1111,3388"/>
+<area shape="rect" id="node8" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, R \&gt;\n|+ pad\l|}" alt="" coords="3243,476,3383,568"/>
+<area shape="rect" id="node11" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, sizeof(T)%S \&gt;\n|+ pad\l|}" alt="" coords="3401,972,3588,1064"/>
+<area shape="rect" id="node42" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; tbb::internal\l::queue_and_mutex, NFS\l_MaxLineSize, sizeof(tbb\l::internal::queue_and_mutex)\l%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="2723,1303,2914,1453"/>
+<area shape="rect" id="node50" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; arena_slot_line1,\l NFS_MaxLineSize, sizeof\l(arena_slot_line1)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="2847,3823,3105,3945"/>
+<area shape="rect" id="node60" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; unpadded_mail\l_outbox, NFS_MaxLineSize,\l sizeof(unpadded_mail_outbox)\l%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="3837,3816,4040,3952"/>
+<area shape="rect" id="node67" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; arena_slot_line2,\l NFS_MaxLineSize, sizeof\l(arena_slot_line2)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="2127,3631,2385,3752"/>
+<area shape="rect" id="node45" title="STL class. " alt="" coords="3037,160,3152,237"/>
+<area shape="rect" id="node10" href="$a00551.html" title="Pads type T to fill out to a multiple of cache line size. " alt="" coords="3341,1332,3481,1424"/>
+<area shape="rect" id="node41" href="$a00551.html" title="{tbb::internal::padded\l\&lt; tbb::internal::queue\l_and_mutex \&gt;\n||}" alt="" coords="2763,1872,2909,1979"/>
+<area shape="rect" id="node49" href="$a00551.html" title="{tbb::internal::padded\l\&lt; arena_slot_line1 \&gt;\n||}" alt="" coords="3309,4015,3449,4107"/>
+<area shape="rect" id="node59" href="$a00551.html" title="{tbb::internal::padded\l\&lt; unpadded_mail_outbox \&gt;\n||}" alt="" coords="3677,1879,3856,1971"/>
+<area shape="rect" id="node66" href="$a00551.html" title="{tbb::internal::padded\l\&lt; arena_slot_line2 \&gt;\n||}" alt="" coords="3129,3838,3269,3930"/>
+<area shape="rect" id="node12" href="$a00145.html" title="concurrent_monitor " alt="" coords="514,2401,675,2698"/>
+<area shape="rect" id="node13" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="1143,972,1289,1064"/>
+<area shape="rect" id="node15" href="$a00128.html" title="Circular doubly&#45;linked list with sentinel. " alt="" coords="763,1229,933,1527"/>
+<area shape="rect" id="node19" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="1059,1325,1215,1431"/>
+<area shape="rect" id="node38" href="$a00793.html" title="{tbb::internal::task\l_stream\&lt; num_priority\l_levels \&gt;\n|&#45; population\l&#45; N\l|+ task_stream()\l+ task_stream()\l+ initialize()\l+ initialize()\l+ ~task_stream()\l+ ~task_stream()\l+ push()\l+ push()\l+ pop()\l+ pop()\land 8 more...\l}" alt="" coords="1685,3032,1837,3300"/>
+<area shape="rect" id="node40" href="$a00796.html" title="{tbb::internal::task\l_stream_base\n||}" alt="" coords="1291,1332,1413,1424"/>
+<area shape="rect" id="node46" href="$a00793.html" title="The container for &quot;fairness&#45;oriented&quot; aka &quot;enqueued&quot; tasks. " alt="" coords="1400,2423,1531,2676"/>
+<area shape="rect" id="node53" href="$a00676.html" title="{tbb::internal::scheduler\n||+ spawn()\l+ wait_for_all()\l+ spawn_root_and_wait()\l+ ~scheduler()\l+ enqueue()\l}" alt="" coords="940,1551,1108,1687"/>
+<area shape="rect" id="node14" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="1137,483,1295,561"/>
+<area shape="rect" id="node51" href="$a00062.html" title="{tbb::internal::arena\l_slot_line1\n||}" alt="" coords="1569,3645,1700,3737"/>
+<area shape="rect" id="node68" href="$a00063.html" title="{tbb::internal::arena\l_slot_line2\n|+ hint_for_pop\l|}" alt="" coords="328,3120,459,3212"/>
+<area shape="rect" id="node17" href="$a00521.html" title="{tbb::internal::circular\l_doubly_linked_list_with\l_sentinel::node_t\n||+ node_t()\l}" alt="" coords="643,965,805,1071"/>
+<area shape="rect" id="node18" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="648,1835,795,2015"/>
+<area shape="rect" id="node22" href="$a00722.html" title="Fast, unfair, spinning reader&#45;writer lock with backoff and writer&#45;preference. " alt="" coords="1489,1711,1661,2140"/>
+<area shape="rect" id="node23" href="$a00390.html" title="{tbb::internal::intrusive\l_list\&lt; arena \&gt;\n||&#45; node()\l&#45; item()\l}" alt="" coords="1965,1872,2112,1979"/>
+<area shape="rect" id="node26" href="$a00390.html" title="Double linked list of items of type T that is derived from intrusive_list_node class. " alt="" coords="1787,1325,1933,1431"/>
+<area shape="rect" id="node28" href="$a00079.html" title="{tbb::atomic\&lt; unsigned \&gt;\n||+ atomic()\l+ atomic()\l+ operator=()\l+ operator=()\l}" alt="" coords="2136,1865,2299,1986"/>
+<area shape="rect" id="node29" href="$a00083.html" title="{tbb::internal::atomic\l_impl\&lt; unsigned \&gt;\n||+ atomic_impl()\l+ atomic_impl()\l+ fetch_and_store()\l+ fetch_and_store()\l+ compare_and_swap()\l+ compare_and_swap()\l+ operator value_type()\l+ load()\l+ load()\l+ store()\l+ store()\l# store_with_release()\l&#45; to_bits()\l&#45; to_value()\l&#45; to_bits_ref()\l}" alt="" coords="2009,1229,2167,1527"/>
+<area shape="rect" id="node30" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; unsigned, sizeof\l(unsigned)\&gt;\n||}" alt="" coords="2019,739,2197,845"/>
+<area shape="rect" id="node31" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; value_type,\l size \&gt;\n||}" alt="" coords="2025,145,2175,252"/>
+<area shape="rect" id="node33" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; T, sizeof(T)\&gt;\n||}" alt="" coords="2301,476,2459,568"/>
+<area shape="rect" id="node37" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; uintptr_t, sizeof\l(uintptr_t)\&gt;\n||}" alt="" coords="2353,739,2527,845"/>
+<area shape="rect" id="node32" href="$a00083.html" title="Base class that provides basic functionality for atomic&lt;T&gt; without fetch_and_add. ..." alt="" coords="2190,869,2349,1167"/>
+<area shape="rect" id="node34" href="$a00079.html" title="Primary template for atomic. " alt="" coords="2191,1317,2310,1439"/>
+<area shape="rect" id="node36" href="$a00083.html" title="{tbb::internal::atomic\l_impl\&lt; uintptr_t \&gt;\n||+ atomic_impl()\l+ atomic_impl()\l+ fetch_and_store()\l+ fetch_and_store()\l+ compare_and_swap()\l+ compare_and_swap()\l+ operator value_type()\l+ load()\l+ load()\l+ store()\l+ store()\l# store_with_release()\l&#45; to_bits()\l&#45; to_value()\l&#45; to_bits_ref()\l}" alt="" coords="2334,1229,2493,1527"/>
+<area shape="rect" id="node35" href="$a00079.html" title="{tbb::atomic\&lt; uintptr_t \&gt;\n||+ atomic()\l+ atomic()\l+ operator=()\l+ operator=()\l}" alt="" coords="2323,1865,2482,1986"/>
+<area shape="rect" id="node39" href="$a00794.html" title="{tbb::internal::task\l_stream_accessor\&lt; accessor \&gt;\n||# get_item()\l}" alt="" coords="1155,1879,1362,1971"/>
+<area shape="rect" id="node43" href="$a00612.html" title="Essentially, this is just a pair of a queue and a mutex to protect the queue. " alt="" coords="2619,950,2799,1086"/>
+<area shape="rect" id="node47" href="$a00191.html" title="{tbb::internal::cpu\l_ctl_env\n|&#45; mxcsr\l&#45; x87cw\l&#45; my_ctl\l&#45; my_fenv_ptr\l&#45; MXCSR_CONTROL_MASK\l|+ operator!=()\l+ get_env()\l+ set_env()\l+ operator!=()\l+ get_env()\l+ set_env()\l+ operator!=()\l+ get_env()\l+ set_env()\l+ cpu_ctl_env()\land 6 more...\l}" alt="" coords="1465,3017,1661,3315"/>
+<area shape="rect" id="node48" href="$a00061.html" title="{tbb::internal::arena_slot\n||+ fill_with_canary_pattern()\l+ allocate_task_pool()\l+ free_task_pool()\l}" alt="" coords="2033,4178,2212,4285"/>
+<area shape="rect" id="node56" href="$a00677.html" title="Bit&#45;field representing properties of a sheduler. " alt="" coords="707,4156,861,4307"/>
+<area shape="rect" id="node57" href="$a00480.html" title="Class representing source of mail. " alt="" coords="3760,3412,3883,3592"/>
+<area shape="rect" id="node58" href="$a00481.html" title="Class representing where mail is put. " alt="" coords="3699,2467,3834,2632"/>
+<area shape="rect" id="node62" href="$a00790.html" title="{tbb::internal::task\l_proxy\n|+ task_and_tag\l+ pool_bit\l+ mailbox_bit\l+ location_mask\l|+ extract_task()\l+ is_shared()\l+ task_ptr()\l}" alt="" coords="3597,3083,3720,3249"/>
+<area shape="rect" id="node61" href="$a00874.html" title="Internal representation of mail_outbox, without padding. " alt="" coords="3601,3638,3756,3745"/>
+<area shape="rect" id="node63" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="699,2349,914,2749"/>
+<area shape="rect" id="node65" href="$a00251.html" title="A fast random number generator. " alt="" coords="1080,2445,1253,2654"/>
+</map>

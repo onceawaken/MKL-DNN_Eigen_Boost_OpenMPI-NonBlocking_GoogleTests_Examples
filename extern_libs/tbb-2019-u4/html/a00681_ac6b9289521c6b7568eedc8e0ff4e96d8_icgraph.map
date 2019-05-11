@@ -1,0 +1,4 @@
+<map id="tbb::queuing_mutex::scoped_lock::acquire" name="tbb::queuing_mutex::scoped_lock::acquire">
+<area shape="rect" id="node2" href="$a00681.html#aa82d9da0dcfe5b21f1c08473f8223105" title="Acquire lock on given mutex. " alt="" coords="211,5,395,47"/>
+<area shape="rect" id="node3" href="$a00681.html#a469ec43836a8dd250ce0a22b02945630" title="Release lock (if lock is held). " alt="" coords="207,71,399,112"/>
+</map>

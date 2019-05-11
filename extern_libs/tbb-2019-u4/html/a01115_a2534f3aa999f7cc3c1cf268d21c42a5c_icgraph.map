@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::make_edge" name="tbb::flow::interface10::make_edge">
+<area shape="rect" id="node2" href="$a01115.html#ac02104628bd69a8a69cf5247ca8c0452" title="tbb::flow::interface10\l::make_edge" alt="" coords="229,5,373,47"/>
+<area shape="rect" id="node3" href="$a00744.html#af6d00910aeb02fcf9d1e37321f510c75" title="streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::make_edges" alt="" coords="197,70,404,126"/>
+<area shape="rect" id="node4" href="$a00744.html#a05296aa10e873156c7bb511440dc7cee" title="streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::make_Nth_edge" alt="" coords="197,150,404,206"/>
+<area shape="rect" id="node5" href="$a00933.html#adb420aa442364711a0a8a8cd763c04be" title="Put item to successor; return task to run the successor if possible. " alt="" coords="225,230,376,286"/>
+</map>

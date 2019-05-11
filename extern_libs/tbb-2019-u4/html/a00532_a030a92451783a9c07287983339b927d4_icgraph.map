@@ -1,0 +1,11 @@
+<map id="tbb::flow::interface10::opencl_async_msg::set_event" name="tbb::flow::interface10::opencl_async_msg::set_event">
+<area shape="rect" id="node2" href="$a00538.html#a877b0b9c000b673a55d89fa48c7cc3d4" title="tbb::flow::interface10\l::opencl_factory\&lt; default\l_device_filter \&gt;::enqueue\l_map_buffer" alt="" coords="267,5,435,76"/>
+<area shape="rect" id="node3" href="$a00538.html#ae57f4ae9af1e7ac5502cc0db43def837" title="tbb::flow::interface10\l::opencl_factory\&lt; default\l_device_filter \&gt;::enqueue\l_unmap_buffer" alt="" coords="267,100,435,171"/>
+<area shape="rect" id="node4" href="$a00533.html#a5d1916fe58794e9d5d2d22a8d3de4e19" title="tbb::flow::interface10\l::opencl_buffer::receive" alt="" coords="272,195,431,236"/>
+<area shape="rect" id="node5" href="$a01115.html#a30be2ae46c8ab582f60aad46887c449f" title="tbb::flow::interface10\l::receive_if_memory_object" alt="" coords="260,260,443,301"/>
+<area shape="rect" id="node7" href="$a00533.html#ac10f3ba6b90c0be794c810c8925898f1" title="tbb::flow::interface10\l::opencl_buffer::send" alt="" coords="279,325,423,367"/>
+<area shape="rect" id="node8" href="$a01115.html#a6ac917507f88723b315ed99a947dcd28" title="tbb::flow::interface10\l::send_if_memory_object" alt="" coords="267,391,435,432"/>
+<area shape="rect" id="node10" href="$a00538.html#a0a1cfab30641fba98cdb990bbd81d669" title="tbb::flow::interface10\l::opencl_factory\&lt; default\l_device_filter \&gt;::update\l_one_arg" alt="" coords="268,456,435,527"/>
+<area shape="rect" id="node6" href="$a00532.html#a15d3b949f1ce48860a05fb3e0a537907" title="tbb::flow::interface10\l::opencl_async_msg::finalize" alt="" coords="491,260,681,301"/>
+<area shape="rect" id="node9" href="$a00538.html#ae225724eca814f88041fc7ad3e067424" title="tbb::flow::interface10\l::opencl_factory\&lt; default\l_device_filter \&gt;::send_data" alt="" coords="497,383,675,439"/>
+</map>

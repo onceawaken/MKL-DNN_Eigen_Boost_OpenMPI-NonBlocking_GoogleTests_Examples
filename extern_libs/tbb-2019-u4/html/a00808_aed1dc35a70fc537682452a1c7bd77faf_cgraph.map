@@ -1,0 +1,5 @@
+<map id="tbb::internal::tbb_thread_v3::detach" name="tbb::internal::tbb_thread_v3::detach">
+<area shape="rect" id="node2" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="188,5,324,47"/>
+<area shape="rect" id="node3" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="373,35,509,76"/>
+<area shape="rect" id="node4" href="$a00808.html#a4ddee0e2030f8fa947fd93f403178104" title="tbb::internal::tbb\l_thread_v3::joinable" alt="" coords="187,123,325,164"/>
+</map>

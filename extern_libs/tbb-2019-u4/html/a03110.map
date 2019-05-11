@@ -1,0 +1,10 @@
+<map id="tbb::interface9::internal::do_group_task_input&lt; Body, Item &gt;" name="tbb::interface9::internal::do_group_task_input&lt; Body, Item &gt;">
+<area shape="rect" id="node2" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="209,161,423,561"/>
+<area shape="rect" id="node11" href="$a00241.html" title="task that does nothing. Useful for synchronization. " alt="" coords="186,655,302,732"/>
+<area shape="rect" id="node5" href="$a00042.html" title="{tbb::aligned_space\l\&lt; Item, max_arg_size \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="459,868,663,1004"/>
+<area shape="rect" id="node6" href="$a00042.html" title="Block of space aligned sufficiently to construct an array T with N elements. " alt="" coords="459,625,663,761"/>
+<area shape="rect" id="node7" href="$a00563.html" title="For internal use only. " alt="" coords="116,839,303,1033"/>
+<area shape="rect" id="node8" href="$a00562.html" title="Class the user supplied algorithm body uses to add new tasks. " alt="" coords="7,611,161,776"/>
+<area shape="rect" id="node9" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,315,157,407"/>
+<area shape="rect" id="node10" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,20,163,97"/>
+</map>

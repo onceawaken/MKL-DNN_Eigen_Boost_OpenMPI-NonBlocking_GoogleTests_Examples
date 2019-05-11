@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00612.html" title="Essentially, this is just a pair of a queue and a mutex to protect the queue. " alt="" coords="5,35,185,76"/>
+<area shape="rect" id="node2" href="$a00552.html" title="tbb::internal::padded\l_base\&lt; tbb::internal\l::queue_and_mutex, NFS\l_MaxLineSize, sizeof(tbb\l::internal::queue_and_mutex)\l%NFS_MaxLineSize \&gt;" alt="" coords="233,5,424,105"/>
+<area shape="rect" id="node3" href="$a00551.html" title="tbb::internal::padded\l\&lt; tbb::internal::queue\l_and_mutex \&gt;" alt="" coords="472,27,617,83"/>
+</map>

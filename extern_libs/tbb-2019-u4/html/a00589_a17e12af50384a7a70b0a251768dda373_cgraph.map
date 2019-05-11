@@ -1,0 +1,7 @@
+<map id="tbb::pipeline::add_filter" name="tbb::pipeline::add_filter">
+<area shape="rect" id="node2" href="$a00255.html#aa3a4a81d3130c3749ada365387023623" title="True if filter is thread&#45;bound. " alt="" coords="179,5,312,32"/>
+<area shape="rect" id="node3" href="$a00255.html#ace53ff32ffb066e52c44f439c9150a05" title="True if filter must receive stream in order. " alt="" coords="175,56,316,83"/>
+<area shape="rect" id="node4" href="$a00255.html#a6efb96f4660820fc6d47f9f480c07d35" title="True if filter is serial. " alt="" coords="181,107,310,133"/>
+<area shape="rect" id="node5" href="$a00255.html#a9ecb96a83bb34fd8e85ab2bd23a85788" title="Value used to mark &quot;not in pipeline&quot;. " alt="" coords="187,158,303,199"/>
+<area shape="rect" id="node6" href="$a00255.html#aeb5fbff6b01a85e0c74c8976b6f761de" title="true if an input filter can emit null " alt="" coords="187,223,303,265"/>
+</map>

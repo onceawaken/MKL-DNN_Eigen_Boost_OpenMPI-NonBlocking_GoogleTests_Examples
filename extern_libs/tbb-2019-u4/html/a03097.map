@@ -1,0 +1,4 @@
+<map id="tbb::interface9::internal::adaptive_mode&lt; Partition &gt;" name="tbb::interface9::internal::adaptive_mode&lt; Partition &gt;">
+<area shape="rect" id="node2" href="$a00575.html" title="{tbb::internal::partition\l_type_base\&lt; Partition \&gt;\n||+ set_affinity()\l+ note_affinity()\l+ continue_after_execute\l_range()\l+ decide_whether_to_delay()\l+ spawn_or_delay()\l}" alt="" coords="5,233,195,399"/>
+<area shape="rect" id="node3" href="$a00575.html" title="Provides backward&#45;compatible methods for partition objects without affinity. " alt="" coords="5,5,195,171"/>
+</map>

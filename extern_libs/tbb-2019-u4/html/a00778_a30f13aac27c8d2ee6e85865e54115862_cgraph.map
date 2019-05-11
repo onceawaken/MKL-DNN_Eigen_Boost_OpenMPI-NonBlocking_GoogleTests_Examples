@@ -1,0 +1,9 @@
+<map id="tbb::task::note_affinity" name="tbb::task::note_affinity">
+<area shape="rect" id="node2" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="217,5,356,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a1f6010c3e550e88ab739adbdee5dfdac" title="tbb::internal::__TBB\l_store_relaxed" alt="" coords="217,71,356,112"/>
+<area shape="rect" id="node4" href="$a00784.html#ab963ca5548eeb51b8e275cc2d738b837" title="Registers this context with the local scheduler and binds it to its parent context. " alt="" coords="205,136,368,177"/>
+<area shape="rect" id="node5" href="$a00778.html#a08be5c3a725bd39440411aef2a420bf5" title="Moves this task from its current group into another one. " alt="" coords="205,202,368,229"/>
+<area shape="rect" id="node6" href="$a00784.html#a8a45085c6f6cec233120e664634817f9" title="Copies FPU control setting from another context. " alt="" coords="205,253,368,295"/>
+<area shape="rect" id="node7" href="$a00307.html#a529e907c8efd72821da3ae61cbf8abc0" title="tbb::internal::governor\l::local_scheduler_weak" alt="" coords="207,319,366,360"/>
+<area shape="rect" id="node8" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="416,319,545,360"/>
+</map>

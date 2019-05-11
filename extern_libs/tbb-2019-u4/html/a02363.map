@@ -1,0 +1,19 @@
+<map id="tbb::flow::interface10::internal::async_storage&lt; T &gt;" name="tbb::flow::interface10::internal::async_storage&lt; T &gt;">
+<area shape="rect" id="node2" href="$a00079.html" title="{tbb::atomic\&lt; bool \&gt;\n||+ atomic()\l+ atomic()\l+ operator=()\l+ operator=()\l}" alt="" coords="1327,1945,1462,2066"/>
+<area shape="rect" id="node3" href="$a00083.html" title="{tbb::internal::atomic\l_impl\&lt; bool \&gt;\n||+ atomic_impl()\l+ atomic_impl()\l+ fetch_and_store()\l+ fetch_and_store()\l+ compare_and_swap()\l+ compare_and_swap()\l+ operator value_type()\l+ load()\l+ load()\l+ store()\l+ store()\l# store_with_release()\l&#45; to_bits()\l&#45; to_value()\l&#45; to_bits_ref()\l}" alt="" coords="1478,1475,1637,1772"/>
+<area shape="rect" id="node4" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; bool, sizeof\l(bool)\&gt;\n||}" alt="" coords="1482,305,1633,412"/>
+<area shape="rect" id="node5" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; value_type,\l size \&gt;\n||}" alt="" coords="1410,5,1561,112"/>
+<area shape="rect" id="node7" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; T, sizeof(T)\&gt;\n||}" alt="" coords="1335,182,1494,274"/>
+<area shape="rect" id="node6" href="$a00083.html" title="Base class that provides basic functionality for atomic&lt;T&gt; without fetch_and_add. ..." alt="" coords="1315,487,1474,785"/>
+<area shape="rect" id="node8" href="$a00079.html" title="Primary template for atomic. " alt="" coords="1335,1563,1454,1684"/>
+<area shape="rect" id="node9" href="$a00308.html" title="The graph class. " alt="" coords="324,1835,497,2176"/>
+<area shape="rect" id="node18" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="215,2268,359,2389"/>
+<area shape="rect" id="node10" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="252,182,399,274"/>
+<area shape="rect" id="node20" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="434,583,590,689"/>
+<area shape="rect" id="node22" href="$a00784.html" title="Used to form groups of tasks. " alt="" coords="61,860,261,1451"/>
+<area shape="rect" id="node11" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="247,20,404,97"/>
+<area shape="rect" id="node14" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="614,436,829,836"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="977,597,1074,675"/>
+<area shape="rect" id="node26" title="STL class. " alt="" coords="1098,597,1214,675"/>
+<area shape="rect" id="node19" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="448,1533,595,1713"/>
+</map>

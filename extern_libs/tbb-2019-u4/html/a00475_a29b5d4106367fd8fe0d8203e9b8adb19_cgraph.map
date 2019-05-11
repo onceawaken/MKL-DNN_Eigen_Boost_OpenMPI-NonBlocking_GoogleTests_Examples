@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::limiter_node::remove_successor" name="tbb::flow::interface10::limiter_node::remove_successor">
+<area shape="rect" id="node2" href="$a00875.html#a03e9c0578f5724dd82381777d3c6c799" title="Remove a predecessor from the node. " alt="" coords="206,5,385,61"/>
+<area shape="rect" id="node3" href="$a00767.html#a69190f6db57f6735f2078243b1f30157" title="tbb::flow::interface10\l::internal::successor\l_cache::remove_successor" alt="" coords="204,85,387,141"/>
+</map>

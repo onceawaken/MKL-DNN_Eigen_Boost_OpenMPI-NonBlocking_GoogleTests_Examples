@@ -1,0 +1,12 @@
+<map id="tbb::interface9::internal::start_for::offer_work" name="tbb::interface9::internal::start_for::offer_work">
+<area shape="rect" id="node2" href="$a01132.html#ac4236dcd3fe30778e6930c3785bd463c" title="allocate right task with new parent " alt="" coords="208,129,363,171"/>
+<area shape="rect" id="node10" href="$a00729.html#aec2eb848e57c22157c14dffb5c3124f0" title="Constructor for root task. " alt="" coords="208,224,363,265"/>
+<area shape="rect" id="node3" href="$a00778.html#a94c4982c71c3794f3cbb12434eb3498a" title="Returns proxy for overloaded new that allocates a child task of *this. " alt="" coords="419,5,545,47"/>
+<area shape="rect" id="node4" href="$a00778.html#a3d541e86f39624d4cb8f8c90a39e57f9" title="Returns proxy for overloaded new that allocates a continuation task of *this. " alt="" coords="419,71,545,112"/>
+<area shape="rect" id="node5" href="$a00778.html#a537d5c946c6715e0d76974dc53e616bc" title="sets parent task pointer to specified value " alt="" coords="411,137,553,163"/>
+<area shape="rect" id="node9" href="$a00778.html#aca4ee1355d9f6acfd34f736fa889f3fd" title="Set reference count. " alt="" coords="421,188,543,229"/>
+<area shape="rect" id="node6" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="601,137,715,163"/>
+<area shape="rect" id="node7" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="763,107,916,134"/>
+<area shape="rect" id="node8" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="774,159,905,200"/>
+<area shape="rect" id="node11" href="$a01133.html#a54901d4a6cf835df398ca138ecfd4d24" title="tbb::internal::fgt\l_algorithm" alt="" coords="425,253,539,295"/>
+</map>

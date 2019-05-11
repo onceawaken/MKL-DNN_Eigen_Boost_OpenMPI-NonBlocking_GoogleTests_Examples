@@ -1,0 +1,6 @@
+<map id="tbb::interface5::internal::hash_map_node_base" name="tbb::interface5::internal::hash_map_node_base">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,132,157,224"/>
+<area shape="rect" id="node5" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="110,273,266,380"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,5,163,83"/>
+<area shape="rect" id="node4" href="$a00722.html" title="Fast, unfair, spinning reader&#45;writer lock with backoff and writer&#45;preference. " alt="" coords="106,429,278,859"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="tbb::internal::critical_section_v4::scoped_lock::scoped_lock" name="tbb::internal::critical_section_v4::scoped_lock::scoped_lock">
+<area shape="rect" id="node2" href="$a00193.html#afb1ccdfc59fdd3f5a3a8db17c56102e8" title="tbb::internal::critical\l_section_v4::lock" alt="" coords="227,39,363,80"/>
+<area shape="rect" id="node3" href="$a01144.html#acaa17c2e4053a1c935b0911ac1a109fb" title="tbb::this_tbb_thread\l::get_id" alt="" coords="411,5,548,47"/>
+<area shape="rect" id="node5" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="414,71,545,112"/>
+<area shape="rect" id="node4" href="$a01133.html#a7444a8c52dd26ba57c04aa00482b9ef9" title="tbb::internal::thread\l_get_id_v3" alt="" coords="596,5,731,47"/>
+<area shape="rect" id="node6" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="598,71,729,112"/>
+<area shape="rect" id="node7" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="810,5,929,47"/>
+<area shape="rect" id="node8" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="779,71,960,112"/>
+<area shape="rect" id="node9" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="783,137,955,163"/>
+</map>

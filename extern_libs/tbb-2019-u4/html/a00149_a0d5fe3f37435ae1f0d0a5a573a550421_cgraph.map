@@ -1,0 +1,27 @@
+<map id="tbb::internal::concurrent_queue_base_v3::internal_pop" name="tbb::internal::concurrent_queue_base_v3::internal_pop">
+<area shape="rect" id="node2" href="$a00145.html#ab6e8b88bc5de74f5f872d18de94978f2" title="Cancel the wait. Removes the thread from the wait queue if not removed yet. " alt="" coords="252,42,411,83"/>
+<area shape="rect" id="node6" href="$a00159.html#a3e44c05c1d1bc311a1e71beb9f9e8e96" title="tbb::internal::concurrent\l_queue_rep::choose" alt="" coords="252,514,411,555"/>
+<area shape="rect" id="node7" href="$a00145.html#adb7065c781c2ae5f76d602c184c5194e" title="Commit wait if event count has not changed; otherwise, cancel wait. " alt="" coords="252,397,411,438"/>
+<area shape="rect" id="node10" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="477,514,607,555"/>
+<area shape="rect" id="node15" href="$a00145.html#a83b6f503d11bc425726dda8eb59424d5" title="Notify waiting threads of the event that satisfies the given predicate. " alt="" coords="252,137,411,178"/>
+<area shape="rect" id="node17" href="$a00497.html#acf53d0cdfd439273c8d3d52b860abe3f" title="tbb::internal::micro\l_queue::pop" alt="" coords="266,651,397,693"/>
+<area shape="rect" id="node25" href="$a00145.html#a87e8231d37c0875953fc2283c1158115" title="prepare wait by inserting &#39;thr&#39; into the wait queue " alt="" coords="252,259,411,301"/>
+<area shape="rect" id="node3" href="$a00128.html#abc5c4751ee7c3364cb3d0ab18a2e7c8c" title="remove node &#39;n&#39; " alt="" coords="461,5,623,61"/>
+<area shape="rect" id="node4" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="679,227,818,269"/>
+<area shape="rect" id="node5" href="$a01133.html#a1f6010c3e550e88ab739adbdee5dfdac" title="tbb::internal::__TBB\l_store_relaxed" alt="" coords="679,129,818,170"/>
+<area shape="rect" id="node8" href="$a00106.html#af2248191c45e9442d39805db03cdbb34" title="wait/acquire " alt="" coords="475,397,609,438"/>
+<area shape="rect" id="node9" href="$a00826.html#aefaf66a82d69cc8daf22ca74d0e8d310" title="tbb::internal::concurrent\l_monitor::thread_context\l::semaphore" alt="" coords="459,317,625,373"/>
+<area shape="rect" id="node11" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="683,514,814,555"/>
+<area shape="rect" id="node12" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="903,573,1022,614"/>
+<area shape="rect" id="node13" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="872,455,1053,497"/>
+<area shape="rect" id="node14" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="877,521,1049,548"/>
+<area shape="rect" id="node16" href="$a01113.html#a33e73b97b02726c692bd8d9da8e3fb1b" title="Sequentially consistent full memory fence. " alt="" coords="479,85,605,112"/>
+<area shape="rect" id="node18" href="$a01133.html#a9006317b947d3f9f7a457e295e5b8330" title="Spin UNTIL the value of the variable is equal to a given value. " alt="" coords="481,723,603,765"/>
+<area shape="rect" id="node21" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="481,789,603,830"/>
+<area shape="rect" id="node22" href="$a01133.html#ae4046a97e0542e3bb86bf9c54b0861e2" title="A function to compute arg modulo divisor where divisor is a power of 2. " alt="" coords="472,579,612,621"/>
+<area shape="rect" id="node24" href="$a00149.html#a3db6728b63f0332b4122ec700225dca2" title="tbb::internal::concurrent\l_queue_base_v3::assign\l_and_destroy_item" alt="" coords="459,644,625,700"/>
+<area shape="rect" id="node19" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="680,755,817,797"/>
+<area shape="rect" id="node20" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="909,763,1016,789"/>
+<area shape="rect" id="node23" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="673,579,824,621"/>
+<area shape="rect" id="node26" href="$a00128.html#a52654111c3f200042d6e35444d54fef5" title="add to the back of the list " alt="" coords="461,187,623,243"/>
+</map>

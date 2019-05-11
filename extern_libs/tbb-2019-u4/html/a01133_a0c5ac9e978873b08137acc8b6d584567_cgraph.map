@@ -1,0 +1,4 @@
+<map id="tbb::internal::prolonged_pause" name="tbb::internal::prolonged_pause">
+<area shape="rect" id="node2" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="427,13,533,39"/>
+<area shape="rect" id="node3" href="$a00082.html#ab191a4e1ce3ad928beb0dfd86ebd5d50" title="Pause for a few times and return false if saturated. " alt="" coords="208,35,379,76"/>
+</map>

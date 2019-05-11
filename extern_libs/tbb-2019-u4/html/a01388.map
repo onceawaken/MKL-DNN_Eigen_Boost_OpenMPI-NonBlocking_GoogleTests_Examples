@@ -1,0 +1,18 @@
+<map id="task_stream.h" name="task_stream.h">
+<area shape="rect" id="node2" href="$a01098.html" title="tbb/tbb_stddef.h" alt="" coords="585,453,701,480"/>
+<area shape="rect" id="node9" href="$a00965.html" title="tbb/atomic.h" alt="" coords="173,304,267,331"/>
+<area shape="rect" id="node11" href="$a01068.html" title="tbb/spin_mutex.h" alt="" coords="885,155,1008,181"/>
+<area shape="rect" id="node17" href="$a01082.html" title="tbb/tbb_allocator.h" alt="" coords="1377,379,1506,405"/>
+<area shape="rect" id="node19" href="$a01063.html" title="scheduler_common.h" alt="" coords="519,80,665,107"/>
+<area shape="rect" id="node29" href="$a01093.html" title="tbb_misc.h" alt="" coords="45,229,131,256"/>
+<area shape="rect" id="node3" href="$a01085.html" title="tbb_config.h" alt="" coords="512,528,605,555"/>
+<area shape="rect" id="node10" href="$a01089.html" title="tbb_machine.h" alt="" coords="353,379,460,405"/>
+<area shape="rect" id="node13" href="$a00962.html" title="aligned_space.h" alt="" coords="722,304,838,331"/>
+<area shape="rect" id="node14" href="$a01095.html" title="tbb_profiling.h" alt="" coords="529,229,631,256"/>
+<area shape="rect" id="node16" href="$a00952.html" title="internal/_mutex_padding.h" alt="" coords="1074,229,1249,256"/>
+<area shape="rect" id="node15" href="$a00955.html" title="internal/_tbb_strings.h" alt="" coords="445,304,595,331"/>
+<area shape="rect" id="node20" href="$a00972.html" title="tbb/cache_aligned_allocator.h" alt="" coords="1056,379,1251,405"/>
+<area shape="rect" id="node22" href="$a01097.html" title="tbb_statistics.h" alt="" coords="207,229,318,256"/>
+<area shape="rect" id="node23" href="$a01073.html" title="tbb/task.h" alt="" coords="459,155,539,181"/>
+<area shape="rect" id="node24" href="$a01088.html" title="tbb/tbb_exception.h" alt="" coords="863,304,999,331"/>
+</map>

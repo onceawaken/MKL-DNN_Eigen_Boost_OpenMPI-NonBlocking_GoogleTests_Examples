@@ -1,0 +1,11 @@
+<map id="tbb::internal::generic_scheduler::attach_arena" name="tbb::internal::generic_scheduler::attach_arena">
+<area shape="rect" id="node2" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="237,25,413,67"/>
+<area shape="rect" id="node4" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="481,71,629,112"/>
+<area shape="rect" id="node6" href="$a00302.html#a7c98d05ea5c1e309b836335ea9af79fa" title="tbb::internal::generic\l_scheduler::nested_arena_entry" alt="" coords="221,143,428,184"/>
+<area shape="rect" id="node8" href="$a00059.html#aff17fc29650655b080b795be34179d20" title="Registers the worker with the arena and enters TBB scheduler dispatch loop. " alt="" coords="259,211,390,252"/>
+<area shape="rect" id="node3" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="481,5,629,47"/>
+<area shape="rect" id="node5" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="684,71,820,112"/>
+<area shape="rect" id="node7" href="$a00514.html#a836d39a027baf51a4ff995cc44adee05" title="tbb::internal::nested\l_arena_context::nested\l_arena_context" alt="" coords="476,135,635,191"/>
+<area shape="rect" id="node9" href="$a00489.html#a574c6275a73f185d391151478e4a7634" title="tbb::internal::market\l::process" alt="" coords="486,215,625,256"/>
+<area shape="rect" id="node10" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="683,215,821,256"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbb::task_handle::mark_scheduled" name="tbb::task_handle::mark_scheduled">
+<area shape="rect" id="node2" href="$a00782.html#a543903ef748fd10eb864c27a2e8ac18b" title="tbb::task_group::run\l_and_wait" alt="" coords="243,5,382,47"/>
+<area shape="rect" id="node3" href="$a00765.html#ab6812c9b682cec4b1a93da169b6fffc7" title="tbb::structured_task\l_group::run_and_wait" alt="" coords="239,71,386,112"/>
+<area shape="rect" id="node4" href="$a00786.html#abcddb511967aa06d264ac6c06c4fb08b" title="tbb::internal::task\l_handle_task::task_handle_task" alt="" coords="208,136,417,177"/>
+</map>

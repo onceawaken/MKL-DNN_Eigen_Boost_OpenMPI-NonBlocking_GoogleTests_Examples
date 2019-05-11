@@ -1,0 +1,9 @@
+<map id="tbb::interface7::internal::delegated_task::~delegated_task" name="tbb::interface7::internal::delegated_task::~delegated_task">
+<area shape="rect" id="node2" href="$a01133.html#aea57866db2fc3fe1018c89b58109b39a" title="tbb::internal::__TBB\l_store_with_release" alt="" coords="286,5,425,47"/>
+<area shape="rect" id="node3" href="$a00145.html#a83b6f503d11bc425726dda8eb59424d5" title="Notify waiting threads of the event that satisfies the given predicate. " alt="" coords="276,71,435,112"/>
+<area shape="rect" id="node5" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="299,137,412,163"/>
+<area shape="rect" id="node8" href="$a00778.html#ab82188cc88d0306a706fac651621c4c8" title="The internal reference count. " alt="" coords="288,187,423,214"/>
+<area shape="rect" id="node4" href="$a01113.html#a33e73b97b02726c692bd8d9da8e3fb1b" title="Sequentially consistent full memory fence. " alt="" coords="496,78,623,105"/>
+<area shape="rect" id="node6" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="483,133,636,159"/>
+<area shape="rect" id="node7" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="494,184,625,225"/>
+</map>

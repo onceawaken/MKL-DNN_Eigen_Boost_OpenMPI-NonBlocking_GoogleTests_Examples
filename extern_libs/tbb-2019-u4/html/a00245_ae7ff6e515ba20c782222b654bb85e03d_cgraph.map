@@ -1,0 +1,4 @@
+<map id="tbb::interface6::enumerable_thread_specific::internal_move" name="tbb::interface6::enumerable_thread_specific::internal_move">
+<area shape="rect" id="node2" href="$a00168.html#a0b3284684328c58c0228c9a697ef3594" title="Allocate enough space to grow to size n without having to allocate more memory later. " alt="" coords="260,5,412,47"/>
+<area shape="rect" id="node3" href="$a00168.html#a803268c16e3688ff4681251947d257c7" title="Return size of vector. It may include elements under construction. " alt="" coords="260,71,412,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbb::internal::allowed_parallelism_control::default_value" name="tbb::internal::allowed_parallelism_control::default_value">
+<area shape="rect" id="node2" href="$a00307.html#a87ef607c22c347eb97ddafa4384b4f1d" title="tbb::internal::governor\l::default_num_threads" alt="" coords="199,5,349,47"/>
+<area shape="rect" id="node4" href="$a01133.html#a80df3dc4f925e066864ab01691add3b0" title="Utility template function returning greater of the two values. " alt="" coords="213,71,335,98"/>
+<area shape="rect" id="node3" href="$a01133.html#a5f583dafcd8d7ffeb10905c4eb509cd9" title="Returns maximal parallelism level supported by the current OS configuration. " alt="" coords="397,5,548,47"/>
+</map>

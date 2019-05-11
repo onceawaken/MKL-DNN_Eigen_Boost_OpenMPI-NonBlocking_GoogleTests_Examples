@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/daisy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/daisy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/egrzrbr/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daisy/W/W.priv/NonBlockingProtocol
+CMAKE_SOURCE_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug
+CMAKE_BINARY_DIR = /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/depend.make
@@ -59,16 +59,16 @@ include src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/flags.make
 
 src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o: src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/flags.make
 src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o: ../src/bin/cpp/examples/simple_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o"
-	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o -c /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o"
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o -c /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp
 
 src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.i"
-	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp > CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.i
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp > CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.i
 
 src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.s"
-	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp -o CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.s
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples/simple_lib.cpp -o CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.s
 
 # Object files for target Cpp_Example_Simple_Lib
 Cpp_Example_Simple_Lib_OBJECTS = \
@@ -80,9 +80,9 @@ Cpp_Example_Simple_Lib_EXTERNAL_OBJECTS =
 src/bin/cpp/examples/libCpp_Example_Simple_Lib.a: src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o
 src/bin/cpp/examples/libCpp_Example_Simple_Lib.a: src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/build.make
 src/bin/cpp/examples/libCpp_Example_Simple_Lib.a: src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCpp_Example_Simple_Lib.a"
-	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && $(CMAKE_COMMAND) -P CMakeFiles/Cpp_Example_Simple_Lib.dir/cmake_clean_target.cmake
-	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cpp_Example_Simple_Lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCpp_Example_Simple_Lib.a"
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && $(CMAKE_COMMAND) -P CMakeFiles/Cpp_Example_Simple_Lib.dir/cmake_clean_target.cmake
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cpp_Example_Simple_Lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/build: src/bin/cpp/examples/libCpp_Example_Simple_Lib.a
@@ -90,10 +90,10 @@ src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/build: src/bin/cpp/ex
 .PHONY : src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/build
 
 src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/clean:
-	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && $(CMAKE_COMMAND) -P CMakeFiles/Cpp_Example_Simple_Lib.dir/cmake_clean.cmake
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples && $(CMAKE_COMMAND) -P CMakeFiles/Cpp_Example_Simple_Lib.dir/cmake_clean.cmake
 .PHONY : src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/clean
 
 src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/depend:
-	cd /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daisy/W/W.priv/NonBlockingProtocol /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/examples /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples /home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/examples /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/bin/cpp/examples/CMakeFiles/Cpp_Example_Simple_Lib.dir/depend
 

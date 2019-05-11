@@ -1,0 +1,6 @@
+<map id="tbb::internal::throw_bad_last_alloc_exception_v4" name="tbb::internal::throw_bad_last_alloc_exception_v4">
+<area shape="rect" id="node2" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="249,64,380,105"/>
+<area shape="rect" id="node3" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="459,5,578,47"/>
+<area shape="rect" id="node4" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="433,71,605,98"/>
+<area shape="rect" id="node5" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="428,123,609,164"/>
+</map>

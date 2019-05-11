@@ -1,0 +1,11 @@
+<map id="tbb::interface9::internal::quick_sort_pretest_body::operator()" name="tbb::interface9::internal::quick_sort_pretest_body::operator()">
+<area shape="rect" id="node2" href="$a00107.html#ae225fa10454b0fa33533dfb56f5060a2" title="Beginning of range. " alt="" coords="240,5,372,47"/>
+<area shape="rect" id="node3" href="$a00778.html#a5fb363a9917f1b6b24d3b053e9b5f2a6" title="Initiates cancellation of all tasks in this cancellation group and its subordinate groups..." alt="" coords="227,71,385,112"/>
+<area shape="rect" id="node4" href="$a00107.html#a99f829599d3e51b181a30b4cd57b06c6" title="One past last value in range. " alt="" coords="225,137,387,163"/>
+<area shape="rect" id="node5" href="$a00778.html#a540796b339aa9e5bd08cad1cc91da84b" title="Returns true if the context has received cancellation request. " alt="" coords="229,187,383,214"/>
+<area shape="rect" id="node6" href="$a00778.html#a8a82c421e571d0a87fec2ac40f1b6741" title="The innermost task being executed or destroyed by the current thread at the moment. " alt="" coords="255,238,357,265"/>
+<area shape="rect" id="node7" href="$a00302.html#a08edecb9bd9ef648bada9fb5b1febeec" title="tbb::internal::generic\l_scheduler::assert_task\l_pool_valid" alt="" coords="435,187,596,243"/>
+<area shape="rect" id="node9" href="$a00307.html#a529e907c8efd72821da3ae61cbf8abc0" title="tbb::internal::governor\l::local_scheduler_weak" alt="" coords="436,267,595,308"/>
+<area shape="rect" id="node8" href="$a01133.html#acf23419eb6d3adac787a4fee78cb3c27" title="tbb::internal::first" alt="" coords="649,202,769,229"/>
+<area shape="rect" id="node10" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="644,267,773,308"/>
+</map>

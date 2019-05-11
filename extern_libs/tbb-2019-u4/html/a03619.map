@@ -1,0 +1,10 @@
+<map id="tbb::internal::task_proxy" name="tbb::internal::task_proxy">
+<area shape="rect" id="node7" href="$a00874.html" title="Internal representation of mail_outbox, without padding. " alt="" coords="457,839,612,945"/>
+<area shape="rect" id="node2" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="502,161,717,561"/>
+<area shape="rect" id="node4" href="$a00481.html" title="Class representing where mail is put. " alt="" coords="527,1335,662,1500"/>
+<area shape="rect" id="node5" href="$a00551.html" title="{tbb::internal::padded\l\&lt; unpadded_mail_outbox \&gt;\n||}" alt="" coords="375,1193,553,1285"/>
+<area shape="rect" id="node6" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; unpadded_mail\l_outbox, NFS_MaxLineSize,\l sizeof(unpadded_mail_outbox)\l%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="363,995,565,1131"/>
+<area shape="rect" id="node8" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, R \&gt;\n|+ pad\l|}" alt="" coords="93,647,233,739"/>
+<area shape="rect" id="node11" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, sizeof(T)%S \&gt;\n|+ pad\l|}" alt="" coords="5,846,192,938"/>
+<area shape="rect" id="node10" href="$a00551.html" title="Pads type T to fill out to a multiple of cache line size. " alt="" coords="126,1017,266,1109"/>
+</map>

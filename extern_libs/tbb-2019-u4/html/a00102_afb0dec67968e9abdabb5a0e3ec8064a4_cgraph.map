@@ -1,0 +1,32 @@
+<map id="tbb::interface6::internal::basic_handler::operator()" name="tbb::interface6::internal::basic_handler::operator()">
+<area shape="rect" id="node2" href="$a00104.html#a736d459cc83dc435bfb7e05e60ff04bc" title="tbb::interface6::internal\l::basic_operation_base\l::apply_body" alt="" coords="236,5,392,61"/>
+<area shape="rect" id="node3" href="$a00038.html#ac7edadfe74f475783f3b429904e7010a" title="Call finish when done handling this operation. " alt="" coords="227,85,401,126"/>
+<area shape="rect" id="node7" href="$a00038.html#acbce3d13545770501b54df153bf1e690" title="tbb::interface6::aggregator\l_operation::next" alt="" coords="227,423,401,465"/>
+<area shape="rect" id="node31" href="$a00038.html#adc0e032aa604f1da85ffc7ec269b157f" title="Call start before handling this operation. " alt="" coords="449,143,624,185"/>
+<area shape="rect" id="node4" href="$a01133.html#ac4715a28e1dc69356c2dae5c2e84b5f4" title="tbb::internal::itt\l_store_word_with_release" alt="" coords="450,75,623,117"/>
+<area shape="rect" id="node5" href="$a01133.html#aca67a648bfa612f17afbe381b8f84720" title="tbb::internal::itt\l_store_pointer_with\l_release_v3" alt="" coords="672,64,807,120"/>
+<area shape="rect" id="node6" href="$a01133.html#aea57866db2fc3fe1018c89b58109b39a" title="tbb::internal::__TBB\l_store_with_release" alt="" coords="863,71,1001,113"/>
+<area shape="rect" id="node8" href="$a01133.html#ad2789f49c08d4136961e0649f5fd09e8" title="tbb::internal::itt\l_hide_load_word" alt="" coords="477,617,596,658"/>
+<area shape="rect" id="node9" href="$a01133.html#ab1345cb751bdd0495f6280675a6b2364" title="tbb::internal::itt\l_load_pointer_v3" alt="" coords="679,587,799,629"/>
+<area shape="rect" id="node10" href="$a01133.html#ae998b9627068b137cb2047f9979fc9c1" title="tbb::internal::call\l_itt_notify" alt="" coords="680,143,799,185"/>
+<area shape="rect" id="node11" href="$a01133.html#a4ac9e9119fcea67d6de9ea6cb7a41001" title="tbb::internal::call\l_itt_notify_v5" alt="" coords="680,806,799,847"/>
+<area shape="rect" id="node17" href="$a01133.html#aba5cd0bb95769841947906b928bdbb2b" title="tbb::internal::itt\l_make_task_group_v7" alt="" coords="855,617,1009,658"/>
+<area shape="rect" id="node18" href="$a01133.html#a8c9aa2b272babd96bd3ed0c1164130a6" title="tbb::internal::itt\l_metadata_str_add_v7" alt="" coords="855,682,1009,723"/>
+<area shape="rect" id="node19" href="$a01133.html#a833ba3b7af976854ee16577d66892a1d" title="tbb::internal::itt\l_relation_add_v7" alt="" coords="872,747,992,789"/>
+<area shape="rect" id="node20" href="$a01133.html#ace749aae0d4b232996e2fce71b811a3a" title="tbb::internal::itt\l_task_begin_v7" alt="" coords="875,865,989,906"/>
+<area shape="rect" id="node21" href="$a01133.html#a79aca1994dffae83b4df9b68a9c6798d" title="tbb::internal::itt\l_task_end_v7" alt="" coords="877,930,987,971"/>
+<area shape="rect" id="node22" href="$a01133.html#a0966396b0092e218b6d7620d2f9081f1" title="tbb::internal::itt\l_region_begin_v9" alt="" coords="871,995,993,1037"/>
+<area shape="rect" id="node23" href="$a01133.html#a551839e7a1f76714ee7e9c973663e58b" title="tbb::internal::itt\l_region_end_v9" alt="" coords="875,1061,989,1102"/>
+<area shape="rect" id="node24" href="$a01133.html#aa9a0df1de0e2793c66438842755394aa" title="tbb::internal::itt\l_make_task_group" alt="" coords="673,1075,805,1117"/>
+<area shape="rect" id="node25" href="$a01133.html#a5c6e764665f94fc8648d4127a2358eac" title="tbb::internal::itt\l_metadata_str_add" alt="" coords="865,231,999,273"/>
+<area shape="rect" id="node26" href="$a01133.html#aa4b0d65c4eed65d7ef116ec69c165f17" title="tbb::internal::itt\l_relation_add" alt="" coords="685,326,794,367"/>
+<area shape="rect" id="node27" href="$a01133.html#a1cacff8d8fe2b48787e7fb43ac03a065" title="tbb::internal::itt\l_task_begin" alt="" coords="685,391,794,433"/>
+<area shape="rect" id="node28" href="$a01133.html#a159745635383dfd33f0e80b1c6a35ecf" title="tbb::internal::itt\l_task_end" alt="" coords="685,457,794,498"/>
+<area shape="rect" id="node29" href="$a01133.html#af2e3344c79667a75c3069b858bb196ec" title="tbb::internal::itt\l_region_begin" alt="" coords="685,522,794,563"/>
+<area shape="rect" id="node30" href="$a01133.html#a2f15f907851cb04d119ba39beacdbec7" title="tbb::internal::itt\l_region_end" alt="" coords="685,261,794,302"/>
+<area shape="rect" id="node12" href="$a01157.html#ga3a34add1c1ff5133f68e87a6f21ce8cb" title="A convenience function is provided to create an ID without domain control. " alt="" coords="881,813,983,840"/>
+<area shape="rect" id="node13" href="$a01157.html#ga935dd3611e942563fb60db1ccee453c7" title="Create an instance of identifier. This establishes the beginning of the lifetime of an instance of th..." alt="" coords="1069,733,1176,760"/>
+<area shape="rect" id="node14" href="$a01157.html#ga9b1b0ac6c1084ae77b22708886f468a5" title="Destroy an instance of identifier. This ends the lifetime of the current instance of the given ID val..." alt="" coords="1065,784,1180,811"/>
+<area shape="rect" id="node15" href="$a01158.html#ga353ab13a4b9325ded923c1c951f6f849" title="Create a string handle. Create and return handle value that can be associated with a string..." alt="" coords="1057,835,1188,877"/>
+<area shape="rect" id="node16" href="$a01158.html#ga01b031a1ec465e650ccfacae18a3c121" title="__itt_string_handle\l_createW" alt="" coords="1057,901,1188,942"/>
+</map>

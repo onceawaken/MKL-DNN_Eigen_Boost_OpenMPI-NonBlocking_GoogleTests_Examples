@@ -1,0 +1,11 @@
+<map id="tbb::internal::market::worker_stack_size" name="tbb::internal::market::worker_stack_size">
+<area shape="rect" id="node2" href="$a00302.html#afd799eae7903abc75b7a7aafd36e20db" title="Sets up the data necessary for the stealing limiting heuristics. " alt="" coords="192,103,369,144"/>
+<area shape="rect" id="node10" href="$a00489.html#a8278ffd03b0e1194cf44bec3163b764d" title="tbb::internal::market\l::min_stack_size" alt="" coords="211,168,350,209"/>
+<area shape="rect" id="node3" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="417,71,593,112"/>
+<area shape="rect" id="node7" href="$a00302.html#aec1108924834fb3c3e1bc0d2142bccb0" title="Initialize a scheduler for a worker thread. " alt="" coords="418,136,593,177"/>
+<area shape="rect" id="node4" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="641,5,789,47"/>
+<area shape="rect" id="node6" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="641,71,789,112"/>
+<area shape="rect" id="node5" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="839,5,975,47"/>
+<area shape="rect" id="node8" href="$a00489.html#ae5f4653c1ea43b7011f9099348849467" title="tbb::internal::market\l::create_one_job" alt="" coords="646,136,785,177"/>
+<area shape="rect" id="node9" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="837,136,976,177"/>
+</map>

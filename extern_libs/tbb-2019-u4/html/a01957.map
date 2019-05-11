@@ -1,0 +1,9 @@
+<map id="tbb::filter" name="tbb::filter">
+<area shape="rect" id="node4" href="$a00138.html" title="{tbb::interface6::internal\l::concrete_filter\&lt; T, U,\l Body \&gt;\n|&#45; my_body\l|+ concrete_filter()\l&#45; operator()()\l&#45; finalize()\l}" alt="" coords="5,733,160,869"/>
+<area shape="rect" id="node5" href="$a00139.html" title="{tbb::interface6::internal\l::concrete_filter\&lt; T, void,\l Body \&gt;\n|&#45; my_body\l|+ concrete_filter()\l&#45; operator()()\l&#45; finalize()\l}" alt="" coords="184,733,352,869"/>
+<area shape="rect" id="node6" href="$a00140.html" title="{tbb::interface6::internal\l::concrete_filter\&lt; void,\l U, Body \&gt;\n|&#45; my_body\l|+ concrete_filter()\l&#45; operator()()\l}" alt="" coords="376,741,531,862"/>
+<area shape="rect" id="node7" href="$a00141.html" title="{tbb::interface6::internal\l::concrete_filter\&lt; void,\l void, Body \&gt;\n|&#45; my_body\l|+ concrete_filter()\l&#45; operator()()\l}" alt="" coords="555,741,709,862"/>
+<area shape="rect" id="node8" href="$a00821.html" title="A stage in a pipeline served by a user thread. " alt="" coords="733,741,899,862"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="380,131,527,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="375,5,532,83"/>
+</map>

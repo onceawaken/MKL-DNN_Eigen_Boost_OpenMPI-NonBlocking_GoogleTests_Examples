@@ -1,0 +1,12 @@
+<map id="internal::successor_cache&lt; T, M &gt;" name="internal::successor_cache&lt; T, M &gt;">
+<area shape="rect" id="node4" href="$a00112.html" title="{broadcast_cache\&lt; output\l_type \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="5,641,175,747"/>
+<area shape="rect" id="node5" href="$a00112.html" title="{broadcast_cache\&lt; output\l_type, null_rw_mutex \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="199,641,368,747"/>
+<area shape="rect" id="node6" href="$a00112.html" title="A cache of successors that are broadcast to. " alt="" coords="393,641,534,747"/>
+<area shape="rect" id="node9" href="$a00665.html" title="A cache of successors that are put in a round&#45;robin fashion. " alt="" coords="559,633,709,755"/>
+<area shape="rect" id="node10" href="$a00768.html" title="{internal::successor\l_cache\&lt; output_type,\l spin_rw_mutex \&gt;\n|# my_mutex\l# my_successors\l# my_owner\l|+ successor_cache()\l+ set_owner()\l+ ~successor_cache()\l+ register_successor()\l+ remove_successor()\l+ empty()\l+ clear()\l+ try_put_task()\l}" alt="" coords="734,575,886,813"/>
+<area shape="rect" id="node11" href="$a00768.html" title="{internal::successor\l_cache\&lt; output_type,\l null_rw_mutex \&gt;\n|# my_mutex\l# my_successors\l# my_owner\l|+ successor_cache()\l+ set_owner()\l+ ~successor_cache()\l+ register_successor()\l+ remove_successor()\l+ empty()\l+ clear()\l+ try_put_task()\l}" alt="" coords="910,575,1062,813"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="509,132,655,224"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="503,5,661,83"/>
+<area shape="rect" id="node7" href="$a00112.html" title="{internal::broadcast\l_cache\&lt; output_type,\l null_rw_mutex \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="301,891,449,1012"/>
+<area shape="rect" id="node8" href="$a00112.html" title="{internal::broadcast\l_cache\&lt; output_type \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="473,898,629,1005"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tbb::recursive_mutex::lock" name="tbb::recursive_mutex::lock">
+<area shape="rect" id="node2" href="$a00042.html#aefcd343548f92c6e738febedf1d75f74" title="Pointer to beginning of array. " alt="" coords="224,5,355,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="221,71,357,112"/>
+<area shape="rect" id="node5" href="$a00689.html#a0a9962a3932cfbd0d12cb197494f951b" title="Construct lock that has not acquired a recursive_mutex. " alt="" coords="197,136,381,177"/>
+<area shape="rect" id="node4" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="429,71,565,112"/>
+</map>

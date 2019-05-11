@@ -1,0 +1,10 @@
+<map id="tbb::tick_count::interval_t::ticks_per_second" name="tbb::tick_count::interval_t::ticks_per_second">
+<area shape="rect" id="node2" href="$a00389.html#a73b462297173f6bffa15bc5a86c30ef4" title="Construct a time interval representing sec seconds time duration. " alt="" coords="219,5,377,47"/>
+<area shape="rect" id="node3" href="$a00827.html#aaf6a0d91e7d40f7d68e0ad6b79350e58" title="Return the resolution of the clock in seconds per tick. " alt="" coords="212,71,384,98"/>
+<area shape="rect" id="node4" href="$a00389.html#abe81446bbbb6b6e98d854b91acf47809" title="Return the length of a time interval in seconds. " alt="" coords="432,64,591,105"/>
+<area shape="rect" id="node5" href="$a00389.html#a95e3e14750bebafe719856176e2737db" title="Construct a time interval representing zero time duration. " alt="" coords="639,31,797,72"/>
+<area shape="rect" id="node6" href="$a01133.html#ae4d0319f7c4e03cb63e4744873868e4b" title="tbb::internal::thread\l_sleep_v3" alt="" coords="651,96,785,137"/>
+<area shape="rect" id="node7" href="$a00808.html#ae98915bfeccaa90d6f13add0ee1ab33a" title="tbb::internal::tbb\l_thread_v3::get_id" alt="" coords="849,63,979,104"/>
+<area shape="rect" id="node9" href="$a01144.html#a8d2129b112e33065c7fcea4e2ffc0767" title="The current thread blocks at least until the time specified. " alt="" coords="845,128,983,169"/>
+<area shape="rect" id="node8" href="$a00808.html#ab312527ce3848c27e18eedbf881fb943" title="The completion of the thread represented by *this happens before join() returns. " alt="" coords="1031,63,1147,104"/>
+</map>

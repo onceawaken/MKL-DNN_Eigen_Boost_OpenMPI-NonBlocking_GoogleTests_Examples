@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::internal::function_body_leaf&lt; continue_msg, continue_msg, B &gt;" name="tbb::flow::interface10::internal::function_body_leaf&lt; continue_msg, continue_msg, B &gt;">
+<area shape="rect" id="node2" href="$a00280.html" title="{tbb::flow::interface10\l::internal::function_body\l\&lt; continue_msg, continue_msg \&gt;\n||+ ~function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="5,345,221,481"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="51,5,208,83"/>
+<area shape="rect" id="node4" href="$a00280.html" title="A functor that takes an Input and generates an Output. " alt="" coords="130,132,291,268"/>
+</map>

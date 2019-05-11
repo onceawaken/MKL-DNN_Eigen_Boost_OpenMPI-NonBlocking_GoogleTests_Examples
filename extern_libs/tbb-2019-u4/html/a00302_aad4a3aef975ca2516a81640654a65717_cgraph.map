@@ -1,0 +1,6 @@
+<map id="tbb::internal::generic_scheduler::leave_task_pool" name="tbb::internal::generic_scheduler::leave_task_pool">
+<area shape="rect" id="node2" href="$a01133.html#a1f6010c3e550e88ab739adbdee5dfdac" title="tbb::internal::__TBB\l_store_relaxed" alt="" coords="254,5,393,47"/>
+<area shape="rect" id="node3" href="$a00302.html#a1b5b30c44c0a0a0d6fa6548fead0f879" title="tbb::internal::generic\l_scheduler::is_quiescent\l_local_task_pool_empty" alt="" coords="240,70,407,126"/>
+<area shape="rect" id="node5" href="$a00302.html#a22a847d9945a845e136c9163f835adcd" title="tbb::internal::generic\l_scheduler::is_task_pool\l_published" alt="" coords="240,150,407,206"/>
+<area shape="rect" id="node4" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="455,77,593,119"/>
+</map>

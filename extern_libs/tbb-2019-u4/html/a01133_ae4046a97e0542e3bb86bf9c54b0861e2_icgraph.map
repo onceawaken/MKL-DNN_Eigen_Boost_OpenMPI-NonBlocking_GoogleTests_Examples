@@ -1,0 +1,24 @@
+<map id="tbb::internal::modulo_power_of_two" name="tbb::internal::modulo_power_of_two">
+<area shape="rect" id="node2" href="$a00153.html#ac9b96de13ac8415678cae661a73bb803" title="Advance iterator one step towards tail of queue. " alt="" coords="201,5,381,61"/>
+<area shape="rect" id="node3" href="$a00154.html#abac942d0e66b45c6f09390f7fb38ee6d" title="Advance iterator one step towards tail of queue. " alt="" coords="207,85,374,141"/>
+<area shape="rect" id="node4" href="$a00497.html#a7cce1248bacd9b29b296868bdd6b72dc" title="tbb::internal::micro\l_queue::assign" alt="" coords="225,165,356,206"/>
+<area shape="rect" id="node5" href="$a00496.html#abd6fedce3ee875ab9d684a9e01e80b12" title="tbb::strict_ppl::internal\l::micro_queue::assign" alt="" coords="215,230,366,271"/>
+<area shape="rect" id="node6" href="$a00156.html#a7324d705f2db54b6e39b4881d8ea9b98" title="Set item to point to kth element. Return true if at end of queue or item is marked valid; false other..." alt="" coords="193,295,388,337"/>
+<area shape="rect" id="node7" href="$a00155.html#aef149705f95e71a866a9022bcae490db" title="Set item to point to kth element. Return true if at end of queue or item is marked valid; false other..." alt="" coords="201,360,381,416"/>
+<area shape="rect" id="node8" href="$a00059.html#af5ce7404b60b78dee1ce689cfe903734" title="Notification that worker or master leaves its arena. " alt="" coords="223,439,358,481"/>
+<area shape="rect" id="node15" href="$a00497.html#acf53d0cdfd439273c8d3d52b860abe3f" title="tbb::internal::micro\l_queue::pop" alt="" coords="225,505,356,546"/>
+<area shape="rect" id="node18" href="$a00496.html#ac2d2ce7211e3afc4a430f7a2c4508133" title="tbb::strict_ppl::internal\l::micro_queue::pop" alt="" coords="215,570,366,611"/>
+<area shape="rect" id="node19" href="$a00497.html#a7fe11e7da2dc9af4a9e37e208c1d0308" title="tbb::internal::micro\l_queue::push" alt="" coords="225,649,356,690"/>
+<area shape="rect" id="node23" href="$a00496.html#a7f1d7008d5bb576d54b608e31d70a6fe" title="tbb::strict_ppl::internal\l::micro_queue::push" alt="" coords="215,714,366,755"/>
+<area shape="rect" id="node9" href="$a00780.html#ae01d134b4edd1c8887f166fb55c66aa5" title="tbb::interface7::internal\l::task_arena_base::internal\l_initialize" alt="" coords="446,280,625,336"/>
+<area shape="rect" id="node10" href="$a00780.html#ac4dfdae54413299145035fee965972dd" title="tbb::interface7::internal\l::task_arena_base::internal\l_terminate" alt="" coords="446,360,625,416"/>
+<area shape="rect" id="node11" href="$a00302.html#ac223f7892d65e496c37190c4009ea1f7" title="Perform necessary cleanup when a master thread stops using TBB. " alt="" coords="443,439,628,481"/>
+<area shape="rect" id="node12" href="$a00307.html#a0962408ba1eaf67d0ad741a0749f3a4e" title="Processes scheduler termination request (possibly nested) in a master thread. " alt="" coords="694,407,842,449"/>
+<area shape="rect" id="node14" href="$a00307.html#a5fbd38947c75c1e8494bc1bac598a9fe" title="The internal routine to undo automatic initialization. " alt="" coords="694,473,842,514"/>
+<area shape="rect" id="node13" href="$a00791.html#a2647279bff44f88c82eead707d4c7a14" title="tbb::task_scheduler\l_init::internal_terminate" alt="" coords="901,407,1059,449"/>
+<area shape="rect" id="node16" href="$a00149.html#a0d5fe3f37435ae1f0d0a5a573a550421" title="Dequeue item from head of queue. " alt="" coords="436,505,635,546"/>
+<area shape="rect" id="node17" href="$a00149.html#a6b7ed855290275a38243a63091ce4fc7" title="Attempt to dequeue item from queue. " alt="" coords="450,569,621,625"/>
+<area shape="rect" id="node20" href="$a00497.html#abf8b2f9f05a9152a8c53ec6f9551d0d0" title="tbb::internal::micro\l_queue::abort_push" alt="" coords="467,649,603,690"/>
+<area shape="rect" id="node21" href="$a00149.html#a6b68fa0da8231513c31217b4090703ba" title="Enqueues item at tail of queue using specified operation (copy or move) " alt="" coords="683,671,853,727"/>
+<area shape="rect" id="node22" href="$a00149.html#aa893f5b109edc6e29006933079b40c28" title="Attempts to enqueue at tail of queue using specified operation (copy or move) " alt="" coords="450,765,621,821"/>
+</map>

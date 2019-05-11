@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::internal::successor_cache::empty" name="tbb::flow::interface10::internal::successor_cache::empty">
+<area shape="rect" id="node2" href="$a00475.html#acf7cff633ac03bec2222b511b9a37139" title="tbb::flow::interface10\l::limiter_node::check\l_conditions" alt="" coords="223,5,367,61"/>
+<area shape="rect" id="node3" href="$a00451.html#a6d7d14fdff69a2e1f0c7445981ca4fe7" title="tbb::flow::interface10\l::internal::key_from_message\l_body\&lt; K &amp;, T \&gt;::operator()" alt="" coords="197,85,392,141"/>
+<area shape="rect" id="node4" href="$a00475.html#a4691b0a2f13afe88e4e4071db30cdf60" title="Adds src to the list of cached predecessors. " alt="" coords="219,165,370,221"/>
+<area shape="rect" id="node5" href="$a00475.html#aef51f38076243cef1eec6cc80e82fed8" title="Replace the current successor with this new successor. " alt="" coords="219,245,370,301"/>
+</map>

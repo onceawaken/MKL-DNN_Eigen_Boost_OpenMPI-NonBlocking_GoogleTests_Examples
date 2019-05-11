@@ -1,0 +1,6 @@
+<map id="tbb::internal::generic_scheduler::is_proxy" name="tbb::internal::generic_scheduler::is_proxy">
+<area shape="rect" id="node2" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="218,5,361,47"/>
+<area shape="rect" id="node3" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="218,71,361,112"/>
+<area shape="rect" id="node4" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="431,159,584,200"/>
+<area shape="rect" id="node5" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="196,188,383,229"/>
+</map>

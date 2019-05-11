@@ -1,0 +1,9 @@
+<map id="tbb::internal::generic_scheduler::free_scheduler" name="tbb::internal::generic_scheduler::free_scheduler">
+<area shape="rect" id="node2" href="$a00302.html#ac223f7892d65e496c37190c4009ea1f7" title="Perform necessary cleanup when a master thread stops using TBB. " alt="" coords="232,71,417,112"/>
+<area shape="rect" id="node6" href="$a00302.html#ae6a0b659589202963562cbdb23465807" title="Perform necessary cleanup when a worker thread finishes. " alt="" coords="233,136,417,177"/>
+<area shape="rect" id="node3" href="$a00307.html#a5fbd38947c75c1e8494bc1bac598a9fe" title="The internal routine to undo automatic initialization. " alt="" coords="465,5,613,47"/>
+<area shape="rect" id="node4" href="$a00307.html#a0962408ba1eaf67d0ad741a0749f3a4e" title="Processes scheduler termination request (possibly nested) in a master thread. " alt="" coords="465,71,613,112"/>
+<area shape="rect" id="node5" href="$a00791.html#a2647279bff44f88c82eead707d4c7a14" title="tbb::task_scheduler\l_init::internal_terminate" alt="" coords="661,71,819,112"/>
+<area shape="rect" id="node7" href="$a00489.html#a32eca56b49c13d239a2869c33c4a17b0" title="tbb::internal::market\l::cleanup" alt="" coords="470,136,609,177"/>
+<area shape="rect" id="node8" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="671,136,809,177"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tbb::internal::control_storage::is_first_arg_preferred" name="tbb::internal::control_storage::is_first_arg_preferred">
+<area shape="rect" id="node2" href="$a00306.html#ab31538f62ffb55034d5d558cbefa59d0" title="tbb::interface9::global\l_control::internal_create" alt="" coords="201,5,362,47"/>
+<area shape="rect" id="node4" href="$a00306.html#a9d4b82c2bdb0df28892853cc2e84b624" title="tbb::interface9::global\l_control::internal_destroy" alt="" coords="197,71,365,112"/>
+<area shape="rect" id="node3" href="$a00306.html#a5375ee43ca415f20f3c1f47db5220302" title="tbb::interface9::global\l_control::global_control" alt="" coords="417,5,573,47"/>
+<area shape="rect" id="node5" href="$a00306.html#ae459d1bec74a481dc037f24e26e8ffdb" title="tbb::interface9::global\l_control::~global_control" alt="" coords="413,71,577,112"/>
+</map>

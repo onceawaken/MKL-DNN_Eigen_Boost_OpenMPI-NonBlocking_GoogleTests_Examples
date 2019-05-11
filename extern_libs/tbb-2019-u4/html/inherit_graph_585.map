@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00874.html" title="Internal representation of mail_outbox, without padding. " alt="" coords="5,27,160,69"/>
+<area shape="rect" id="node2" href="$a00552.html" title="tbb::internal::padded\l_base\&lt; unpadded_mail\l_outbox, NFS_MaxLineSize,\l sizeof(unpadded_mail_outbox)\l%NFS_MaxLineSize \&gt;" alt="" coords="208,5,411,91"/>
+<area shape="rect" id="node3" href="$a00551.html" title="tbb::internal::padded\l\&lt; unpadded_mail_outbox \&gt;" alt="" coords="459,27,637,69"/>
+<area shape="rect" id="node4" href="$a00481.html" title="Class representing where mail is put. " alt="" coords="685,27,808,69"/>
+</map>

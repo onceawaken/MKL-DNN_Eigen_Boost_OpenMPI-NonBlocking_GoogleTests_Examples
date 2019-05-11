@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface9::gfx_factory::share_data" name="tbb::flow::interface9::gfx_factory::share_data">
+<area shape="rect" id="node2" href="$a00304.html#a919ae73a47d2ef2809fb65e10c9e0145" title="tbb::flow::interface9\l::gfx_buffer::data" alt="" coords="220,5,357,47"/>
+<area shape="rect" id="node3" href="$a01121.html#a65791b31d5e4b6a190b2f7a1cda7fdaa" title="tbb::flow::interface9\l::gfx_offload::share" alt="" coords="220,71,357,112"/>
+<area shape="rect" id="node6" href="$a00304.html#ad7dd0d1242b09bd3532cc8953f8551d1" title="tbb::flow::interface9\l::gfx_buffer::size" alt="" coords="220,136,357,177"/>
+<area shape="rect" id="node4" href="$a01121.html#ad6799c989aad12e25ea75ccd71c73a36" title="tbb::flow::interface9\l::gfx_offload::check\l_gfx_retcode" alt="" coords="405,63,543,119"/>
+<area shape="rect" id="node5" href="$a01121.html#a2ba2600642acfafb847d1b207a416314" title="tbb::flow::interface9\l::gfx_offload::throw\l_gfx_exception" alt="" coords="591,63,728,119"/>
+</map>

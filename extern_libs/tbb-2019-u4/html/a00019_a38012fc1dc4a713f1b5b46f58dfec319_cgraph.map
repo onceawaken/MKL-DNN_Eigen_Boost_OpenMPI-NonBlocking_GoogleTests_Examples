@@ -1,0 +1,8 @@
+<map id="tbb::internal::__TBB_InitOnce::__TBB_InitOnce" name="tbb::internal::__TBB_InitOnce::__TBB_InitOnce">
+<area shape="rect" id="node2" href="$a00019.html#aeb552d69cd0db07e0ec3526c22e8899a" title="Add reference to resources. If first reference added, acquire the resources. " alt="" coords="236,71,375,112"/>
+<area shape="rect" id="node3" href="$a00307.html#a70cfd4f010baf396e4cc09a3021b4c19" title="Create key for thread&#45;local storage and initialize RML. " alt="" coords="423,71,571,112"/>
+<area shape="rect" id="node4" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="641,5,777,47"/>
+<area shape="rect" id="node6" href="$a01133.html#abbc9695c3864361824bcb4f7f263bd11" title="check for transaction support. " alt="" coords="648,71,771,112"/>
+<area shape="rect" id="node7" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="619,136,800,177"/>
+<area shape="rect" id="node5" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="848,5,984,47"/>
+</map>

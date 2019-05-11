@@ -1,0 +1,10 @@
+<map id="tbb::internal::intrusive_list_node" name="tbb::internal::intrusive_list_node">
+<area shape="rect" id="node2" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; intrusive_list\l_node, NFS_MaxLineSize,\l sizeof(intrusive_list\l_node)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="9,373,203,509"/>
+<area shape="rect" id="node8" href="$a00302.html" title="Work stealing task scheduler. " alt="" coords="228,160,405,721"/>
+<area shape="rect" id="node3" href="$a00551.html" title="{tbb::internal::padded\l\&lt; intrusive_list_node \&gt;\n||}" alt="" coords="29,813,183,905"/>
+<area shape="rect" id="node4" href="$a00060.html" title="The structure of an arena, except the array of slots. " alt="" coords="5,997,207,1251"/>
+<area shape="rect" id="node5" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; arena_base, NFS\l_MaxLineSize, sizeof(arena\l_base)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="9,1299,203,1420"/>
+<area shape="rect" id="node6" href="$a00551.html" title="{tbb::internal::padded\l\&lt; arena_base \&gt;\n||}" alt="" coords="36,1468,176,1560"/>
+<area shape="rect" id="node7" href="$a00059.html" title="{tbb::internal::arena\n|+ my_slots\l+ SNAPSHOT_EMPTY\l+ SNAPSHOT_FULL\l+ ref_external_bits\l+ ref_external\l+ ref_worker\l+ out_of_arena\l|+ arena()\l+ mailbox()\l+ free_arena()\l+ num_workers_active()\l+ advertise_new_work()\l+ is_out_of_work()\l+ enqueue_task()\l+ process()\l+ on_thread_leaving()\l+ has_enqueued_tasks()\l+ occupy_free_slot()\l+ occupy_free_slot_in\l_range()\l+ allocate_arena()\l+ num_arena_slots()\l+ allocation_size()\l+ is_busy_or_empty()\l&#45; restore_priority_if_need()\l}" alt="" coords="19,1608,193,2023"/>
+<area shape="rect" id="node9" href="$a00194.html" title="A scheduler with a customized evaluation loop. " alt="" coords="217,769,417,949"/>
+</map>

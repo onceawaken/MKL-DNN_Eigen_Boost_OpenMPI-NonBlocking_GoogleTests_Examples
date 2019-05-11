@@ -1,0 +1,8 @@
+<map id="tbb::internal::generic_scheduler::attach_arena" name="tbb::internal::generic_scheduler::attach_arena">
+<area shape="rect" id="node2" href="$a00302.html#a5ab89891d3c1e3209cffced8bf93b124" title="tbb::internal::generic\l_scheduler::attach_mailbox" alt="" coords="221,5,403,47"/>
+<area shape="rect" id="node3" href="$a00480.html#ad34c62cd7350fb87f1173ed7ccae7895" title="Indicate whether thread that reads this mailbox is idle. " alt="" coords="241,71,383,112"/>
+<area shape="rect" id="node4" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="255,137,369,163"/>
+<area shape="rect" id="node7" href="$a00480.html#a08539a9bfc808963dfe6ab756bfd2d2d" title="Indicate whether thread that reads this mailbox is idle. " alt="" coords="247,188,377,229"/>
+<area shape="rect" id="node5" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="451,107,604,134"/>
+<area shape="rect" id="node6" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="462,159,593,200"/>
+</map>

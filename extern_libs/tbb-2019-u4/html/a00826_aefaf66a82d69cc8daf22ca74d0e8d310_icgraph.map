@@ -1,0 +1,10 @@
+<map id="tbb::internal::concurrent_monitor::thread_context::semaphore" name="tbb::internal::concurrent_monitor::thread_context::semaphore">
+<area shape="rect" id="node2" href="$a00145.html#ade8e90627ee0cb157bcdffd12b22003f" title="Abort any sleeping threads at the time of the call; Relaxed version. " alt="" coords="225,5,404,47"/>
+<area shape="rect" id="node3" href="$a00145.html#adb7065c781c2ae5f76d602c184c5194e" title="Commit wait if event count has not changed; otherwise, cancel wait. " alt="" coords="235,136,394,177"/>
+<area shape="rect" id="node7" href="$a00145.html#a3a1925f904f6e7967d0af1dfb35d9dd4" title="Notify all waiting threads of the event; Relaxed version. " alt="" coords="224,201,405,243"/>
+<area shape="rect" id="node8" href="$a00145.html#a24bfa3b8eae09a60d454e374620bd4dd" title="Notify one thread about the event. Relaxed version. " alt="" coords="220,267,409,308"/>
+<area shape="rect" id="node9" href="$a00145.html#a87e8231d37c0875953fc2283c1158115" title="prepare wait by inserting &#39;thr&#39; into the wait queue " alt="" coords="235,71,394,112"/>
+<area shape="rect" id="node4" href="$a00780.html#aa214b4121b92399cfa50b223500219fd" title="tbb::interface7::internal\l::task_arena_base::internal\l_execute" alt="" coords="467,17,646,73"/>
+<area shape="rect" id="node5" href="$a00149.html#a6b68fa0da8231513c31217b4090703ba" title="Enqueues item at tail of queue using specified operation (copy or move) " alt="" coords="471,97,642,153"/>
+<area shape="rect" id="node6" href="$a00149.html#a0d5fe3f37435ae1f0d0a5a573a550421" title="Dequeue item from head of queue. " alt="" coords="457,176,656,217"/>
+</map>

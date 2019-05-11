@@ -1,0 +1,6 @@
+<map id="tbb::internal::semaphore::P" name="tbb::internal::semaphore::P">
+<area shape="rect" id="node2" href="$a00699.html#ad8d750793df6145134e9cb399c5d746d" title="tbb::internal::semaphore\l::init_semaphore" alt="" coords="234,5,397,47"/>
+<area shape="rect" id="node4" href="$a00362.html#a6c961e4a460f0c788caf278485e45808" title="tbb::internal::input\l_buffer::sema_P" alt="" coords="252,71,379,112"/>
+<area shape="rect" id="node5" href="$a00826.html#ae343d0f1912afba0b8b09bc042ca5a6e" title="tbb::internal::concurrent\l_monitor::thread_context\l::~thread_context" alt="" coords="232,135,399,191"/>
+<area shape="rect" id="node3" href="$a00699.html#a05c4701a0cf9c6f4e2c35a4be1582706" title="ctor " alt="" coords="447,5,609,47"/>
+</map>

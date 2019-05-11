@@ -1,0 +1,9 @@
+<map id="tbb::internal::arena::enqueue_task" name="tbb::internal::arena::enqueue_task">
+<area shape="rect" id="node2" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="205,5,358,32"/>
+<area shape="rect" id="node3" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="435,31,548,57"/>
+<area shape="rect" id="node4" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="604,23,735,65"/>
+<area shape="rect" id="node5" href="$a00307.html#a1ee92969cca6e52c74ce6534bca69cb7" title="tbb::internal::governor\l::local_scheduler_if_initialized" alt="" coords="184,158,379,199"/>
+<area shape="rect" id="node7" href="$a00778.html#a9d50759d59a2d300287158f38b317798" title="task on whose behalf this task is working, or NULL if this is a root. " alt="" coords="223,248,340,275"/>
+<area shape="rect" id="node8" href="$a00778.html#a22ef8282e09458a46131843219cb71e5" title="Current execution state. " alt="" coords="226,299,337,325"/>
+<area shape="rect" id="node6" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="427,158,556,199"/>
+</map>

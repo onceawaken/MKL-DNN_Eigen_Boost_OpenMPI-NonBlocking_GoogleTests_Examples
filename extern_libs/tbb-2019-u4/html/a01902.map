@@ -1,0 +1,4 @@
+<map id="tbb::atomic&lt; void * &gt;" name="tbb::atomic&lt; void * &gt;">
+<area shape="rect" id="node2" href="$a00083.html" title="{tbb::internal::atomic\l_impl\&lt; void * \&gt;\n|# my_storage\l|+ atomic_impl()\l+ atomic_impl()\l+ fetch_and_store()\l+ fetch_and_store()\l+ compare_and_swap()\l+ compare_and_swap()\l+ operator value_type()\l+ load()\l+ load()\l+ store()\l+ store()\l# store_with_release()\l&#45; to_bits()\l&#45; to_value()\l&#45; to_bits_ref()\l}" alt="" coords="5,365,164,663"/>
+<area shape="rect" id="node3" href="$a00083.html" title="Base class that provides basic functionality for atomic&lt;T&gt; without fetch_and_add. ..." alt="" coords="5,5,164,303"/>
+</map>

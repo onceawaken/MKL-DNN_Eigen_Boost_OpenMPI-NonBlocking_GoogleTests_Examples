@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::internal::broadcast_cache::try_put_task" name="tbb::flow::interface10::internal::broadcast_cache::try_put_task">
+<area shape="rect" id="node2" href="$a00716.html#a645ea6d67b72c80078d4a0ab4ed94437" title="Applies the body. Returning SUCCESSFULLY_ENQUEUED okay; forward_task_bypass will handle it..." alt="" coords="199,5,378,61"/>
+<area shape="rect" id="node3" href="$a00475.html#aca3f2d22118ca2eea8106d75a0a917da" title="tbb::flow::interface10\l::limiter_node::forward_task" alt="" coords="197,85,380,126"/>
+<area shape="rect" id="node4" href="$a00114.html#aa14450ffb2a8be5737f3a0197dd6d5e5" title="build a task to run the successor if possible. Default is old behavior. " alt="" coords="216,149,361,205"/>
+<area shape="rect" id="node5" href="$a00475.html#ae2e9e980762a74fd92823e596bf6bdf5" title="Puts an item to this receiver. " alt="" coords="199,229,379,270"/>
+</map>

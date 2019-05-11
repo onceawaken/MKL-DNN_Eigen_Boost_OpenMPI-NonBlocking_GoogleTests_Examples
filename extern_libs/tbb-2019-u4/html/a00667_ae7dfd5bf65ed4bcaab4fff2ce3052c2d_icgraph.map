@@ -1,0 +1,3 @@
+<map id="tbb::flow::interface10::graph::run_and_put_task::execute" name="tbb::flow::interface10::graph::run_and_put_task::execute">
+<area shape="rect" id="node2" href="$a00308.html#a2f52e05f91a47dbaa6826f557ab6e5e0" title="Spawns a task that runs a body and puts its output to a specific receiver. " alt="" coords="227,13,371,54"/>
+</map>

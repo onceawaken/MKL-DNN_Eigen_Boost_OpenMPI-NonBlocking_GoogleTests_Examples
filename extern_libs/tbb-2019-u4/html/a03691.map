@@ -1,0 +1,5 @@
+<map id="tbb::internal::rml::padded_private_worker" name="tbb::internal::rml::padded_private_worker">
+<area shape="rect" id="node2" href="$a00606.html" title="{tbb::internal::rml\l::private_worker\n|&#45; my_state\l&#45; my_server\l&#45; my_client\l&#45; my_index\l&#45; my_thread_monitor\l&#45; my_handle\l&#45; my_next\l|# private_worker()\l&#45; run()\l&#45; wake_or_launch()\l&#45; start_shutdown()\l&#45; thread_routine()\l&#45; release_handle()\l}" alt="" coords="23,271,164,524"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="20,131,167,223"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="15,5,172,83"/>
+</map>

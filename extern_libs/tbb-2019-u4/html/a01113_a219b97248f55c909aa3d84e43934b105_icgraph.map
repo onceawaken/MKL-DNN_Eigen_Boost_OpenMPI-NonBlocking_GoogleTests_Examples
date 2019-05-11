@@ -1,0 +1,5 @@
+<map id="tbb::store" name="tbb::store">
+<area shape="rect" id="node2" href="$a01133.html#ac0353dd9836bc415fbc77299846ff9e2" title="tbb::internal::__TBB\l_FetchAndStoreGeneric" alt="" coords="147,5,309,47"/>
+<area shape="rect" id="node3" href="$a00999.html#a9743aa954a48dd2aaa13977efbed76ec" title="__TBB_machine_unlock_byte" alt="" coords="131,71,325,98"/>
+<area shape="rect" id="node4" href="$a00083.html#af1db97c8907b00e2b54b81d15f02b4ef" title="tbb::internal::atomic\l_impl\&lt; tbb::strict_ppl\l::internal::concurrent\l_queue_rep_base::page *\l \&gt;::store" alt="" coords="143,122,313,207"/>
+</map>

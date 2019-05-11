@@ -1,4 +1,4 @@
-# Install script for directory: /home/daisy/W/W.priv/NonBlockingProtocol/src
+# Install script for directory: /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/src/bin/cmake_install.cmake")
-  include("/home/daisy/W/W.priv/NonBlockingProtocol/cmake-build-release/src/lib/cmake_install.cmake")
+  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/bin/cmake_install.cmake")
+  include("/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/cmake-build-release/src/lib/cmake_install.cmake")
 
 endif()
 

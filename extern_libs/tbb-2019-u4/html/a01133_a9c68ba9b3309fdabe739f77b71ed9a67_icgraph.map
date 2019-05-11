@@ -1,0 +1,61 @@
+<map id="tbb::internal::__TBB_load_relaxed" name="tbb::internal::__TBB_load_relaxed">
+<area shape="rect" id="node2" href="$a00145.html#ade8e90627ee0cb157bcdffd12b22003f" title="Abort any sleeping threads at the time of the call; Relaxed version. " alt="" coords="449,535,627,576"/>
+<area shape="rect" id="node3" href="$a00684.html#ab4bf2fb86d6a418f9ea36474eb8893f9" title="Acquire lock on given mutex. " alt="" coords="213,224,370,265"/>
+<area shape="rect" id="node6" href="$a00128.html#a52654111c3f200042d6e35444d54fef5" title="add to the back of the list " alt="" coords="210,93,373,149"/>
+<area shape="rect" id="node7" href="$a00145.html#a87e8231d37c0875953fc2283c1158115" title="prepare wait by inserting &#39;thr&#39; into the wait queue " alt="" coords="459,165,617,207"/>
+<area shape="rect" id="node11" href="$a00145.html#af7a3900f62bc4e261f11688b7c57349e" title="Notify waiting threads of the event that satisfies the given predicate; Relaxed version. " alt="" coords="457,100,619,141"/>
+<area shape="rect" id="node12" href="$a00302.html#ac223f7892d65e496c37190c4009ea1f7" title="Perform necessary cleanup when a master thread stops using TBB. " alt="" coords="692,983,877,1024"/>
+<area shape="rect" id="node16" href="$a00145.html#adb7065c781c2ae5f76d602c184c5194e" title="Commit wait if event count has not changed; otherwise, cancel wait. " alt="" coords="459,35,617,76"/>
+<area shape="rect" id="node17" href="$a00684.html#af0af63035147a3d8422f8c8d7b8d2629" title="Downgrade writer to become a reader. " alt="" coords="204,289,379,345"/>
+<area shape="rect" id="node18" href="$a00481.html#aa4b26c4528a742391d358e22d7493763" title="Return true if mailbox is empty. " alt="" coords="230,695,353,736"/>
+<area shape="rect" id="node20" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="713,1467,856,1508"/>
+<area shape="rect" id="node21" href="$a00128.html#a906ff9271a0f07d2dd41c5a85dd39212" title="move all elements to &#39;lst&#39; and initialize the &#39;this&#39; list " alt="" coords="210,563,373,619"/>
+<area shape="rect" id="node22" href="$a00145.html#a3a1925f904f6e7967d0af1dfb35d9dd4" title="Notify all waiting threads of the event; Relaxed version. " alt="" coords="447,607,629,648"/>
+<area shape="rect" id="node23" href="$a00050.html#ab2d6ec088fd635d216f63cae558fe5ea" title="tbb::internal::allocate\l_root_proxy::free" alt="" coords="220,760,363,801"/>
+<area shape="rect" id="node25" href="$a00302.html#ad7c11742ee005f6d377095062b42a5d8" title="tbb::internal::generic\l_scheduler::generic_scheduler" alt="" coords="192,825,391,867"/>
+<area shape="rect" id="node26" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="467,1399,609,1440"/>
+<area shape="rect" id="node27" href="$a00302.html#afd799eae7903abc75b7a7aafd36e20db" title="Sets up the data necessary for the stealing limiting heuristics. " alt="" coords="203,1151,380,1192"/>
+<area shape="rect" id="node35" href="$a00481.html#a296f08fef589d1f8a1674eb526fdf6f1" title="tbb::internal::mail\l_outbox::internal_pop" alt="" coords="218,1281,365,1323"/>
+<area shape="rect" id="node38" href="$a00059.html#a91372ec03de43ecb3cd092952df15a93" title="Check if there is job anywhere in arena. " alt="" coords="226,1216,357,1257"/>
+<area shape="rect" id="node40" href="$a00302.html#a1b5b30c44c0a0a0d6fa6548fead0f879" title="tbb::internal::generic\l_scheduler::is_quiescent\l_local_task_pool_empty" alt="" coords="208,1071,375,1127"/>
+<area shape="rect" id="node42" href="$a00302.html#a41fe4dd6cf0d0bd7db3440ff1f5e70ff" title="tbb::internal::generic\l_scheduler::is_quiescent\l_local_task_pool_reset" alt="" coords="208,1703,375,1759"/>
+<area shape="rect" id="node45" href="$a00302.html#a0460616fb84af745b12688927ff1bb7d" title="Makes sure that the task pool can accommodate at least n more elements. " alt="" coords="439,1815,637,1856"/>
+<area shape="rect" id="node52" href="$a00778.html#a30f13aac27c8d2ee6e85865e54115862" title="Invoked by scheduler to notify task that it ran on unexpected thread. " alt="" coords="215,1461,367,1487"/>
+<area shape="rect" id="node54" href="$a00145.html#a24bfa3b8eae09a60d454e374620bd4dd" title="Notify one thread about the event. Relaxed version. " alt="" coords="443,900,633,941"/>
+<area shape="rect" id="node55" href="$a00302.html#af222cccbf09e91c9c9caaad81f8d993d" title="Used by workers to enter the task pool. " alt="" coords="193,1604,390,1645"/>
+<area shape="rect" id="node56" href="$a00684.html#a50fb02b77f02a01c74754d163157ec77" title="Release lock. " alt="" coords="213,368,370,409"/>
+<area shape="rect" id="node57" href="$a00128.html#abc5c4751ee7c3364cb3d0ab18a2e7c8c" title="remove node &#39;n&#39; " alt="" coords="210,890,373,946"/>
+<area shape="rect" id="node59" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="198,1516,385,1557"/>
+<area shape="rect" id="node60" href="$a00684.html#ae0f28ecfbbc5f8b3024cd47048b72b5b" title="Upgrade reader to become a writer. " alt="" coords="213,433,370,489"/>
+<area shape="rect" id="node4" href="$a00684.html#af1b55ca1839c9c7c2cd779cd2dd9c474" title="Acquire lock on given mutex. " alt="" coords="446,231,630,272"/>
+<area shape="rect" id="node5" href="$a00684.html#a6cb16cc55f884bbbd5a69430c47b288f" title="Release lock (if lock is held). " alt="" coords="442,332,634,373"/>
+<area shape="rect" id="node8" href="$a00780.html#aa214b4121b92399cfa50b223500219fd" title="tbb::interface7::internal\l::task_arena_base::internal\l_execute" alt="" coords="695,158,874,214"/>
+<area shape="rect" id="node9" href="$a00149.html#a6b68fa0da8231513c31217b4090703ba" title="Enqueues item at tail of queue using specified operation (copy or move) " alt="" coords="699,238,870,294"/>
+<area shape="rect" id="node10" href="$a00149.html#a0d5fe3f37435ae1f0d0a5a573a550421" title="Dequeue item from head of queue. " alt="" coords="685,93,884,135"/>
+<area shape="rect" id="node13" href="$a00307.html#a0962408ba1eaf67d0ad741a0749f3a4e" title="Processes scheduler termination request (possibly nested) in a master thread. " alt="" coords="941,976,1089,1017"/>
+<area shape="rect" id="node15" href="$a00307.html#a5fbd38947c75c1e8494bc1bac598a9fe" title="The internal routine to undo automatic initialization. " alt="" coords="941,1041,1089,1083"/>
+<area shape="rect" id="node14" href="$a00791.html#a2647279bff44f88c82eead707d4c7a14" title="tbb::task_scheduler\l_init::internal_terminate" alt="" coords="1147,976,1304,1017"/>
+<area shape="rect" id="node19" href="$a00480.html#a74cbcc24b9babea092c0c96d77c8512d" title="Return true if mailbox is empty. " alt="" coords="477,687,599,728"/>
+<area shape="rect" id="node24" href="$a01073.html#aecc6bb44b007e42a7ddbd7f6b0bb0263" title="operator delete" alt="" coords="484,753,592,779"/>
+<area shape="rect" id="node28" href="$a00302.html#aec1108924834fb3c3e1bc0d2142bccb0" title="Initialize a scheduler for a worker thread. " alt="" coords="451,1151,625,1192"/>
+<area shape="rect" id="node31" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="450,1085,626,1127"/>
+<area shape="rect" id="node29" href="$a00489.html#ae5f4653c1ea43b7011f9099348849467" title="tbb::internal::market\l::create_one_job" alt="" coords="715,1187,854,1228"/>
+<area shape="rect" id="node30" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="945,1325,1084,1367"/>
+<area shape="rect" id="node32" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="711,1056,859,1097"/>
+<area shape="rect" id="node33" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="711,1121,859,1163"/>
+<area shape="rect" id="node34" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="947,1121,1083,1163"/>
+<area shape="rect" id="node36" href="$a00480.html#a0fb84023310cef34c91ea39e2c7fbc0f" title="Get next piece of mail, or NULL if mailbox is empty. " alt="" coords="477,1281,599,1323"/>
+<area shape="rect" id="node37" href="$a00302.html#a5657ac6c517d9bbf59a424ef330640bb" title="Attempt to get a task from the mailbox. " alt="" coords="687,1281,882,1323"/>
+<area shape="rect" id="node39" href="$a00885.html#a04ee8eb618b1ee0e14568319e1ce608f" title="Should be overridden by derived classes. " alt="" coords="461,1216,615,1257"/>
+<area shape="rect" id="node41" href="$a00302.html#aad4a3aef975ca2516a81640654a65717" title="Leave the task pool. " alt="" coords="445,1020,631,1061"/>
+<area shape="rect" id="node43" href="$a00059.html#aff17fc29650655b080b795be34179d20" title="Registers the worker with the arena and enters TBB scheduler dispatch loop. " alt="" coords="473,1749,603,1791"/>
+<area shape="rect" id="node51" href="$a00302.html#a10c72a4aad7308d944cef26502ece55e" title="Get a task from the local pool. " alt="" coords="467,1684,609,1725"/>
+<area shape="rect" id="node44" href="$a00489.html#a574c6275a73f185d391151478e4a7634" title="tbb::internal::market\l::process" alt="" coords="715,1636,854,1677"/>
+<area shape="rect" id="node46" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="702,1720,867,1761"/>
+<area shape="rect" id="node47" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="932,1785,1097,1841"/>
+<area shape="rect" id="node49" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="945,1655,1085,1696"/>
+<area shape="rect" id="node50" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="941,1720,1088,1761"/>
+<area shape="rect" id="node48" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="1145,1785,1305,1841"/>
+<area shape="rect" id="node53" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="461,1516,615,1557"/>
+<area shape="rect" id="node58" href="$a00145.html#ab6e8b88bc5de74f5f872d18de94978f2" title="Cancel the wait. Removes the thread from the wait queue if not removed yet. " alt="" coords="459,804,617,845"/>
+</map>

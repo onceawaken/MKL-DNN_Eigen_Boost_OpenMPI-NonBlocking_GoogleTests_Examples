@@ -1,0 +1,5 @@
+<map id="internal::reservable_predecessor_cache&lt; T, M &gt;" name="internal::reservable_predecessor_cache&lt; T, M &gt;">
+<area shape="rect" id="node2" href="$a00600.html" title="A cache of predecessors that only supports try_get. " alt="" coords="163,683,318,819"/>
+<area shape="rect" id="node3" href="$a00520.html" title="A node_cache maintains a std::queue of elements of type T. Each operation is protected by a lock..." alt="" coords="63,425,205,620"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="135,145,250,223"/>
+</map>

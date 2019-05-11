@@ -1,0 +1,6 @@
+<map id="__TBB_machine_store8" name="__TBB_machine_store8">
+<area shape="rect" id="node2" href="$a01019.html#a78ec45e623f7572edda26b59a83e38ae" title="__TBB_machine_aligned\l_store8" alt="" coords="229,5,395,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a90dc6f41bbea1ea94df0f0c776e246a3" title="A function to check if passed in pointer is aligned on a specific border. " alt="" coords="457,42,613,69"/>
+<area shape="rect" id="node4" href="$a01019.html#a07cc5b170eef7c9cc319f64552ac9815" title="Handles misaligned 8&#45;byte store. " alt="" coords="215,122,409,149"/>
+<area shape="rect" id="node5" href="$a01019.html#a0fb35f23504db9a9dfc287d8007e368f" title="__TBB_machine_store8\l_slow_perf_warning" alt="" coords="231,173,393,215"/>
+</map>

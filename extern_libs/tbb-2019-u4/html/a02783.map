@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::internal::WrapperBase" name="tbb::flow::interface10::internal::WrapperBase">
+<area shape="rect" id="node2" href="$a00927.html" title="{tbb::flow::interface10\l::internal::Wrapper\&lt; T \&gt;\n|&#45; value_space\l|+ value()\l+ Wrapper()\l+ Wrapper()\l+ CopyTo()\l+ ~Wrapper()\l&#45; Wrapper()\l}" alt="" coords="5,167,167,333"/>
+<area shape="rect" id="node3" href="$a00929.html" title="{tbb::flow::interface10\l::internal::Wrapper\&lt; T[N]\&gt;\n|&#45; value_space\l&#45; space_size\l|+ value()\l+ Wrapper()\l+ Wrapper()\l+ CopyTo()\l+ ~Wrapper()\l&#45; Wrapper()\l}" alt="" coords="191,160,365,340"/>
+</map>

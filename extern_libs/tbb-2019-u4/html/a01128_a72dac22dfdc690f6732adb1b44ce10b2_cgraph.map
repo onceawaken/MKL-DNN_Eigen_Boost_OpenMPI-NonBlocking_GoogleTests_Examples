@@ -1,0 +1,11 @@
+<map id="tbb::interface7::internal::isolate_impl" name="tbb::interface7::internal::isolate_impl">
+<area shape="rect" id="node2" href="$a00204.html#a50759462e8f469ff8aa037aca275fe4b" title="tbb::interface7::internal\l::delegated_function::consume_result" alt="" coords="208,68,447,109"/>
+<area shape="rect" id="node10" href="$a01128.html#a9263c7c3ba30865ad647d8f8fd360e4a" title="tbb::interface7::internal\l::isolate_within_arena" alt="" coords="250,133,405,175"/>
+<area shape="rect" id="node3" href="$a01113.html#ac41903d6b80e61bd6c605412e7820e08" title="tbb::move" alt="" coords="520,46,600,73"/>
+<area shape="rect" id="node9" href="$a00042.html#aefcd343548f92c6e738febedf1d75f74" title="Pointer to beginning of array. " alt="" coords="495,97,625,139"/>
+<area shape="rect" id="node4" href="$a01133.html#abb11c7c316e44b5f97962d62e9ea5f70" title="tbb::internal::move_v3" alt="" coords="673,46,824,73"/>
+<area shape="rect" id="node5" href="$a00808.html#a4ddee0e2030f8fa947fd93f403178104" title="tbb::internal::tbb\l_thread_v3::joinable" alt="" coords="1053,5,1192,47"/>
+<area shape="rect" id="node6" href="$a00808.html#aed1dc35a70fc537682452a1c7bd77faf" title="When detach() returns, *this no longer represents the possibly continuing thread of execution..." alt="" coords="872,69,1005,111"/>
+<area shape="rect" id="node7" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="1055,71,1191,112"/>
+<area shape="rect" id="node8" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="1240,100,1376,141"/>
+</map>

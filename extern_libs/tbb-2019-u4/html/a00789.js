@@ -1,0 +1,26 @@
+var a00789 =
+[
+    [ "task", "a00789.html#ac4d834668a830bc08341275b2b25d47a", null ],
+    [ "internal::allocate_additional_child_of_proxy", "a00789.html#af3a52fd61beaabc1c6b8ad04284d6925", null ],
+    [ "internal::allocate_child_proxy", "a00789.html#a120ae94a5f72146e3acddd6d782bd176", null ],
+    [ "internal::allocate_continuation_proxy", "a00789.html#a6315640eb4a3d4ff0bf38d82e855a23d", null ],
+    [ "internal::allocate_root_proxy", "a00789.html#ac79a9aa664be4320b16a72110ff5c41c", null ],
+    [ "internal::scheduler", "a00789.html#a9ebef2625215e8ed6836bb15990adce1", null ],
+    [ "is_critical", "a00789.html#aed737eb8c71e940593b85b20ff11e978", null ],
+    [ "make_critical", "a00789.html#ade68c30e165a93f0eb24c98c2c64847f", null ],
+    [ "tbb::interface5::internal::task_base", "a00789.html#a0ffb9420fbfc72b70aca0535aade673c", null ],
+    [ "tbb::task", "a00789.html#aa6b778dc8acdcf631a87d9ae107a5338", null ],
+    [ "tbb::task_list", "a00789.html#ab1774689869fa3d1899cf31eece0e60a", null ],
+    [ "affinity", "a00789.html#afb0b2997cfdb32fc4cc92a6e83fd3edb", null ],
+    [ "context", "a00789.html#ad8b42b30956a23bf8c7b1c55a29fe553", null ],
+    [ "depth", "a00789.html#a79af149df5cdf0cb8f93791b5989cfd1", null ],
+    [ "extra_state", "a00789.html#a5d3371cb924d5e764c082beedae4cb89", null ],
+    [ "isolation", "a00789.html#a92bd4eed6e6fa824b59a10a9a32e6100", null ],
+    [ "next", "a00789.html#a1e99861cb8496e37d0a0d4b08aff6029", null ],
+    [ "next_offloaded", "a00789.html#abc8402ca066690a9c7f0ee431f4d1dee", null ],
+    [ "origin", "a00789.html#a2d6ccc91fedf894c46b623c7a4a35c34", null ],
+    [ "owner", "a00789.html#a3a55f2d0ccd2a4c25c3958c9c168851c", null ],
+    [ "parent", "a00789.html#af7c1fe5628686fb0da5955b05e4cca07", null ],
+    [ "ref_count", "a00789.html#aaaf2f12ee06495a26f5e03bf74c43d89", null ],
+    [ "state", "a00789.html#ab79eff02de7b8379780378b5888548d5", null ]
+];

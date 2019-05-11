@@ -1,0 +1,10 @@
+<map id="tbb::internal::cpu_ctl_env::set_env" name="tbb::internal::cpu_ctl_env::set_env">
+<area shape="rect" id="node2" href="$a00302.html#a12dd37171af77214add72a973e6b71ba" title="Put task on free list. " alt="" coords="179,136,325,177"/>
+<area shape="rect" id="node3" href="$a00098.html#ab443866ef525c5e113e38d7bc0f65a0b" title="tbb::internal::auto\l_empty_task::~auto_empty_task" alt="" coords="373,5,587,47"/>
+<area shape="rect" id="node4" href="$a00049.html#a681282ec77816457ee409a6775aa415e" title="tbb::internal::allocate\l_continuation_proxy::free" alt="" coords="396,71,564,112"/>
+<area shape="rect" id="node5" href="$a00048.html#a2a6b401b674d801ae26402dc778b21bf" title="tbb::internal::allocate\l_child_proxy::free" alt="" coords="409,136,551,177"/>
+<area shape="rect" id="node6" href="$a00047.html#a65fbfed257af0abda4e109a27576667e" title="tbb::internal::allocate\l_additional_child_of_proxy::free" alt="" coords="377,201,583,243"/>
+<area shape="rect" id="node9" href="$a00781.html#a75c0c291f0020cf9be1234013ec4990b" title="Destroy a task. " alt="" coords="403,267,557,308"/>
+<area shape="rect" id="node7" href="$a00047.html#ad10174176746913b5819549011883c3f" title="tbb::internal::allocate\l_additional_child_of_proxy\l::allocate_additional_child\l_of_proxy" alt="" coords="659,143,834,213"/>
+<area shape="rect" id="node8" href="$a00051.html#a5803f3b67100086520196b8d395d2a14" title="tbb::internal::allocate\l_root_with_context_proxy\l::allocate_root_with_context_proxy" alt="" coords="635,238,859,294"/>
+</map>

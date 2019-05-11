@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface10::internal::reservable_item_buffer&lt; T, A &gt;" name="tbb::flow::interface10::internal::reservable_item_buffer&lt; T, A &gt;">
+<area shape="rect" id="node3" href="$a00119.html" title="Forwards messages in arbitrary order. " alt="" coords="85,623,281,1052"/>
+<area shape="rect" id="node2" href="$a00413.html" title="{tbb::flow::interface10\l::internal::item_buffer\l\&lt; T, A \&gt;\n|# my_array\l# my_array_size\l# my_head\l# my_tail\l# initial_buffer_size\l|+ item_buffer()\l+ ~item_buffer()\l+ reset()\l# buffer_empty()\l# item()\l# item()\l# my_item_valid()\l# my_item_reserved()\l# get_my_item()\l# set_my_item()\l# fetch_item()\l# move_item()\l# place_item()\land 16 more...\l}" alt="" coords="109,5,257,361"/>
+<area shape="rect" id="node4" href="$a00603.html" title="Forwards messages in priority order. " alt="" coords="5,1100,172,1500"/>
+<area shape="rect" id="node5" href="$a00613.html" title="Forwards messages in FIFO order. " alt="" coords="196,1195,363,1405"/>
+<area shape="rect" id="node6" href="$a00705.html" title="Forwards messages in sequence order. " alt="" coords="192,1548,367,1684"/>
+</map>

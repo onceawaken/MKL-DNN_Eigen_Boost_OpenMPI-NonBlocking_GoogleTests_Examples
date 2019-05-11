@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::internal::tagged_msg&lt; TagType, T0, T1, T2, T3, T4, T5, T6, T7, T8, T9 &gt;" name="tbb::flow::interface10::internal::tagged_msg&lt; TagType, T0, T1, T2, T3, T4, T5, T6, T7, T8, T9 &gt;">
+<area shape="rect" id="node2" href="$a00880.html" title="{tbb::flow::interface10\l::internal::tagged_msg\l\&lt; TagType, T0, T1, T2,\l T3, T4, T5, T6, T7, T8,\l T9 \&gt;::variant\n||+ variant()\l+ variant()\l+ variant()\l+ operator=()\l+ variant_cast_to()\l+ variant_is_a()\l+ variant_is_default\l_constructed()\l+ ~variant()\l}" alt="" coords="25,447,185,700"/>
+<area shape="rect" id="node4" href="$a00042.html" title="{tbb::aligned_space\l\&lt; AlignType, MaxNElements \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="87,204,291,340"/>
+<area shape="rect" id="node5" href="$a00042.html" title="Block of space aligned sufficiently to construct an array T with N elements. " alt="" coords="87,5,291,141"/>
+</map>

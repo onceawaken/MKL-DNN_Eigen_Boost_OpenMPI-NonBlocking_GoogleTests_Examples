@@ -1,0 +1,6 @@
+<map id="tbb::internal::lane_selector_base" name="tbb::internal::lane_selector_base">
+<area shape="rect" id="node4" href="$a00599.html" title="{tbb::internal::preceding\l_lane_selector\n||+ preceding_lane_selector()\l+ operator()()\l}" alt="" coords="5,411,188,517"/>
+<area shape="rect" id="node5" href="$a00766.html" title="{tbb::internal::subsequent\l_lane_selector\n||+ subsequent_lane_selector()\l+ operator()()\l}" alt="" coords="212,411,405,517"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="129,131,275,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="123,5,281,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::streaming_node&lt; tuple&lt; Ports... &gt;, JP, StreamFactory &gt;::args_storage_base" name="tbb::flow::interface10::streaming_node&lt; tuple&lt; Ports... &gt;, JP, StreamFactory &gt;::args_storage_base">
+<area shape="rect" id="node4" href="$a00065.html" title="{tbb::flow::interface10\l::streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::args_storage\&lt; Args \&gt;\n|&#45; my_args_pack\l|+ args_storage()\l+ args_storage()\l+ args_storage()\l+ enqueue()\l+ send()\l+ clone()\l&#45; do_try_put()\l&#45; do_try_put()\l&#45; make_run_finalize_func()\l}" alt="" coords="5,528,212,767"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="35,131,182,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="30,5,187,83"/>
+</map>

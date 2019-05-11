@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$a00548.html" title="internal::function\l_input_base\&lt; Input,\l Policy, A, ImplType\l \&gt;::operation_type" alt="" coords="235,5,376,76"/>
+<area shape="rect" id="node3" href="$a00353.html" title="internal::indexer_node\l_base\&lt; InputTuple, OutputType,\l StructTypes \&gt;::indexer_node\l_base_operation" alt="" coords="200,100,411,171"/>
+<area shape="rect" id="node4" href="$a00120.html" title="tbb::flow::interface10\l::buffer_node\&lt; T, A \&gt;\l::buffer_operation" alt="" coords="232,195,379,251"/>
+<area shape="rect" id="node5" href="$a00549.html" title="tbb::flow::interface10\l::internal::function_input\l_base\&lt; Input, Policy, A,\l ImplType \&gt;::operation_type" alt="" coords="213,276,398,347"/>
+<area shape="rect" id="node6" href="$a00354.html" title="tbb::flow::interface10\l::internal::indexer_node\l_base\&lt; InputTuple, OutputType,\l StructTypes \&gt;::indexer_node\l_base_operation" alt="" coords="200,371,411,457"/>
+<area shape="rect" id="node7" href="$a00432.html" title="tbb::flow::interface10\l::internal::join_node\l_base\&lt; JP, InputTuple,\l OutputTuple \&gt;::join_node\l_base_operation" alt="" coords="219,481,391,566"/>
+<area shape="rect" id="node8" href="$a00461.html" title="tbb::flow::interface10\l::internal::join_node\l_FE\&lt; key_matching\&lt; K, KHash\l \&gt;, InputTuple, OutputTuple\l \&gt;::key_matching_FE_operation" alt="" coords="201,590,409,675"/>
+<area shape="rect" id="node9" href="$a00465.html" title="tbb::flow::interface10\l::internal::key_matching\l_port\&lt; TraitsType \&gt;::key\l_matching_port_operation" alt="" coords="220,700,391,771"/>
+<area shape="rect" id="node10" href="$a00619.html" title="tbb::flow::interface10\l::internal::queueing_port\l\&lt; T \&gt;::queueing_port_operation" alt="" coords="204,795,407,851"/>
+<area shape="rect" id="node11" href="$a00661.html" title="tbb::flow::interface10\l::internal::reserving\l_port\&lt; T \&gt;::reserving_port\l_operation" alt="" coords="219,876,392,947"/>
+</map>

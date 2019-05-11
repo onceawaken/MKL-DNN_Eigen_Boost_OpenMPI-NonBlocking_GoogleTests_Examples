@@ -1,0 +1,8 @@
+<map id="tbb::flow::interface9::gfx_offload::check_gfx_retcode" name="tbb::flow::interface9::gfx_offload::check_gfx_retcode">
+<area shape="rect" id="node2" href="$a01121.html#a65791b31d5e4b6a190b2f7a1cda7fdaa" title="tbb::flow::interface9\l::gfx_offload::share" alt="" coords="212,5,349,47"/>
+<area shape="rect" id="node4" href="$a01121.html#ad31c6851973317685f52f6c2099f21c2" title="tbb::flow::interface9\l::gfx_offload::unshare" alt="" coords="207,71,355,112"/>
+<area shape="rect" id="node6" href="$a01121.html#ae21ed5a277ebcc0035ef64fa0ce19c9d" title="tbb::flow::interface9\l::gfx_offload::wait_for_task" alt="" coords="191,136,371,177"/>
+<area shape="rect" id="node3" href="$a00305.html#a638dfa4003a75d410f73a59260de4f13" title="tbb::flow::interface9\l::gfx_factory::share_data" alt="" coords="426,5,593,47"/>
+<area shape="rect" id="node5" href="$a00305.html#a704de1c64399fd206710a52dbcb417ce" title="tbb::flow::interface9\l::gfx_factory::unshare_data" alt="" coords="419,71,600,112"/>
+<area shape="rect" id="node7" href="$a00305.html#a49ac164f3c70fba7b25403e8bf378c3d" title="tbb::flow::interface9\l::gfx_factory::callback" alt="" coords="434,136,585,177"/>
+</map>

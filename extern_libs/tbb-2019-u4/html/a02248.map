@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::opencl_node&lt; Args &gt;" name="tbb::flow::interface10::opencl_node&lt; Args &gt;">
+<area shape="rect" id="node2" href="$a00540.html" title="{tbb::flow::interface10\l::opencl_node\&lt; tuple\&lt;\l Ports... \&gt;, JP, opencl\l_info::default_opencl_factory \&gt;\n||}" alt="" coords="5,197,207,318"/>
+<area shape="rect" id="node4" href="$a00540.html" title="{tbb::flow::interface10\l::opencl_node\&lt; tuple\&lt;\l Ports... \&gt;, queueing,\l opencl_info::default_opencl\l_factory \&gt;\n||}" alt="" coords="231,189,415,325"/>
+<area shape="rect" id="node3" href="$a00542.html" title="{tbb::flow::interface10\l::opencl_node\&lt; tuple\&lt;\l Ports... \&gt;, JP \&gt;\n||+ opencl_node()\l+ opencl_node()\l}" alt="" coords="31,375,181,496"/>
+<area shape="rect" id="node5" href="$a00541.html" title="{tbb::flow::interface10\l::opencl_node\&lt; tuple\&lt;\l Ports... \&gt; \&gt;\n||+ opencl_node()\l+ opencl_node()\l}" alt="" coords="248,375,399,496"/>
+</map>

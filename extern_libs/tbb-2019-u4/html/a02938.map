@@ -1,0 +1,8 @@
+<map id="tbb::interface6::concurrent_lru_cache&lt; key_type, value_type, value_functor_type &gt;::handle_object" name="tbb::interface6::concurrent_lru_cache&lt; key_type, value_type, value_functor_type &gt;::handle_object">
+<area shape="rect" id="node2" href="$a00144.html" title="{tbb::interface6::concurrent\l_lru_cache\&lt; key_type, value\l_type, value_functor_type \&gt;\n|&#45; my_value_function\l&#45; my_number_of_lru_history\l_items\l&#45; my_aggregator\l|+ concurrent_lru_cache()\l+ operator[]()\l&#45; signal_end_of_usage()\l&#45; handle_operations()\l&#45; retrieve_serial()\l&#45; signal_end_of_usage\l_serial()\l}" alt="" coords="164,528,353,767"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,381,163,458"/>
+<area shape="rect" id="node5" href="$a00488.html" title="{tbb::interface6::concurrent\l_lru_cache\&lt; key_type, value\l_type, value_functor_type \&gt;\l::map_value_type\n|+ my_value\l+ my_lru_list_iterator\l+ my_is_ready\l|+ map_value_type()\l}" alt="" coords="20,145,209,296"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="233,182,356,259"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="397,182,494,259"/>
+<area shape="rect" id="node11" title="STL iterator class. " alt="" coords="544,182,715,259"/>
+</map>

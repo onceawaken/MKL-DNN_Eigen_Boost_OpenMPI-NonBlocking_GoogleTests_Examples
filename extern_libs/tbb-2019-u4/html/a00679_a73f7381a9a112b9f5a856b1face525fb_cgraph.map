@@ -1,0 +1,9 @@
+<map id="tbb::spin_mutex::scoped_lock::scoped_lock" name="tbb::spin_mutex::scoped_lock::scoped_lock">
+<area shape="rect" id="node2" href="$a01089.html#aa570e2316a90880cbbc36586e6463534" title="__TBB_LockByte" alt="" coords="432,35,556,61"/>
+<area shape="rect" id="node7" href="$a00679.html#a56eb98743177c5d336313e2802aa135c" title="Like acquire, but with ITT instrumentation. " alt="" coords="219,57,384,98"/>
+<area shape="rect" id="node8" href="$a01133.html#a581e1f46904317517a36dc7215ecac8c" title="Utility template function to prevent &quot;unused&quot; warnings by various compilers. " alt="" coords="226,122,377,163"/>
+<area shape="rect" id="node3" href="$a01089.html#ad95ec7e5b7103614f039c4019bf3b3f6" title="__TBB_TryLockByte" alt="" coords="604,5,747,32"/>
+<area shape="rect" id="node5" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="607,57,744,98"/>
+<area shape="rect" id="node4" href="$a01107.html#a1ba16e606202cdec1e611e5c0df2b9f6" title="__TBB_machine_cmpswp1" alt="" coords="795,5,976,32"/>
+<area shape="rect" id="node6" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="832,64,939,91"/>
+</map>

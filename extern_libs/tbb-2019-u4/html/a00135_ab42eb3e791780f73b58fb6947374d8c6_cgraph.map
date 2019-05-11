@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::composite_node&lt; tbb::flow::tuple&lt; InputTypes... &gt;, tbb::flow::tuple&lt; OutputTypes... &gt; &gt;::set_external_ports" name="tbb::flow::interface10::composite_node&lt; tbb::flow::tuple&lt; InputTypes... &gt;, tbb::flow::tuple&lt; OutputTypes... &gt; &gt;::set_external_ports">
+<area shape="rect" id="node2" href="$a00252.html#af9598c848613391114f15e10a8f41c44" title="tbb::internal::fgt\l_internal_input_alias\l_helper::alias_port" alt="" coords="284,5,424,61"/>
+<area shape="rect" id="node3" href="$a00253.html#a6af9ce2a89573e55d61e44bdf4b5e25c" title="tbb::internal::fgt\l_internal_output_alias\l_helper::alias_port" alt="" coords="280,85,428,141"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="tbb::flow::interface10::internal::broadcast_cache&lt; T, M &gt;" name="tbb::flow::interface10::internal::broadcast_cache&lt; T, M &gt;">
+<area shape="rect" id="node5" href="$a00113.html" title="{tbb::flow::interface10\l::internal::broadcast\l_cache\&lt; input_type, tbb\l::null_rw_mutex \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="5,745,168,881"/>
+<area shape="rect" id="node6" href="$a00113.html" title="{tbb::flow::interface10\l::internal::broadcast\l_cache\&lt; output_type, tbb\l::null_rw_mutex \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="192,745,363,881"/>
+<area shape="rect" id="node7" href="$a00113.html" title="{tbb::flow::interface10\l::internal::broadcast\l_cache\&lt; input_type \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="387,753,535,874"/>
+<area shape="rect" id="node8" href="$a00113.html" title="{tbb::flow::interface10\l::internal::broadcast\l_cache\&lt; T \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="560,753,704,874"/>
+<area shape="rect" id="node9" href="$a00113.html" title="{tbb::flow::interface10\l::internal::broadcast\l_cache\&lt; output_type \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="729,753,885,874"/>
+<area shape="rect" id="node2" href="$a00767.html" title="An abstract cache of successors. " alt="" coords="385,273,537,497"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="388,132,535,224"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="383,5,540,83"/>
+</map>

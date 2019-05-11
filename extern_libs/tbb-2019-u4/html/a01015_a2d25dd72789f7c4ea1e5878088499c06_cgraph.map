@@ -1,0 +1,9 @@
+<map id="init_ittlib" name="init_ittlib">
+<area shape="rect" id="node2" href="$a01015.html#a373fd46da33ab903956380c407ea6a58" title="__itt_get_groups" alt="" coords="130,5,249,32"/>
+<area shape="rect" id="node5" href="$a01015.html#ac750ba596b29bd642672e4f63a9d8bd9" title="__itt_get_lib_name" alt="" coords="124,56,255,83"/>
+<area shape="rect" id="node6" href="$a01015.html#af457a948cb762564561bdd3636fd29dc" title="__itt_lib_version" alt="" coords="131,107,247,133"/>
+<area shape="rect" id="node7" href="$a01015.html#adf31a404558bb48da06a5aece609f937" title="__itt_nullify_all_pointers" alt="" coords="303,183,464,209"/>
+<area shape="rect" id="node8" href="$a01015.html#aa918059b71bd077e491ad6f021a64038" title="fini_ittlib" alt="" coords="154,208,225,235"/>
+<area shape="rect" id="node3" href="$a01015.html#a103168dbaf82ad9738dcc8a56e23f50c" title="__itt_fsplit" alt="" coords="342,5,425,32"/>
+<area shape="rect" id="node4" href="$a01015.html#a87e96c1072474253abe61776e12745b9" title="__itt_get_env_var" alt="" coords="321,56,446,83"/>
+</map>

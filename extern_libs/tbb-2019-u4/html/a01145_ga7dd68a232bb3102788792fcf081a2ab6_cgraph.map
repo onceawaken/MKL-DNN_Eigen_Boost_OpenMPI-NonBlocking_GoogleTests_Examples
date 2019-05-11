@@ -1,0 +1,11 @@
+<map id="tbb::parallel_scan" name="tbb::parallel_scan">
+<area shape="rect" id="node2" href="$a01145.html#gae7eaaf124471a6c603b28fc925e8fbbb" title="Parallel prefix with default partitioner. " alt="" coords="177,64,301,91"/>
+<area shape="rect" id="node3" href="$a00732.html#a148a612f5856ab9514df63e688a78d06" title="tbb::internal::start\l_scan::run" alt="" coords="349,57,473,98"/>
+<area shape="rect" id="node4" href="$a00778.html#ac7a9405b422bec9110854acd71edb9f2" title="Returns proxy for overloaded new that allocates a root task. " alt="" coords="529,5,684,32"/>
+<area shape="rect" id="node5" href="$a00778.html#af19c8ef47d1feb6dae459a99efb8bd31" title="Spawn task allocated by allocate_root, wait for it to complete, and deallocate it. " alt="" coords="533,57,681,98"/>
+<area shape="rect" id="node9" href="$a00261.html#a8bb44e2c8e92b5a9eb5926fa375d716e" title="tbb::internal::final\l_sum::finish_construction" alt="" coords="521,122,692,163"/>
+<area shape="rect" id="node6" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="749,64,862,91"/>
+<area shape="rect" id="node7" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="930,27,1061,69"/>
+<area shape="rect" id="node8" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="919,93,1072,120"/>
+<area shape="rect" id="node10" href="$a00042.html#aefcd343548f92c6e738febedf1d75f74" title="Pointer to beginning of array. " alt="" coords="740,122,871,163"/>
+</map>

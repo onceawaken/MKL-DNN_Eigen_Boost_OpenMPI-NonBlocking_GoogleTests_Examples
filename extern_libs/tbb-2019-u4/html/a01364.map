@@ -1,0 +1,33 @@
+<map id="scheduler_utility.h" name="scheduler_utility.h">
+<area shape="rect" id="node2" href="$a01062.html" title="scheduler.h" alt="" coords="934,80,1023,107"/>
+<area shape="rect" id="node3" href="$a01063.html" title="scheduler_common.h" alt="" coords="697,311,844,338"/>
+<area shape="rect" id="node25" href="$a01068.html" title="tbb/spin_mutex.h" alt="" coords="939,401,1061,427"/>
+<area shape="rect" id="node29" href="$a01024.html" title="mailbox.h" alt="" coords="2299,229,2378,256"/>
+<area shape="rect" id="node30" href="$a01093.html" title="tbb_misc.h" alt="" coords="2431,311,2518,338"/>
+<area shape="rect" id="node31" href="$a01011.html" title="itt_notify.h" alt="" coords="27,155,109,181"/>
+<area shape="rect" id="node33" href="$a01008.html" title="intrusive_list.h" alt="" coords="43,311,149,338"/>
+<area shape="rect" id="node34" href="$a00964.html" title="arena.h" alt="" coords="1650,155,1715,181"/>
+<area shape="rect" id="node40" href="$a01005.html" title="governor.h" alt="" coords="2695,229,2777,256"/>
+<area shape="rect" id="node4" href="$a01089.html" title="tbb/tbb_machine.h" alt="" coords="971,632,1101,659"/>
+<area shape="rect" id="node10" href="$a00972.html" title="tbb/cache_aligned_allocator.h" alt="" coords="1641,483,1836,509"/>
+<area shape="rect" id="node13" href="$a01097.html" title="tbb_statistics.h" alt="" coords="227,632,338,659"/>
+<area shape="rect" id="node14" href="$a01073.html" title="tbb/task.h" alt="" coords="695,401,775,427"/>
+<area shape="rect" id="node19" href="$a01088.html" title="tbb/tbb_exception.h" alt="" coords="1452,401,1588,427"/>
+<area shape="rect" id="node5" href="$a01098.html" title="tbb_stddef.h" alt="" coords="1590,707,1685,733"/>
+<area shape="rect" id="node6" href="$a01085.html" title="tbb_config.h" alt="" coords="1695,781,1788,808"/>
+<area shape="rect" id="node15" href="$a01095.html" title="tbb_profiling.h" alt="" coords="649,483,751,509"/>
+<area shape="rect" id="node16" href="$a00955.html" title="internal/_tbb_strings.h" alt="" coords="649,557,799,584"/>
+<area shape="rect" id="node17" href="$a00965.html" title="atomic.h" alt="" coords="2097,557,2169,584"/>
+<area shape="rect" id="node22" href="$a01082.html" title="tbb_allocator.h" alt="" coords="2260,483,2367,509"/>
+<area shape="rect" id="node26" href="$a00962.html" title="aligned_space.h" alt="" coords="1074,557,1190,584"/>
+<area shape="rect" id="node27" href="$a00952.html" title="internal/_mutex_padding.h" alt="" coords="347,483,522,509"/>
+<area shape="rect" id="node35" href="$a01079.html" title="task_stream.h" alt="" coords="2022,229,2127,256"/>
+<area shape="rect" id="node37" href="$a01036.html" title="observer_proxy.h" alt="" coords="2152,229,2275,256"/>
+<area shape="rect" id="node38" href="$a01026.html" title="market.h" alt="" coords="669,229,742,256"/>
+<area shape="rect" id="node45" href="$a00979.html" title="concurrent_monitor.h" alt="" coords="1611,311,1755,338"/>
+<area shape="rect" id="node39" href="$a01070.html" title="tbb/spin_rw_mutex.h" alt="" coords="363,401,506,427"/>
+<area shape="rect" id="node41" href="$a01077.html" title="tbb/task_scheduler\l_init.h" alt="" coords="2695,304,2827,345"/>
+<area shape="rect" id="node43" href="$a01104.html" title="tls.h" alt="" coords="2867,311,2914,338"/>
+<area shape="rect" id="node44" href="$a01105.html" title="tbb/machine/windows\l_api.h" alt="" coords="2834,393,2982,435"/>
+<area shape="rect" id="node46" href="$a01066.html" title="semaphore.h" alt="" coords="1861,483,1958,509"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="tbb::flow::interface9::gfx_offload::throw_gfx_exception" name="tbb::flow::interface9::gfx_offload::throw_gfx_exception">
+<area shape="rect" id="node2" href="$a01121.html#a33f40a94b7a3761bf026571ce8bf2b02" title="tbb::flow::interface9\l::gfx_offload::check\l_enqueue_retcode" alt="" coords="191,11,328,67"/>
+<area shape="rect" id="node5" href="$a01121.html#ad6799c989aad12e25ea75ccd71c73a36" title="tbb::flow::interface9\l::gfx_offload::check\l_gfx_retcode" alt="" coords="191,117,328,173"/>
+<area shape="rect" id="node3" href="$a01121.html#a3f7297d0b99732aba3a29f67f51fdf18" title="tbb::flow::interface9\l::gfx_offload::run_kernel" alt="" coords="385,5,547,47"/>
+<area shape="rect" id="node4" href="$a00305.html#ad02cbeeadac99f4ebecfb849439a3eb6" title="tbb::flow::interface9\l::gfx_factory::send_kernel" alt="" coords="608,5,781,47"/>
+<area shape="rect" id="node6" href="$a01121.html#a65791b31d5e4b6a190b2f7a1cda7fdaa" title="tbb::flow::interface9\l::gfx_offload::share" alt="" coords="397,71,535,112"/>
+<area shape="rect" id="node8" href="$a01121.html#ad31c6851973317685f52f6c2099f21c2" title="tbb::flow::interface9\l::gfx_offload::unshare" alt="" coords="392,136,540,177"/>
+<area shape="rect" id="node10" href="$a01121.html#ae21ed5a277ebcc0035ef64fa0ce19c9d" title="tbb::flow::interface9\l::gfx_offload::wait_for_task" alt="" coords="376,201,556,243"/>
+<area shape="rect" id="node7" href="$a00305.html#a638dfa4003a75d410f73a59260de4f13" title="tbb::flow::interface9\l::gfx_factory::share_data" alt="" coords="611,71,778,112"/>
+<area shape="rect" id="node9" href="$a00305.html#a704de1c64399fd206710a52dbcb417ce" title="tbb::flow::interface9\l::gfx_factory::unshare_data" alt="" coords="604,136,785,177"/>
+<area shape="rect" id="node11" href="$a00305.html#a49ac164f3c70fba7b25403e8bf378c3d" title="tbb::flow::interface9\l::gfx_factory::callback" alt="" coords="619,201,770,243"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tbb::internal::pipeline_cleaner::~pipeline_cleaner" name="tbb::internal::pipeline_cleaner::~pipeline_cleaner">
+<area shape="rect" id="node2" href="$a00589.html#a1e89972e8aca4334f3e27af8eb520edf" title="Does clean up if pipeline is cancelled or exception occurred. " alt="" coords="246,5,374,47"/>
+<area shape="rect" id="node3" href="$a00778.html#a540796b339aa9e5bd08cad1cc91da84b" title="Returns true if the context has received cancellation request. " alt="" coords="233,71,387,98"/>
+</map>

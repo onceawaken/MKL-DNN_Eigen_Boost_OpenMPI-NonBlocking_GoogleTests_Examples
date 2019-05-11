@@ -1,0 +1,12 @@
+<map id="tbb::strict_ppl::concurrent_queue::concurrent_queue" name="tbb::strict_ppl::concurrent_queue::concurrent_queue">
+<area shape="rect" id="node2" href="$a00148.html#a5a75c1113d5e29c1772c445230583b37" title="copy or move internal representation " alt="" coords="241,5,409,61"/>
+<area shape="rect" id="node3" href="$a00147.html#a49b2e16902577cd3174355be0fa684e5" title="Construct empty queue. " alt="" coords="237,85,412,126"/>
+<area shape="rect" id="node4" href="$a00147.html#a42048c6a7eb1918e60fc03380bc98a99" title="tbb::strict_ppl::concurrent\l_queue::copy_construct_item" alt="" coords="228,150,421,191"/>
+<area shape="rect" id="node5" href="$a00148.html#a33a620e0a0e1e19e006d082835659855" title="swap internal representation " alt="" coords="241,215,409,271"/>
+<area shape="rect" id="node6" href="$a01113.html#ac41903d6b80e61bd6c605412e7820e08" title="tbb::move" alt="" coords="285,295,365,321"/>
+<area shape="rect" id="node7" href="$a01133.html#abb11c7c316e44b5f97962d62e9ea5f70" title="tbb::internal::move_v3" alt="" coords="469,295,620,321"/>
+<area shape="rect" id="node8" href="$a00808.html#aed1dc35a70fc537682452a1c7bd77faf" title="When detach() returns, *this no longer represents the possibly continuing thread of execution..." alt="" coords="668,258,801,299"/>
+<area shape="rect" id="node11" href="$a00808.html#a4ddee0e2030f8fa947fd93f403178104" title="tbb::internal::tbb\l_thread_v3::joinable" alt="" coords="849,317,988,358"/>
+<area shape="rect" id="node9" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="851,199,987,241"/>
+<area shape="rect" id="node10" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="1036,229,1172,270"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="tbb::internal::fgt_make_edge" name="tbb::internal::fgt_make_edge">
+<area shape="rect" id="node2" href="$a01115.html#a6f29b910ba2c3b5a6b8fac87690f9117" title="tbb::flow::interface10\l::internal_make_edge" alt="" coords="167,117,313,159"/>
+<area shape="rect" id="node3" href="$a01115.html#a2534f3aa999f7cc3c1cf268d21c42a5c" title="Makes an edge between a single predecessor and a single successor. " alt="" coords="361,117,505,159"/>
+<area shape="rect" id="node4" href="$a01115.html#ac02104628bd69a8a69cf5247ca8c0452" title="tbb::flow::interface10\l::make_edge" alt="" coords="585,5,729,47"/>
+<area shape="rect" id="node5" href="$a00744.html#af6d00910aeb02fcf9d1e37321f510c75" title="streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::make_edges" alt="" coords="553,70,760,126"/>
+<area shape="rect" id="node6" href="$a00744.html#a05296aa10e873156c7bb511440dc7cee" title="streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::make_Nth_edge" alt="" coords="553,150,760,206"/>
+<area shape="rect" id="node7" href="$a00933.html#adb420aa442364711a0a8a8cd763c04be" title="Put item to successor; return task to run the successor if possible. " alt="" coords="581,230,732,286"/>
+</map>

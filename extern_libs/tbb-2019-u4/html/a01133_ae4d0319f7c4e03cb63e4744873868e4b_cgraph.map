@@ -1,0 +1,6 @@
+<map id="tbb::internal::thread_sleep_v3" name="tbb::internal::thread_sleep_v3">
+<area shape="rect" id="node2" href="$a00827.html#a74dcecde7431ff4591d7c46fc1d50d7e" title="Return current time. " alt="" coords="197,5,337,32"/>
+<area shape="rect" id="node3" href="$a00389.html#abe81446bbbb6b6e98d854b91acf47809" title="Return the length of a time interval in seconds. " alt="" coords="188,57,347,98"/>
+<area shape="rect" id="node4" href="$a00827.html#aaf6a0d91e7d40f7d68e0ad6b79350e58" title="Return the resolution of the clock in seconds per tick. " alt="" coords="395,64,567,91"/>
+<area shape="rect" id="node5" href="$a00389.html#ac50065a6fabb3bd25d3ee7ec8e9a09ec" title="tbb::tick_count::interval\l_t::ticks_per_second" alt="" coords="615,57,773,98"/>
+</map>

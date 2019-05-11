@@ -1,0 +1,9 @@
+<map id="tbb::tbb_exception::move" name="tbb::tbb_exception::move">
+<area shape="rect" id="node2" href="$a01133.html#a35e1c039fac0fa1b7d8b4f491d557a86" title="tbb::internal::assert\l_task_valid" alt="" coords="183,173,317,214"/>
+<area shape="rect" id="node3" href="$a00194.html#a5e2c5878baf724264214e91070844487" title="Scheduler loop that dispatches tasks. " alt="" coords="389,5,540,61"/>
+<area shape="rect" id="node4" href="$a00302.html#ad7c11742ee005f6d377095062b42a5d8" title="tbb::internal::generic\l_scheduler::generic_scheduler" alt="" coords="365,85,564,126"/>
+<area shape="rect" id="node5" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="612,173,755,214"/>
+<area shape="rect" id="node6" href="$a00302.html#a10c72a4aad7308d944cef26502ece55e" title="Get a task from the local pool. " alt="" coords="393,202,536,243"/>
+<area shape="rect" id="node7" href="$a00049.html#a42e1d669adc9327b70273179101805ab" title="tbb::internal::allocate\l_continuation_proxy::allocate" alt="" coords="369,267,560,309"/>
+<area shape="rect" id="node8" href="$a00048.html#a4ff38c5560806b0695506c33a19bc0c1" title="tbb::internal::allocate\l_child_proxy::allocate" alt="" coords="391,333,539,374"/>
+</map>

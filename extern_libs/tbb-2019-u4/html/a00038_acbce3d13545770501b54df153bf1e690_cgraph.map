@@ -1,0 +1,25 @@
+<map id="tbb::interface6::aggregator_operation::next" name="tbb::interface6::aggregator_operation::next">
+<area shape="rect" id="node2" href="$a01133.html#ad2789f49c08d4136961e0649f5fd09e8" title="tbb::internal::itt\l_hide_load_word" alt="" coords="228,449,347,491"/>
+<area shape="rect" id="node3" href="$a01133.html#ab1345cb751bdd0495f6280675a6b2364" title="tbb::internal::itt\l_load_pointer_v3" alt="" coords="401,5,521,47"/>
+<area shape="rect" id="node4" href="$a01133.html#ae998b9627068b137cb2047f9979fc9c1" title="tbb::internal::call\l_itt_notify" alt="" coords="401,71,520,112"/>
+<area shape="rect" id="node5" href="$a01133.html#a4ac9e9119fcea67d6de9ea6cb7a41001" title="tbb::internal::call\l_itt_notify_v5" alt="" coords="401,289,520,331"/>
+<area shape="rect" id="node11" href="$a01133.html#aba5cd0bb95769841947906b928bdbb2b" title="tbb::internal::itt\l_make_task_group_v7" alt="" coords="575,100,729,141"/>
+<area shape="rect" id="node12" href="$a01133.html#a8c9aa2b272babd96bd3ed0c1164130a6" title="tbb::internal::itt\l_metadata_str_add_v7" alt="" coords="575,165,729,207"/>
+<area shape="rect" id="node13" href="$a01133.html#a833ba3b7af976854ee16577d66892a1d" title="tbb::internal::itt\l_relation_add_v7" alt="" coords="592,231,712,272"/>
+<area shape="rect" id="node14" href="$a01133.html#ace749aae0d4b232996e2fce71b811a3a" title="tbb::internal::itt\l_task_begin_v7" alt="" coords="595,348,709,389"/>
+<area shape="rect" id="node15" href="$a01133.html#a79aca1994dffae83b4df9b68a9c6798d" title="tbb::internal::itt\l_task_end_v7" alt="" coords="597,413,707,455"/>
+<area shape="rect" id="node16" href="$a01133.html#a0966396b0092e218b6d7620d2f9081f1" title="tbb::internal::itt\l_region_begin_v9" alt="" coords="591,479,713,520"/>
+<area shape="rect" id="node17" href="$a01133.html#a551839e7a1f76714ee7e9c973663e58b" title="tbb::internal::itt\l_region_end_v9" alt="" coords="595,544,709,585"/>
+<area shape="rect" id="node18" href="$a01133.html#aa9a0df1de0e2793c66438842755394aa" title="tbb::internal::itt\l_make_task_group" alt="" coords="395,559,527,600"/>
+<area shape="rect" id="node19" href="$a01133.html#a5c6e764665f94fc8648d4127a2358eac" title="tbb::internal::itt\l_metadata_str_add" alt="" coords="585,653,719,695"/>
+<area shape="rect" id="node20" href="$a01133.html#aa4b0d65c4eed65d7ef116ec69c165f17" title="tbb::internal::itt\l_relation_add" alt="" coords="406,741,515,783"/>
+<area shape="rect" id="node21" href="$a01133.html#a1cacff8d8fe2b48787e7fb43ac03a065" title="tbb::internal::itt\l_task_begin" alt="" coords="406,807,515,848"/>
+<area shape="rect" id="node22" href="$a01133.html#a159745635383dfd33f0e80b1c6a35ecf" title="tbb::internal::itt\l_task_end" alt="" coords="406,872,515,913"/>
+<area shape="rect" id="node23" href="$a01133.html#af2e3344c79667a75c3069b858bb196ec" title="tbb::internal::itt\l_region_begin" alt="" coords="406,937,515,979"/>
+<area shape="rect" id="node24" href="$a01133.html#a2f15f907851cb04d119ba39beacdbec7" title="tbb::internal::itt\l_region_end" alt="" coords="406,624,515,665"/>
+<area shape="rect" id="node6" href="$a01157.html#ga3a34add1c1ff5133f68e87a6f21ce8cb" title="A convenience function is provided to create an ID without domain control. " alt="" coords="601,297,703,323"/>
+<area shape="rect" id="node7" href="$a01157.html#ga935dd3611e942563fb60db1ccee453c7" title="Create an instance of identifier. This establishes the beginning of the lifetime of an instance of th..." alt="" coords="789,217,896,243"/>
+<area shape="rect" id="node8" href="$a01157.html#ga9b1b0ac6c1084ae77b22708886f468a5" title="Destroy an instance of identifier. This ends the lifetime of the current instance of the given ID val..." alt="" coords="785,267,900,294"/>
+<area shape="rect" id="node9" href="$a01158.html#ga353ab13a4b9325ded923c1c951f6f849" title="Create a string handle. Create and return handle value that can be associated with a string..." alt="" coords="777,319,908,360"/>
+<area shape="rect" id="node10" href="$a01158.html#ga01b031a1ec465e650ccfacae18a3c121" title="__itt_string_handle\l_createW" alt="" coords="777,384,908,425"/>
+</map>

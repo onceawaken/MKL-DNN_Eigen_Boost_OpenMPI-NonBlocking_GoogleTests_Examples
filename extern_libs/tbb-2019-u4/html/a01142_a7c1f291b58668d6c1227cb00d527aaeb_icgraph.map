@@ -1,0 +1,10 @@
+<map id="tbb::strict_ppl::internal::is_valid_page" name="tbb::strict_ppl::internal::is_valid_page">
+<area shape="rect" id="node2" href="$a00496.html#abd6fedce3ee875ab9d684a9e01e80b12" title="tbb::strict_ppl::internal\l::micro_queue::assign" alt="" coords="225,5,375,47"/>
+<area shape="rect" id="node3" href="$a00148.html#a318f1cb91ca3fa2feb2dbb0d5210f4da" title="free any remaining pages " alt="" coords="216,70,384,126"/>
+<area shape="rect" id="node7" href="$a00496.html#ade21bfb491d895a6c9cdd3cc4471ae15" title="tbb::strict_ppl::internal\l::micro_queue::invalidate\l_page_and_rethrow" alt="" coords="217,150,383,206"/>
+<area shape="rect" id="node8" href="$a00496.html#a7f1d7008d5bb576d54b608e31d70a6fe" title="tbb::strict_ppl::internal\l::micro_queue::push" alt="" coords="225,229,375,271"/>
+<area shape="rect" id="node9" href="$a00498.html#ab829ef658083c4097510788fd6a8cdec" title="tbb::strict_ppl::internal\l::micro_queue_pop_finalizer\l::~micro_queue_pop_finalizer" alt="" coords="204,294,396,350"/>
+<area shape="rect" id="node4" href="$a00147.html#aa0056b242f280f5e25332ce998f9f670" title="Destroy queue. " alt="" coords="472,45,655,87"/>
+<area shape="rect" id="node6" href="$a00142.html#ab1291bf6837ecfb8836c24dde5dd80b5" title="Destroy queue. " alt="" coords="444,111,683,152"/>
+<area shape="rect" id="node5" href="$a00147.html#a22f35cb396178d494a3756d5700e2865" title="tbb::strict_ppl::concurrent\l_queue::concurrent_queue" alt="" coords="731,45,905,87"/>
+</map>

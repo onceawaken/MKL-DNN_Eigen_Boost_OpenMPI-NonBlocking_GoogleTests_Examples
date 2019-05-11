@@ -1,0 +1,6 @@
+<map id="tbb::internal::scheduler" name="tbb::internal::scheduler">
+<area shape="rect" id="node4" href="$a00302.html" title="Work stealing task scheduler. " alt="" coords="17,455,194,1016"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="32,131,179,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="27,5,184,83"/>
+<area shape="rect" id="node5" href="$a00194.html" title="A scheduler with a customized evaluation loop. " alt="" coords="5,1064,205,1244"/>
+</map>

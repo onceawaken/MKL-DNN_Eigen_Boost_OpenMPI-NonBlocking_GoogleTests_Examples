@@ -1,0 +1,5 @@
+<map id="tbb::mutex::scoped_lock::internal_release" name="tbb::mutex::scoped_lock::internal_release">
+<area shape="rect" id="node2" href="$a00685.html#a1a1590281ccca912229a689d920fd78a" title="Release lock. " alt="" coords="384,5,519,47"/>
+<area shape="rect" id="node4" href="$a00511.html#a721eeae7ba16f8b92535f4534b583874" title="Release lock. " alt="" coords="205,38,336,65"/>
+<area shape="rect" id="node3" href="$a00685.html#a08c399ee0bb9762039b29e570ec46fe9" title="Release lock (if lock is held). " alt="" coords="567,5,709,47"/>
+</map>

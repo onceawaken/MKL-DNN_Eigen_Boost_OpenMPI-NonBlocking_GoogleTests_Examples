@@ -1,0 +1,7 @@
+<map id="streaming_node&lt; tuple&lt; Ports... &gt;, JP, StreamFactory &gt;::device_selector&lt; UserFunctor &gt;" name="streaming_node&lt; tuple&lt; Ports... &gt;, JP, StreamFactory &gt;::device_selector&lt; UserFunctor &gt;">
+<area shape="rect" id="node2" href="$a00212.html" title="{streaming_node\&lt; tuple\l\&lt; Ports... \&gt;, JP, StreamFactory\l \&gt;::device_selector_base\n||+ operator()()\l+ clone()\l+ ~device_selector_base()\l}" alt="" coords="5,329,212,465"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="237,359,394,436"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="456,145,593,237"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="658,153,767,230"/>
+<area shape="rect" id="node8" href="$a00743.html" title="{streaming_node\&lt; Args \&gt;\n||}" alt="" coords="999,359,1165,436"/>
+</map>

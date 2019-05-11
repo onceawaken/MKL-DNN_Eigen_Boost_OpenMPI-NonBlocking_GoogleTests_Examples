@@ -1,0 +1,5 @@
+<map id="tbb::concurrent_bounded_queue::emplace" name="tbb::concurrent_bounded_queue::emplace">
+<area shape="rect" id="node2" href="$a00147.html#a9330ca6590980d80ef7b1ea3613a699a" title="Enqueue an item at tail of queue. " alt="" coords="219,49,389,90"/>
+<area shape="rect" id="node3" href="$a00148.html#a20ed7aaacf46a15c60f177e37a06f592" title="Enqueue item at tail of queue. " alt="" coords="450,5,618,61"/>
+<area shape="rect" id="node4" href="$a00147.html#a42048c6a7eb1918e60fc03380bc98a99" title="tbb::strict_ppl::concurrent\l_queue::copy_construct_item" alt="" coords="437,85,631,126"/>
+</map>

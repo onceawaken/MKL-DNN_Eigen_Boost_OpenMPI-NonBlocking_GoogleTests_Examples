@@ -1,0 +1,8 @@
+<map id="tbb::flow::interface10::graph::root_task" name="tbb::flow::interface10::graph::root_task">
+<area shape="rect" id="node2" href="$a00716.html#a665b6eaa1930b0ce057d6298b6def085" title="tbb::flow::interface10\l::source_node::create\l_put_task" alt="" coords="215,5,363,61"/>
+<area shape="rect" id="node3" href="$a00475.html#aca3f2d22118ca2eea8106d75a0a917da" title="tbb::flow::interface10\l::limiter_node::forward_task" alt="" coords="197,85,380,126"/>
+<area shape="rect" id="node4" href="$a00475.html#a4691b0a2f13afe88e4e4071db30cdf60" title="Adds src to the list of cached predecessors. " alt="" coords="213,149,364,205"/>
+<area shape="rect" id="node5" href="$a00475.html#aef51f38076243cef1eec6cc80e82fed8" title="Replace the current successor with this new successor. " alt="" coords="213,229,364,285"/>
+<area shape="rect" id="node6" href="$a00550.html#ab916be127a0e573e6482c10981e1bd94" title="Add a new successor to this node. " alt="" coords="204,309,373,365"/>
+<area shape="rect" id="node7" href="$a00475.html#ae2e9e980762a74fd92823e596bf6bdf5" title="Puts an item to this receiver. " alt="" coords="199,389,379,430"/>
+</map>

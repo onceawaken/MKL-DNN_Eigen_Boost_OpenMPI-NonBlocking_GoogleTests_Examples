@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00632.html" title="internal::kernel_executor\l_helper\&lt; StreamFactory,\l KernelInputTuple, typename\l tbb::internal::void_t\&lt; typename\l StreamFactory::range_type \&gt;::type\l \&gt;::range_wrapper" alt="" coords="5,68,235,168"/>
+<area shape="rect" id="node2" href="$a00626.html" title="internal::kernel_executor\l_helper\&lt; StreamFactory,\l KernelInputTuple, typename\l tbb::internal::void_t\&lt; typename\l StreamFactory::range_type \&gt;::type\l \&gt;::range_mapper\&lt; N \&gt;" alt="" coords="283,5,512,105"/>
+<area shape="rect" id="node3" href="$a00630.html" title="internal::kernel_executor\l_helper\&lt; StreamFactory,\l KernelInputTuple, typename\l tbb::internal::void_t\&lt; typename\l StreamFactory::range_type \&gt;::type\l \&gt;::range_value" alt="" coords="283,129,512,229"/>
+</map>

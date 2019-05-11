@@ -1,0 +1,10 @@
+<map id="tbb::internal::input_buffer" name="tbb::internal::input_buffer">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="82,132,229,224"/>
+<area shape="rect" id="node5" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="77,288,233,395"/>
+<area shape="rect" id="node6" href="$a00699.html" title="Edsger Dijkstra&#39;s counting semaphore. " alt="" coords="190,433,353,569"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="77,5,234,83"/>
+<area shape="rect" id="node4" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="77,593,223,773"/>
+<area shape="rect" id="node7" href="$a00787.html" title="This structure is used to store task information in a input buffer. " alt="" coords="355,623,505,744"/>
+<area shape="rect" id="node8" href="$a00105.html" title="{tbb::internal::basic\l_tls\&lt; intptr_t \&gt;\n|&#45; my_key\l|+ create()\l+ destroy()\l+ set()\l+ get()\l}" alt="" coords="529,615,659,751"/>
+<area shape="rect" id="node9" href="$a00105.html" title="Basic cross&#45;platform wrapper class for TLS operations. " alt="" coords="529,273,659,409"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="tbb::spin_rw_mutex_v3::internal_acquire_writer" name="tbb::spin_rw_mutex_v3::internal_acquire_writer">
+<area shape="rect" id="node2" href="$a01089.html#a4c867c719a6d9d6df0501968642dacb2" title="__TBB_AtomicOR" alt="" coords="196,15,327,42"/>
+<area shape="rect" id="node5" href="$a01113.html#a5f048ce5bfca13f3bada9bfb09c1687e" title="tbb::CAS" alt="" coords="223,67,299,94"/>
+<area shape="rect" id="node3" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="385,5,523,47"/>
+<area shape="rect" id="node4" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="581,13,688,39"/>
+<area shape="rect" id="node6" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="375,71,533,98"/>
+</map>

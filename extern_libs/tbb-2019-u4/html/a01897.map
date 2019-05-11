@@ -1,0 +1,5 @@
+<map id="tbb::atomic&lt; T &gt;" name="tbb::atomic&lt; T &gt;">
+<area shape="rect" id="node2" href="$a00083.html" title="Base class that provides basic functionality for atomic&lt;T&gt; without fetch_and_add. ..." alt="" coords="5,329,164,627"/>
+<area shape="rect" id="node3" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; T, sizeof(T)\&gt;\n||}" alt="" coords="5,175,164,267"/>
+<area shape="rect" id="node4" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; value_type,\l size \&gt;\n||}" alt="" coords="9,5,160,112"/>
+</map>

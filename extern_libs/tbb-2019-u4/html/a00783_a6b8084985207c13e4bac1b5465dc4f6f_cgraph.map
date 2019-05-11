@@ -1,0 +1,9 @@
+<map id="tbb::internal::task_group_base::~task_group_base" name="tbb::internal::task_group_base::~task_group_base">
+<area shape="rect" id="node2" href="$a00778.html#ab82188cc88d0306a706fac651621c4c8" title="The internal reference count. " alt="" coords="270,19,405,46"/>
+<area shape="rect" id="node3" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="272,71,403,112"/>
+<area shape="rect" id="node8" href="$a00778.html#aab6be2d551d52d8d62a92ef87f3ec508" title="Wait for reference count to become one, and set reference count to zero. " alt="" coords="264,137,411,163"/>
+<area shape="rect" id="node4" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="459,71,589,112"/>
+<area shape="rect" id="node5" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="669,5,787,47"/>
+<area shape="rect" id="node6" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="637,71,819,112"/>
+<area shape="rect" id="node7" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="642,137,814,163"/>
+</map>

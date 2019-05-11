@@ -1,0 +1,11 @@
+<map id="tbb::interface5::reader_writer_lock::is_current_writer" name="tbb::interface5::reader_writer_lock::is_current_writer">
+<area shape="rect" id="node2" href="$a00634.html#a2368b20444e310be9f8f3cf24337acc7" title="Acquires the reader_writer_lock for write. " alt="" coords="225,93,375,134"/>
+<area shape="rect" id="node7" href="$a00634.html#ad4c8eb4cb105c0e8df6dad7ee81c306b" title="Acquires the reader_writer_lock for read. " alt="" coords="222,158,378,199"/>
+<area shape="rect" id="node8" href="$a00634.html#adea99248bc11b4bdac946edb72781f98" title="Tries to acquire the reader_writer_lock for write. " alt="" coords="225,223,375,265"/>
+<area shape="rect" id="node9" href="$a00634.html#ad35e891c521b4be7a5397db241d50784" title="Tries to acquire the reader_writer_lock for read. " alt="" coords="211,289,389,330"/>
+<area shape="rect" id="node10" href="$a00634.html#ad2567a723d160b812f2a637e12e3091a" title="Releases the reader_writer_lock. " alt="" coords="225,354,375,395"/>
+<area shape="rect" id="node3" href="$a00680.html#aa43b9de9ab37897345466efeb8ae6b42" title="tbb::interface5::reader\l_writer_lock::scoped_lock\l::internal_construct" alt="" coords="437,45,611,101"/>
+<area shape="rect" id="node6" href="$a00691.html#a9f6b0806964e00e10178c93f359c1303" title="tbb::interface5::reader\l_writer_lock::scoped_lock\l_read::internal_construct" alt="" coords="437,125,611,181"/>
+<area shape="rect" id="node4" href="$a00680.html#aaed982d8c3f1e84298f9842063694f3c" title="Construct with blocking attempt to acquire write lock on the passed&#45;in lock. " alt="" coords="659,5,832,61"/>
+<area shape="rect" id="node5" href="$a00691.html#a9d3120a23016dabd4cc2683fa561ee5a" title="Construct with blocking attempt to acquire read lock on the passed&#45;in lock. " alt="" coords="659,85,832,141"/>
+</map>

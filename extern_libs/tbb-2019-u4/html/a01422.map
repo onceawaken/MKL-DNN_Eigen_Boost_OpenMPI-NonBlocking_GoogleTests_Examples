@@ -1,0 +1,11 @@
+<map id="tbb_thread.h" name="tbb_thread.h">
+<area shape="rect" id="node2" href="$a00994.html" title="enumerable_thread_specific.h" alt="" coords="29,80,224,107"/>
+<area shape="rect" id="node5" href="$a01081.html" title="tbb.h" alt="" coords="65,229,116,256"/>
+<area shape="rect" id="node6" href="$a00989.html" title="critical_section.h" alt="" coords="201,155,321,181"/>
+<area shape="rect" id="node8" href="$a01056.html" title="reader_writer_lock.h" alt="" coords="345,155,484,181"/>
+<area shape="rect" id="node10" href="$a01099.html" title="tbb_thread.cpp" alt="" coords="350,80,458,107"/>
+<area shape="rect" id="node3" href="$a00974.html" title="combinable.h" alt="" coords="78,155,177,181"/>
+<area shape="rect" id="node4" href="$a01049.html" title="ppl.h" alt="" coords="300,229,350,256"/>
+<area shape="rect" id="node7" href="$a00988.html" title="critical_section.cpp" alt="" coords="140,229,275,256"/>
+<area shape="rect" id="node9" href="$a01055.html" title="reader_writer_lock.cpp" alt="" coords="375,229,528,256"/>
+</map>

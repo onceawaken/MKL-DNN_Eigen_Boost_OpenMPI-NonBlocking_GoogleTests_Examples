@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['old_5fauto_5fpartition_5ftype',['old_auto_partition_type',['../a00531.html',1,'tbb::interface9::internal']]],
+  ['opencl_5fasync_5fmsg',['opencl_async_msg',['../a00532.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fbuffer',['opencl_buffer',['../a00533.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fbuffer_5fimpl',['opencl_buffer_impl',['../a00534.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fdevice',['opencl_device',['../a00535.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fdevice_5ffilter',['opencl_device_filter',['../a00536.html',1,'tbb::flow::interface10::opencl_program']]],
+  ['opencl_5fdevice_5flist',['opencl_device_list',['../a00537.html',1,'tbb::flow::interface10']]],
+  ['opencl_5ffactory',['opencl_factory',['../a00538.html',1,'tbb::flow::interface10']]],
+  ['opencl_5ffactory_3c_20default_5fdevice_5ffilter_20_3e',['opencl_factory&lt; default_device_filter &gt;',['../a00538.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fmemory',['opencl_memory',['../a00539.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fnode',['opencl_node',['../a00540.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fnode_3c_20tuple_3c_20ports_2e_2e_2e_20_3e_20_3e',['opencl_node&lt; tuple&lt; Ports... &gt; &gt;',['../a00541.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fnode_3c_20tuple_3c_20ports_2e_2e_2e_20_3e_2c_20jp_20_3e',['opencl_node&lt; tuple&lt; Ports... &gt;, JP &gt;',['../a00542.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fnode_3c_20tuple_3c_20ports_2e_2e_2e_20_3e_2c_20jp_2c_20factory_20_3e',['opencl_node&lt; tuple&lt; Ports... &gt;, JP, Factory &gt;',['../a00543.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fnode_3c_20tuple_3c_20ports_2e_2e_2e_20_3e_2c_20jp_2c_20opencl_5finfo_3a_3adefault_5fopencl_5ffactory_20_3e',['opencl_node&lt; tuple&lt; Ports... &gt;, JP, opencl_info::default_opencl_factory &gt;',['../a00540.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fnode_3c_20tuple_3c_20ports_2e_2e_2e_20_3e_2c_20queueing_2c_20opencl_5finfo_3a_3adefault_5fopencl_5ffactory_20_3e',['opencl_node&lt; tuple&lt; Ports... &gt;, queueing, opencl_info::default_opencl_factory &gt;',['../a00540.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fprogram',['opencl_program',['../a00544.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fprogram_5fbuilder',['opencl_program_builder',['../a00545.html',1,'tbb::flow::interface10::opencl_program']]],
+  ['opencl_5frange',['opencl_range',['../a00546.html',1,'tbb::flow::interface10']]],
+  ['opencl_5fsubbuffer',['opencl_subbuffer',['../a00547.html',1,'tbb::flow::interface10']]],
+  ['operation_5ftype',['operation_type',['../a00549.html',1,'tbb::flow::interface10::internal::function_input_base']]],
+  ['operation_5ftype',['operation_type',['../a00548.html',1,'internal::function_input_base']]],
+  ['overwrite_5fnode',['overwrite_node',['../a00550.html',1,'tbb::flow::interface10a']]]
+];

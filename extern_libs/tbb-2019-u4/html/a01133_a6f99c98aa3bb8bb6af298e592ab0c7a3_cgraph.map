@@ -1,0 +1,5 @@
+<map id="tbb::internal::get_initial_auto_partitioner_divisor" name="tbb::internal::get_initial_auto_partitioner_divisor">
+<area shape="rect" id="node2" href="$a00307.html#af2d5dff302cbba60bcf7becbdce2ade9" title="Obtain the thread&#45;local instance of the TBB scheduler. " alt="" coords="218,5,366,47"/>
+<area shape="rect" id="node4" href="$a00302.html#af2b38fa415abd3f28025e96e5d27995a" title="Returns the concurrency limit of the current arena. " alt="" coords="208,70,376,126"/>
+<area shape="rect" id="node3" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="424,5,553,47"/>
+</map>

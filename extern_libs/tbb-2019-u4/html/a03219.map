@@ -1,0 +1,11 @@
+<map id="tbb::internal::arena" name="tbb::internal::arena">
+<area shape="rect" id="node2" href="$a00551.html" title="{tbb::internal::padded\l\&lt; arena_base \&gt;\n||}" alt="" coords="494,1329,634,1421"/>
+<area shape="rect" id="node3" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; arena_base, NFS\l_MaxLineSize, sizeof(arena\l_base)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="203,1159,397,1280"/>
+<area shape="rect" id="node4" href="$a00060.html" title="The structure of an arena, except the array of slots. " alt="" coords="61,856,262,1109"/>
+<area shape="rect" id="node5" href="$a00551.html" title="{tbb::internal::padded\l\&lt; intrusive_list_node \&gt;\n||}" alt="" coords="84,715,239,807"/>
+<area shape="rect" id="node6" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; intrusive_list\l_node, NFS_MaxLineSize,\l sizeof(intrusive_list\l_node)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="25,345,220,481"/>
+<area shape="rect" id="node7" href="$a00392.html" title="Data structure to be inherited by the types that can form intrusive lists. " alt="" coords="5,132,152,239"/>
+<area shape="rect" id="node8" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, R \&gt;\n|+ pad\l|}" alt="" coords="251,139,391,231"/>
+<area shape="rect" id="node11" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, sizeof(T)%S \&gt;\n|+ pad\l|}" alt="" coords="404,367,591,459"/>
+<area shape="rect" id="node10" href="$a00551.html" title="Pads type T to fill out to a multiple of cache line size. " alt="" coords="435,531,575,623"/>
+</map>

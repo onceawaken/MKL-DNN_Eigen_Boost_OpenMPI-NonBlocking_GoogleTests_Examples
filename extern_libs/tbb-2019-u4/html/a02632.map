@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface10::internal::reservable_predecessor_cache&lt; T, M &gt;" name="tbb::flow::interface10::internal::reservable_predecessor_cache&lt; T, M &gt;">
+<area shape="rect" id="node5" href="$a00655.html" title="{tbb::flow::interface10\l::internal::reservable\l_predecessor_cache\&lt; T,\l tbb::null_mutex \&gt;\n|&#45; reserved_src\l|+ reservable_predecessor\l_cache()\l+ try_reserve()\l+ try_release()\l+ try_consume()\l+ reset()\l+ clear()\l}" alt="" coords="5,1023,177,1232"/>
+<area shape="rect" id="node6" href="$a00655.html" title="{tbb::flow::interface10\l::internal::reservable\l_predecessor_cache\&lt; T,\l tbb::spin_mutex \&gt;\n|&#45; reserved_src\l|+ reservable_predecessor\l_cache()\l+ try_reserve()\l+ try_release()\l+ try_consume()\l+ reset()\l+ clear()\l}" alt="" coords="201,1023,373,1232"/>
+<area shape="rect" id="node2" href="$a00601.html" title="A cache of predecessors that only supports try_get. " alt="" coords="111,565,266,716"/>
+<area shape="rect" id="node3" href="$a00519.html" title="{tbb::flow::interface10\l::internal::node_cache\l\&lt; untyped_sender, M \&gt;\n|# my_mutex\l# my_q\l|+ empty()\l+ add()\l+ remove()\l+ clear()\l# internal_empty()\l# internal_size()\l# internal_push()\l# internal_pop()\l}" alt="" coords="110,292,267,516"/>
+<area shape="rect" id="node4" href="$a00519.html" title="A node_cache maintains a std::queue of elements of type T. Each operation is protected by a lock..." alt="" coords="113,5,264,229"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="tbb::interface5::internal::task_base::destroy" name="tbb::interface5::internal::task_base::destroy">
+<area shape="rect" id="node2" href="$a00302.html#a12dd37171af77214add72a973e6b71ba" title="Put task on free list. " alt="" coords="214,213,361,255"/>
+<area shape="rect" id="node3" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="444,13,557,39"/>
+<area shape="rect" id="node7" href="$a00778.html#a22ef8282e09458a46131843219cb71e5" title="Current execution state. " alt="" coords="445,363,556,390"/>
+<area shape="rect" id="node11" href="$a00307.html#a529e907c8efd72821da3ae61cbf8abc0" title="tbb::internal::governor\l::local_scheduler_weak" alt="" coords="208,385,367,427"/>
+<area shape="rect" id="node13" href="$a00778.html#a9d50759d59a2d300287158f38b317798" title="task on whose behalf this task is working, or NULL if this is a root. " alt="" coords="229,475,346,502"/>
+<area shape="rect" id="node14" href="$a00778.html#abfe0ea7fd877987b03ddc466404389e7" title="Destructor. " alt="" coords="230,526,345,553"/>
+<area shape="rect" id="node4" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="635,71,788,98"/>
+<area shape="rect" id="node6" href="$a01133.html#a58dafd43fac118e984cc4f19f3901609" title="tbb::internal::poison\l_pointer" alt="" coords="433,297,569,339"/>
+<area shape="rect" id="node8" href="$a00191.html#aaa8736f85328446abb0d9b75a031a12d" title="tbb::internal::cpu\l_ctl_env::get_env" alt="" coords="438,64,563,105"/>
+<area shape="rect" id="node9" href="$a00191.html#a9d4dfd8cbbd56ce66effae5af7dbc418" title="tbb::internal::cpu\l_ctl_env::set_env" alt="" coords="438,129,563,171"/>
+<area shape="rect" id="node10" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="415,246,587,273"/>
+<area shape="rect" id="node5" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="646,5,777,47"/>
+<area shape="rect" id="node12" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="436,415,565,456"/>
+</map>

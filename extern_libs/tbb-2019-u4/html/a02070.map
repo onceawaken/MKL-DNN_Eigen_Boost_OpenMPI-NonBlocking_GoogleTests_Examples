@@ -1,0 +1,5 @@
+<map id="tbb::tbb_exception" name="tbb::tbb_exception">
+<area shape="rect" id="node3" href="$a00127.html" title="This class is used by TBB to propagate information about unhandled exceptions into the root thread..." alt="" coords="5,344,168,627"/>
+<area shape="rect" id="node4" href="$a00501.html" title="Template that can be used to implement exception that transfers arbitrary ExceptionData to the root t..." alt="" coords="192,351,355,619"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="128,5,232,83"/>
+</map>

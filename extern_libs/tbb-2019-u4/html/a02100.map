@@ -1,0 +1,3 @@
+<map id="tbb::flow::interface10::async_msg&lt; T &gt;" name="tbb::flow::interface10::async_msg&lt; T &gt;">
+<area shape="rect" id="node2" href="$a00532.html" title="{tbb::flow::interface10\l::opencl_async_msg\&lt; T \&gt;\n|&#45; my_data\l&#45; my_event\l&#45; my_is_event\l&#45; my_callback_flag_ptr\l|+ opencl_async_msg()\l+ opencl_async_msg()\l+ opencl_async_msg()\l+ data()\l+ data()\l+ opencl_async_msg()\l+ opencl_async_msg()\l+ operator=()\l+ ~opencl_async_msg()\l+ get_event()\l+ set_event()\l+ clear_event()\l+ register_callback()\l+ operator T &amp;()\l+ operator const T &amp;()\l# finalize()\l&#45; register_callback_func()\l}" alt="" coords="5,233,180,604"/>
+</map>

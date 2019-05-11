@@ -1,0 +1,34 @@
+<map id="tbb::atomic_fence" name="tbb::atomic_fence">
+<area shape="rect" id="node2" href="$a00145.html#aba73b319c5ccbef0ba26bf83f6a34e33" title="Abort any sleeping threads at the time of the call. " alt="" coords="189,71,348,112"/>
+<area shape="rect" id="node5" href="$a00059.html#adb8d121b4784a910d8d2861a7062446b" title="If necessary, raise a flag that there is new job in arena. " alt="" coords="194,260,343,301"/>
+<area shape="rect" id="node12" href="$a00302.html#a10c72a4aad7308d944cef26502ece55e" title="Get a task from the local pool. " alt="" coords="445,201,588,243"/>
+<area shape="rect" id="node13" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="423,319,610,360"/>
+<area shape="rect" id="node15" href="$a00302.html#afd799eae7903abc75b7a7aafd36e20db" title="Sets up the data necessary for the stealing limiting heuristics. " alt="" coords="180,432,357,473"/>
+<area shape="rect" id="node23" href="$a00145.html#a83b6f503d11bc425726dda8eb59424d5" title="Notify waiting threads of the event that satisfies the given predicate. " alt="" coords="189,587,348,628"/>
+<area shape="rect" id="node29" href="$a00145.html#a9caaa87d7f556a282ab01886ac63e38b" title="Notify all waiting threads of the event. " alt="" coords="189,652,348,693"/>
+<area shape="rect" id="node30" href="$a00145.html#a2ef33e449ee8ede1d9413f4a814ee9cf" title="Notify one thread about the event. " alt="" coords="189,891,348,932"/>
+<area shape="rect" id="node33" href="$a00145.html#a87e8231d37c0875953fc2283c1158115" title="prepare wait by inserting &#39;thr&#39; into the wait queue " alt="" coords="189,775,348,816"/>
+<area shape="rect" id="node3" href="$a00145.html#afa5d41039e34cf954626ae1d55d4386e" title="dtor " alt="" coords="417,71,616,112"/>
+<area shape="rect" id="node4" href="$a00149.html#a33417a6a5ba3e8b98320411ad4264256" title="Abort all pending queue operations. " alt="" coords="413,5,620,47"/>
+<area shape="rect" id="node6" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="434,136,599,177"/>
+<area shape="rect" id="node11" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="687,253,830,295"/>
+<area shape="rect" id="node7" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="676,43,841,99"/>
+<area shape="rect" id="node9" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="689,123,829,164"/>
+<area shape="rect" id="node10" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="685,188,832,229"/>
+<area shape="rect" id="node8" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="889,43,1049,99"/>
+<area shape="rect" id="node14" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="682,319,835,360"/>
+<area shape="rect" id="node16" href="$a00302.html#aec1108924834fb3c3e1bc0d2142bccb0" title="Initialize a scheduler for a worker thread. " alt="" coords="429,449,604,491"/>
+<area shape="rect" id="node19" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="429,384,605,425"/>
+<area shape="rect" id="node17" href="$a00489.html#ae5f4653c1ea43b7011f9099348849467" title="tbb::internal::market\l::create_one_job" alt="" coords="689,515,828,556"/>
+<area shape="rect" id="node18" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="900,515,1039,556"/>
+<area shape="rect" id="node20" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="685,449,833,491"/>
+<area shape="rect" id="node21" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="685,384,833,425"/>
+<area shape="rect" id="node22" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="901,384,1037,425"/>
+<area shape="rect" id="node24" href="$a00206.html#a0c46d15569d9df879a84be6ae6a39cd9" title="tbb::interface7::internal\l::delegated_task::~delegated_task" alt="" coords="405,515,628,556"/>
+<area shape="rect" id="node25" href="$a00149.html#a6b68fa0da8231513c31217b4090703ba" title="Enqueues item at tail of queue using specified operation (copy or move) " alt="" coords="431,803,602,859"/>
+<area shape="rect" id="node26" href="$a00149.html#a0d5fe3f37435ae1f0d0a5a573a550421" title="Dequeue item from head of queue. " alt="" coords="417,739,616,780"/>
+<area shape="rect" id="node27" href="$a00149.html#a6b7ed855290275a38243a63091ce4fc7" title="Attempt to dequeue item from queue. " alt="" coords="431,579,602,635"/>
+<area shape="rect" id="node28" href="$a00149.html#aa893f5b109edc6e29006933079b40c28" title="Attempts to enqueue at tail of queue using specified operation (copy or move) " alt="" coords="431,659,602,715"/>
+<area shape="rect" id="node31" href="$a00302.html#ab80a47a82aea82a8ad418fbc36887ac9" title="tbb::internal::generic\l_scheduler::nested_arena_exit" alt="" coords="417,963,616,1004"/>
+<area shape="rect" id="node32" href="$a00780.html#aa214b4121b92399cfa50b223500219fd" title="tbb::interface7::internal\l::task_arena_base::internal\l_execute" alt="" coords="427,883,606,939"/>
+</map>

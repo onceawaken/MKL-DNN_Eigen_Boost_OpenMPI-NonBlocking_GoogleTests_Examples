@@ -1,0 +1,6 @@
+<map id="tbb::internal::task_group_base" name="tbb::internal::task_group_base">
+<area shape="rect" id="node4" href="$a00765.html" title="{tbb::structured_task\l_group\n||+ run_and_wait()\l+ wait()\l}" alt="" coords="5,550,144,657"/>
+<area shape="rect" id="node5" href="$a00782.html" title="{tbb::task_group\n||+ task_group()\l+ run()\l+ run_and_wait()\l+ run_and_wait()\l}" alt="" coords="169,543,287,664"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="77,131,224,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="72,5,229,83"/>
+</map>

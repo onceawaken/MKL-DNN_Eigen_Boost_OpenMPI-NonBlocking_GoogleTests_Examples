@@ -1,0 +1,11 @@
+<map id="tbb::interface9::global_control::internal_destroy" name="tbb::interface9::global_control::internal_destroy">
+<area shape="rect" id="node2" href="$a00180.html#a88e940745ac3342432c73a9ec1bf82b4" title="tbb::internal::control\l_storage::apply_active" alt="" coords="223,5,377,47"/>
+<area shape="rect" id="node3" href="$a00180.html#a5288dfcdf634e2477d2179b3e79aa01a" title="tbb::internal::control\l_storage::default_value" alt="" coords="221,71,379,112"/>
+<area shape="rect" id="node4" href="$a00180.html#abf4cc292053a76f6bb7194f8eadc5524" title="tbb::internal::control\l_storage::is_first_arg\l_preferred" alt="" coords="228,135,372,191"/>
+<area shape="rect" id="node5" href="$a00019.html#a49dd7a4f24e456e32c17d6f179b1afa4" title="tbb::internal::__TBB\l_InitOnce::lock" alt="" coords="231,215,369,256"/>
+<area shape="rect" id="node6" href="$a01089.html#aa570e2316a90880cbbc36586e6463534" title="__TBB_LockByte" alt="" coords="427,222,551,249"/>
+<area shape="rect" id="node7" href="$a01089.html#ad95ec7e5b7103614f039c4019bf3b3f6" title="__TBB_TryLockByte" alt="" coords="599,193,741,219"/>
+<area shape="rect" id="node9" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="601,244,739,285"/>
+<area shape="rect" id="node8" href="$a01107.html#a1ba16e606202cdec1e611e5c0df2b9f6" title="__TBB_machine_cmpswp1" alt="" coords="789,193,971,219"/>
+<area shape="rect" id="node10" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="827,251,933,278"/>
+</map>

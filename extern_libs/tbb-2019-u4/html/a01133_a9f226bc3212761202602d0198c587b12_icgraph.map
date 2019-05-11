@@ -1,0 +1,8 @@
+<map id="tbb::internal::allocate_via_handler_v3" name="tbb::internal::allocate_via_handler_v3">
+<area shape="rect" id="node2" href="$a00797.html#afedd8a64eed9692083c708f419338e0c" title="Allocate space for n objects. " alt="" coords="221,5,344,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a858f99e1aa372076223cc923fb8c4914" title="Allocate a closure. " alt="" coords="211,71,354,112"/>
+<area shape="rect" id="node5" href="$a00501.html#a46eee42a3279007f48c9e8f11d074d16" title="Creates and returns pointer to the deep copy of this exception object. " alt="" coords="203,136,363,177"/>
+<area shape="rect" id="node6" href="$a00680.html#a5bca00f4788ed8f635a8383a25a10ec8" title="tbb::interface5::reader\l_writer_lock::scoped_lock\l::operator new" alt="" coords="196,201,369,257"/>
+<area shape="rect" id="node7" href="$a00691.html#a9eb8c7a64912a1c74ea76a01a20a1621" title="tbb::interface5::reader\l_writer_lock::scoped_lock\l_read::operator new" alt="" coords="196,281,369,337"/>
+<area shape="rect" id="node4" href="$a00825.html#a624f5a5a40051faf39444ad3a9f36df5" title="tbb::internal::thread\l_closure_base::operator new" alt="" coords="417,71,607,112"/>
+</map>

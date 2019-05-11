@@ -1,0 +1,4 @@
+<map id="tbb::interface9::internal::flag_task::mark_task_stolen" name="tbb::interface9::internal::flag_task::mark_task_stolen">
+<area shape="rect" id="node2" href="$a00083.html#a99458cf30b2b15d756c4366697f6cbd1" title="tbb::internal::atomic\l_impl::fetch_and_store" alt="" coords="248,5,403,47"/>
+<area shape="rect" id="node3" href="$a00778.html#a9d50759d59a2d300287158f38b317798" title="task on whose behalf this task is working, or NULL if this is a root. " alt="" coords="267,95,384,122"/>
+</map>

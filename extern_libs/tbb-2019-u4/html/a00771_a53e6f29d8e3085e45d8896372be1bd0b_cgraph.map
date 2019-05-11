@@ -1,0 +1,10 @@
+<map id="tbb::internal::sum_node::execute" name="tbb::internal::sum_node::execute">
+<area shape="rect" id="node2" href="$a00771.html#ab1ee899f7cc6123ec8d0b0053d7f3e8a" title="tbb::internal::sum\l_node::create_child" alt="" coords="176,39,311,80"/>
+<area shape="rect" id="node3" href="$a00261.html#a8bb44e2c8e92b5a9eb5926fa375d716e" title="tbb::internal::final\l_sum::finish_construction" alt="" coords="359,5,529,47"/>
+<area shape="rect" id="node5" href="$a00778.html#a52ad4704f6241097b1e8cc19c082c35e" title="Change this to be a child of new_parent. " alt="" coords="383,71,505,112"/>
+<area shape="rect" id="node4" href="$a00042.html#aefcd343548f92c6e738febedf1d75f74" title="Pointer to beginning of array. " alt="" coords="577,5,708,47"/>
+<area shape="rect" id="node6" href="$a00778.html#ada4ae99995a8f7b0cf1bbb6febbff8bb" title="This method is deprecated and will be removed in the future. " alt="" coords="581,74,705,101"/>
+<area shape="rect" id="node7" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="586,125,699,151"/>
+<area shape="rect" id="node8" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="756,95,909,122"/>
+<area shape="rect" id="node9" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="767,147,898,188"/>
+</map>

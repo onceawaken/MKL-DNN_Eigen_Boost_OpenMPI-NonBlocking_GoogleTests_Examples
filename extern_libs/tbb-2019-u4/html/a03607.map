@@ -1,0 +1,5 @@
+<map id="tbb::internal::task_group_base::ref_count_guard" name="tbb::internal::task_group_base::ref_count_guard">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="12,315,159,407"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,20,163,97"/>
+<area shape="rect" id="node4" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="185,161,399,561"/>
+</map>

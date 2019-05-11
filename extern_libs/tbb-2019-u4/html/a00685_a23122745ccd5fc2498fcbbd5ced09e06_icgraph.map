@@ -1,0 +1,5 @@
+<map id="tbb::mutex::scoped_lock::scoped_lock" name="tbb::mutex::scoped_lock::scoped_lock">
+<area shape="rect" id="node2" href="$a00511.html#a95ff02ee699b34696001db4003c11a3a" title="Acquire lock. " alt="" coords="188,13,304,39"/>
+<area shape="rect" id="node3" href="$a00685.html#a9fce3e2e9f592315dc9c1ada72ae5e3c" title="Acquire lock on given mutex. " alt="" coords="352,5,487,47"/>
+<area shape="rect" id="node4" href="$a00685.html#ab7c2074543443824790433d3d6c3fece" title="Acquire lock on given mutex. " alt="" coords="535,5,669,47"/>
+</map>

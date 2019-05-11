@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::internal::type_to_key_function_body&lt; Input, Output &gt;" name="tbb::flow::interface10::internal::type_to_key_function_body&lt; Input, Output &gt;">
+<area shape="rect" id="node3" href="$a00844.html" title="{tbb::flow::interface10\l::internal::type_to_key\l_function_body_leaf\&lt; Input,\l Output \&gt;\n|&#45; body\l|+ type_to_key_function\l_body_leaf()\l+ operator()()\l+ get_body()\l+ clone()\l}" alt="" coords="5,375,188,555"/>
+<area shape="rect" id="node4" href="$a00840.html" title="{tbb::flow::interface10\l::internal::type_to_key\l_function_body\&lt; count_element\l\&lt; tbb::internal::strip\&lt; K \&gt;\l::type \&gt;, tbb::internal::strip\l\&lt; K \&gt;::type &amp; \&gt;\n||+ ~type_to_key_function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="212,375,421,555"/>
+<area shape="rect" id="node2" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="127,5,285,83"/>
+</map>

@@ -1,0 +1,40 @@
+<map id="tbb::internal::market::create_arena" name="tbb::internal::market::create_arena">
+<area shape="rect" id="node2" href="$a00059.html#ae5533478491359efadd0646328b51f07" title="Allocate an instance of arena. " alt="" coords="203,121,334,163"/>
+<area shape="rect" id="node12" href="$a00489.html#a08ccaf89d501a9e56912eb5bd624066f" title="Factory method creating new market object. " alt="" coords="199,461,338,503"/>
+<area shape="rect" id="node37" href="$a00489.html#a829b50e27820a2ecb57067b0d8147422" title="tbb::internal::market\l::insert_arena_into_list" alt="" coords="192,705,345,747"/>
+<area shape="rect" id="node3" href="$a01147.html#ga4844e4d5f62a0843af83cf534f908ddf" title="Allocate memory on cache/sector line boundary. " alt="" coords="418,121,543,163"/>
+<area shape="rect" id="node11" href="$a01147.html#ga9694b519576433b7ce9af226bfc7c422" title="Cache/sector line size. " alt="" coords="418,56,543,97"/>
+<area shape="rect" id="node4" href="$a01133.html#a90dc6f41bbea1ea94df0f0c776e246a3" title="A function to check if passed in pointer is aligned on a specific border. " alt="" coords="616,137,772,163"/>
+<area shape="rect" id="node5" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="619,5,769,47"/>
+<area shape="rect" id="node6" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="629,71,759,112"/>
+<area shape="rect" id="node7" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="834,85,965,127"/>
+<area shape="rect" id="node8" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="1058,88,1177,129"/>
+<area shape="rect" id="node9" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="1027,155,1208,196"/>
+<area shape="rect" id="node10" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="1031,37,1203,63"/>
+<area shape="rect" id="node13" href="$a00489.html#a50bb92619e74a81b3f8552ccca139c9f" title="Set number of active workers. " alt="" coords="393,493,568,535"/>
+<area shape="rect" id="node20" href="$a01133.html#aa59c19a68c963626ba810d72317f0d18" title="tbb::internal::calc\l_workers_soft_limit" alt="" coords="413,676,548,717"/>
+<area shape="rect" id="node21" href="$a00489.html#a857327e374da8c7bb5c4b529aca05405" title="Reports active parallelism level according to user&#39;s settings. " alt="" coords="619,735,769,776"/>
+<area shape="rect" id="node23" href="$a00307.html#a87ef607c22c347eb97ddafa4384b4f1d" title="tbb::internal::governor\l::default_num_threads" alt="" coords="619,800,769,841"/>
+<area shape="rect" id="node25" href="$a01133.html#a80df3dc4f925e066864ab01691add3b0" title="Utility template function returning greater of the two values. " alt="" coords="633,683,755,710"/>
+<area shape="rect" id="node26" href="$a01133.html#a0ddf43033695d442c64c4a44f6d6c211" title="Report a runtime warning. " alt="" coords="829,165,970,207"/>
+<area shape="rect" id="node27" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="401,377,560,403"/>
+<area shape="rect" id="node28" href="$a00489.html#acdbf87ad0efe5f3e224d88ecb2536e93" title="Constructor. " alt="" coords="411,275,550,316"/>
+<area shape="rect" id="node32" href="$a00019.html#aeb552d69cd0db07e0ec3526c22e8899a" title="Add reference to resources. If first reference added, acquire the resources. " alt="" coords="411,428,550,469"/>
+<area shape="rect" id="node14" href="$a01133.html#a9c086de4bb6ce45fe69a8fb911e5ebea" title="Utility template function returning lesser of the two values. " alt="" coords="635,501,753,527"/>
+<area shape="rect" id="node15" href="$a00489.html#af3e43d97626c3beff0b708c8089984fd" title="Recalculates the number of workers assigned to each arena in the list. " alt="" coords="625,552,763,593"/>
+<area shape="rect" id="node16" href="$a00391.html#a27a1cf03b6f163c2835d861fc6519aba" title="tbb::internal::intrusive\l_list_base::begin" alt="" coords="621,617,767,659"/>
+<area shape="rect" id="node17" href="$a00391.html#a61fa0658a500c11ff2cdf4c294c33e97" title="tbb::internal::intrusive\l_list_base::end" alt="" coords="621,369,767,411"/>
+<area shape="rect" id="node18" href="$a00489.html#a76b1783a39252c34da34d0cebfe101b5" title="Decrements market&#39;s refcount and destroys it in the end. " alt="" coords="625,435,763,476"/>
+<area shape="rect" id="node19" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="830,479,969,520"/>
+<area shape="rect" id="node22" href="$a00056.html#a0addd7e87e390f82f623b1f5149672b4" title="tbb::internal::allowed\l_parallelism_control::\lactive_value_if_present" alt="" coords="820,723,979,779"/>
+<area shape="rect" id="node24" href="$a01133.html#a5f583dafcd8d7ffeb10905c4eb509cd9" title="Returns maximal parallelism level supported by the current OS configuration. " alt="" coords="824,803,975,844"/>
+<area shape="rect" id="node29" href="$a00307.html#aec70bdc2a20ee8377a1676dd3b4c843b" title="tbb::internal::governor\l::create_rml_server" alt="" coords="620,239,768,280"/>
+<area shape="rect" id="node30" href="$a01138.html#a8ef19f713537ac8030e4de4a1a3fdf26" title="Factory method called from task.cpp to create a private_server. " alt="" coords="824,231,975,272"/>
+<area shape="rect" id="node31" href="$a00605.html#a941f2e582957e03d164a9a3c81e77fa2" title="tbb::internal::rml\l::private_server::private\l_server" alt="" coords="1038,223,1197,279"/>
+<area shape="rect" id="node33" href="$a00307.html#a70cfd4f010baf396e4cc09a3021b4c19" title="Create key for thread&#45;local storage and initialize RML. " alt="" coords="620,304,768,345"/>
+<area shape="rect" id="node34" href="$a01133.html#abbc9695c3864361824bcb4f7f263bd11" title="check for transaction support. " alt="" coords="838,348,961,389"/>
+<area shape="rect" id="node35" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="831,413,967,455"/>
+<area shape="rect" id="node36" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="1049,413,1185,455"/>
+<area shape="rect" id="node38" href="$a00391.html#ae828e0c3fb139491fd633152cbf6140a" title="tbb::internal::intrusive\l_list_base::push_front" alt="" coords="405,844,556,885"/>
+<area shape="rect" id="node39" href="$a00391.html#ac2298ce9ef9abdf95580d62a9e35e3ab" title="tbb::internal::intrusive\l_list_base::size" alt="" coords="407,909,554,951"/>
+</map>

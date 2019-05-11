@@ -1,0 +1,21 @@
+<map id="tbb::task::parent" name="tbb::task::parent">
+<area shape="rect" id="node2" href="$a00049.html#a42e1d669adc9327b70273179101805ab" title="tbb::internal::allocate\l_continuation_proxy::allocate" alt="" coords="173,12,363,53"/>
+<area shape="rect" id="node3" href="$a00232.html#a5a84a935002e32072ed71a4b69ddc3e8" title="tbb::interface9::internal\l::dynamic_grainsize_mode\l\&lt; linear_affinity_mode\&lt; affinity\l_partition_type \&gt; \&gt;::check_being_stolen" alt="" coords="413,255,668,325"/>
+<area shape="rect" id="node4" href="$a00781.html#a75c0c291f0020cf9be1234013ec4990b" title="Destroy a task. " alt="" coords="191,143,345,184"/>
+<area shape="rect" id="node5" href="$a00059.html#a334aae7c4cbeabb8f3924589517c0c5f" title="enqueue a task into starvation&#45;resistance queue " alt="" coords="203,77,333,119"/>
+<area shape="rect" id="node9" href="$a00049.html#a681282ec77816457ee409a6775aa415e" title="tbb::internal::allocate\l_continuation_proxy::free" alt="" coords="184,260,352,301"/>
+<area shape="rect" id="node10" href="$a00270.html#a323c860a1839ba7f46e9afd3c6fba0ac" title="tbb::interface9::internal\l::flag_task::is_peer_stolen" alt="" coords="181,469,355,511"/>
+<area shape="rect" id="node13" href="$a00194.html#a5e2c5878baf724264214e91070844487" title="Scheduler loop that dispatches tasks. " alt="" coords="193,390,343,446"/>
+<area shape="rect" id="node14" href="$a00270.html#a3f69525e539ba5368226effecfb98220" title="tbb::interface9::internal\l::flag_task::mark_task_stolen" alt="" coords="171,325,365,367"/>
+<area shape="rect" id="node15" href="$a00302.html#a8a62642cb4b1ba391b8d3b9a00dca541" title="Checks if t is affinitized to another thread, and if so, bundles it as proxy. " alt="" coords="189,538,347,594"/>
+<area shape="rect" id="node6" href="$a00780.html#a8f872f1315ce7417dd9c00f2550d1abe" title="tbb::interface7::internal\l::task_arena_base::internal\l_enqueue" alt="" coords="451,70,630,126"/>
+<area shape="rect" id="node7" href="$a00780.html#aa214b4121b92399cfa50b223500219fd" title="tbb::interface7::internal\l::task_arena_base::internal\l_execute" alt="" coords="451,150,630,206"/>
+<area shape="rect" id="node8" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="469,5,612,47"/>
+<area shape="rect" id="node11" href="$a00232.html#a5a00988530a8f3e58f5757f9af409830" title="tbb::interface9::internal\l::dynamic_grainsize_mode\l\&lt; linear_affinity_mode\&lt; affinity\l_partition_type \&gt; \&gt;::check_for_demand" alt="" coords="416,455,665,525"/>
+<area shape="rect" id="node12" href="$a00099.html#a856dd33c8965bb2f4dc076d5bde4d6cd" title="tbb::interface9::internal\l::auto_partition_type::\lcheck_for_demand" alt="" coords="463,374,618,430"/>
+<area shape="rect" id="node16" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="458,549,623,591"/>
+<area shape="rect" id="node17" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="716,470,881,526"/>
+<area shape="rect" id="node19" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="729,549,869,591"/>
+<area shape="rect" id="node20" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="725,615,872,656"/>
+<area shape="rect" id="node18" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="929,470,1089,526"/>
+</map>

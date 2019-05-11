@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00311.html" title="Pure virtual template classes that define interfaces for async communication. " alt="" coords="5,53,149,95"/>
+<area shape="rect" id="node2" href="$a00645.html" title="tbb::flow::interface10\l::receiver_gateway\&lt; Output \&gt;" alt="" coords="197,20,392,61"/>
+<area shape="rect" id="node4" href="$a00645.html" title="tbb::flow::interface10\l::receiver_gateway\&lt; Input \&gt;" alt="" coords="202,85,387,127"/>
+<area shape="rect" id="node3" href="$a00646.html" title="tbb::flow::interface10\l::async_node\&lt; Input, Output,\l Policy, Allocator \&gt;::receiver\l_gateway_impl" alt="" coords="440,5,632,76"/>
+</map>

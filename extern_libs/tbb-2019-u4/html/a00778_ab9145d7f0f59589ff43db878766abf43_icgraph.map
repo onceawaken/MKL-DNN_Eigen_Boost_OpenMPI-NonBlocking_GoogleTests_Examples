@@ -1,0 +1,4 @@
+<map id="tbb::task::set_affinity" name="tbb::task::set_affinity">
+<area shape="rect" id="node2" href="$a00476.html#adfe9700f0cb483f19a7024fb068ff06a" title="tbb::interface9::internal\l::linear_affinity_mode\l\&lt; static_partition_type\l \&gt;::set_affinity" alt="" coords="199,5,353,76"/>
+<area shape="rect" id="node3" href="$a00029.html#adbd960aac0d5f9862495fb3b02be8220" title="tbb::interface9::internal\l::affinity_partition_type\l::set_affinity" alt="" coords="199,101,353,157"/>
+</map>

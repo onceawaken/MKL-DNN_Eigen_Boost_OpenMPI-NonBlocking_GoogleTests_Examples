@@ -1,0 +1,9 @@
+<map id="tbb::recursive_mutex::scoped_lock::scoped_lock" name="tbb::recursive_mutex::scoped_lock::scoped_lock">
+<area shape="rect" id="node2" href="$a00689.html#ac5450ce6a5813f395afaa434384c6539" title="Acquire lock on given mutex. " alt="" coords="237,49,391,90"/>
+<area shape="rect" id="node3" href="$a00689.html#ae904553350de9c68e66dfb0e2dc1b49b" title="All checks from acquire using mutex.state were moved here. " alt="" coords="439,5,592,61"/>
+<area shape="rect" id="node6" href="$a00647.html#adea997b45dc4a360f38d14bde9c991f2" title="Acquire lock. " alt="" coords="443,85,587,126"/>
+<area shape="rect" id="node4" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="664,15,800,57"/>
+<area shape="rect" id="node5" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="872,15,1008,57"/>
+<area shape="rect" id="node7" href="$a00042.html#aefcd343548f92c6e738febedf1d75f74" title="Pointer to beginning of array. " alt="" coords="667,82,797,123"/>
+<area shape="rect" id="node8" href="$a00689.html#a0a9962a3932cfbd0d12cb197494f951b" title="Construct lock that has not acquired a recursive_mutex. " alt="" coords="640,147,824,189"/>
+</map>

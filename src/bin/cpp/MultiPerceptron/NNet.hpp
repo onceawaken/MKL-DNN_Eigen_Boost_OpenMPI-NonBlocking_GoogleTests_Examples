@@ -5,620 +5,622 @@
 #ifndef CPP_EXAMPLE_NNET_HPP
 #define CPP_EXAMPLE_NNET_HPP
 
-
 namespace NNet {
 
-    enum layers_e {
-        LAYER_BASE,
-        LAYER_INPUT,
-        LAYER_HIDDEN,
-        LAYER_OUTPUT,
-        LAYER_NULL,
-        LAYERS,
-        NODE
-    };
+	static constexpr auto DYN = Eigen::Dynamic;
+	static constexpr auto cm_e = Eigen::StorageOptions::ColMajor;
+	static constexpr auto rm_e = Eigen::StorageOptions::RowMajor;
+	static constexpr size_t STACK_MAX_SIZE = 64 * 64 * 8;
 
-    class LayerBase {
+	enum layers_e {
+		LAYER_BASE,
+		LAYER_INPUT,
+		LAYER_HIDDEN,
+		LAYER_OUTPUT,
+		LAYER_NULL,
+		LAYERS,
+		NODE
+	};
 
+	class LayerBase {
 
-    public:
-        static constexpr const char *NAME = "<LAYER BASE>";
-        static constexpr layers_e EID = LAYER_BASE;
-        static constexpr bool HAS_NEXT = false;
+	  public:
 
+		static constexpr const char *NAME = "<LAYER BASE>";
+		static constexpr layers_e EID = LAYER_BASE;
+		static constexpr bool HAS_NEXT = false;
 
-        std::string m_name = "<null>";
+		std::string m_name = "<null>";
 
-        const std::string m_type = "<null>";
+		const std::string m_type = "<null>";
 
-        const std::pair<size_t, size_t> m_shape = {0, 0};
+		const std::pair<size_t, size_t> m_shape = {0, 0};
 
-        virtual void print();
+		virtual void print();
 
-        template<typename T>
-        LayerBase(T l, size_t N, size_t M, const char *_type);
+		template<typename T>
+		LayerBase(T l, size_t N, size_t M, const char *_type);
 
-        void make_name(size_t l);
+		void make_name(size_t l);
 
-        auto get_name();
+		auto get_name();
 
-        void print_name();
+		void print_name();
 
-        auto alloc();
+		auto alloc();
 
-    };
+	};
 
+	class LayerNull : public LayerBase {
 
-    class LayerNull : public LayerBase {
+	  public:
+		static constexpr const char *NAME = "<LAYER NULL>";
+		static constexpr layers_e EID = LAYER_NULL;
+		static constexpr bool HAS_NEXT = false;
+		static constexpr bool HAS_PREV = false;
 
+		explicit LayerNull(size_t id);
 
-    public:
-        static constexpr const char *NAME = "<LAYER NULL>";
-        static constexpr layers_e EID = LAYER_NULL;
-        static constexpr bool HAS_NEXT = false;
+		auto get_next();
 
-        explicit LayerNull(size_t id);
+	};
 
-        auto get_next();
+	template<typename T, size_t mB, size_t N, size_t M = 0, size_t ...>
+	class LayerHidden : public LayerBase {
 
-    };
+	  public:
 
+		static constexpr const char *NAME = "Layer Hidden";
+		static constexpr layers_e EID = LAYER_HIDDEN;
+		static constexpr bool HAS_NEXT = true;
 
-    template<typename T, size_t mB, size_t N, size_t M = 0, size_t ...>
-    class LayerHidden : public LayerBase {
+		static constexpr bool HAS_PREV = true;
 
+		static constexpr size_t m_mB = mB;
+		static constexpr size_t m_N = N;
+		static constexpr size_t m_M = M;
 
-    public:
-        static constexpr const char *NAME = "Layer Hidden";
-        static constexpr layers_e EID = LAYER_HIDDEN;
-        static constexpr bool HAS_NEXT = true;
+		using m_T = T;
 
-        static constexpr size_t m_mB = mB;
-        static constexpr size_t m_N = N;
-        static constexpr size_t m_M = M;
+	  public:
 
-        using m_T = T;
+		static constexpr size_t W_bits = M * N * sizeof(T);
+		static constexpr size_t V_bits = M * mB * sizeof(T);
+		static constexpr size_t W_ON_STACK = W_bits < STACK_MAX_SIZE;
+		static constexpr size_t V_ON_STACK = V_bits < STACK_MAX_SIZE;
 
-    public:
+		using W_t = std::conditional_t<W_ON_STACK, Eigen::Matrix<T, M, N>, Eigen::Matrix<T, DYN, DYN>>;
+		using V_t = std::conditional_t<V_ON_STACK, Eigen::Array<T, M, 1>, Eigen::Array<T, DYN, 1>>;
+		using Delta_t = std::conditional_t<V_ON_STACK, Eigen::Array<T, M, 1>, Eigen::Array<T, DYN, 1>>;
 
-        Eigen::Matrix<T, M, N> W;
-        Eigen::Matrix<T, M, N> dW;
-        Eigen::Matrix<T, M, 1> Theta;
-        Eigen::Matrix<T, M, 1> dTheta;
-        std::array<Eigen::Matrix<T, M, 1>, mB> b;
-        std::array<Eigen::Matrix<T, M, 1>, mB> V;
-        std::array<Eigen::Matrix<T, M, 1>, mB> dV;
-        std::array<Eigen::Matrix<T, M, 1>, mB> Delta;
+		/*
+		 * V[M,1] = W[M,N] * X[N,1] - Theta[M,1]
+		 * Delta[
+		 */
 
-    public:
+		Eigen::Matrix<T, M, 1> Theta;
+		Eigen::Matrix<T, M, 1> dTheta;
 
-        void print();
+		W_t W;
+		W_t dW;
 
-        LayerHidden(size_t id, const char *_type);
+		std::array<V_t, mB> b;
+		std::array<V_t, mB> V;
+		std::array<V_t, mB> dV;
+		std::array<Delta_t, mB> Delta;
 
-        explicit LayerHidden(size_t id);
+	  public:
 
-        void print_W();
+		void print();
 
-        void print_b();
+		LayerHidden(size_t id, const char *_type);
 
-        auto &get_W() { return W; };
+		explicit LayerHidden(size_t id);
 
-        auto &get_dW() { return dW; };
+		auto &get_zero_dW() {
+			if constexpr (W_ON_STACK)
+				dW.setZero();
+			else dW.setZero(M, N);
+			return dW;
+		};
 
-        auto &get_Theta() { return Theta; };
+		auto &get_zero_dTheta() {
+			dTheta.setZero();
+			return dTheta;
+		};
 
-        auto &get_dTheta() { return dTheta; };
+		void print_W();
 
-        auto &get_V() { return V; };
+		void print_b();
 
-        auto &get_dV() { return dV; };
+		auto &get_W() { return W; };
 
-        auto &get_b() { return b; };
+		auto &get_dW() { return dW; };
 
-        auto &get_Delta() { return Delta; };
+		auto &get_Theta() { return Theta; };
 
-        const auto &get_W() const { return W; };
+		auto &get_dTheta() { return dTheta; };
 
-        const auto &get_dW() const { return dW; };
+		auto &get_V() { return V; };
 
-        const auto &get_Theta() const { return Theta; };
+		auto &get_dV() { return dV; };
 
-        const auto &get_dTheta() const { return dTheta; };
+		auto &get_b() { return b; };
 
-        const auto &get_V() const { return V; };
+		auto &get_Delta() { return Delta; };
 
-        const auto &get_dV() const { return dV; };
+		const auto &get_W() const { return W; };
 
-        const auto &get_b() const { return b; };
+		const auto &get_dW() const { return dW; };
 
-        const auto &get_Delta() const { return Delta; };
+		const auto &get_Theta() const { return Theta; };
 
-        auto W_begin();
+		const auto &get_dTheta() const { return dTheta; };
 
-        auto W_end();
+		const auto &get_V() const { return V; };
 
-        auto dW_begin();
+		const auto &get_dV() const { return dV; };
 
-        auto dW_end();
+		const auto &get_b() const { return b; };
 
-        auto Delta_begin();
+		const auto &get_Delta() const { return Delta; };
 
-        auto Delta_end();
+		auto W_begin() { return W.data(); }
 
-        auto V_begin();
+		auto W_end() { return W.data() + W.size(); }
 
-        auto V_end();
+		auto dW_begin() { return dW.data(); }
 
-        auto dV_begin();
+		auto dW_end() { return dW.data() + dW.size(); }
 
-        auto dV_end();
+		auto Theta_begin() { return Theta.data(); }
 
-        auto b_begin();
+		auto Theta_end() { return Theta.data() + Theta.size(); }
 
-        auto b_end();
+		auto dTheta_begin() { return dTheta.begin(); }
 
-        auto Theta_begin();
+		auto dTheta_end() { return dTheta.end(); }
 
-        auto Theta_end();
+		auto Delta_begin() { return Delta.begin(); }
 
-        auto dTheta_begin();
+		auto Delta_end() { return Delta.end(); }
 
-        auto dTheta_end();
+		auto V_begin() { return V.begin(); }
 
-    };
+		auto V_end() { return V.end(); }
 
-    template<typename T, size_t B, size_t mB, size_t N, size_t M>
-    class LayerOutput : public LayerHidden<T, mB, N, M> {
+		auto dV_begin() { return dV.begin(); }
 
-    public:
-        static constexpr const char *type = "Layer Output";
-        static constexpr layers_e EID = LAYER_OUTPUT;
-        static constexpr bool HAS_NEXT = false;
+		auto dV_end() { return dV.end(); }
 
-        static constexpr size_t m_B = B;
-        static constexpr size_t m_mB = mB;
-        static constexpr size_t m_N = N;
-        static constexpr size_t m_M = M;
+		auto b_begin() { return b.begin(); }
 
-        using m_T = T;
+		auto b_end() { return b.end(); }
+	};
 
-    public:
+	template<typename T, size_t B, size_t mB, size_t N, size_t M>
+	class LayerOutput : public LayerHidden<T, mB, N, M> {
 
-        std::array<Eigen::Matrix<T, M, 1>, B> Z;
+	  public:
+		static constexpr const char *type = "Layer Output";
+		static constexpr layers_e EID = LAYER_OUTPUT;
+		static constexpr bool HAS_NEXT = false;
+		static constexpr bool HAS_PREV = true;
 
-    public:
+		static constexpr size_t m_mB = mB;
+		static constexpr size_t m_B = B;
 
-        auto &get_Z() { return Z; };
+		static constexpr size_t m_N = N;
+		static constexpr size_t m_M = M;
 
-        const auto &get_Z() const { return Z; };
+		using m_T = T;
 
-        auto Z_begin();
+	  public:
+		static constexpr size_t W_bits = M * B * sizeof(T);
+		static constexpr size_t ON_STACK = W_bits < STACK_MAX_SIZE;
 
-        auto Z_end();
+		using Z_t = std::conditional_t<ON_STACK, Eigen::Array<T, M, 1>, Eigen::Array<T, DYN, 1>>;
 
-        explicit LayerOutput(size_t id);
+		std::array<Z_t, B> Z;
 
-    };
+	  public:
 
+		auto &get_Z() { return Z; };
 
-    template<typename T, size_t B, size_t mB, size_t N>
-    class LayerInput : public LayerBase {
+		const auto &get_Z() const { return Z; };
 
+		auto Z_begin();
 
-    public:
-        static constexpr const char *NAME = "Layer Input";
-        static constexpr layers_e EID = LAYER_INPUT;
+		auto Z_end();
 
-        static constexpr bool HAS_NEXT = true;
-        static constexpr size_t m_mB = mB;
-        static constexpr size_t m_B = B;
-        static constexpr size_t m_N = N;
+		explicit LayerOutput(size_t id);
 
-        using m_T = T;
+	};
 
-        using v_t = typename Eigen::Matrix<T, N, 1>;
+	template<typename T, size_t B, size_t mB, size_t N>
+	class LayerInput : public LayerBase {
 
-    public:
+	  public:
+		static constexpr const char *NAME = "Layer Input";
+		static constexpr layers_e EID = LAYER_INPUT;
 
-        std::vector<size_t> IDX;
-        std::vector<v_t> V;
+		static constexpr bool HAS_PREV = false;
+		static constexpr bool HAS_NEXT = true;
+		static constexpr size_t m_mB = mB;
+		static constexpr size_t m_B = B;
+		static constexpr size_t m_N = N;
 
-    public:
+		using m_T = T;
 
-        void print();
+	  public:
 
-        const auto get_next_mb() const;
+		static constexpr size_t W_bits = N * B * sizeof(T);
+		static constexpr size_t ON_STACK = W_bits < STACK_MAX_SIZE;
 
-        void shuffle_idx();
+		using V_t = std::conditional_t<ON_STACK, Eigen::Array<T, N, 1>, Eigen::Array<T, DYN, 1>>;
 
-        const void shuffle_idx() const;
+		std::array<V_t, B> V;
 
-        auto &get_V() { return V; };
+	  public:
 
-        const auto &get_idx() const { return IDX; };
+		void print();
 
-        const auto &get_V() const { return V; };
+		auto &get_V() { return V; };
 
-        auto V_begin();
+		const auto &get_V() const { return V; };
 
-        auto V_end();
+		auto V_begin();
 
-        explicit LayerInput(size_t id);
+		auto V_end();
 
-    };
+		explicit LayerInput(size_t id);
 
+	};
 
-    template<class Curr_t, class Next_t>
-    class Node {
+	template<class Curr_t, class Next_t>
+	class Node {
 
+	  public:
+		static constexpr const char *NAME = "Node <" + Curr_t::NAME + " | " + Next_t::NAME + ">";
+		static constexpr bool HAS_NEXT = Curr_t::HAS_NEXT;
+		static constexpr bool HAS_PREV = Curr_t::HAS_PREV;
+		static constexpr layers_e EID = Curr_t::EID;
 
-    public:
-        static constexpr const char *NAME = "Node <" + Curr_t::NAME + " | " + Next_t::NAME + ">";
-        static constexpr bool HAS_NEXT = Curr_t::HAS_NEXT;
-        static constexpr layers_e EID = Curr_t::EID;
+		static constexpr size_t N = Curr_t::m_N;
+		static constexpr size_t M = Curr_t::m_M;
+		static constexpr size_t mB = Curr_t::m_mB;
+		static constexpr size_t B = Curr_t::m_B;
 
+		using T = typename Curr_t::m_T;
 
-        static constexpr size_t N = Curr_t::m_N;
-        static constexpr size_t M = Curr_t::m_M;
-        static constexpr size_t mB = Curr_t::m_mB;
-        static constexpr size_t B = Curr_t::m_B;
+		using m_Curr_t = Curr_t;
+		using m_Next_t = Next_t;
 
-        using T = typename Curr_t::m_T;
+	  public:
 
-        using m_Curr_t = Curr_t;
-        using m_Next_t = Next_t;
+		typedef Next_t *Next_Ptr_t;
+		typedef Curr_t *Curr_Ptr_t;
 
+		Curr_Ptr_t m_curr;
+		Next_Ptr_t m_next;
 
-    public:
+		const size_t l;
 
-        typedef Next_t *Next_Ptr_t;
-        typedef Curr_t *Curr_Ptr_t;
+	  public:
 
-        Curr_Ptr_t m_curr;
-        Next_Ptr_t m_next;
+		Node(size_t l, Curr_Ptr_t curr, Next_Ptr_t next);
 
-        const size_t l;
+		Node(size_t l, Next_Ptr_t next);
 
-    public:
+		void print();
 
+		void print_name();
 
-        Node(size_t l, Curr_Ptr_t curr, Next_Ptr_t next);
+		auto get_next();
 
-        Node(size_t l, Next_Ptr_t next);
+		auto &get_W() { return m_curr->get_W(); };
 
-        void print();
+		auto &get_dW() { return m_curr->get_dW(); };
 
-        void print_name();
+		auto &get_zero_dW() { return m_curr->get_zero_dW(); };
 
-        auto get_next();
+		auto &get_V() { return m_curr->get_V(); };
 
+		auto &get_dV() { return m_curr->get_dV(); }
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        void shuffle_idx() { m_curr->shuffle_idx(); };
+		auto &get_Z() { return m_curr->get_Z(); };
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        const void shuffle_idx() const { m_curr->shuffle_idx(); };
+		auto &get_b() { return m_curr->get_b(); };
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        auto &get_idx() { return m_curr->get_idx(); };
+		auto &get_Theta() { return m_curr->get_Theta(); }
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        const auto &get_idx() const { return m_curr->get_idx(); };
+		auto &get_dTheta() { return m_curr->get_dTheta(); }
 
+		auto &get_zero_dTheta() { return m_curr->get_zero_dTheta(); }
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        const auto get_next_mb() const { return m_curr->get_next_mb(); };
+		auto &get_Delta() { return m_curr->get_Delta(); }
 
-        auto &get_W() { return m_curr->get_W(); };
+		const auto &get_W() const { return m_curr->get_W(); };
 
-        auto &get_dW() { return m_curr->get_dW(); };
+		const auto &get_dW() const { return m_curr->get_dW(); };
 
-        auto &get_V() { return m_curr->get_V(); };
+		const auto &get_V() const { return m_curr->get_V(); };
 
-        auto &get_dV() { return m_curr->get_dV(); }
+		const auto &get_dV() const { return m_curr->get_dV(); }
 
-        auto &get_Z() { return m_curr->get_Z(); };
+		const auto &get_Z() const { return m_curr->get_Z(); };
 
-        auto &get_b() { return m_curr->get_b(); };
+		const auto &get_b() const { return m_curr->get_b(); };
 
-        auto &get_Theta() { return m_curr->get_Theta(); }
+		const auto &get_Theta() const { return m_curr->get_Theta(); }
 
-        auto &get_dTheta() { return m_curr->get_dTheta(); }
+		const auto &get_dTheta() const { return m_curr->get_dTheta(); }
 
-        auto &get_Delta() { return m_curr->get_Delta(); }
+		const auto &get_Delta() const { return m_curr->get_Delta(); }
 
-        const auto &get_W() const { return m_curr->get_W(); };
+	};
 
-        const auto &get_dW() const { return m_curr->get_dW(); };
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	class Linked {
 
-        const auto &get_V() const { return m_curr->get_V(); };
+	  public:
 
-        const auto &get_dV() const { return m_curr->get_dV(); }
+		static constexpr const char *NAME = "Linked <" + Curr_t::NAME + " --> " + Next_Linked_Ptr_t::NAME + ">";
+		static constexpr bool HAS_PREV = Curr_t::HAS_PREV;
+		static constexpr bool HAS_NEXT = Curr_t::HAS_NEXT;
+		static constexpr layers_e EID = Curr_t::EID;
 
-        const auto &get_Z() const { return m_curr->get_Z(); };
+		static constexpr size_t N = Curr_t::m_N;
+		static constexpr size_t M = Curr_t::m_M;
+		static constexpr size_t mB = Curr_t::m_mB;
+		static constexpr size_t B = Curr_t::m_B;
 
-        const auto &get_b() const { return m_curr->get_b(); };
+		using T = typename Curr_t::m_T;
 
-        const auto &get_Theta() const { return m_curr->get_Theta(); }
+		using m_Curr_t = Curr_t;
+		using m_Next_Linked_Ptr_t = Next_Linked_Ptr_t;
 
-        const auto &get_dTheta() const { return m_curr->get_dTheta(); }
+		using Next_Linked_t  =  std::remove_pointer_t<Next_Linked_Ptr_t>;
 
-        const auto &get_Delta() const { return m_curr->get_Delta(); }
+		using Curr_Ptr_t =  std::add_pointer_t<Curr_t>;
 
+		using node_t = Node<Curr_t, Next_Linked_t>;
 
-    };
+		using node_ptr_t =  std::add_pointer_t<node_t>;
 
+	  private:
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    class Linked {
+		node_ptr_t m_head;
+		const size_t l;
 
+	  public:
 
-    public:
+		Linked(Curr_Ptr_t curr, Next_Linked_Ptr_t next, size_t l);
 
-        static constexpr const char *NAME = "Linked <" + Curr_t::NAME + " --> " + Next_Linked_Ptr_t::NAME + ">";
-        static constexpr bool HAS_NEXT = Curr_t::HAS_NEXT;
-        static constexpr layers_e EID = Curr_t::EID;
+		Linked(Next_Linked_Ptr_t next, size_t l);
 
-        static constexpr size_t N = Curr_t::m_N;
-        static constexpr size_t M = Curr_t::m_M;
-        static constexpr size_t mB = Curr_t::m_mB;
-        static constexpr size_t B = Curr_t::m_B;
+		constexpr auto has_next() {
 
-        using T = typename Curr_t::m_T;
+			return HAS_NEXT;
+		}
 
-        using m_Curr_t = Curr_t;
-        using m_Next_Linked_Ptr_t = Next_Linked_Ptr_t;
+		constexpr auto eid() {
 
-        using Next_Linked_t  =  std::remove_pointer_t<Next_Linked_Ptr_t>;
+			return eid;
+		}
 
-        using Curr_Ptr_t =  std::add_pointer_t<Curr_t>;
+		void print();
 
-        using node_t = Node<Curr_t, Next_Linked_t>;
+		void print_name();
 
-        using node_ptr_t =  std::add_pointer_t<node_t>;
+		auto get_name();
 
-    private:
+		auto get_curr();
 
-        node_ptr_t m_head;
-        const size_t l;
+		auto get_next();
 
-    public:
+		void print_V();
 
-        Linked(Curr_Ptr_t curr, Next_Linked_Ptr_t next, size_t l);
+		auto &get_W() { return m_head->get_W(); };
 
-        Linked(Next_Linked_Ptr_t next, size_t l);
+		auto &get_dW() { return m_head->get_dW(); };
 
-        constexpr auto has_next() {
+		auto &get_zero_dW() { return m_head->get_zero_dW(); };
 
-            return HAS_NEXT;
-        }
+		auto &get_V() { return m_head->get_V(); };
 
-        constexpr auto eid() {
+		auto &get_dV() { return m_head->get_dV(); }
 
-            return eid;
-        }
+		auto &get_Z() { return m_head->get_Z(); };
 
-        void print();
+		auto &get_b() { return m_head->get_b(); };
 
-        void print_name();
+		auto &get_Theta() { return m_head->get_Theta(); }
 
-        auto get_name();
+		auto &get_dTheta() { return m_head->get_dTheta(); }
 
-        auto get_curr();
+		auto &get_zero_dTheta() { return m_head->get_zero_dTheta(); }
 
-        auto get_next();
+		auto &get_Delta() { return m_head->get_Delta(); }
 
-        void print_V();
+		const auto &get_W() const { return m_head->get_W(); };
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        void shuffle_idx() { m_head->shuffle_idx(); };
+		const auto &get_dW() const { return m_head->get_dW(); };
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        const void shuffle_idx() const { m_head->shuffle_idx(); };
+		const auto &get_V() const { return m_head->get_V(); };
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        auto &get_idx() { return m_head->get_idx(); };
+		const auto &get_dV() const { return m_head->get_dV(); }
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        const auto & get_idx() const { return m_head->get_idx(); };
+		const auto &get_Z() const { return m_head->get_Z(); };
 
-        template<typename = std::enable_if_t<EID == LAYER_INPUT>>
-        const auto get_next_mb() const { return m_head->get_next_mb(); };
+		const auto &get_b() const { return m_head->get_b(); };
 
-        auto &get_W() { return m_head->get_W(); };
+		const auto &get_Theta() const { return m_head->get_Theta(); }
 
-        auto &get_dW() { return m_head->get_dW(); };
+		const auto &get_dTheta() const { return m_head->get_dTheta(); }
 
-        auto &get_V() { return m_head->get_V(); };
+		const auto &get_Delta() const { return m_head->get_Delta(); }
 
-        auto &get_dV() { return m_head->get_dV(); }
+		auto V_begin() { return m_head->m_curr->V_begin(); }
 
-        auto &get_Z() { return m_head->get_Z(); };
+		auto V_end() { return m_head->m_curr->V_end(); }
 
-        auto &get_b() { return m_head->get_b(); };
+		auto Z_begin() { return m_head->m_curr->Z_begin(); }
 
-        auto &get_Theta() { return m_head->get_Theta(); }
+		auto Z_end() { return m_head->m_curr->Z_end(); }
 
-        auto &get_dTheta() { return m_head->get_dTheta(); }
+		auto W_begin() { return m_head->m_curr->W_begin(); }
 
-        auto &get_Delta() { return m_head->get_Delta(); }
+		auto W_end() { return m_head->m_curr->W_end(); }
 
-        const auto &get_W() const { return m_head->get_W(); };
+		auto dW_begin() { return m_head->m_curr->dW_begin(); }
 
-        const auto &get_dW() const { return m_head->get_dW(); };
+		auto dW_end() { return m_head->m_curr->dW_end(); }
 
-        const auto &get_V() const { return m_head->get_V(); };
+		auto dV_begin() { return m_head->m_curr->dV_begin(); }
 
-        const auto &get_dV() const { return m_head->get_dV(); }
+		auto dV_end() { return m_head->m_curr->dV_end(); }
 
-        const auto &get_Z() const { return m_head->get_Z(); };
+		auto b_begin() { return m_head->m_curr->b_begin(); }
 
-        const auto &get_b() const { return m_head->get_b(); };
+		auto b_end() { return m_head->m_curr->b_end(); }
 
-        const auto &get_Theta() const { return m_head->get_Theta(); }
+		auto Delta_begin() { return m_head->m_curr->Delta_begin(); }
 
-        const auto &get_dTheta() const { return m_head->get_dTheta(); }
+		auto Delta_end() { return m_head->m_curr->Delta_end(); }
 
-        const auto &get_Delta() const { return m_head->get_Delta(); }
+		auto Theta_begin() { return m_head->m_curr->Theta_begin(); }
 
-        auto W_begin();
+		auto Theta_end() { return std::move(m_head->m_curr->Theta_end()); }
 
-        auto W_end();
+		auto dTheta_begin() { return std::move(m_head->m_curr->dTheta_begin()); }
 
-        auto V_begin();
+		auto dTheta_end() { return std::move(m_head->m_curr->dTheta_end()); }
 
-        auto V_end();
+	};
 
-        auto Z_begin();
+	class LayersBase {
 
-        auto Z_end();
+	  public:
 
-        auto dV_begin();
+		size_t nFullBatch = 0;
 
-        auto dV_end();
+		size_t nMiniBatch = 0;
 
-        auto b_begin();
+		size_t nLayers = 0;
 
-        auto b_end();
+		size_t nHidden = 0;
 
-        auto dW_begin();
+		virtual void print();
 
-        auto dW_end();
+		LayersBase();
 
-        auto Delta_begin();
+	};
 
-        auto Delta_end();
+	template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
+	class LayersMaker : public LayersBase {
 
-        auto Theta_begin();
+	  public:
 
-        auto Theta_end();
+		using m_T_IN = T_IN;
+		using m_T = T;
 
-        auto dTheta_begin();
+		static constexpr size_t m_B = B;
 
-        auto dTheta_end();
+		static constexpr size_t m_mB = mB;
 
-    };
+		static constexpr size_t m_I = I;
 
+		static constexpr size_t nHidden = sizeof ... (shapeNN);
+		static constexpr size_t nLayers = nHidden + 1;
+		static constexpr size_t m_shapeNN[nHidden] = {shapeNN...};
 
-    class LayersBase {
+	  public:
+		template<class Layers_Ptr>
+		auto print(Layers_Ptr layersPtr);
 
-    public:
+		template<debug_e DEBUG_E, size_t N>
+		auto alloc(size_t l);
 
-        size_t nFullBatch = 0;
+		template<debug_e DEBUG_E, size_t N, size_t M>
+		auto alloc(size_t l);
 
-        size_t nMiniBatch = 0;
+		template<debug_e DEBUG_E, size_t N, size_t M, size_t K, size_t ... nextShapeNN>
+		auto alloc(size_t l);
 
-        size_t nLayers = 0;
+		template<debug_e DEBUG_E = DEBUG1>
+		auto alloc();
 
-        size_t nHidden = 0;
+		LayersMaker();
 
-        virtual void print();
+	};
 
-        LayersBase();
+	enum compute_e {
+		FORWARD_E,
+		BACKWARD_E,
+		UPDATE_E
+	};
 
-    };
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	class Network : public Layers_t {
 
+	  private:
+		std::vector<size_t> IDX;
 
-    template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
-    class LayersMaker : public LayersBase {
+		Layers_t layers;
+		Linked_Ptr_t linkedPtr;
 
+		Engine_Ptr enginePtr;
+		Datain_Ptr datainPtr;
+		Datagen_Ptr datagenPtr;
 
-    public:
+	  public:
 
-        using m_T_IN = T_IN;
-        using m_T = T;
+		static constexpr size_t mB = Layers_t::m_mB;
+		static constexpr size_t B = Layers_t::m_B;
+		static constexpr size_t ITER = B / mB;
 
-        static constexpr size_t m_B = B;
+		using T_IN = typename Layers_t::m_T_IN;
+		using T = typename Layers_t::m_T;
 
-        static constexpr size_t m_mB = mB;
+	  public:
+		Network(Layers_t &layers, Linked_Ptr_t &linkedPtr, Engine_Ptr &enginePtr, Datain_Ptr &datainPtr,
+		        Datagen_Ptr &datagenPtr);
 
-        static constexpr size_t m_I = I;
+		template<debug_e DEBUG_E, compute_e COMPUTE_E, class Prev_Linked_Ptr_t, class Next_Linked_Ptr_t>
+		void compute(Prev_Linked_Ptr_t prevLinkedPtr, Next_Linked_Ptr_t nextLinkedPtr, size_t l);
 
-        static constexpr size_t nHidden = sizeof ... (shapeNN);
-        static constexpr size_t nLayers = nHidden + 1;
-        static constexpr size_t m_shapeNN[nHidden] = {shapeNN...};
+		template<debug_e, compute_e COMPUTE_E, class Curr_Linked_Ptr_t>
+		void compute(Curr_Linked_Ptr_t curr, size_t l, size_t epoch, size_t iter);
 
-    public:
-        template<class Layers_Ptr>
-        auto print(Layers_Ptr layersPtr);
+		template<debug_e DEBUG_E>
+		void compute(size_t epochs);
 
-        template<debug_e DEBUG_E, size_t N>
-        auto alloc(size_t l);
+		template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
+		auto init_parameters(Curr_Linked_Ptr_t linkedPtr);
 
-        template<debug_e DEBUG_E, size_t N, size_t M>
-        auto alloc(size_t l);
+		template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
+		auto init_patterns(Curr_Linked_Ptr_t linkedPtr);
 
-        template<debug_e DEBUG_E, size_t N, size_t M, size_t K, size_t ... nextShapeNN>
-        auto alloc(size_t l);
+		template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
+		auto init_classifiers(Curr_Linked_Ptr_t layersPtr);
 
-        template<debug_e DEBUG_E = DEBUG1>
-        auto alloc();
+		template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
+		auto init(Curr_Linked_Ptr_t curr, size_t l);
 
-        LayersMaker();
+		template<debug_e DEBUG_E>
+		auto init();
 
+		void print();
 
-    };
+		void shuffle_idx();
 
-    enum compute_e {
-        FORWARD_E,
-        BACKWARD_E,
-        UPDATE_E
-    };
+		const auto get_next_mb() const;
 
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    class Network : public Layers_t {
+		const void shuffle_idx() const;
 
-    public:
-        Layers_t layers;
-        Linked_Ptr_t linkedPtr;
-
-        Engine_Ptr enginePtr;
-        Datain_Ptr datainPtr;
-        Datagen_Ptr datagenPtr;
-
-
-    public:
-
-
-        static constexpr size_t mB = Layers_t::m_mB;
-        static constexpr size_t B = Layers_t::m_B;
-        static constexpr size_t ITER = B / mB;
-
-
-        using T_IN = typename Layers_t::m_T_IN;
-        using T = typename Layers_t::m_T;
-
-    public:
-        Network(Layers_t &layers, Linked_Ptr_t &linkedPtr, Engine_Ptr &enginePtr, Datain_Ptr &datainPtr,
-                Datagen_Ptr &datagenPtr);
-
-        template<debug_e DEBUG_E, compute_e COMPUTE_E, class Prev_Linked_Ptr_t, class Next_Linked_Ptr_t>
-        void compute(Prev_Linked_Ptr_t prevLinkedPtr, Next_Linked_Ptr_t nextLinkedPtr, size_t l);
-
-        template<debug_e, compute_e COMPUTE_E, class Curr_Linked_Ptr_t>
-        void compute(Curr_Linked_Ptr_t curr, size_t l, size_t epoch, size_t iter);
-
-        template<debug_e DEBUG_E>
-        void compute(size_t epochs);
-
-        template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-        auto init_parameters(Curr_Linked_Ptr_t linkedPtr);
-
-        template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-        auto init_patterns(Curr_Linked_Ptr_t linkedPtr);
-
-        template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-        auto init_classifiers(Curr_Linked_Ptr_t layersPtr);
-
-        template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-        auto init(Curr_Linked_Ptr_t curr, size_t l);
-
-        template<debug_e DEBUG_E>
-        auto init();
-
-        void print();
-    };
+		const auto &get_idx() const { return IDX; };
+	};
 
 }
 

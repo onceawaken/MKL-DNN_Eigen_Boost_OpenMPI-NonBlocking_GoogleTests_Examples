@@ -1,0 +1,5 @@
+<map id="tbb::internal::concurrent_monitor::thread_context" name="tbb::internal::concurrent_monitor::thread_context">
+<area shape="rect" id="node2" href="$a00521.html" title="{waitset_node_t\n|+ next\l+ prev\l|+ node_t()\l}" alt="" coords="5,131,116,223"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="141,131,287,223"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="135,5,293,83"/>
+</map>

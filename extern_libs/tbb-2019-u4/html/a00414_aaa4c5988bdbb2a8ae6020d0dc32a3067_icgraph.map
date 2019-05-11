@@ -1,0 +1,5 @@
+<map id="internal::item_buffer::front" name="internal::item_buffer::front">
+<area shape="rect" id="node2" href="$a00294.html#a3b6f39e99375fca0228c33e246a47299" title="internal::function\l_input_queue::front" alt="" coords="213,5,347,47"/>
+<area shape="rect" id="node3" href="$a00414.html#ab2541b289d48841c9679c0ad17feae4f" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::pop_front" alt="" coords="191,71,369,112"/>
+<area shape="rect" id="node4" href="$a00652.html#a626c698dc94dc085569300f7234cc4e7" title="internal::reservable\l_item_buffer::reserve_front" alt="" coords="191,136,369,177"/>
+</map>

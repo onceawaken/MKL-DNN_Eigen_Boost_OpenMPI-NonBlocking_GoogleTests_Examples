@@ -1,0 +1,8 @@
+<map id="tbb::structured_task_group" name="tbb::structured_task_group">
+<area shape="rect" id="node2" href="$a00783.html" title="{tbb::internal::task\l_group_base\n||+ task_group_base()\l+ ~task_group_base()\l+ run()\l+ wait()\l+ is_canceling()\l+ cancel()\l# owner()\l# internal_run_and_wait()\l# internal_run()\l}" alt="" coords="103,1264,270,1473"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,315,157,407"/>
+<area shape="rect" id="node8" href="$a00784.html" title="Used to form groups of tasks. " alt="" coords="87,611,287,1201"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,20,163,97"/>
+<area shape="rect" id="node5" href="$a00241.html" title="task that does nothing. Useful for synchronization. " alt="" coords="405,867,521,945"/>
+<area shape="rect" id="node6" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="355,161,570,561"/>
+</map>

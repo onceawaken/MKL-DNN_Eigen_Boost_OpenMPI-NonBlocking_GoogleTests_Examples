@@ -1,0 +1,10 @@
+<map id="tbb::internal::cpu_ctl_env::get_env" name="tbb::internal::cpu_ctl_env::get_env">
+<area shape="rect" id="node2" href="$a01147.html#ga4844e4d5f62a0843af83cf534f908ddf" title="Allocate memory on cache/sector line boundary. " alt="" coords="179,57,304,98"/>
+<area shape="rect" id="node3" href="$a01133.html#a90dc6f41bbea1ea94df0f0c776e246a3" title="A function to check if passed in pointer is aligned on a specific border. " alt="" coords="352,5,508,32"/>
+<area shape="rect" id="node4" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="355,57,505,98"/>
+<area shape="rect" id="node5" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="365,122,495,163"/>
+<area shape="rect" id="node6" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="556,122,687,163"/>
+<area shape="rect" id="node7" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="766,57,885,98"/>
+<area shape="rect" id="node8" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="735,122,916,163"/>
+<area shape="rect" id="node9" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="739,188,911,215"/>
+</map>

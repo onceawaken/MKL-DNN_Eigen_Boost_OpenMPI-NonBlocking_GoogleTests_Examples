@@ -1,0 +1,7 @@
+<map id="tbb::internal::governor::does_client_join_workers" name="tbb::internal::governor::does_client_join_workers">
+<area shape="rect" id="node2" href="$a00606.html#a1fc69b65169acd8f06011e21d1892dcd" title="Called by a thread (usually not the associated thread) to commence termination. " alt="" coords="232,5,381,61"/>
+<area shape="rect" id="node4" href="$a00606.html#aafc770ff14751ed4dd2c3f3b1d030156" title="Wake up associated thread (or launch a thread if there is none) " alt="" coords="229,85,384,141"/>
+<area shape="rect" id="node3" href="$a00605.html#aa3168e9dc158c52625a69a47ebf840d5" title="tbb::internal::rml\l::private_server::request\l_close_connection" alt="" coords="446,5,609,61"/>
+<area shape="rect" id="node5" href="$a00605.html#a2be83f895b89b3861ee8ab31535c1f34" title="Equivalent of adding additional_slack to my_slack and waking up to 2 threads if my_slack permits..." alt="" coords="432,93,623,134"/>
+<area shape="rect" id="node6" href="$a00605.html#aed71f902aab1aef77a016420c586f535" title="tbb::internal::rml\l::private_server::adjust\l_job_count_estimate" alt="" coords="671,85,825,141"/>
+</map>

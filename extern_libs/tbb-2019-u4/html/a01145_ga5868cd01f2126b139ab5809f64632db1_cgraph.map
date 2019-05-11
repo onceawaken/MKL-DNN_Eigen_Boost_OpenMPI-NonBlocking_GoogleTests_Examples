@@ -1,0 +1,5 @@
+<map id="tbb::parallel_for_each" name="tbb::parallel_for_each">
+<area shape="rect" id="node2" href="$a01133.html#acf23419eb6d3adac787a4fee78cb3c27" title="tbb::internal::first" alt="" coords="213,5,333,32"/>
+<area shape="rect" id="node3" href="$a01133.html#acb741ec0fd6aa234c464640f37d7c812" title="tbb::internal::last" alt="" coords="214,56,333,83"/>
+<area shape="rect" id="node4" href="$a01145.html#gac9225af45fd0468843b3fc32608c71de" title="Calls function f for all items from [first, last) interval using user&#45;supplied context. " alt="" coords="200,107,347,133"/>
+</map>

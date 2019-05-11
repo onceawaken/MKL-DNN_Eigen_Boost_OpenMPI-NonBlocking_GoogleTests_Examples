@@ -1,0 +1,4 @@
+<map id="tbb::interface5::reader_writer_lock::is_current_writer" name="tbb::interface5::reader_writer_lock::is_current_writer">
+<area shape="rect" id="node2" href="$a01144.html#acaa17c2e4053a1c935b0911ac1a109fb" title="tbb::this_tbb_thread\l::get_id" alt="" coords="211,13,348,54"/>
+<area shape="rect" id="node3" href="$a01133.html#a7444a8c52dd26ba57c04aa00482b9ef9" title="tbb::internal::thread\l_get_id_v3" alt="" coords="396,13,531,54"/>
+</map>

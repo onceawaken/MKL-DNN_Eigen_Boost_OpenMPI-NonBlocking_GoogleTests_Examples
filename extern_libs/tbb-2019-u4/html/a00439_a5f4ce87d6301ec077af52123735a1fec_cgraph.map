@@ -1,0 +1,9 @@
+<map id="internal::join_node_FE&lt; reserving, InputTuple, OutputTuple &gt;::decrement_port_count" name="internal::join_node_FE&lt; reserving, InputTuple, OutputTuple &gt;::decrement_port_count">
+<area shape="rect" id="node2" href="$a01116.html#ab8685a8ff3216168bd16e201327f0227" title="tbb::flow::interface10\l::internal::is_graph_active" alt="" coords="691,52,861,93"/>
+<area shape="rect" id="node3" href="$a01116.html#a3c767231059bfe26f0420ffd2294e6c1" title="Spawns a task inside graph arena. " alt="" coords="237,85,451,127"/>
+<area shape="rect" id="node4" href="$a00778.html#a3d541e86f39624d4cb8f8c90a39e57f9" title="Returns proxy for overloaded new that allocates a continuation task of *this. " alt="" coords="507,45,634,87"/>
+<area shape="rect" id="node5" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="505,189,636,231"/>
+<area shape="rect" id="node8" href="$a01116.html#acc478861d8f5bc0ddf7abad00bb89e46" title="Executes custom functor inside graph arena. " alt="" coords="499,110,643,166"/>
+<area shape="rect" id="node6" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="719,197,833,223"/>
+<area shape="rect" id="node7" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="909,197,1063,223"/>
+</map>

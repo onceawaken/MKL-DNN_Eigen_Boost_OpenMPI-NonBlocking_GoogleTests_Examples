@@ -1,0 +1,8 @@
+<map id="tbb::internal::concurrent_vector_base_v3::segment_t" name="tbb::internal::concurrent_vector_base_v3::segment_t">
+<area shape="rect" id="node2" href="$a00081.html" title="Specialization for atomic&lt;void*&gt;, for sake of not allowing arithmetic or operator&#45;&gt;. " alt="" coords="29,1128,173,1249"/>
+<area shape="rect" id="node3" href="$a00083.html" title="{tbb::internal::atomic\l_impl\&lt; void * \&gt;\n||+ atomic_impl()\l+ atomic_impl()\l+ fetch_and_store()\l+ fetch_and_store()\l+ compare_and_swap()\l+ compare_and_swap()\l+ operator value_type()\l+ load()\l+ load()\l+ store()\l+ store()\l# store_with_release()\l&#45; to_bits()\l&#45; to_value()\l&#45; to_bits_ref()\l}" alt="" coords="22,781,181,1079"/>
+<area shape="rect" id="node4" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; void *, sizeof\l(void *)\&gt;\n||}" alt="" coords="5,291,165,397"/>
+<area shape="rect" id="node5" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; value_type,\l size \&gt;\n||}" alt="" coords="97,5,247,112"/>
+<area shape="rect" id="node7" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; T, sizeof(T)\&gt;\n||}" alt="" coords="181,175,339,267"/>
+<area shape="rect" id="node6" href="$a00083.html" title="Base class that provides basic functionality for atomic&lt;T&gt; without fetch_and_add. ..." alt="" coords="185,421,343,719"/>
+</map>

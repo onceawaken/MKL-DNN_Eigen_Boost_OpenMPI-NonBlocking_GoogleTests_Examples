@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::internal::join_node_FE&lt; reserving, InputTuple, OutputTuple &gt;" name="tbb::flow::interface10::internal::join_node_FE&lt; reserving, InputTuple, OutputTuple &gt;">
+<area shape="rect" id="node2" href="$a00277.html" title="{tbb::flow::interface10\l::internal::forwarding_base\n|+ graph_ref\l|+ forwarding_base()\l+ ~forwarding_base()\l+ decrement_port_count()\l+ increment_port_count()\l}" alt="" coords="13,131,188,267"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="22,5,179,83"/>
+</map>

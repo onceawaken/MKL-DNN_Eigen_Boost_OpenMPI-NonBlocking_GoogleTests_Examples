@@ -1,0 +1,4 @@
+<map id="tbb::strict_ppl::internal::concurrent_queue_base_v3::internal_size" name="tbb::strict_ppl::internal::concurrent_queue_base_v3::internal_size">
+<area shape="rect" id="node2" href="$a00142.html#a9d6c20fd8c193c12b6a7b0c3101fd966" title="Return number of pushes minus number of pops. " alt="" coords="224,5,389,47"/>
+<area shape="rect" id="node3" href="$a00147.html#aad4b253ba595637b0b146eb6565556f2" title="Return the number of items in the queue; thread unsafe. " alt="" coords="221,71,392,112"/>
+</map>

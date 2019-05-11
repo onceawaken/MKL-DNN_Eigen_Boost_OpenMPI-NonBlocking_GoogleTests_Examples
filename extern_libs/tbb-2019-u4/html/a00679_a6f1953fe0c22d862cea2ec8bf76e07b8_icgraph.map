@@ -1,0 +1,5 @@
+<map id="tbb::spin_mutex::scoped_lock::internal_release" name="tbb::spin_mutex::scoped_lock::internal_release">
+<area shape="rect" id="node2" href="$a00679.html#a7e801b0c28fd8395fec400b96acc5c34" title="Release lock. " alt="" coords="219,5,384,47"/>
+<area shape="rect" id="node3" href="$a00721.html#adfcf8fe840aa73c08c2cadd570fd48fd" title="Release lock. " alt="" coords="221,71,382,98"/>
+<area shape="rect" id="node4" href="$a00679.html#a9940d6e494466d9c53846ed347d79d83" title="Destroy lock. If holding a lock, releases the lock first. " alt="" coords="219,123,384,164"/>
+</map>

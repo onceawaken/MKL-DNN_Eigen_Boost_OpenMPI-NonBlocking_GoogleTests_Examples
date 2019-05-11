@@ -1,0 +1,7 @@
+<map id="tbb::spin_mutex::scoped_lock::try_acquire" name="tbb::spin_mutex::scoped_lock::try_acquire">
+<area shape="rect" id="node2" href="$a00793.html#a7eb7e2f599540e2a0cda5d4f6efe5dea" title="Try finding and popping a task. " alt="" coords="221,5,373,61"/>
+<area shape="rect" id="node3" href="$a00793.html#aefd3bd1de3f40584d2a2b5007d54083e" title="Try finding and popping a related task. " alt="" coords="219,85,375,141"/>
+<area shape="rect" id="node4" href="$a00793.html#a1a280bfd897359f8334faadf48590f5e" title="Push a task into a lane. " alt="" coords="221,165,373,221"/>
+<area shape="rect" id="node5" href="$a00793.html#a9d7a47a8c307c67a94860bae95ccea0e" title="Returns pointer to task on successful pop, otherwise &#45; NULL. " alt="" coords="221,245,373,301"/>
+<area shape="rect" id="node6" href="$a00793.html#ab2ada2e594eb0cf73ef54ee5043e9c99" title="Returns true on successful push, otherwise &#45; false. " alt="" coords="221,325,373,381"/>
+</map>

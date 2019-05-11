@@ -1,0 +1,4 @@
+<map id="tbb::interface9::internal::auto_partition_type::check_for_demand" name="tbb::interface9::internal::auto_partition_type::check_for_demand">
+<area shape="rect" id="node2" href="$a00270.html#a323c860a1839ba7f46e9afd3c6fba0ac" title="tbb::interface9::internal\l::flag_task::is_peer_stolen" alt="" coords="208,22,383,63"/>
+<area shape="rect" id="node3" href="$a00778.html#a9d50759d59a2d300287158f38b317798" title="task on whose behalf this task is working, or NULL if this is a root. " alt="" coords="431,29,548,56"/>
+</map>

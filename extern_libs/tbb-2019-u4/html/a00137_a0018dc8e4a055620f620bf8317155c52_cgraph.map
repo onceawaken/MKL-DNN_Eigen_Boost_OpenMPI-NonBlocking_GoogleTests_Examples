@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::composite_node&lt; tbb::flow::tuple&lt;&gt;, tbb::flow::tuple&lt; OutputTypes... &gt; &gt;::reset_node" name="tbb::flow::interface10::composite_node&lt; tbb::flow::tuple&lt;&gt;, tbb::flow::tuple&lt; OutputTypes... &gt; &gt;::reset_node">
+<area shape="rect" id="node2" href="$a01133.html#adbde5fe83876c27b9643b8e3d3c20477" title="tbb::internal::fgt\l_composite" alt="" coords="252,5,365,47"/>
+<area shape="rect" id="node3" href="$a01133.html#aab771b23f3366452d4e8e0cef7d1a22b" title="tbb::internal::fgt\l_multiinput_multioutput\l_node_desc" alt="" coords="231,70,387,126"/>
+<area shape="rect" id="node4" href="$a00310.html#a833e26ebe3f04782cee2aa8b1ab4d3ff" title="tbb::flow::interface10\l::graph_node::graph_node" alt="" coords="223,149,395,191"/>
+</map>

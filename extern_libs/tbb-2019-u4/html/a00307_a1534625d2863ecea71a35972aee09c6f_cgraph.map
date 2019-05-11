@@ -1,0 +1,10 @@
+<map id="tbb::internal::governor::release_resources" name="tbb::internal::governor::release_resources">
+<area shape="rect" id="node2" href="$a01133.html#a609698c4765948334772520edc6fc688" title="tbb::internal::destroy\l_process_mask" alt="" coords="225,75,367,116"/>
+<area shape="rect" id="node6" href="$a00992.html#ad65fa8b542fd95d199ca5e87ab2885df" title="dynamic_unlink_all" alt="" coords="230,143,362,170"/>
+<area shape="rect" id="node7" href="$a00019.html#a3d6e09b5b23edf10600c2ae2e6469659" title="tbb::internal::__TBB\l_InitOnce::initialization_done" alt="" coords="201,195,391,236"/>
+<area shape="rect" id="node9" href="$a01133.html#a0ddf43033695d442c64c4a44f6d6c211" title="Report a runtime warning. " alt="" coords="225,260,367,301"/>
+<area shape="rect" id="node3" href="$a01133.html#abbc9695c3864361824bcb4f7f263bd11" title="check for transaction support. " alt="" coords="468,5,591,47"/>
+<area shape="rect" id="node4" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="470,71,589,112"/>
+<area shape="rect" id="node5" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="439,136,620,177"/>
+<area shape="rect" id="node8" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="460,201,599,243"/>
+</map>

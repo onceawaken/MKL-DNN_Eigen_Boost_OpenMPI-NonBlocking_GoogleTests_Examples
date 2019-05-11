@@ -1,0 +1,5 @@
+<map id="tbb::recursive_mutex::recursive_mutex" name="tbb::recursive_mutex::recursive_mutex">
+<area shape="rect" id="node2" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="389,5,525,47"/>
+<area shape="rect" id="node4" href="$a00647.html#ae103887a90d3ef3b96fbc36bca5b14dc" title="All checks from mutex constructor using mutex.state were moved here. " alt="" coords="197,35,341,76"/>
+<area shape="rect" id="node3" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="573,5,709,47"/>
+</map>

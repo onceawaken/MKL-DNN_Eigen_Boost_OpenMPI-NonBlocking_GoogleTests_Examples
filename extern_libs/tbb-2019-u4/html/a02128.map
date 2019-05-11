@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::composite_node&lt; tbb::flow::tuple&lt; InputTypes... &gt;, tbb::flow::tuple&lt; OutputTypes... &gt; &gt;" name="tbb::flow::interface10::composite_node&lt; tbb::flow::tuple&lt; InputTypes... &gt;, tbb::flow::tuple&lt; OutputTypes... &gt; &gt;">
+<area shape="rect" id="node2" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="59,271,203,421"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="57,131,204,223"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="52,5,209,83"/>
+</map>

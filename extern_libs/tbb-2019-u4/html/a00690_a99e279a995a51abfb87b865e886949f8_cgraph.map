@@ -1,0 +1,7 @@
+<map id="tbb::spin_rw_mutex_v3::scoped_lock::release" name="tbb::spin_rw_mutex_v3::scoped_lock::release">
+<area shape="rect" id="node2" href="$a01089.html#a5f6b1490b38bfa1bdef7400be89e1aeb" title="__TBB_AtomicAND" alt="" coords="419,48,557,75"/>
+<area shape="rect" id="node5" href="$a00722.html#ab11616f92185e70c8c1b2786d0a2056c" title="Internal release read lock. " alt="" coords="228,26,371,82"/>
+<area shape="rect" id="node6" href="$a00722.html#adbb7d21e6b8ffbb380ddda0b4a43323d" title="Out of line code for releasing a write lock. " alt="" coords="228,106,371,162"/>
+<area shape="rect" id="node3" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="605,41,743,82"/>
+<area shape="rect" id="node4" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="791,48,897,75"/>
+</map>

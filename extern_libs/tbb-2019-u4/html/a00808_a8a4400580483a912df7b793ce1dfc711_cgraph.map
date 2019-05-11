@@ -1,0 +1,4 @@
+<map id="tbb::internal::tbb_thread_v3::hardware_concurrency" name="tbb::internal::tbb_thread_v3::hardware_concurrency">
+<area shape="rect" id="node2" href="$a00307.html#a87ef607c22c347eb97ddafa4384b4f1d" title="tbb::internal::governor\l::default_num_threads" alt="" coords="200,13,351,54"/>
+<area shape="rect" id="node3" href="$a01133.html#a5f583dafcd8d7ffeb10905c4eb509cd9" title="Returns maximal parallelism level supported by the current OS configuration. " alt="" coords="399,13,549,54"/>
+</map>

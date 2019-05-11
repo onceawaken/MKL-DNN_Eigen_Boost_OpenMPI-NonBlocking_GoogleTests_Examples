@@ -1,0 +1,5 @@
+<map id="tbb::internal::critical_section_v4::scoped_lock" name="tbb::internal::critical_section_v4::scoped_lock">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,132,157,224"/>
+<area shape="rect" id="node4" href="$a00193.html" title="{tbb::internal::critical\l_section_v4\n|+ is_rw_mutex\l+ is_recursive_mutex\l+ is_fair_mutex\l&#45; my_impl\l&#45; my_tid\l|+ internal_construct()\l+ critical_section_v4()\l+ ~critical_section_v4()\l+ lock()\l+ try_lock()\l+ unlock()\l}" alt="" coords="106,273,265,497"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,5,163,83"/>
+</map>

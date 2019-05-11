@@ -1,0 +1,9 @@
+<map id="tbb::internal::generic_scheduler::commit_relocated_tasks" name="tbb::internal::generic_scheduler::commit_relocated_tasks">
+<area shape="rect" id="node2" href="$a00302.html#a0460616fb84af745b12688927ff1bb7d" title="Makes sure that the task pool can accommodate at least n more elements. " alt="" coords="288,118,487,159"/>
+<area shape="rect" id="node3" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="535,85,700,126"/>
+<area shape="rect" id="node8" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="546,150,689,191"/>
+<area shape="rect" id="node4" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="748,5,913,61"/>
+<area shape="rect" id="node6" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="761,85,901,126"/>
+<area shape="rect" id="node7" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="757,150,904,191"/>
+<area shape="rect" id="node5" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="961,5,1121,61"/>
+</map>

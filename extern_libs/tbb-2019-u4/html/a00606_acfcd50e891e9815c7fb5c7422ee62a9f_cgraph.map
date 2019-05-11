@@ -1,0 +1,5 @@
+<map id="tbb::internal::rml::private_worker::run" name="tbb::internal::rml::private_worker::run">
+<area shape="rect" id="node2" href="$a00605.html#a23bccadb141031d3e12b0c3c99838798" title="Wake up to two sleeping workers, if there are any sleeping. " alt="" coords="195,5,372,61"/>
+<area shape="rect" id="node3" href="$a00605.html#af8d1c910ec7d64b8fc93b03bdc23ef64" title="tbb::internal::rml\l::private_server::remove\l_server_ref" alt="" coords="202,85,365,141"/>
+<area shape="rect" id="node4" href="$a00605.html#a65bd5075630d2f9cce6f71fc3c922e46" title="Try to add t to list of sleeping workers. " alt="" coords="210,165,357,221"/>
+</map>

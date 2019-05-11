@@ -1,0 +1,7 @@
+<map id="internal::matching_forwarding_base&lt; KeyType &gt;" name="internal::matching_forwarding_base&lt; KeyType &gt;">
+<area shape="rect" id="node4" href="$a00435.html" title="{internal::join_node\l_FE\&lt; key_matching\&lt; K,\l KHash \&gt;, InputTuple,\l OutputTuple \&gt;\n|+ N\l# my_inputs\l# my_node\l&#45; my_aggregator\l|+ join_node_FE()\l+ join_node_FE()\l+ set_my_node()\l+ reset_port_count()\l+ increment_key_count()\l+ decrement_port_count()\l+ increment_port_count()\l+ input_ports()\l# reset()\l# tuple_build_may_succeed()\l# try_to_make_tuple()\l# tuple_accepted()\l# tuple_rejected()\l&#45; fill_output_buffer()\l&#45; handle_operations()\l}" alt="" coords="5,472,196,843"/>
+<area shape="rect" id="node5" href="$a00491.html" title="{internal::matching\l_forwarding_base\&lt; key\l_type \&gt;\n|+ current_key\l|+ matching_forwarding_base()\l+ increment_key_count()\l}" alt="" coords="221,597,418,718"/>
+<area shape="rect" id="node6" href="$a00491.html" title="{internal::matching\l_forwarding_base\&lt; K \&gt;\n|+ current_key\l|+ matching_forwarding_base()\l+ increment_key_count()\l}" alt="" coords="442,604,639,711"/>
+<area shape="rect" id="node2" href="$a00276.html" title="{internal::forwarding_base\n|+ graph_ref\l|+ forwarding_base()\l+ ~forwarding_base()\l+ decrement_port_count()\l+ increment_port_count()\l}" alt="" coords="234,132,405,253"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="241,5,398,83"/>
+</map>

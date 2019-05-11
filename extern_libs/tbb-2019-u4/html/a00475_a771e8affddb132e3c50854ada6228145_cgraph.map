@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::limiter_node::limiter_node" name="tbb::flow::interface10::limiter_node::limiter_node">
+<area shape="rect" id="node2" href="$a01133.html#add6364f423d0e143ea37d68c6fda28f7" title="tbb::internal::fgt_node" alt="" coords="234,5,382,32"/>
+<area shape="rect" id="node3" href="$a00601.html#a3d2e8dc0ddfe93e46c1c6ff39d079cdd" title="tbb::flow::interface10\l::internal::predecessor\l_cache::set_owner" alt="" coords="233,56,383,112"/>
+<area shape="rect" id="node4" href="$a00767.html#a08f2adc0074647d0eff047c4e3a9432a" title="tbb::flow::interface10\l::internal::successor\l_cache::set_owner" alt="" coords="236,136,380,192"/>
+<area shape="rect" id="node5" href="$a00195.html#a8f20ab59d0c5a54ade513373bbec8e82" title="tbb::flow::interface10\l::internal::decrementer\l::set_owner" alt="" coords="232,216,384,272"/>
+</map>

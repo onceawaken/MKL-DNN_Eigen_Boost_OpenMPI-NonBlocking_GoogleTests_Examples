@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::internal::reservable_item_buffer&lt; T, A &gt;" name="tbb::flow::interface10::internal::reservable_item_buffer&lt; T, A &gt;">
+<area shape="rect" id="node2" href="$a00413.html" title="{tbb::flow::interface10\l::internal::item_buffer\l\&lt; T, A \&gt;\n||+ item_buffer()\l+ ~item_buffer()\l+ reset()\l# buffer_empty()\l# item()\l# item()\l# my_item_valid()\l# my_item_reserved()\l# get_my_item()\l# set_my_item()\l# fetch_item()\l# move_item()\l# place_item()\land 16 more...\l}" alt="" coords="75,248,223,545"/>
+<area shape="rect" id="node3" href="$a00837.html" title="type mimicking std::pair but with trailing fill to ensure each element of an array ..." alt="" coords="5,5,161,141"/>
+</map>

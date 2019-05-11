@@ -1,0 +1,3 @@
+<map id="tbb::flow::interface10::opencl_buffer_impl&lt; Factory &gt;" name="tbb::flow::interface10::opencl_buffer_impl&lt; Factory &gt;">
+<area shape="rect" id="node2" href="$a00539.html" title="{tbb::flow::interface10\l::opencl_memory\&lt; Factory \&gt;\n|# my_cl_mem\l# my_curr_device_id\l# my_host_ptr\l# my_factory\l# my_sending_lock\l# my_sending_event_present\l# my_sending_event\l|+ opencl_memory()\l+ opencl_memory()\l+ ~opencl_memory()\l+ get_cl_mem()\l+ get_host_ptr()\l+ factory()\l+ receive()\l+ send()\l+ map_memory()\l}" alt="" coords="5,5,197,303"/>
+</map>

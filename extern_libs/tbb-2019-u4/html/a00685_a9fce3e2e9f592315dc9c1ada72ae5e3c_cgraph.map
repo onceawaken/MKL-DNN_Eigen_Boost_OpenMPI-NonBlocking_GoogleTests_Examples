@@ -1,0 +1,8 @@
+<map id="tbb::mutex::scoped_lock::acquire" name="tbb::mutex::scoped_lock::acquire">
+<area shape="rect" id="node2" href="$a00685.html#a31b8d5bff4c45788a91d03cdf5443df2" title="All checks from acquire using mutex.state were moved here. " alt="" coords="188,8,340,49"/>
+<area shape="rect" id="node5" href="$a00511.html#a95ff02ee699b34696001db4003c11a3a" title="Acquire lock. " alt="" coords="206,77,322,103"/>
+<area shape="rect" id="node3" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="388,5,524,47"/>
+<area shape="rect" id="node4" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="572,5,708,47"/>
+<area shape="rect" id="node6" href="$a00042.html#aefcd343548f92c6e738febedf1d75f74" title="Pointer to beginning of array. " alt="" coords="391,71,521,112"/>
+<area shape="rect" id="node7" href="$a00685.html#a23122745ccd5fc2498fcbbd5ced09e06" title="Construct lock that has not acquired a mutex. " alt="" coords="389,136,523,177"/>
+</map>

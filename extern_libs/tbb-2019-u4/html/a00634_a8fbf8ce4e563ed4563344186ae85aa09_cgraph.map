@@ -1,0 +1,9 @@
+<map id="tbb::interface5::reader_writer_lock::start_read" name="tbb::interface5::reader_writer_lock::start_read">
+<area shape="rect" id="node2" href="$a01123.html#abb0654dc2e57471186987b2b045bda85" title="tbb::interface5::fetch\l_and_or" alt="" coords="215,61,358,103"/>
+<area shape="rect" id="node6" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="437,123,559,164"/>
+<area shape="rect" id="node7" href="$a00634.html#a6943ca1c074acf45db8d71d2e90ac4d1" title="Unblocks pending readers. " alt="" coords="212,178,361,234"/>
+<area shape="rect" id="node3" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="409,5,587,47"/>
+<area shape="rect" id="node4" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="635,123,772,164"/>
+<area shape="rect" id="node5" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="820,130,927,157"/>
+<area shape="rect" id="node8" href="$a01089.html#a4c867c719a6d9d6df0501968642dacb2" title="__TBB_AtomicOR" alt="" coords="433,190,563,217"/>
+</map>

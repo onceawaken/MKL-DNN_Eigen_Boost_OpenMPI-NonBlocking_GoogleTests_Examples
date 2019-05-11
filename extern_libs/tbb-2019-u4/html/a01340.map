@@ -1,0 +1,10 @@
+<map id="pipeline.h" name="pipeline.h">
+<area shape="rect" id="node2" href="$a00965.html" title="atomic.h" alt="" coords="43,229,115,256"/>
+<area shape="rect" id="node9" href="$a01073.html" title="task.h" alt="" coords="299,80,357,107"/>
+<area shape="rect" id="node13" href="$a01082.html" title="tbb_allocator.h" alt="" coords="416,304,523,331"/>
+<area shape="rect" id="node4" href="$a01089.html" title="tbb_machine.h" alt="" coords="235,304,341,331"/>
+<area shape="rect" id="node5" href="$a01098.html" title="tbb_stddef.h" alt="" coords="273,379,367,405"/>
+<area shape="rect" id="node6" href="$a01085.html" title="tbb_config.h" alt="" coords="169,453,263,480"/>
+<area shape="rect" id="node10" href="$a01095.html" title="tbb_profiling.h" alt="" coords="163,155,266,181"/>
+<area shape="rect" id="node11" href="$a00955.html" title="internal/_tbb_strings.h" alt="" coords="139,229,290,256"/>
+</map>

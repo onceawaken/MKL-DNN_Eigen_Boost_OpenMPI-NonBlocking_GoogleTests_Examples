@@ -1,0 +1,4 @@
+<map id="tbb::internal::thread_closure_base::operator delete" name="tbb::internal::thread_closure_base::operator delete">
+<area shape="rect" id="node2" href="$a01133.html#a1a803fb20d0d24abe173dad9b506d37d" title="Free a closure allocated by allocate_closure_v3. " alt="" coords="215,13,335,54"/>
+<area shape="rect" id="node3" href="$a01133.html#a09c594367453cbf1ac040fc9ff8396da" title="Deallocates memory using FreeHandler. " alt="" coords="383,13,540,54"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbb::internal::concurrent_queue_base_v3::assign_and_destroy_item" name="tbb::internal::concurrent_queue_base_v3::assign_and_destroy_item">
+<area shape="rect" id="node2" href="$a00497.html#acf53d0cdfd439273c8d3d52b860abe3f" title="tbb::internal::micro\l_queue::pop" alt="" coords="220,41,351,83"/>
+<area shape="rect" id="node3" href="$a00149.html#a0d5fe3f37435ae1f0d0a5a573a550421" title="Dequeue item from head of queue. " alt="" coords="399,5,597,47"/>
+<area shape="rect" id="node4" href="$a00149.html#a6b7ed855290275a38243a63091ce4fc7" title="Attempt to dequeue item from queue. " alt="" coords="413,70,583,126"/>
+</map>

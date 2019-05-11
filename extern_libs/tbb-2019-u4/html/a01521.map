@@ -1,0 +1,7 @@
+<map id="internal::broadcast_cache&lt; T, M &gt;" name="internal::broadcast_cache&lt; T, M &gt;">
+<area shape="rect" id="node5" href="$a00112.html" title="{internal::broadcast\l_cache\&lt; output_type,\l null_rw_mutex \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="5,731,153,852"/>
+<area shape="rect" id="node6" href="$a00112.html" title="{internal::broadcast\l_cache\&lt; output_type \&gt;\n||+ broadcast_cache()\l+ try_put_task()\l}" alt="" coords="177,738,333,845"/>
+<area shape="rect" id="node2" href="$a00768.html" title="An abstract cache of successors. " alt="" coords="91,273,243,497"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="94,132,241,224"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="89,5,246,83"/>
+</map>

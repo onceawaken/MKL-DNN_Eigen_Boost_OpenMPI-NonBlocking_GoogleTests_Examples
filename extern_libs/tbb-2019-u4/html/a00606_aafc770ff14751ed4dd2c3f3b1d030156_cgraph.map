@@ -1,0 +1,7 @@
+<map id="tbb::internal::rml::private_worker::wake_or_launch" name="tbb::internal::rml::private_worker::wake_or_launch">
+<area shape="rect" id="node2" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="218,5,395,47"/>
+<area shape="rect" id="node3" href="$a00307.html#a43c19dfa41213a92de3da1d0841cbf5a" title="tbb::internal::governor\l::does_client_join_workers" alt="" coords="219,71,395,112"/>
+<area shape="rect" id="node4" href="$a00028.html#a11acc19303b90ef5c4ee72c4a536ad98" title="tbb::internal::affinity\l_helper::protect_affinity_mask" alt="" coords="208,136,405,177"/>
+<area shape="rect" id="node5" href="$a00606.html#a6e4301e948ea0fe1b57b4f5f3ec9375a" title="tbb::internal::rml\l::private_worker::release\l_handle" alt="" coords="224,201,389,257"/>
+<area shape="rect" id="node6" href="$a00606.html#a70d97a45a6aa80d21f193f1aabe631a0" title="tbb::internal::rml\l::private_worker::thread\l_routine" alt="" coords="227,281,386,337"/>
+</map>

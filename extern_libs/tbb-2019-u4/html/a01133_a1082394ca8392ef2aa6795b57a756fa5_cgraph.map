@@ -1,0 +1,7 @@
+<map id="tbb::internal::atomic_do_once" name="tbb::internal::atomic_do_once">
+<area shape="rect" id="node2" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="191,5,368,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a4c2293788c0e215e6f6f44ea162b3bc7" title="tbb::internal::run\l_initializer" alt="" coords="221,71,337,112"/>
+<area shape="rect" id="node4" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="218,136,341,177"/>
+<area shape="rect" id="node5" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="416,136,553,177"/>
+<area shape="rect" id="node6" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="601,143,708,170"/>
+</map>

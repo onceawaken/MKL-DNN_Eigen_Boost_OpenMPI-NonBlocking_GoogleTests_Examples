@@ -1,0 +1,10 @@
+<map id="tbb::strict_ppl::internal::micro_queue::push" name="tbb::strict_ppl::internal::micro_queue::push">
+<area shape="rect" id="node2" href="$a00157.html#a550d6fde91f16ca7cf1a02d2391655a0" title="tbb::strict_ppl::internal\l::concurrent_queue_page\l_allocator::allocate_page" alt="" coords="204,5,372,61"/>
+<area shape="rect" id="node3" href="$a01133.html#ae998b9627068b137cb2047f9979fc9c1" title="tbb::internal::call\l_itt_notify" alt="" coords="229,85,347,126"/>
+<area shape="rect" id="node4" href="$a01142.html#a7c1f291b58668d6c1227cb00d527aaeb" title="tbb::strict_ppl::internal\l::is_valid_page" alt="" coords="213,150,363,191"/>
+<area shape="rect" id="node5" href="$a01133.html#a8fc0aa75d9aa4fe4948e1577ca0ab1ec" title="tbb::internal::itt\l_hide_store_word" alt="" coords="226,215,350,257"/>
+<area shape="rect" id="node8" href="$a01133.html#ae4046a97e0542e3bb86bf9c54b0861e2" title="A function to compute arg modulo divisor where divisor is a power of 2. " alt="" coords="218,282,358,323"/>
+<area shape="rect" id="node6" href="$a01133.html#aca67a648bfa612f17afbe381b8f84720" title="tbb::internal::itt\l_store_pointer_with\l_release_v3" alt="" coords="428,205,563,261"/>
+<area shape="rect" id="node7" href="$a01133.html#aea57866db2fc3fe1018c89b58109b39a" title="tbb::internal::__TBB\l_store_with_release" alt="" coords="619,213,757,254"/>
+<area shape="rect" id="node9" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="420,285,571,326"/>
+</map>

@@ -1,0 +1,125 @@
+<map id="tbb::internal::market::policy" name="tbb::internal::market::policy">
+<area shape="rect" id="node2" href="$a00489.html#abc37f18193cd93d6b5c54acef4feec17" title="tbb::internal::market\l::acknowledge_close_connection" alt="" coords="192,1048,407,1089"/>
+<area shape="rect" id="node36" href="$a00489.html#a2147b4639190ad49551f617784dc012b" title="Request that arena&#39;s need in workers should be adjusted. " alt="" coords="477,3048,616,3089"/>
+<area shape="rect" id="node55" href="$a00489.html#a32eca56b49c13d239a2869c33c4a17b0" title="tbb::internal::market\l::cleanup" alt="" coords="230,1660,369,1701"/>
+<area shape="rect" id="node70" href="$a00489.html#aa73a40282b782676f30f27dcde0ea967" title="Creates an arena object. " alt="" coords="477,1205,616,1247"/>
+<area shape="rect" id="node95" href="$a00489.html#a76b1783a39252c34da34d0cebfe101b5" title="Decrements market&#39;s refcount and destroys it in the end. " alt="" coords="1436,2035,1575,2076"/>
+<area shape="rect" id="node96" href="$a00489.html#ae5f4653c1ea43b7011f9099348849467" title="tbb::internal::market\l::create_one_job" alt="" coords="230,2489,369,2531"/>
+<area shape="rect" id="node108" href="$a00489.html#a5bd937cbff57f636998e1ef4466469e4" title="Removes the arena from the market&#39;s list. " alt="" coords="707,2675,845,2716"/>
+<area shape="rect" id="node109" href="$a00489.html#a574c6275a73f185d391151478e4a7634" title="tbb::internal::market\l::process" alt="" coords="707,3623,845,3664"/>
+<area shape="rect" id="node123" href="$a00489.html#a798355f9d896223c97ac403c879987be" title="Removes the arena from the market&#39;s list. " alt="" coords="477,2813,616,2855"/>
+<area shape="rect" id="node3" href="$a00489.html#a5ca285e2d383ecaf3ff0460b30a3551e" title="Destroys and deallocates market object created by market::create() " alt="" coords="707,661,845,703"/>
+<area shape="rect" id="node4" href="$a01147.html#ga7814c9ccc02b8fe5f712fb6fd8a2b607" title="Free memory allocated by NFS_Allocate. " alt="" coords="1426,1567,1585,1594"/>
+<area shape="rect" id="node5" href="$a00019.html#a78b2b1b7265cdedc9ea3689fff04ac35" title="Remove reference to resources. If last reference removed, release the resources. " alt="" coords="923,392,1074,433"/>
+<area shape="rect" id="node33" href="$a01133.html#a0ddf43033695d442c64c4a44f6d6c211" title="Report a runtime warning. " alt="" coords="1435,743,1576,784"/>
+<area shape="rect" id="node6" href="$a01158.html#ga353ab13a4b9325ded923c1c951f6f849" title="Create a string handle. Create and return handle value that can be associated with a string..." alt="" coords="1182,293,1313,335"/>
+<area shape="rect" id="node7" href="$a01133.html#a2b4ad2321a003fdcedfac9784ce9a2be" title="tbb::internal::__TBB\l_load_ittnotify" alt="" coords="1178,359,1317,400"/>
+<area shape="rect" id="node8" href="$a01133.html#a408cda99f26f50b451ac562e96a4d760" title="Defined in cache_aligned_allocator.cpp. " alt="" coords="1163,163,1331,204"/>
+<area shape="rect" id="node21" href="$a00019.html#a49dd7a4f24e456e32c17d6f179b1afa4" title="tbb::internal::__TBB\l_InitOnce::lock" alt="" coords="1178,672,1317,713"/>
+<area shape="rect" id="node25" href="$a00307.html#a1534625d2863ecea71a35972aee09c6f" title="Destroy the thread&#45;local storage key and deinitialize RML. " alt="" coords="1173,555,1321,596"/>
+<area shape="rect" id="node34" href="$a01133.html#a79eac24a14b74800f56ac9321d7e95a6" title="Defined in scheduler.cpp. " alt="" coords="1169,424,1325,465"/>
+<area shape="rect" id="node35" href="$a00019.html#a75be47587acf7b182b90c2d692dd0646" title="tbb::internal::__TBB\l_InitOnce::unlock" alt="" coords="1178,228,1317,269"/>
+<area shape="rect" id="node9" href="$a01133.html#a1082394ca8392ef2aa6795b57a756fa5" title="One&#45;time initialization function. " alt="" coords="1437,97,1574,139"/>
+<area shape="rect" id="node15" href="$a01133.html#ad81b5f8ef24a819263e662348983fb5d" title="Initialize the allocation/free handler pointers. " alt="" coords="1433,283,1578,324"/>
+<area shape="rect" id="node10" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="1651,71,1828,112"/>
+<area shape="rect" id="node11" href="$a01133.html#a4c2293788c0e215e6f6f44ea162b3bc7" title="tbb::internal::run\l_initializer" alt="" coords="1681,5,1797,47"/>
+<area shape="rect" id="node12" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="1678,136,1801,177"/>
+<area shape="rect" id="node13" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="1901,1933,2038,1975"/>
+<area shape="rect" id="node14" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="2108,1941,2215,1967"/>
+<area shape="rect" id="node16" href="$a01133.html#a017b2dc8729e0abacdcb39735b376b5e" title="Dummy routine used for first indirect call via MallocHandler. " alt="" coords="1648,202,1831,229"/>
+<area shape="rect" id="node17" href="$a00992.html#aca8bbbbc28690d986ae2636bae2754f7" title="dynamic_link" alt="" coords="1690,437,1789,463"/>
+<area shape="rect" id="node18" href="$a01133.html#a53b20002ba2abdc3326f3741a8608f22" title="tbb::internal::padded\l_allocate" alt="" coords="1669,253,1809,295"/>
+<area shape="rect" id="node19" href="$a01133.html#ad794dd567905ec5005396fec4e96cf6a" title="tbb::internal::padded_free" alt="" coords="1655,319,1824,346"/>
+<area shape="rect" id="node20" href="$a01133.html#a89891ef24359a1304be463a41071684c" title="Prints arbitrary extra TBB version information on stderr. " alt="" coords="1661,371,1817,412"/>
+<area shape="rect" id="node22" href="$a01089.html#aa570e2316a90880cbbc36586e6463534" title="__TBB_LockByte" alt="" coords="1443,1831,1567,1858"/>
+<area shape="rect" id="node23" href="$a01089.html#ad95ec7e5b7103614f039c4019bf3b3f6" title="__TBB_TryLockByte" alt="" coords="1668,1831,1811,1858"/>
+<area shape="rect" id="node24" href="$a01107.html#a1ba16e606202cdec1e611e5c0df2b9f6" title="__TBB_machine_cmpswp1" alt="" coords="1879,1831,2060,1858"/>
+<area shape="rect" id="node26" href="$a01133.html#a609698c4765948334772520edc6fc688" title="tbb::internal::destroy\l_process_mask" alt="" coords="1435,612,1576,653"/>
+<area shape="rect" id="node30" href="$a00992.html#ad65fa8b542fd95d199ca5e87ab2885df" title="dynamic_unlink_all" alt="" coords="1439,561,1571,587"/>
+<area shape="rect" id="node31" href="$a00019.html#a3d6e09b5b23edf10600c2ae2e6469659" title="tbb::internal::__TBB\l_InitOnce::initialization_done" alt="" coords="1411,677,1600,719"/>
+<area shape="rect" id="node27" href="$a01133.html#abbc9695c3864361824bcb4f7f263bd11" title="check for transaction support. " alt="" coords="1678,711,1801,752"/>
+<area shape="rect" id="node28" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="1680,549,1799,591"/>
+<area shape="rect" id="node29" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="1649,615,1830,656"/>
+<area shape="rect" id="node32" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="1670,2035,1809,2076"/>
+<area shape="rect" id="node37" href="$a00489.html#a2b45debebee21fca1aa3dafb61435736" title="tbb::internal::market\l::assert_market_valid" alt="" coords="703,2843,849,2884"/>
+<area shape="rect" id="node46" href="$a00307.html#a1ee92969cca6e52c74ce6534bca69cb7" title="tbb::internal::governor\l::local_scheduler_if_initialized" alt="" coords="1150,2253,1345,2295"/>
+<area shape="rect" id="node48" href="$a00489.html#af3e43d97626c3beff0b708c8089984fd" title="Recalculates the number of workers assigned to each arena in the list. " alt="" coords="1436,3135,1575,3176"/>
+<area shape="rect" id="node51" href="$a00722.html#a51e207646300a4c242bb4aaa4e04e9b8" title="Acquire writer lock. " alt="" coords="708,2960,844,3001"/>
+<area shape="rect" id="node52" href="$a01133.html#a9c086de4bb6ce45fe69a8fb911e5ebea" title="Utility template function returning lesser of the two values. " alt="" coords="1446,3041,1565,3067"/>
+<area shape="rect" id="node53" href="$a00722.html#ab04321ed2cdf12ac5825c54591028fc0" title="Release lock. " alt="" coords="708,3077,844,3119"/>
+<area shape="rect" id="node38" href="$a00489.html#a3d741deee21180bed8e2bcebe3acce72" title="Returns next arena that needs more workers, or NULL. " alt="" coords="1178,3244,1317,3285"/>
+<area shape="rect" id="node39" href="$a00489.html#a829b50e27820a2ecb57067b0d8147422" title="tbb::internal::market\l::insert_arena_into_list" alt="" coords="922,2523,1075,2564"/>
+<area shape="rect" id="node43" href="$a00489.html#ab5309747cd8e8e7e094b4417a8a28b76" title="tbb::internal::market\l::is_arena_in_list" alt="" coords="929,2873,1068,2915"/>
+<area shape="rect" id="node49" href="$a00489.html#a9f3b90e1f82aff92b8493b78a909d434" title="tbb::internal::market\l::remove_arena_from_list" alt="" coords="914,2808,1083,2849"/>
+<area shape="rect" id="node40" href="$a00391.html#a27a1cf03b6f163c2835d861fc6519aba" title="tbb::internal::intrusive\l_list_base::begin" alt="" coords="1432,2663,1579,2704"/>
+<area shape="rect" id="node41" href="$a00391.html#ae828e0c3fb139491fd633152cbf6140a" title="tbb::internal::intrusive\l_list_base::push_front" alt="" coords="1172,2371,1323,2412"/>
+<area shape="rect" id="node42" href="$a00391.html#ac2298ce9ef9abdf95580d62a9e35e3ab" title="tbb::internal::intrusive\l_list_base::size" alt="" coords="1174,2539,1321,2580"/>
+<area shape="rect" id="node44" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="1168,2151,1327,2178"/>
+<area shape="rect" id="node45" href="$a00391.html#a61fa0658a500c11ff2cdf4c294c33e97" title="tbb::internal::intrusive\l_list_base::end" alt="" coords="1432,2957,1579,2999"/>
+<area shape="rect" id="node47" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="1441,2253,1570,2295"/>
+<area shape="rect" id="node50" href="$a00391.html#a578b02d9d632a423471e3574edf8c315" title="tbb::internal::intrusive\l_list_base::remove" alt="" coords="1174,2823,1321,2864"/>
+<area shape="rect" id="node54" href="$a01089.html#a5f6b1490b38bfa1bdef7400be89e1aeb" title="__TBB_AtomicAND" alt="" coords="1670,2879,1809,2906"/>
+<area shape="rect" id="node56" href="$a00307.html#abe1de8df4e3ecce96763951ac97540c6" title="Temporarily set TLS slot to the given scheduler. " alt="" coords="473,1660,621,1701"/>
+<area shape="rect" id="node57" href="$a00302.html#ae6a0b659589202963562cbdb23465807" title="Perform necessary cleanup when a worker thread finishes. " alt="" coords="455,1543,639,1584"/>
+<area shape="rect" id="node69" href="$a00302.html#a4451a0cd678c9d7f37c80d581e3d4b14" title="True if running on a worker thread, false otherwise. " alt="" coords="924,1853,1073,1895"/>
+<area shape="rect" id="node58" href="$a00302.html#a66e6dd672693eb34cd6fd46ed7a7c6a6" title="Destroy and deallocate this scheduler object. " alt="" coords="687,1543,865,1584"/>
+<area shape="rect" id="node59" href="$a00302.html#ad965858a5e7cb5574926d8d1692063b5" title="Return task object to the memory allocator. " alt="" coords="1155,1619,1339,1660"/>
+<area shape="rect" id="node61" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="1449,2202,1562,2229"/>
+<area shape="rect" id="node64" href="$a00302.html#a720c816c0253fe199e4583cd24090e9b" title="Free a small task t that that was allocated by a different scheduler. " alt="" coords="913,1503,1084,1559"/>
+<area shape="rect" id="node65" href="$a00302.html#abb580929e3e34d6da1728e6fee8b6979" title="Special value used to mark my_return_list as not taking any more entries. " alt="" coords="1146,1451,1349,1492"/>
+<area shape="rect" id="node67" href="$a00307.html#a46a6d847486220d3eab529c78bd883ed" title="Unregister TBB scheduler instance from thread&#45;local storage. " alt="" coords="925,1736,1073,1777"/>
+<area shape="rect" id="node60" href="$a01133.html#a58dafd43fac118e984cc4f19f3901609" title="tbb::internal::poison\l_pointer" alt="" coords="1437,1619,1573,1660"/>
+<area shape="rect" id="node62" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="1663,2173,1816,2199"/>
+<area shape="rect" id="node63" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="1674,2224,1805,2265"/>
+<area shape="rect" id="node66" href="$a00778.html#a22ef8282e09458a46131843219cb71e5" title="Current execution state. " alt="" coords="1192,1517,1303,1543"/>
+<area shape="rect" id="node68" href="$a01133.html#a581e1f46904317517a36dc7215ecac8c" title="Utility template function to prevent &quot;unused&quot; warnings by various compilers. " alt="" coords="1172,1736,1323,1777"/>
+<area shape="rect" id="node71" href="$a00059.html#ae5533478491359efadd0646328b51f07" title="Allocate an instance of arena. " alt="" coords="711,832,841,873"/>
+<area shape="rect" id="node79" href="$a00489.html#a08ccaf89d501a9e56912eb5bd624066f" title="Factory method creating new market object. " alt="" coords="707,1125,845,1167"/>
+<area shape="rect" id="node72" href="$a01147.html#ga4844e4d5f62a0843af83cf534f908ddf" title="Allocate memory on cache/sector line boundary. " alt="" coords="936,832,1061,873"/>
+<area shape="rect" id="node78" href="$a01147.html#ga9694b519576433b7ce9af226bfc7c422" title="Cache/sector line size. " alt="" coords="936,767,1061,808"/>
+<area shape="rect" id="node73" href="$a01133.html#a90dc6f41bbea1ea94df0f0c776e246a3" title="A function to check if passed in pointer is aligned on a specific border. " alt="" coords="1169,855,1325,882"/>
+<area shape="rect" id="node74" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="1172,789,1323,831"/>
+<area shape="rect" id="node75" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="1182,489,1313,531"/>
+<area shape="rect" id="node76" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="1440,492,1571,533"/>
+<area shape="rect" id="node77" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="1653,498,1825,525"/>
+<area shape="rect" id="node80" href="$a00019.html#aeb552d69cd0db07e0ec3526c22e8899a" title="Add reference to resources. If first reference added, acquire the resources. " alt="" coords="929,949,1068,991"/>
+<area shape="rect" id="node84" href="$a00489.html#a857327e374da8c7bb5c4b529aca05405" title="Reports active parallelism level according to user&#39;s settings. " alt="" coords="1172,1283,1323,1324"/>
+<area shape="rect" id="node86" href="$a01133.html#aa59c19a68c963626ba810d72317f0d18" title="tbb::internal::calc\l_workers_soft_limit" alt="" coords="931,1067,1066,1108"/>
+<area shape="rect" id="node87" href="$a00307.html#a87ef607c22c347eb97ddafa4384b4f1d" title="tbb::internal::governor\l::default_num_threads" alt="" coords="1172,1037,1323,1079"/>
+<area shape="rect" id="node89" href="$a01133.html#a80df3dc4f925e066864ab01691add3b0" title="Utility template function returning greater of the two values. " alt="" coords="1186,1133,1309,1159"/>
+<area shape="rect" id="node90" href="$a00489.html#acdbf87ad0efe5f3e224d88ecb2536e93" title="Constructor. " alt="" coords="929,1184,1068,1225"/>
+<area shape="rect" id="node94" href="$a00489.html#a50bb92619e74a81b3f8552ccca139c9f" title="Set number of active workers. " alt="" coords="1160,2035,1335,2076"/>
+<area shape="rect" id="node81" href="$a00307.html#a70cfd4f010baf396e4cc09a3021b4c19" title="Create key for thread&#45;local storage and initialize RML. " alt="" coords="1431,808,1579,849"/>
+<area shape="rect" id="node82" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="1671,808,1807,849"/>
+<area shape="rect" id="node83" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="1901,808,2037,849"/>
+<area shape="rect" id="node85" href="$a00056.html#a0addd7e87e390f82f623b1f5149672b4" title="tbb::internal::allowed\l_parallelism_control::\lactive_value_if_present" alt="" coords="1426,1275,1585,1331"/>
+<area shape="rect" id="node88" href="$a01133.html#a5f583dafcd8d7ffeb10905c4eb509cd9" title="Returns maximal parallelism level supported by the current OS configuration. " alt="" coords="1430,1037,1581,1079"/>
+<area shape="rect" id="node91" href="$a00307.html#aec70bdc2a20ee8377a1676dd3b4c843b" title="tbb::internal::governor\l::create_rml_server" alt="" coords="1173,1184,1321,1225"/>
+<area shape="rect" id="node92" href="$a01138.html#a8ef19f713537ac8030e4de4a1a3fdf26" title="Factory method called from task.cpp to create a private_server. " alt="" coords="1430,1184,1581,1225"/>
+<area shape="rect" id="node93" href="$a00605.html#a941f2e582957e03d164a9a3c81e77fa2" title="tbb::internal::rml\l::private_server::private\l_server" alt="" coords="1660,1177,1819,1233"/>
+<area shape="rect" id="node97" href="$a00302.html#aec1108924834fb3c3e1bc0d2142bccb0" title="Initialize a scheduler for a worker thread. " alt="" coords="459,2355,634,2396"/>
+<area shape="rect" id="node98" href="$a01133.html#a3e204e2995d502361e18169ed3e14892" title="tbb::internal::allocate\l_scheduler" alt="" coords="705,2289,847,2331"/>
+<area shape="rect" id="node99" href="$a00302.html#afd799eae7903abc75b7a7aafd36e20db" title="Sets up the data necessary for the stealing limiting heuristics. " alt="" coords="687,2172,865,2213"/>
+<area shape="rect" id="node107" href="$a00307.html#ab6b7ba04ea2b541819b659219fc42ae7" title="Register TBB scheduler instance in thread&#45;local storage. " alt="" coords="702,2355,850,2396"/>
+<area shape="rect" id="node100" href="$a01020.html#aeedc3ebf2bee4ce8767bfca043d5ac94" title="Retrieves the current RSE backing store pointer. IA64 specific. " alt="" coords="941,2218,1056,2245"/>
+<area shape="rect" id="node101" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="1436,3309,1575,3351"/>
+<area shape="rect" id="node102" href="$a00679.html#a7c702117f08ae82d034a98b3d5510ffc" title="Acquire lock. " alt="" coords="916,1984,1081,2025"/>
+<area shape="rect" id="node104" href="$a01113.html#a33e73b97b02726c692bd8d9da8e3fb1b" title="Sequentially consistent full memory fence. " alt="" coords="935,2269,1062,2295"/>
+<area shape="rect" id="node105" href="$a01133.html#a9006317b947d3f9f7a457e295e5b8330" title="Spin UNTIL the value of the variable is equal to a given value. " alt="" coords="937,2152,1060,2193"/>
+<area shape="rect" id="node106" href="$a00489.html#ac6ecbe31da77180a3ce42b7b3c46fc18" title="Returns the requested stack size of worker threads. " alt="" coords="929,1919,1068,1960"/>
+<area shape="rect" id="node103" href="$a00679.html#a56eb98743177c5d336313e2802aa135c" title="Like acquire, but with ITT instrumentation. " alt="" coords="1165,1853,1330,1895"/>
+<area shape="rect" id="node110" href="$a00307.html#a14d4453f34a770b1c983c2ed38570e31" title="Used to check validity of the local scheduler TLS contents. " alt="" coords="1173,3949,1321,3991"/>
+<area shape="rect" id="node111" href="$a00059.html#aff17fc29650655b080b795be34179d20" title="Registers the worker with the arena and enters TBB scheduler dispatch loop. " alt="" coords="933,3623,1064,3664"/>
+<area shape="rect" id="node122" href="$a00391.html#a6d959466117083ddb5fb3ed17bff818a" title="tbb::internal::intrusive\l_list_base::empty" alt="" coords="925,3740,1072,3781"/>
+<area shape="rect" id="node112" href="$a01133.html#aea57866db2fc3fe1018c89b58109b39a" title="tbb::internal::__TBB\l_store_with_release" alt="" coords="1178,3740,1317,3781"/>
+<area shape="rect" id="node113" href="$a00302.html#aa101d77dc7a5e986270073e1c0e09cf6" title="tbb::internal::generic\l_scheduler::attach_arena" alt="" coords="1163,3623,1331,3664"/>
+<area shape="rect" id="node115" href="$a00480.html#ad34c62cd7350fb87f1173ed7ccae7895" title="Indicate whether thread that reads this mailbox is idle. " alt="" coords="1435,3685,1576,3727"/>
+<area shape="rect" id="node117" href="$a00480.html#ab4d587f455177aec5b07e4f1ee00440a" title="Detach inbox from its outbox. " alt="" coords="1186,3805,1309,3847"/>
+<area shape="rect" id="node118" href="$a00302.html#a41fe4dd6cf0d0bd7db3440ff1f5e70ff" title="tbb::internal::generic\l_scheduler::is_quiescent\l_local_task_pool_reset" alt="" coords="1164,3361,1331,3417"/>
+<area shape="rect" id="node119" href="$a00302.html#a509997dbb9b97ad2cca0a3af76c04e90" title="tbb::internal::generic\l_scheduler::local_wait\l_for_all" alt="" coords="1172,3870,1323,3926"/>
+<area shape="rect" id="node120" href="$a00302.html#a23ac634dbb5e817484963c6c04c0ae8a" title="Try getting a task from other threads (via mailbox, stealing, FIFO queue, orphans adoption)..." alt="" coords="1171,3491,1324,3547"/>
+<area shape="rect" id="node121" href="$a00302.html#a4e7eff5365d63114c100e0a490e04884" title="True if the scheduler is on the outermost dispatch level in a worker thread. " alt="" coords="1132,2604,1363,2645"/>
+<area shape="rect" id="node114" href="$a00302.html#a5ab89891d3c1e3209cffced8bf93b124" title="tbb::internal::generic\l_scheduler::attach_mailbox" alt="" coords="1415,3620,1596,3661"/>
+<area shape="rect" id="node116" href="$a00480.html#a08539a9bfc808963dfe6ab756bfd2d2d" title="Indicate whether thread that reads this mailbox is idle. " alt="" coords="1440,3555,1571,3596"/>
+<area shape="rect" id="node124" href="$a00059.html#a2730864663493597ac0fed43356e953b" title="Completes arena shutdown, destructs and deallocates it. " alt="" coords="933,2640,1064,2681"/>
+</map>

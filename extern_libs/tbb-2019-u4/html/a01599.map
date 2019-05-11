@@ -1,0 +1,4 @@
+<map id="internal::has_policy&lt; ExpectedPolicy, SinglePolicy &gt;" name="internal::has_policy&lt; ExpectedPolicy, SinglePolicy &gt;">
+<area shape="rect" id="node2" href="$a00111.html" title="{tbb::internal::bool\l_constant\&lt; tbb::internal\l::is_same_type\&lt; ExpectedPolicy,\l SinglePolicy \&gt;::value \&gt;\n|+ value\l|}" alt="" coords="5,189,224,311"/>
+<area shape="rect" id="node3" href="$a00111.html" title="{tbb::internal::bool\l_constant\&lt; v \&gt;\n|+ value\l|}" alt="" coords="53,5,176,97"/>
+</map>

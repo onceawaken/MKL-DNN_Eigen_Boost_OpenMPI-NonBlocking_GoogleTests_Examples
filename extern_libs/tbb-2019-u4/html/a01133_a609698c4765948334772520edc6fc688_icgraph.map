@@ -1,0 +1,12 @@
+<map id="tbb::internal::destroy_process_mask" name="tbb::internal::destroy_process_mask">
+<area shape="rect" id="node2" href="$a00307.html#a1534625d2863ecea71a35972aee09c6f" title="Destroy the thread&#45;local storage key and deinitialize RML. " alt="" coords="195,75,343,116"/>
+<area shape="rect" id="node11" href="$a01133.html#add80352577f8ffce7f4e83fa342920da" title="tbb::internal::run\l_initializer" alt="" coords="211,140,327,181"/>
+<area shape="rect" id="node3" href="$a00019.html#a78b2b1b7265cdedc9ea3689fff04ac35" title="Remove reference to resources. If last reference removed, release the resources. " alt="" coords="391,75,541,116"/>
+<area shape="rect" id="node4" href="$a00489.html#a5ca285e2d383ecaf3ff0460b30a3551e" title="Destroys and deallocates market object created by market::create() " alt="" coords="615,8,754,49"/>
+<area shape="rect" id="node7" href="$a01133.html#a66931f1de2fe17bad8867074cc504825" title="Performs thread&#45;safe lazy one&#45;time general TBB initialization. " alt="" coords="601,75,769,116"/>
+<area shape="rect" id="node10" href="$a00019.html#aef2402e6d0b42fc5521b9f4ed008af11" title="Remove the initial reference to resources. " alt="" coords="589,140,780,181"/>
+<area shape="rect" id="node5" href="$a00489.html#abc37f18193cd93d6b5c54acef4feec17" title="tbb::internal::market\l::acknowledge_close_connection" alt="" coords="828,7,1043,48"/>
+<area shape="rect" id="node6" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="1111,5,1249,47"/>
+<area shape="rect" id="node8" href="$a00307.html#afe9a6e0c86063b682a133234ca3a2f2b" title="tbb::internal::governor\l::one_time_init" alt="" coords="861,75,1009,116"/>
+<area shape="rect" id="node9" href="$a00780.html#ae01d134b4edd1c8887f166fb55c66aa5" title="tbb::interface7::internal\l::task_arena_base::internal\l_initialize" alt="" coords="1091,70,1269,126"/>
+</map>

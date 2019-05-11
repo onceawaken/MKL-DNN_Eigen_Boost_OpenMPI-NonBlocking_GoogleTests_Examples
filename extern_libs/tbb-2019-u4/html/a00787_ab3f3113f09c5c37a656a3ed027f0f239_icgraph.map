@@ -1,0 +1,7 @@
+<map id="tbb::internal::task_info::reset" name="tbb::internal::task_info::reset">
+<area shape="rect" id="node2" href="$a00727.html#ab58f0efbb844b85b7f721bc738faa4a7" title="The virtual task execution method. " alt="" coords="182,5,313,47"/>
+<area shape="rect" id="node3" href="$a00592.html#ae8aa596291639114b5d37b011e43c4fc" title="Should be overridden by derived classes. " alt="" coords="176,71,319,112"/>
+<area shape="rect" id="node4" href="$a00362.html#a869388f7823ccc3aa2c0a3af60798d1c" title="Note that processing of a token is finished. " alt="" coords="182,136,313,177"/>
+<area shape="rect" id="node5" href="$a00727.html#aa255c23e66c40065595caef2d9dda709" title="Roughly equivalent to the constructor of input stage task. " alt="" coords="182,201,313,243"/>
+<area shape="rect" id="node6" href="$a00727.html#a7bfb2f0b49fa4d359d6466e2e291f041" title="Construct stage_task for first stage in a pipeline. " alt="" coords="182,267,313,308"/>
+</map>

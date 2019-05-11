@@ -1,0 +1,17 @@
+<map id="tbb::internal::call_itt_notify" name="tbb::internal::call_itt_notify">
+<area shape="rect" id="node2" href="$a00778.html#afff5e1700237e2f8dc17c022a0e4e4e5" title="Atomically adds to reference count and returns its new value. " alt="" coords="207,5,331,47"/>
+<area shape="rect" id="node3" href="$a00037.html#a4985caba10e390a7ee24ebc8a831a516" title="Execute an operation. " alt="" coords="172,71,367,112"/>
+<area shape="rect" id="node5" href="$a00036.html#ad376e5c31d10e885f33964592aa629d4" title="tbb::interface6::aggregator\l_ext\&lt; internal::basic_handler\l \&gt;::execute_impl" alt="" coords="175,135,364,191"/>
+<area shape="rect" id="node6" href="$a00146.html#aea4a5cc97588c94be5633b34e9ba5104" title="tbb::interface5::concurrent\l_priority_queue::handle\l_operations" alt="" coords="415,201,589,257"/>
+<area shape="rect" id="node8" href="$a01133.html#ad2789f49c08d4136961e0649f5fd09e8" title="tbb::internal::itt\l_hide_load_word" alt="" coords="210,267,329,308"/>
+<area shape="rect" id="node12" href="$a00496.html#ac2d2ce7211e3afc4a430f7a2c4508133" title="tbb::strict_ppl::internal\l::micro_queue::pop" alt="" coords="194,332,345,373"/>
+<area shape="rect" id="node13" href="$a00496.html#a7f1d7008d5bb576d54b608e31d70a6fe" title="tbb::strict_ppl::internal\l::micro_queue::push" alt="" coords="194,397,345,439"/>
+<area shape="rect" id="node14" href="$a00038.html#adc0e032aa604f1da85ffc7ec269b157f" title="Call start before handling this operation. " alt="" coords="415,440,589,481"/>
+<area shape="rect" id="node15" href="$a00037.html#afbaa689b3664445e8bc54d250566ca98" title="Trigger the handling of operations when the handler is free. " alt="" coords="182,514,357,570"/>
+<area shape="rect" id="node16" href="$a00036.html#a779e53657aad2d95167fd4f12f44a96e" title="Trigger the handling of operations when the handler is free. " alt="" coords="175,594,364,650"/>
+<area shape="rect" id="node4" href="$a00035.html#af52e55d2c41ff608c8e1f8d6dc72fb43" title="tbb::interface6::internal\l::aggregator::execute" alt="" coords="425,71,579,112"/>
+<area shape="rect" id="node7" href="$a00513.html#a8474a4e1487fb16fe48265f31fe7838c" title="tbb::interface5::concurrent\l_priority_queue::my_functor\l_t::operator()" alt="" coords="637,201,820,257"/>
+<area shape="rect" id="node9" href="$a00038.html#acbce3d13545770501b54df153bf1e690" title="tbb::interface6::aggregator\l_operation::next" alt="" coords="415,280,589,321"/>
+<area shape="rect" id="node11" href="$a00326.html#ae79560bd9cdd5e98bddcb0ab46651bc0" title="Insert a node and check for load factor. " alt="" coords="419,345,585,401"/>
+<area shape="rect" id="node10" href="$a00102.html#afb0dec67968e9abdabb5a0e3ec8064a4" title="tbb::interface6::internal\l::basic_handler::operator()" alt="" coords="642,360,815,401"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="_template_helpers.h" name="_template_helpers.h">
+<area shape="rect" id="node2" href="$a00994.html" title="enumerable_thread_specific.h" alt="" coords="166,259,361,285"/>
+<area shape="rect" id="node6" href="$a01075.html" title="task_group.h" alt="" coords="5,333,103,360"/>
+<area shape="rect" id="node7" href="$a01037.html" title="parallel_do.h" alt="" coords="385,259,480,285"/>
+<area shape="rect" id="node9" href="$a01074.html" title="task_arena.h" alt="" coords="1032,87,1129,114"/>
+<area shape="rect" id="node10" href="$a01046.html" title="partitioner.h" alt="" coords="757,177,847,203"/>
+<area shape="rect" id="node17" href="$a00995.html" title="The graph related classes and functions. " alt="" coords="1269,259,1365,285"/>
+<area shape="rect" id="node21" href="$a00976.html" title="concurrent_hash_map.h" alt="" coords="1409,87,1571,114"/>
+<area shape="rect" id="node23" href="$a00983.html" title="concurrent_unordered\l_map.h" alt="" coords="871,169,1018,211"/>
+<area shape="rect" id="node24" href="$a00984.html" title="concurrent_unordered\l_set.h" alt="" coords="1595,80,1742,121"/>
+<area shape="rect" id="node3" href="$a00974.html" title="combinable.h" alt="" coords="127,333,226,360"/>
+<area shape="rect" id="node5" href="$a01081.html" title="tbb.h" alt="" coords="765,408,815,435"/>
+<area shape="rect" id="node4" href="$a01049.html" title="ppl.h" alt="" coords="194,408,245,435"/>
+<area shape="rect" id="node8" href="$a01040.html" title="parallel_for_each.h" alt="" coords="402,333,533,360"/>
+<area shape="rect" id="node19" href="$a00943.html" title="_flow_graph_impl.h" alt="" coords="1144,177,1279,203"/>
+<area shape="rect" id="node20" href="$a00963.html" title="arena.cpp" alt="" coords="1165,259,1244,285"/>
+<area shape="rect" id="node11" href="$a01038.html" title="parallel_for.h" alt="" coords="771,259,867,285"/>
+<area shape="rect" id="node12" href="$a01039.html" title="parallel_for.h" alt="" coords="505,259,601,285"/>
+<area shape="rect" id="node14" href="$a01042.html" title="parallel_reduce.h" alt="" coords="919,333,1039,360"/>
+<area shape="rect" id="node15" href="$a01043.html" title="parallel_scan.h" alt="" coords="735,333,845,360"/>
+<area shape="rect" id="node16" href="$a01072.html" title="task.cpp" alt="" coords="675,259,747,285"/>
+<area shape="rect" id="node13" href="$a01044.html" title="parallel_sort.h" alt="" coords="608,333,711,360"/>
+<area shape="rect" id="node18" href="$a00997.html" title="flow_graph_opencl_node.h" alt="" coords="1229,333,1405,360"/>
+<area shape="rect" id="node22" href="$a00975.html" title="concurrent_hash_map.cpp" alt="" coords="1405,177,1580,203"/>
+</map>

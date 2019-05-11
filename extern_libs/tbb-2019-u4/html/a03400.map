@@ -1,0 +1,5 @@
+<map id="tbb::internal::intrusive_list&lt; T &gt;" name="tbb::internal::intrusive_list&lt; T &gt;">
+<area shape="rect" id="node4" href="$a00390.html" title="{tbb::internal::intrusive\l_list\&lt; arena \&gt;\n||&#45; node()\l&#45; item()\l}" alt="" coords="15,881,162,988"/>
+<area shape="rect" id="node2" href="$a00391.html" title="{tbb::internal::intrusive\l_list_base\&lt; intrusive_list\l\&lt; T \&gt;, T \&gt;\n|&#45; my_head\l&#45; my_size\l|+ intrusive_list_base()\l+ empty()\l+ size()\l+ begin()\l+ begin()\l+ end()\l+ end()\l+ push_front()\l+ remove()\l+ erase()\l&#45; assert_ok()\l&#45; node()\l&#45; item()\l}" alt="" coords="5,365,172,663"/>
+<area shape="rect" id="node3" href="$a00391.html" title="List of element of type T, where T is derived from intrusive_list_node. " alt="" coords="13,5,164,288"/>
+</map>

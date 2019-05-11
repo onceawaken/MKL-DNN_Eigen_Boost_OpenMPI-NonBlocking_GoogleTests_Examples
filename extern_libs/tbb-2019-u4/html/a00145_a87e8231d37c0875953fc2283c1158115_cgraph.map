@@ -1,0 +1,8 @@
+<map id="tbb::internal::concurrent_monitor::prepare_wait" name="tbb::internal::concurrent_monitor::prepare_wait">
+<area shape="rect" id="node2" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="427,13,565,54"/>
+<area shape="rect" id="node3" href="$a01133.html#a1f6010c3e550e88ab739adbdee5dfdac" title="tbb::internal::__TBB\l_store_relaxed" alt="" coords="427,94,565,136"/>
+<area shape="rect" id="node4" href="$a00128.html#a52654111c3f200042d6e35444d54fef5" title="add to the back of the list " alt="" coords="214,38,377,94"/>
+<area shape="rect" id="node5" href="$a01113.html#a33e73b97b02726c692bd8d9da8e3fb1b" title="Sequentially consistent full memory fence. " alt="" coords="232,168,359,195"/>
+<area shape="rect" id="node6" href="$a00106.html#af2248191c45e9442d39805db03cdbb34" title="wait/acquire " alt="" coords="229,220,362,261"/>
+<area shape="rect" id="node7" href="$a00826.html#aefaf66a82d69cc8daf22ca74d0e8d310" title="tbb::internal::concurrent\l_monitor::thread_context\l::semaphore" alt="" coords="212,284,379,340"/>
+</map>

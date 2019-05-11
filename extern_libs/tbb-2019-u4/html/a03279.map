@@ -1,0 +1,8 @@
+<map id="tbb::internal::bool_constant&lt; v &gt;" name="tbb::internal::bool_constant&lt; v &gt;">
+<area shape="rect" id="node2" href="$a00111.html" title="{tbb::internal::bool\l_constant\&lt; has_policy\l\&lt; ExpectedPolicy, FirstPolicy\l \&gt;::value\|\|has_policy\&lt; ExpectedPolicy,\l Policies... \&gt;::value \&gt;\n|+ value\l|}" alt="" coords="191,204,439,340"/>
+<area shape="rect" id="node5" href="$a00111.html" title="{tbb::internal::bool\l_constant\&lt; tbb::internal\l::is_same_type\&lt; ExpectedPolicy,\l SinglePolicy \&gt;::value \&gt;\n|+ value\l|}" alt="" coords="463,211,682,333"/>
+<area shape="rect" id="node3" href="$a00317.html" title="{internal::has_policy\l\&lt; ExpectedPolicy, FirstPolicy,\l Policies... \&gt;\n||}" alt="" coords="5,397,204,503"/>
+<area shape="rect" id="node4" href="$a00318.html" title="{tbb::flow::interface10\l::internal::has_policy\l\&lt; ExpectedPolicy, FirstPolicy,\l Policies... \&gt;\n||}" alt="" coords="228,389,427,511"/>
+<area shape="rect" id="node6" href="$a00321.html" title="{internal::has_policy\l\&lt; ExpectedPolicy, SinglePolicy \&gt;\n||}" alt="" coords="457,404,675,496"/>
+<area shape="rect" id="node7" href="$a00322.html" title="{tbb::flow::interface10\l::internal::has_policy\l\&lt; ExpectedPolicy, SinglePolicy \&gt;\n||}" alt="" coords="699,397,916,503"/>
+</map>

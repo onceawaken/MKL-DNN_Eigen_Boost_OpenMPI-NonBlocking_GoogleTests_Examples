@@ -1,0 +1,4 @@
+<map id="tbb::queuing_mutex::scoped_lock::scoped_lock" name="tbb::queuing_mutex::scoped_lock::scoped_lock">
+<area shape="rect" id="node2" href="$a00681.html#a59f276bc4fe30ca24998fc8b1693b0b9" title="Initialize fields to mean &quot;no lock held&quot;. " alt="" coords="237,5,396,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a58dafd43fac118e984cc4f19f3901609" title="tbb::internal::poison\l_pointer" alt="" coords="444,5,580,47"/>
+</map>

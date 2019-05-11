@@ -1,0 +1,11 @@
+<map id="tbb::internal::arena_slot" name="tbb::internal::arena_slot">
+<area shape="rect" id="node2" href="$a00551.html" title="{tbb::internal::padded\l\&lt; arena_slot_line1 \&gt;\n||}" alt="" coords="193,700,333,792"/>
+<area shape="rect" id="node3" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; arena_slot_line1,\l NFS_MaxLineSize, sizeof\l(arena_slot_line1)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="5,375,263,496"/>
+<area shape="rect" id="node4" href="$a00062.html" title="{tbb::internal::arena\l_slot_line1\n|+ my_scheduler\l+ task_pool\l+ head\l|}" alt="" coords="22,139,153,261"/>
+<area shape="rect" id="node5" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, R \&gt;\n|+ pad\l|}" alt="" coords="303,154,443,246"/>
+<area shape="rect" id="node8" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, sizeof(T)%S \&gt;\n|+ pad\l|}" alt="" coords="287,389,474,481"/>
+<area shape="rect" id="node10" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; arena_slot_line2,\l NFS_MaxLineSize, sizeof\l(arena_slot_line2)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="499,375,756,496"/>
+<area shape="rect" id="node7" href="$a00551.html" title="Pads type T to fill out to a multiple of cache line size. " alt="" coords="311,545,451,637"/>
+<area shape="rect" id="node9" href="$a00551.html" title="{tbb::internal::padded\l\&lt; arena_slot_line2 \&gt;\n||}" alt="" coords="357,700,497,792"/>
+<area shape="rect" id="node11" href="$a00063.html" title="{tbb::internal::arena\l_slot_line2\n|+ hint_for_pop\l+ tail\l+ my_task_pool_size\l+ task_pool_ptr\l|}" alt="" coords="690,132,837,268"/>
+</map>

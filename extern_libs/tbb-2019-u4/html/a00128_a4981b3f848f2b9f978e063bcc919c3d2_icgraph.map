@@ -1,0 +1,6 @@
+<map id="tbb::internal::circular_doubly_linked_list_with_sentinel::end" name="tbb::internal::circular_doubly_linked_list_with_sentinel::end">
+<area shape="rect" id="node2" href="$a00145.html#ade8e90627ee0cb157bcdffd12b22003f" title="Abort any sleeping threads at the time of the call; Relaxed version. " alt="" coords="221,5,400,47"/>
+<area shape="rect" id="node3" href="$a00145.html#a3a1925f904f6e7967d0af1dfb35d9dd4" title="Notify all waiting threads of the event; Relaxed version. " alt="" coords="220,71,401,112"/>
+<area shape="rect" id="node4" href="$a00145.html#a24bfa3b8eae09a60d454e374620bd4dd" title="Notify one thread about the event. Relaxed version. " alt="" coords="216,136,405,177"/>
+<area shape="rect" id="node5" href="$a00145.html#af7a3900f62bc4e261f11688b7c57349e" title="Notify waiting threads of the event that satisfies the given predicate; Relaxed version. " alt="" coords="230,201,391,243"/>
+</map>

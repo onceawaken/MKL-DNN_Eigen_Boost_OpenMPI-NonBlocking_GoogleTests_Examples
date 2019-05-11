@@ -1,0 +1,7 @@
+<map id="tbb::internal::final_sum::finish_construction" name="tbb::internal::final_sum::finish_construction">
+<area shape="rect" id="node2" href="$a00771.html#ab1ee899f7cc6123ec8d0b0053d7f3e8a" title="tbb::internal::sum\l_node::create_child" alt="" coords="224,5,359,47"/>
+<area shape="rect" id="node4" href="$a00732.html#a148a612f5856ab9514df63e688a78d06" title="tbb::internal::start\l_scan::run" alt="" coords="229,71,353,112"/>
+<area shape="rect" id="node3" href="$a00771.html#a53e6f29d8e3085e45d8896372be1bd0b" title="Should be overridden by derived classes. " alt="" coords="407,5,530,47"/>
+<area shape="rect" id="node5" href="$a01145.html#gae7eaaf124471a6c603b28fc925e8fbbb" title="Parallel prefix with default partitioner. " alt="" coords="407,78,531,105"/>
+<area shape="rect" id="node6" href="$a01145.html#ga7dd68a232bb3102788792fcf081a2ab6" title="Parallel prefix with default partitioner. " alt="" coords="579,78,703,105"/>
+</map>

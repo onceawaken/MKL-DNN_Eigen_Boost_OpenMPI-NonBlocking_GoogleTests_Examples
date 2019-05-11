@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::opencl_memory::receive" name="tbb::flow::interface10::opencl_memory::receive">
+<area shape="rect" id="node2" href="$a00532.html#ac8a163f1a440bcddf34dc8b06eb61b21" title="tbb::flow::interface10\l::opencl_async_msg::data" alt="" coords="225,5,400,47"/>
+<area shape="rect" id="node3" href="$a01115.html#a2404e93e290bab51602a278ff9ae5bd6" title="tbb::flow::interface10\l::enforce_cl_retcode" alt="" coords="448,35,592,76"/>
+</map>

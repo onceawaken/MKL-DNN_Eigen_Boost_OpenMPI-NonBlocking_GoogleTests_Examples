@@ -1,0 +1,20 @@
+<map id="tbb::queuing_rw_mutex::scoped_lock::~scoped_lock" name="tbb::queuing_rw_mutex::scoped_lock::~scoped_lock">
+<area shape="rect" id="node2" href="$a00684.html#ab4bf2fb86d6a418f9ea36474eb8893f9" title="Acquire lock on given mutex. " alt="" coords="254,229,411,271"/>
+<area shape="rect" id="node12" href="$a00684.html#af0af63035147a3d8422f8c8d7b8d2629" title="Downgrade writer to become a reader. " alt="" coords="245,294,420,350"/>
+<area shape="rect" id="node13" href="$a00684.html#a50fb02b77f02a01c74754d163157ec77" title="Release lock. " alt="" coords="254,439,411,480"/>
+<area shape="rect" id="node18" href="$a00684.html#a4843d40dddc37c1aa3444e27d35d2433" title="Acquire lock on given mutex if free (i.e. non&#45;blocking) " alt="" coords="245,373,420,415"/>
+<area shape="rect" id="node19" href="$a00684.html#ae0f28ecfbbc5f8b3024cd47048b72b5b" title="Upgrade reader to become a writer. " alt="" coords="254,503,411,559"/>
+<area shape="rect" id="node3" href="$a01133.html#a1f6010c3e550e88ab739adbdee5dfdac" title="tbb::internal::__TBB\l_store_relaxed" alt="" coords="487,435,626,476"/>
+<area shape="rect" id="node4" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="487,369,626,411"/>
+<area shape="rect" id="node5" href="$a01133.html#aea57866db2fc3fe1018c89b58109b39a" title="tbb::internal::__TBB\l_store_with_release" alt="" coords="703,507,842,548"/>
+<area shape="rect" id="node6" href="$a01133.html#a9006317b947d3f9f7a457e295e5b8330" title="Spin UNTIL the value of the variable is equal to a given value. " alt="" coords="495,71,618,112"/>
+<area shape="rect" id="node9" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="468,5,645,47"/>
+<area shape="rect" id="node10" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="495,239,618,280"/>
+<area shape="rect" id="node11" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="487,304,626,345"/>
+<area shape="rect" id="node7" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="704,155,841,196"/>
+<area shape="rect" id="node8" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="900,162,1007,189"/>
+<area shape="rect" id="node14" href="$a01113.html#aa2cfd6795ecbcc8ad30310c862f2b001" title="tbb::get_flag" alt="" coords="509,630,604,657"/>
+<area shape="rect" id="node15" href="$a00684.html#a497dd2f219507fdd2d32ea91d44c5ac8" title="Try to acquire the internal lock. " alt="" coords="469,681,644,737"/>
+<area shape="rect" id="node17" href="$a00684.html#aca691e3a0f5debfe5965b071357bddcd" title="Release the internal lock. " alt="" coords="478,499,635,555"/>
+<area shape="rect" id="node16" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="693,695,852,722"/>
+</map>

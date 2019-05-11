@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00575.html" title="tbb::internal::partition\l_type_base\&lt; Partition \&gt;" alt="" coords="5,13,167,54"/>
+<area shape="rect" id="node2" href="$a00027.html" title="Provides default splitting strategy for partition objects. " alt="" coords="215,13,405,54"/>
+<area shape="rect" id="node3" href="$a00607.html" title="Provides proportional splitting strategy for partition objects. " alt="" coords="453,13,661,54"/>
+<area shape="rect" id="node4" href="$a00476.html" title="Provides default linear indexing of partitioner&#39;s sequence. " alt="" coords="709,5,864,61"/>
+</map>

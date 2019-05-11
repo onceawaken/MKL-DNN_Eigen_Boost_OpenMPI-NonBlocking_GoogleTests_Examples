@@ -1,0 +1,7 @@
+<map id="tbb::internal::mail_inbox::pop" name="tbb::internal::mail_inbox::pop">
+<area shape="rect" id="node2" href="$a00481.html#a296f08fef589d1f8a1674eb526fdf6f1" title="tbb::internal::mail\l_outbox::internal_pop" alt="" coords="176,64,323,105"/>
+<area shape="rect" id="node3" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="381,5,519,47"/>
+<area shape="rect" id="node4" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="371,71,529,98"/>
+<area shape="rect" id="node5" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="381,123,519,164"/>
+<area shape="rect" id="node6" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="577,130,684,157"/>
+</map>

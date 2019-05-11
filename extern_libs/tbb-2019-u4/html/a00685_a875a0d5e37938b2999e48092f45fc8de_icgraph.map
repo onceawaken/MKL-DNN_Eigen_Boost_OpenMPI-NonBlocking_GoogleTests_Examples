@@ -1,0 +1,4 @@
+<map id="tbb::mutex::scoped_lock::internal_try_acquire" name="tbb::mutex::scoped_lock::internal_try_acquire">
+<area shape="rect" id="node2" href="$a00685.html#a46f983371aa852d2427ce69f9a571f78" title="Try acquire lock on given mutex. " alt="" coords="375,13,509,54"/>
+<area shape="rect" id="node3" href="$a00511.html#a480283933106941125717499f9c5ad42" title="Try acquiring lock (non&#45;blocking) " alt="" coords="188,45,327,72"/>
+</map>

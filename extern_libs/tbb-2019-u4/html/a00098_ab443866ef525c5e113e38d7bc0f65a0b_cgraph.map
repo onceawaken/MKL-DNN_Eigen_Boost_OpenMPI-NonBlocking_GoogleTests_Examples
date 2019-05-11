@@ -1,0 +1,11 @@
+<map id="tbb::internal::auto_empty_task::~auto_empty_task" name="tbb::internal::auto_empty_task::~auto_empty_task">
+<area shape="rect" id="node2" href="$a00302.html#a12dd37171af77214add72a973e6b71ba" title="Put task on free list. " alt="" coords="267,166,413,207"/>
+<area shape="rect" id="node3" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="491,56,604,83"/>
+<area shape="rect" id="node4" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="681,5,835,32"/>
+<area shape="rect" id="node6" href="$a01133.html#a58dafd43fac118e984cc4f19f3901609" title="tbb::internal::poison\l_pointer" alt="" coords="479,107,615,149"/>
+<area shape="rect" id="node7" href="$a00778.html#a22ef8282e09458a46131843219cb71e5" title="Current execution state. " alt="" coords="492,173,603,200"/>
+<area shape="rect" id="node8" href="$a00191.html#aaa8736f85328446abb0d9b75a031a12d" title="tbb::internal::cpu\l_ctl_env::get_env" alt="" coords="485,225,610,266"/>
+<area shape="rect" id="node9" href="$a00191.html#a9d4dfd8cbbd56ce66effae5af7dbc418" title="tbb::internal::cpu\l_ctl_env::set_env" alt="" coords="485,290,610,331"/>
+<area shape="rect" id="node10" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="461,356,633,383"/>
+<area shape="rect" id="node5" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="693,57,823,98"/>
+</map>

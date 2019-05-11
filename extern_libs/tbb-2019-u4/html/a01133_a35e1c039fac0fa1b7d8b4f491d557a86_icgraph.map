@@ -1,0 +1,8 @@
+<map id="tbb::internal::assert_task_valid" name="tbb::internal::assert_task_valid">
+<area shape="rect" id="node2" href="$a00049.html#a42e1d669adc9327b70273179101805ab" title="tbb::internal::allocate\l_continuation_proxy::allocate" alt="" coords="192,5,383,47"/>
+<area shape="rect" id="node3" href="$a00048.html#a4ff38c5560806b0695506c33a19bc0c1" title="tbb::internal::allocate\l_child_proxy::allocate" alt="" coords="213,71,361,112"/>
+<area shape="rect" id="node4" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="435,192,577,233"/>
+<area shape="rect" id="node5" href="$a00302.html#ad7c11742ee005f6d377095062b42a5d8" title="tbb::internal::generic\l_scheduler::generic_scheduler" alt="" coords="188,188,387,229"/>
+<area shape="rect" id="node6" href="$a00302.html#a10c72a4aad7308d944cef26502ece55e" title="Get a task from the local pool. " alt="" coords="216,253,359,295"/>
+<area shape="rect" id="node7" href="$a00194.html#a5e2c5878baf724264214e91070844487" title="Scheduler loop that dispatches tasks. " alt="" coords="212,318,363,374"/>
+</map>

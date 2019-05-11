@@ -1,0 +1,5 @@
+<map id="tbb::internal::concurrent_monitor::prepare_wait" name="tbb::internal::concurrent_monitor::prepare_wait">
+<area shape="rect" id="node2" href="$a00780.html#aa214b4121b92399cfa50b223500219fd" title="tbb::interface7::internal\l::task_arena_base::internal\l_execute" alt="" coords="222,5,401,61"/>
+<area shape="rect" id="node3" href="$a00149.html#a6b68fa0da8231513c31217b4090703ba" title="Enqueues item at tail of queue using specified operation (copy or move) " alt="" coords="226,85,397,141"/>
+<area shape="rect" id="node4" href="$a00149.html#a0d5fe3f37435ae1f0d0a5a573a550421" title="Dequeue item from head of queue. " alt="" coords="212,165,411,206"/>
+</map>

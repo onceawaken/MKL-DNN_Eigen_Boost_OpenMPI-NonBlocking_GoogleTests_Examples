@@ -1,0 +1,38 @@
+<map id="tbb::internal::__TBB_InitOnce::~__TBB_InitOnce" name="tbb::internal::__TBB_InitOnce::~__TBB_InitOnce">
+<area shape="rect" id="node2" href="$a00019.html#aeb552d69cd0db07e0ec3526c22e8899a" title="Add reference to resources. If first reference added, acquire the resources. " alt="" coords="263,74,402,115"/>
+<area shape="rect" id="node8" href="$a00019.html#a3d6e09b5b23edf10600c2ae2e6469659" title="tbb::internal::__TBB\l_InitOnce::initialization_done" alt="" coords="685,65,875,106"/>
+<area shape="rect" id="node10" href="$a00019.html#a78b2b1b7265cdedc9ea3689fff04ac35" title="Remove reference to resources. If last reference removed, release the resources. " alt="" coords="257,198,408,239"/>
+<area shape="rect" id="node37" href="$a00307.html#a6af77e18ae7d56899162c01ee982deef" title="Undo automatic initialization if necessary; call when a thread exits. " alt="" coords="244,263,421,319"/>
+<area shape="rect" id="node3" href="$a00307.html#a70cfd4f010baf396e4cc09a3021b4c19" title="Create key for thread&#45;local storage and initialize RML. " alt="" coords="706,137,854,178"/>
+<area shape="rect" id="node4" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="946,133,1082,174"/>
+<area shape="rect" id="node6" href="$a01133.html#abbc9695c3864361824bcb4f7f263bd11" title="check for transaction support. " alt="" coords="953,263,1075,305"/>
+<area shape="rect" id="node7" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="923,198,1105,239"/>
+<area shape="rect" id="node5" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="1176,133,1312,174"/>
+<area shape="rect" id="node9" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="945,65,1083,106"/>
+<area shape="rect" id="node11" href="$a00307.html#a1534625d2863ecea71a35972aee09c6f" title="Destroy the thread&#45;local storage key and deinitialize RML. " alt="" coords="479,329,627,370"/>
+<area shape="rect" id="node16" href="$a01133.html#a408cda99f26f50b451ac562e96a4d760" title="Defined in cache_aligned_allocator.cpp. " alt="" coords="469,673,637,714"/>
+<area shape="rect" id="node29" href="$a01133.html#a79eac24a14b74800f56ac9321d7e95a6" title="Defined in scheduler.cpp. " alt="" coords="475,67,631,109"/>
+<area shape="rect" id="node30" href="$a01158.html#ga353ab13a4b9325ded923c1c951f6f849" title="Create a string handle. Create and return handle value that can be associated with a string..." alt="" coords="488,133,619,174"/>
+<area shape="rect" id="node31" href="$a01133.html#a2b4ad2321a003fdcedfac9784ce9a2be" title="tbb::internal::__TBB\l_load_ittnotify" alt="" coords="484,198,623,239"/>
+<area shape="rect" id="node32" href="$a00019.html#a49dd7a4f24e456e32c17d6f179b1afa4" title="tbb::internal::__TBB\l_InitOnce::lock" alt="" coords="484,394,623,435"/>
+<area shape="rect" id="node36" href="$a00019.html#a75be47587acf7b182b90c2d692dd0646" title="tbb::internal::__TBB\l_InitOnce::unlock" alt="" coords="484,263,623,305"/>
+<area shape="rect" id="node12" href="$a01133.html#a609698c4765948334772520edc6fc688" title="tbb::internal::destroy\l_process_mask" alt="" coords="709,329,851,370"/>
+<area shape="rect" id="node14" href="$a01133.html#a0ddf43033695d442c64c4a44f6d6c211" title="Report a runtime warning. " alt="" coords="709,263,851,305"/>
+<area shape="rect" id="node15" href="$a00992.html#ad65fa8b542fd95d199ca5e87ab2885df" title="dynamic_unlink_all" alt="" coords="714,212,846,239"/>
+<area shape="rect" id="node13" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="955,329,1073,370"/>
+<area shape="rect" id="node17" href="$a01133.html#a1082394ca8392ef2aa6795b57a756fa5" title="One&#45;time initialization function. " alt="" coords="711,782,849,823"/>
+<area shape="rect" id="node23" href="$a01133.html#ad81b5f8ef24a819263e662348983fb5d" title="Initialize the allocation/free handler pointers. " alt="" coords="707,635,853,677"/>
+<area shape="rect" id="node18" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="925,913,1103,954"/>
+<area shape="rect" id="node19" href="$a01133.html#a4c2293788c0e215e6f6f44ea162b3bc7" title="tbb::internal::run\l_initializer" alt="" coords="956,847,1072,889"/>
+<area shape="rect" id="node20" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="953,782,1075,823"/>
+<area shape="rect" id="node21" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="1175,614,1313,655"/>
+<area shape="rect" id="node22" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="1383,621,1489,648"/>
+<area shape="rect" id="node24" href="$a01133.html#a017b2dc8729e0abacdcb39735b376b5e" title="Dummy routine used for first indirect call via MallocHandler. " alt="" coords="923,731,1105,757"/>
+<area shape="rect" id="node25" href="$a00992.html#aca8bbbbc28690d986ae2636bae2754f7" title="dynamic_link" alt="" coords="965,613,1063,640"/>
+<area shape="rect" id="node26" href="$a01133.html#a53b20002ba2abdc3326f3741a8608f22" title="tbb::internal::padded\l_allocate" alt="" coords="944,665,1084,706"/>
+<area shape="rect" id="node27" href="$a01133.html#ad794dd567905ec5005396fec4e96cf6a" title="tbb::internal::padded_free" alt="" coords="929,496,1099,523"/>
+<area shape="rect" id="node28" href="$a01133.html#a89891ef24359a1304be463a41071684c" title="Prints arbitrary extra TBB version information on stderr. " alt="" coords="936,547,1092,589"/>
+<area shape="rect" id="node33" href="$a01089.html#aa570e2316a90880cbbc36586e6463534" title="__TBB_LockByte" alt="" coords="718,401,842,428"/>
+<area shape="rect" id="node34" href="$a01089.html#ad95ec7e5b7103614f039c4019bf3b3f6" title="__TBB_TryLockByte" alt="" coords="943,395,1085,421"/>
+<area shape="rect" id="node35" href="$a01107.html#a1ba16e606202cdec1e611e5c0df2b9f6" title="__TBB_machine_cmpswp1" alt="" coords="1153,395,1335,421"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="internal::node_cache::internal_pop" name="internal::node_cache::internal_pop">
+<area shape="rect" id="node2" href="$a00600.html#a5e55ce0bcbb697c63fd211364ad306d1" title="internal::predecessor\l_cache\&lt; input_type, null\l_mutex \&gt;::get_item" alt="" coords="207,5,371,61"/>
+<area shape="rect" id="node3" href="$a00520.html#aeaaf9116532e4c368f3a26076703ef73" title="internal::node_cache\l\&lt; sender\&lt; T \&gt;, M \&gt;::remove" alt="" coords="196,85,383,126"/>
+<area shape="rect" id="node4" href="$a00600.html#ac78f563e519cd5b07c1d5f8ab3464cfd" title="internal::predecessor\l_cache\&lt; input_type, null\l_mutex \&gt;::reset" alt="" coords="207,149,371,205"/>
+<area shape="rect" id="node5" href="$a00654.html#a4fc7dee657d594fca77bc9290d034df6" title="internal::reservable\l_predecessor_cache\&lt; T,\l null_mutex \&gt;::try_reserve" alt="" coords="202,229,377,285"/>
+</map>

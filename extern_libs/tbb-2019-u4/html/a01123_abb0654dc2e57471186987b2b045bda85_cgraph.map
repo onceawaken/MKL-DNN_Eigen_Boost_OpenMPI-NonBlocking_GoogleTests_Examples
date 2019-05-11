@@ -1,0 +1,5 @@
+<map id="tbb::interface5::fetch_and_or" name="tbb::interface5::fetch_and_or">
+<area shape="rect" id="node2" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="196,5,373,47"/>
+<area shape="rect" id="node3" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="216,71,353,112"/>
+<area shape="rect" id="node4" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="421,78,528,105"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tbb::interface6::aggregator_operation" name="tbb::interface6::aggregator_operation">
+<area shape="rect" id="node2" href="$a00104.html" title="{tbb::interface6::internal\l::basic_operation_base\n||+ basic_operation_base()\l+ ~basic_operation_base()\l&#45; apply_body()\l}" alt="" coords="5,219,181,340"/>
+<area shape="rect" id="node3" href="$a00103.html" title="{tbb::interface6::internal\l::basic_operation\&lt; Body \&gt;\n|&#45; my_body\l|+ basic_operation()\l&#45; apply_body()\l}" alt="" coords="6,388,181,495"/>
+</map>

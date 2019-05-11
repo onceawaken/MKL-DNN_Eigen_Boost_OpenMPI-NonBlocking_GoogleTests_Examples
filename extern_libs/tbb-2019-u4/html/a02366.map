@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface10::internal::broadcast_cache&lt; T, M &gt;" name="tbb::flow::interface10::internal::broadcast_cache&lt; T, M &gt;">
+<area shape="rect" id="node2" href="$a00767.html" title="An abstract cache of successors. " alt="" coords="177,557,329,752"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,344,157,436"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,145,163,223"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="255,145,353,223"/>
+<area shape="rect" id="node9" href="$a00876.html" title="{tbb::flow::interface10\l::internal::untyped_sender\n||+ ~untyped_sender()\l+ register_successor()\l+ remove_successor()\l+ try_release()\l+ try_consume()\l# try_get()\l# try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="386,285,558,495"/>
+</map>

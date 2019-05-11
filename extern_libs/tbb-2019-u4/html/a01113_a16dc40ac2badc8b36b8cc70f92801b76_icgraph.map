@@ -1,0 +1,15 @@
+<map id="tbb::swap" name="tbb::swap">
+<area shape="rect" id="node2" href="$a00146.html#ac64c7b627708f0d6b2e5421fb0d49150" title="Assign the queue from [begin,end) range, not thread&#45;safe. " alt="" coords="152,5,327,47"/>
+<area shape="rect" id="node3" href="$a00143.html#a1e9c7e1650a87c6fdfd282c61587059e" title="Copy constructor. " alt="" coords="395,163,620,204"/>
+<area shape="rect" id="node4" href="$a00161.html#a575d3be93a7c563abb1f9f035e5ac9f3" title="tbb::interface5::internal\l::concurrent_unordered\l_base\&lt; concurrent_unordered\l_map_traits\&lt; Key, T, internal\l::hash_compare\&lt; Key, Hasher,\l Key_equality \&gt;, Allocator, false\l \&gt; \&gt;::concurrent_unordered_base" alt="" coords="132,122,347,237"/>
+<area shape="rect" id="node5" href="$a00143.html#ad4993bc44e0c923f2e8430d81367889d" title="return allocator object " alt="" coords="152,261,327,303"/>
+<area shape="rect" id="node6" href="$a00808.html#a6a9263b2bb0ca86973443f283746bcab" title="tbb::internal::tbb\l_thread_v3::internal_move" alt="" coords="152,327,327,368"/>
+<area shape="rect" id="node7" href="$a00326.html#a7ad888bfe73f0258cb8caeb9229f1524" title="Swap hash_map_bases. " alt="" coords="133,392,346,433"/>
+<area shape="rect" id="node8" href="$a00245.html#a37b70bb1f2783ae7ea93baed5a3458bc" title="tbb::interface6::enumerable\l_thread_specific::internal_swap" alt="" coords="137,457,342,499"/>
+<area shape="rect" id="node9" href="$a00146.html#ac0c3f41b10f04547f3438517c40cf8a5" title="Assignment operator. " alt="" coords="152,523,327,564"/>
+<area shape="rect" id="node10" href="$a00161.html#a353badce7ab9f9fd8ba129312155b078" title="tbb::interface5::internal\l::concurrent_unordered\l_base\&lt; concurrent_unordered\l_map_traits\&lt; Key, T, internal\l::hash_compare\&lt; Key, Hasher,\l Key_equality \&gt;, Allocator, false\l \&gt; \&gt;::operator=" alt="" coords="135,589,343,703"/>
+<area shape="rect" id="node11" href="$a00143.html#ad0f01ce516b8d3ab574954843622c7cd" title="Assignment. " alt="" coords="152,728,327,769"/>
+<area shape="rect" id="node12" href="$a00808.html#ab2e10af48f3f2482e9e7236f2e05714c" title="tbb::internal::tbb\l_thread_v3::swap" alt="" coords="177,793,302,835"/>
+<area shape="rect" id="node13" href="$a00146.html#aa6ee6d356e538b67a7cb4e242e6e36c9" title="Swap this queue with another; not thread&#45;safe. " alt="" coords="152,859,327,900"/>
+<area shape="rect" id="node14" href="$a00143.html#a4c8edf603bc776a6c84c007702c1808e" title="swap two instances. Iterators are invalidated " alt="" coords="152,924,327,965"/>
+</map>

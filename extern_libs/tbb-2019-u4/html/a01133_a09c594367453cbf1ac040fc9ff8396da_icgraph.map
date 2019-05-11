@@ -1,0 +1,9 @@
+<map id="tbb::internal::deallocate_via_handler_v3" name="tbb::internal::deallocate_via_handler_v3">
+<area shape="rect" id="node2" href="$a00797.html#a28e333e0fff56dd53c20b82cfee430ab" title="Free previously allocated block of memory. " alt="" coords="236,5,359,47"/>
+<area shape="rect" id="node3" href="$a00501.html#aa4be7e2bf375edcb218fb5d7ed8e279b" title="Destroys objects created by the move() method. " alt="" coords="217,71,377,112"/>
+<area shape="rect" id="node4" href="$a01133.html#a1a803fb20d0d24abe173dad9b506d37d" title="Free a closure allocated by allocate_closure_v3. " alt="" coords="237,136,357,177"/>
+<area shape="rect" id="node6" href="$a00680.html#a3ef0de25ee6d7897198fcf09471bf24f" title="tbb::interface5::reader\l_writer_lock::scoped_lock\l::operator delete" alt="" coords="211,201,384,257"/>
+<area shape="rect" id="node7" href="$a00691.html#a1a6c15dfdbe1bc7a6648ed836ebd8de6" title="tbb::interface5::reader\l_writer_lock::scoped_lock\l_read::operator delete" alt="" coords="211,281,384,337"/>
+<area shape="rect" id="node8" href="$a00799.html#a6a973c37078afedf7d457ff4704bf8cd" title="tbb::tbb_exception\l::operator delete" alt="" coords="233,360,362,401"/>
+<area shape="rect" id="node5" href="$a00825.html#a56e1bfd2ca46abcc3c3f265eff10360d" title="tbb::internal::thread\l_closure_base::operator\l delete" alt="" coords="432,129,593,185"/>
+</map>

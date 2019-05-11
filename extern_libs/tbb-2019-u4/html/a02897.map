@@ -1,0 +1,8 @@
+<map id="tbb::interface5::internal::hash_map_base::enable_segment_failsafe" name="tbb::interface5::internal::hash_map_base::enable_segment_failsafe">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="75,132,221,224"/>
+<area shape="rect" id="node4" href="$a00115.html" title="Bucket type. " alt="" coords="99,1076,271,1168"/>
+<area shape="rect" id="node6" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="153,273,309,380"/>
+<area shape="rect" id="node7" href="$a00328.html" title="Node base type. " alt="" coords="259,921,419,1013"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="69,5,227,83"/>
+<area shape="rect" id="node5" href="$a00722.html" title="Fast, unfair, spinning reader&#45;writer lock with backoff and writer&#45;preference. " alt="" coords="150,429,322,859"/>
+</map>

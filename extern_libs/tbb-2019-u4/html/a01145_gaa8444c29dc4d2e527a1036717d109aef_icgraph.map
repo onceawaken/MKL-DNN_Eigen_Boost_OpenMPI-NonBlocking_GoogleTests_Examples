@@ -1,0 +1,7 @@
+<map id="tbb::parallel_for" name="tbb::parallel_for">
+<area shape="rect" id="node2" href="$a00569.html#afaeacfcdb47ebb412e1748e011278b8c" title="tbb::internal::parallel\l_for_each_impl\&lt; Iterator,\l Function, std::random_access\l_iterator_tag \&gt;::doit" alt="" coords="164,5,367,76"/>
+<area shape="rect" id="node3" href="$a01141.html#af7e92accea40b9e372385af8f21d74b0" title="Implementation of parallel iteration over stepped range of integers with explicit step and partitione..." alt="" coords="190,100,341,141"/>
+<area shape="rect" id="node4" href="$a01145.html#ga8ea99adce8e471393803c5abca0c34fe" title="Wrapper method to initiate the sort by calling parallel_for. " alt="" coords="188,165,343,207"/>
+<area shape="rect" id="node5" href="$a01145.html#gabdc90813499f91d3e32298cd6dc2fe45" title="Sorts the data in [begin,end) using the given comparator. " alt="" coords="415,173,533,199"/>
+<area shape="rect" id="node6" href="$a01145.html#ga73b58ac9249f49587d0b081c152af551" title="Sorts the data in [begin,end) with a default comparator std::less&lt;RandomAccessIterator&gt; ..." alt="" coords="581,173,700,199"/>
+</map>

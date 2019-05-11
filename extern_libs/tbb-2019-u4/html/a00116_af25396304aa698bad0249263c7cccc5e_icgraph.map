@@ -1,0 +1,6 @@
+<map id="tbb::interface5::concurrent_hash_map::bucket_accessor::is_writer" name="tbb::interface5::concurrent_hash_map::bucket_accessor::is_writer">
+<area shape="rect" id="node2" href="$a00143.html#a5144122dbb946d933b94a92117543b33" title="Erase item. " alt="" coords="253,5,428,47"/>
+<area shape="rect" id="node3" href="$a00143.html#a2a319cf46fb9cf9a88aab6c0a20c98b3" title="Insert or find item and optionally acquire a lock on the item. " alt="" coords="253,71,428,112"/>
+<area shape="rect" id="node4" href="$a00143.html#a7f29734b96e4dfb714200ba1bdf2e427" title="tbb::interface5::concurrent\l_hash_map::rehash_bucket" alt="" coords="249,136,432,177"/>
+<area shape="rect" id="node5" href="$a00116.html#a31a5ea9a4ec5a497513b9ad10dcb6f8d" title="find a bucket by masked hashcode, optionally rehash, and acquire the lock " alt="" coords="480,129,676,185"/>
+</map>

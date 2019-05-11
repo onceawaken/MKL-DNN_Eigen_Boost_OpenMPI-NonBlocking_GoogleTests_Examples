@@ -1,0 +1,40 @@
+<map id="tbb::internal::poison_pointer" name="tbb::internal::poison_pointer">
+<area shape="rect" id="node2" href="$a00302.html#ad965858a5e7cb5574926d8d1692063b5" title="Return task object to the memory allocator. " alt="" coords="191,69,375,111"/>
+<area shape="rect" id="node12" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="211,173,354,215"/>
+<area shape="rect" id="node13" href="$a00261.html#a25898541cdee5f05dc18953e4fe3df05" title="tbb::internal::final\l_sum::final_sum" alt="" coords="221,239,344,280"/>
+<area shape="rect" id="node14" href="$a00302.html#a12dd37171af77214add72a973e6b71ba" title="Put task on free list. " alt="" coords="209,304,356,345"/>
+<area shape="rect" id="node22" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="211,369,354,411"/>
+<area shape="rect" id="node23" href="$a00681.html#a59f276bc4fe30ca24998fc8b1693b0b9" title="Initialize fields to mean &quot;no lock held&quot;. " alt="" coords="203,435,362,476"/>
+<area shape="rect" id="node25" href="$a00684.html#a080c26691aad8bac8947724114e5f664" title="Initialize fields to mean &quot;no lock held&quot;. " alt="" coords="203,500,362,541"/>
+<area shape="rect" id="node27" href="$a00194.html#a5e2c5878baf724264214e91070844487" title="Scheduler loop that dispatches tasks. " alt="" coords="207,565,358,621"/>
+<area shape="rect" id="node28" href="$a00302.html#a8a62642cb4b1ba391b8d3b9a00dca541" title="Checks if t is affinitized to another thread, and if so, bundles it as proxy. " alt="" coords="203,645,362,701"/>
+<area shape="rect" id="node34" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="189,724,376,765"/>
+<area shape="rect" id="node36" href="$a00771.html#ab0407af8599845453edbe21d52635368" title="tbb::internal::sum\l_node::sum_node" alt="" coords="220,789,345,831"/>
+<area shape="rect" id="node37" href="$a00362.html#ac8ddc3a7821c785244756e64b15745c8" title="Destroy the buffer. " alt="" coords="209,855,356,896"/>
+<area shape="rect" id="node38" href="$a00605.html#a3f85635899ef8652d32de0e42fcbd3cd" title="tbb::internal::rml\l::private_server::~private\l_server" alt="" coords="199,919,366,975"/>
+<area shape="rect" id="node39" href="$a00791.html#a20b121334ec39c1d91bd4fe9a51892b0" title="Destroy scheduler for this thread if thread has no other live task_scheduler_inits. " alt="" coords="195,999,370,1040"/>
+<area shape="rect" id="node3" href="$a00302.html#a66e6dd672693eb34cd6fd46ed7a7c6a6" title="Destroy and deallocate this scheduler object. " alt="" coords="708,37,887,79"/>
+<area shape="rect" id="node11" href="$a00302.html#a720c816c0253fe199e4583cd24090e9b" title="Free a small task t that that was allocated by a different scheduler. " alt="" coords="445,62,616,118"/>
+<area shape="rect" id="node4" href="$a00302.html#ae6a0b659589202963562cbdb23465807" title="Perform necessary cleanup when a worker thread finishes. " alt="" coords="958,5,1142,47"/>
+<area shape="rect" id="node7" href="$a00302.html#ac223f7892d65e496c37190c4009ea1f7" title="Perform necessary cleanup when a master thread stops using TBB. " alt="" coords="957,71,1143,112"/>
+<area shape="rect" id="node5" href="$a00489.html#a32eca56b49c13d239a2869c33c4a17b0" title="tbb::internal::market\l::cleanup" alt="" coords="1195,5,1334,47"/>
+<area shape="rect" id="node6" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="1396,5,1535,47"/>
+<area shape="rect" id="node8" href="$a00307.html#a0962408ba1eaf67d0ad741a0749f3a4e" title="Processes scheduler termination request (possibly nested) in a master thread. " alt="" coords="1191,71,1339,112"/>
+<area shape="rect" id="node10" href="$a00307.html#a5fbd38947c75c1e8494bc1bac598a9fe" title="The internal routine to undo automatic initialization. " alt="" coords="1191,136,1339,177"/>
+<area shape="rect" id="node9" href="$a00791.html#a2647279bff44f88c82eead707d4c7a14" title="tbb::task_scheduler\l_init::internal_terminate" alt="" coords="1387,71,1544,112"/>
+<area shape="rect" id="node15" href="$a00098.html#ab443866ef525c5e113e38d7bc0f65a0b" title="tbb::internal::auto\l_empty_task::~auto_empty_task" alt="" coords="424,141,637,183"/>
+<area shape="rect" id="node16" href="$a00049.html#a681282ec77816457ee409a6775aa415e" title="tbb::internal::allocate\l_continuation_proxy::free" alt="" coords="447,207,615,248"/>
+<area shape="rect" id="node17" href="$a00048.html#a2a6b401b674d801ae26402dc778b21bf" title="tbb::internal::allocate\l_child_proxy::free" alt="" coords="459,272,602,313"/>
+<area shape="rect" id="node18" href="$a00047.html#a65fbfed257af0abda4e109a27576667e" title="tbb::internal::allocate\l_additional_child_of_proxy::free" alt="" coords="428,337,633,379"/>
+<area shape="rect" id="node21" href="$a00781.html#a75c0c291f0020cf9be1234013ec4990b" title="Destroy a task. " alt="" coords="453,403,608,444"/>
+<area shape="rect" id="node19" href="$a00047.html#ad10174176746913b5819549011883c3f" title="tbb::internal::allocate\l_additional_child_of_proxy\l::allocate_additional_child\l_of_proxy" alt="" coords="710,279,885,349"/>
+<area shape="rect" id="node20" href="$a00051.html#a5803f3b67100086520196b8d395d2a14" title="tbb::internal::allocate\l_root_with_context_proxy\l::allocate_root_with_context_proxy" alt="" coords="685,374,909,430"/>
+<area shape="rect" id="node24" href="$a00681.html#a0afe0107eb0aae613e726f67624d2fca" title="Construct lock that has not acquired a mutex. " alt="" coords="439,468,623,509"/>
+<area shape="rect" id="node26" href="$a00684.html#a1ae3792726dcff8da1f2c5366fb2b754" title="Construct lock that has not acquired a mutex. " alt="" coords="439,533,623,575"/>
+<area shape="rect" id="node29" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="448,652,613,693"/>
+<area shape="rect" id="node30" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="715,573,880,629"/>
+<area shape="rect" id="node32" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="727,652,867,693"/>
+<area shape="rect" id="node33" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="724,717,871,759"/>
+<area shape="rect" id="node31" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="970,573,1130,629"/>
+<area shape="rect" id="node35" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="454,724,607,765"/>
+</map>

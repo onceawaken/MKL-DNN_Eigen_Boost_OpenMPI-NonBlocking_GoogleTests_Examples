@@ -5,911 +5,708 @@
 #ifndef CPP_EXAMPLE_NNET_HXX
 #define CPP_EXAMPLE_NNET_HXX
 
-
 #include "NNet.hpp"
 
 #include "CEng.hpp"
 
 namespace NNet {
 
+	template<typename T>
+	LayerBase::LayerBase(T l, size_t N, size_t M, const char *type) : m_shape{N, M}, m_type(type) {
 
-    template<typename T>
-    LayerBase::LayerBase(T l, size_t N, size_t M, const char *type) : m_shape{N, M}, m_type(type) {
+		make_name(l);
 
+		std::cout << "LayerBase : name = "
+		          << m_name << std::endl;
+	}
 
-        make_name(l);
+	void LayerBase::make_name(size_t l) {
 
+		m_name = "[" + m_type + " : " + std::to_string(l) + "]:(" + std::to_string(m_shape.first) + "," +
+		         std::to_string(m_shape.second) + ")";
+	}
 
-        std::cout << "LayerBase : name = "
-                  << m_name << std::endl;
-    }
+	auto LayerBase::get_name() {
 
+		return m_name;
+	}
 
-    void LayerBase::make_name(size_t l) {
+	void LayerBase::print() {
 
-        m_name = "[" + m_type + " : " + std::to_string(l) + "]:(" + std::to_string(m_shape.first) + "," +
-                 std::to_string(m_shape.second) + ")";
-    }
+		std::cout << m_name << std::endl;
+	}
 
-    auto LayerBase::get_name() {
+	void LayerBase::print_name() {
 
-        return m_name;
-    }
+		print();
 
-    void LayerBase::print() {
+	}
 
-        std::cout << m_name << std::endl;
-    }
+	LayerNull::LayerNull(size_t id) : LayerBase(id, 0, 0, NAME) {
 
-    void LayerBase::print_name() {
+	}
 
-        print();
+	auto LayerNull::get_next() {
 
-    }
+		return nullptr;
+	}
 
+	template<typename T, size_t mB, size_t N, size_t M, size_t ... shapeNN>
+	LayerHidden<T, mB, N, M, shapeNN...>::LayerHidden(size_t id, const char *_type) : LayerBase(id, N, M, _type) {
 
-    LayerNull::LayerNull(size_t id) : LayerBase(id, 0, 0, NAME) {
+		if constexpr (not W_ON_STACK) {
 
-    }
+			W = W_t(M, N);
+			dW = W_t(M, N);
 
-    auto LayerNull::get_next() {
+		}
 
-        return nullptr;
-    }
+		std::cout << "... <INFO> Layer Hidden : weights [W size : " << W.size() << ", dW size : " << dW.size() << "]" << std::endl;
 
+		if constexpr  (not V_ON_STACK) {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t ... shapeNN>
-    LayerHidden<T, mB, N, M, shapeNN...>::LayerHidden(size_t id, const char *_type) : LayerBase(id, N, M, _type) {
+			std::transform(Delta.cbegin(), Delta.cend(), Delta.begin(), [&](const auto &) { return Delta_t(M, 1); });
 
-    }
+			std::transform(dV.cbegin(), dV.cend(), dV.begin(), [&](const auto &) { return V_t(M, 1); });
+			std::transform(V.cbegin(), V.cend(), V.begin(), [&](const auto &) { return V_t(M, 1); });
+			std::transform(b.cbegin(), b.cend(), b.begin(), [&](const auto &) { return V_t(M, 1); });
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t ... shapeNN>
-    void LayerHidden<T, mB, N, M, shapeNN...>::print() {
+		}
 
-        LayerBase::print();
+		std::cout << "... <INFO> Layer Hidden : excitations [V size : " << V.size() << ", dV size : " << dV.size() << "]" << std::endl;
+		std::cout << "... <INFO> Layer Hidden : local field [b size : " << b.size() << "]" << std::endl;
+		std::cout << "... <INFO> Layer Hidden : deltas      [d size : " << Delta.size() << "]" << std::endl;
 
-    }
+	}
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t ...shapeNN>
-    LayerHidden<T, mB, N, M, shapeNN...>::LayerHidden(size_t id) : LayerHidden(id, NAME) {
+	template<typename T, size_t mB, size_t N, size_t M, size_t ... shapeNN>
+	void LayerHidden<T, mB, N, M, shapeNN...>::print() {
 
+		LayerBase::print();
 
-    }
+	}
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t ...shapeNN>
-    void LayerHidden<T, mB, N, M, shapeNN...>::print_W() {
+	template<typename T, size_t mB, size_t N, size_t M, size_t ...shapeNN>
+	LayerHidden<T, mB, N, M, shapeNN...>::LayerHidden(size_t id) : LayerHidden(id, NAME) {
 
-        for (int i = 0; i < M * N; i++) {
-            std::cout << W[i] << std::endl;
-        }
+	}
 
-    }
+	template<typename T, size_t mB, size_t N, size_t M, size_t ...shapeNN>
+	void LayerHidden<T, mB, N, M, shapeNN...>::print_W() {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t ...shapeNN>
-    void LayerHidden<T, mB, N, M, shapeNN...>::print_b() {
+		for (int i = 0; i < M * N; i++) {
+			std::cout << W[i] << std::endl;
+		}
 
-        for (int i = 0; i < M * mB; i++) {
-            std::cout << b[i] << std::endl;
-        }
-    }
+	}
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::W_begin() {
+	template<typename T, size_t mB, size_t N, size_t M, size_t ...shapeNN>
+	void LayerHidden<T, mB, N, M, shapeNN...>::print_b() {
 
-        return W.data();
-    }
+		for (int i = 0; i < M * mB; i++) {
+			std::cout << b[i] << std::endl;
+		}
+	}
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::W_end() {
+	template<typename T, size_t B, size_t mB, size_t N, size_t M>
+	LayerOutput<T, B, mB, N, M>::LayerOutput(size_t id) : LayerHidden<T, mB, N, M>(id, type) {
 
-        return W.data() + W.size();
-    }
+		if constexpr (not ON_STACK) {
+			std::transform(Z.cbegin(), Z.cend(), Z.begin(), [&](const auto &) { return Z_t(N, 1); });
+		}
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::dW_begin() {
+		auto allSizes = std::accumulate(Z.begin(), Z.end(), size_t{0}, [&](const size_t i, const auto &z) { return i + z.size(); });
 
-        return dW.data();
-    }
+		std::cout << "... <INFO> Layer Output : classifiers [Z size : " << Z.size() << "]" << std::endl;
+		std::cout << "... <INFO> Layer Output : classifiers [Z[1.size + ... + N.size] size : " << allSizes << "]" << std::endl;
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::dW_end() {
+	}
 
-        return dW.data() + dW.size();
-    }
+	template<typename T, size_t B, size_t mB, size_t N, size_t M>
+	auto LayerOutput<T, B, mB, N, M>::Z_begin() {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::Theta_begin() {
+		return Z.begin();
+	}
 
-        return Theta.data();
-    }
+	template<typename T, size_t B, size_t mB, size_t N, size_t M>
+	auto LayerOutput<T, B, mB, N, M>::Z_end() {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::Theta_end() {
+		return Z.end();
+	}
 
-        return Theta.data() + Theta.size();
-    }
+	template<typename T, size_t B, size_t mB, size_t N>
+	LayerInput<T, B, mB, N>::LayerInput(size_t id) :
+			LayerBase(id, 0, N, NAME) {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::dTheta_begin() {
+		if constexpr (not ON_STACK) {
 
-        return dTheta.begin();
-    }
+			std::transform(V.cbegin(), V.cend(), V.begin(), [&](const auto &) { return V_t(N, 1); });
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::dTheta_end() {
+		}
 
-        return dTheta.end();
-    }
+		auto allSizes = std::accumulate(V.begin(), V.end(), size_t{0}, [&](const size_t i, const auto &x) { return i + x.size(); });
+		if (V.empty()) {
+			std::cout << "... <ERROR> : Layer Input not allocated [V]..." << std::endl;
+		} else {
+			std::cout << "... <INFO> : Layer Input allocated [V size : " << V.size() << "]..." << std::endl;
+			std::cout << "... <INFO> : Layer Input allocated [V[1.size + ... + N.size] size : " << allSizes << "]" << std::endl;
+		}
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::Delta_begin() {
+	}
 
-        return Delta.begin();
-    }
+	template<typename T, size_t B, size_t mB, size_t N>
+	void LayerInput<T, B, mB, N>::print() {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::Delta_end() {
+		LayerBase::print();
+	}
 
-        return Delta.end();
-    }
+	template<typename T, size_t B, size_t mB, size_t N>
+	auto LayerInput<T, B, mB, N>::V_begin() {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::V_begin() {
+		return V.begin();
+	}
 
-        return V.begin();
-    }
+	template<typename T, size_t B, size_t mB, size_t N>
+	auto LayerInput<T, B, mB, N>::V_end() {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::V_end() {
+		return V.end();
+	}
 
-        return V.end();
-    }
+	template<class Curr_t, class Next_t>
+	Node<Curr_t, Next_t>::Node(size_t l, Curr_Ptr_t curr, Next_Ptr_t next) : l(l), m_curr(curr), m_next(next) {
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::dV_begin() {
+		assert(m_curr != nullptr);
+		assert(m_next != nullptr);
 
-        return dV.begin();
-    }
+	}
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::dV_end() {
+	template<class Curr_t, class Next_t>
+	Node<Curr_t, Next_t>::Node(size_t l, Next_Ptr_t next) : l(l), m_next(next) {
 
-        return dV.end();
-    }
+		m_curr = new Curr_t(l);
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::b_begin() {
+		assert(m_curr != nullptr);
+		assert(m_next != nullptr);
 
-        return b.begin();
-    }
+	}
 
-    template<typename T, size_t mB, size_t N, size_t M, size_t...shapeNN>
-    auto LayerHidden<T, mB, N, M, shapeNN...>::b_end() {
+	template<class Curr_t, class Next_t>
+	void Node<Curr_t, Next_t>::print() {
 
-        return b.end();
-    }
+		m_curr->print();
+		m_next->print();
+	}
 
+	template<class Curr_t, class Next_t>
+	auto Node<Curr_t, Next_t>::get_next() {
 
-    template<typename T, size_t B, size_t mB, size_t N, size_t M>
-    LayerOutput<T, B, mB, N, M>::LayerOutput(size_t id) : LayerHidden<T, mB, N, M>(id, type) {
+		return m_next->get_next();
+	}
 
-        std::cout << "... <INFO> Layer Output : classifiers [Z] : size : " << Z.size() << std::endl;
+	template<class Curr_t, class Next_t>
+	void Node<Curr_t, Next_t>::print_name() {
 
-    }
+		m_curr->print();
 
-    template<typename T, size_t B, size_t mB, size_t N, size_t M>
-    auto LayerOutput<T, B, mB, N, M>::Z_begin() {
+	}
 
-        return Z.begin();
-    }
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	Linked<Curr_t, Next_Linked_Ptr_t>
+	::Linked(Curr_Ptr_t curr, Next_Linked_Ptr_t next, size_t l) : l(l) {
 
-    template<typename T, size_t B, size_t mB, size_t N, size_t M>
-    auto LayerOutput<T, B, mB, N, M>::Z_end() {
+		m_head = new node_t(l, curr, next);
 
-        return Z.end();
-    }
+		assert(m_head != nullptr);
+	}
 
-    template<typename T, size_t B, size_t mB, size_t N>
-    LayerInput<T, B, mB, N>::LayerInput(size_t id) :
-            LayerBase(id, 0, N, NAME), V(B), IDX(B) {
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	Linked<Curr_t, Next_Linked_Ptr_t>
+	::Linked(Next_Linked_Ptr_t next, size_t l) : l(l) {
 
-        if (V.empty()) {
-            std::cout << "... <ERROR> : Layer Input not allocated [V]..." << std::endl;
-        } else {
-            std::cout << "... <INFO> : Layer Input allocated [V]..." << std::endl;
-        }
+		m_head = new node_t(l, next);
+		assert(m_head != nullptr);
 
-        std::iota(IDX.begin(), IDX.end(), size_t{0});
+	}
 
-    }
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	void Linked<Curr_t, Next_Linked_Ptr_t>
+	::print() {
 
-    template<typename T, size_t B, size_t mB, size_t N>
-    void LayerInput<T, B, mB, N>::print() {
+		if (l == 0) std::cout << "## LINKED PRINT :..." << std::endl;
 
-        LayerBase::print();
-    }
+		if (m_head != nullptr) {
+			m_head->print();
+		}
+	}
 
-    template<typename T, size_t B, size_t mB, size_t N>
-    auto LayerInput<T, B, mB, N>::V_begin() {
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	void Linked<Curr_t, Next_Linked_Ptr_t>
+	::print_name() {
 
-        return V.begin();
-    }
+		m_head->m_curr->print();
+	}
 
-    template<typename T, size_t B, size_t mB, size_t N>
-    auto LayerInput<T, B, mB, N>::V_end() {
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	auto Linked<Curr_t, Next_Linked_Ptr_t>
+	::get_name() {
 
-        return V.end();
-    }
+		return m_head->m_curr->get_name();
+	}
 
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	auto Linked<Curr_t, Next_Linked_Ptr_t>
+	::get_curr() {
 
-    template<typename T, size_t B, size_t mB, size_t N>
-    const auto LayerInput<T, B, mB, N>::get_next_mb() const {
+		return m_head->m_curr;
+	}
 
-        static size_t k = 0;
-        size_t begin = k * mB;
-        size_t end = (k + 1) * mB;
-        k = (k + 1) % (B / mB);
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	auto Linked<Curr_t, Next_Linked_Ptr_t>
+	::get_next() {
 
-        return std::tuple(k, begin, end);
+		return m_head->m_next;
 
-    }
+	}
 
-    template<typename T, size_t B, size_t mB, size_t N>
-    void LayerInput<T, B, mB, N>::shuffle_idx() {
+	template<class Curr_t, class Next_Linked_Ptr_t>
+	void Linked<Curr_t, Next_Linked_Ptr_t>
+	::print_V() {
 
-        static std::random_device randEng;
-        std::mt19937 g(randEng());
-        std::shuffle(IDX.begin(), IDX.end(), g);
+		std::cout << get_name() << " : feed [V] : " << std::endl;
+		for (const auto &a : m_head->m_curr->V) {
+			std::cout << a << std::endl;
+		}
 
-    }
+	}
 
-    template<typename T, size_t B, size_t mB, size_t N>
-    const void LayerInput<T, B, mB, N>::shuffle_idx() const {
+	void LayersBase::print() {
 
-        static std::random_device randEng;
-        std::mt19937 g(randEng());
-        std::shuffle(IDX.begin(), IDX.end(), g);
+	}
 
-    }
+	LayersBase::LayersBase() {
 
-    template<class Curr_t, class Next_t>
-    Node<Curr_t, Next_t>::Node(size_t l, Curr_Ptr_t curr, Next_Ptr_t next) : l(l), m_curr(curr), m_next(next) {
+	}
 
-        assert(m_curr != nullptr);
-        assert(m_next != nullptr);
+	template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
+	template<debug_e DEBUG_E, size_t N, size_t M>
+	auto LayersMaker<T_IN, T, B, mB, I, shapeNN...>
+	::alloc(size_t l) {
 
-    }
+		auto next = new LayerNull(l + 1);
 
-    template<class Curr_t, class Next_t>
-    Node<Curr_t, Next_t>::Node(size_t l, Next_Ptr_t next) : l(l), m_next(next) {
+		obj_assert_ptr(next);
 
-        m_curr = new Curr_t(l);
+		assert(next != nullptr);
 
-        assert(m_curr != nullptr);
-        assert(m_next != nullptr);
+		auto link = new Linked<LayerOutput<T, B, mB, N, M>, decltype(next)>(next, l);
 
-    }
+		assert(link != nullptr);
 
-    template<class Curr_t, class Next_t>
-    void Node<Curr_t, Next_t>::print() {
+		return link;
 
-        m_curr->print();
-        m_next->print();
-    }
+	}
 
-    template<class Curr_t, class Next_t>
-    auto Node<Curr_t, Next_t>::get_next() {
+	template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
+	template<debug_e DEBUG_E, size_t N, size_t M, size_t K, size_t ... nextShapeNN>
+	auto LayersMaker<T_IN, T, B, mB, I, shapeNN...>
+	::alloc(size_t l) {
 
-        return m_next->get_next();
-    }
+		auto next = alloc<DEBUG_E, M, K, nextShapeNN...>(l + 1);
 
-    template<class Curr_t, class Next_t>
-    void Node<Curr_t, Next_t>::print_name() {
+		assert(next != nullptr);
 
-        m_curr->print();
+		obj_assert_ptr(next);
 
-    }
+		auto link = new Linked<LayerHidden<T, mB, N, M>, decltype(next)>(next, l);
 
+		assert(link != nullptr);
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    Linked<Curr_t, Next_Linked_Ptr_t>
-    ::Linked(Curr_Ptr_t curr, Next_Linked_Ptr_t next, size_t l) : l(l) {
+		return link;
 
-        m_head = new node_t(l, curr, next);
+	}
 
-        assert(m_head != nullptr);
-    }
+	template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
+	template<debug_e DEBUG_E>
+	auto LayersMaker<T_IN, T, B, mB, I, shapeNN...>
+	::alloc() {
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    Linked<Curr_t, Next_Linked_Ptr_t>
-    ::Linked(Next_Linked_Ptr_t next, size_t l) : l(l) {
+		std::cout << "#### LAYERS : ALLOC : START >>>" << std::endl;
 
-        m_head = new node_t(l, next);
-        assert(m_head != nullptr);
+		auto next = alloc<DEBUG_E, I, shapeNN...>(1);
 
-    }
+		obj_assert_ptr(next);
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    void Linked<Curr_t, Next_Linked_Ptr_t>
-    ::print() {
+		return new Linked<LayerInput<T_IN, B, mB, I>, decltype(next)>(next, 0);
 
-        if (l == 0) std::cout << "## LINKED PRINT :..." << std::endl;
+	}
 
-        if (m_head != nullptr) {
-            m_head->print();
-        }
-    }
+	template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
+	template<class Linked_Ptr_t>
+	auto LayersMaker<T_IN, T, B, mB, I, shapeNN...>
+	::print(const Linked_Ptr_t layers) {
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    void Linked<Curr_t, Next_Linked_Ptr_t>
-    ::print_name() {
+		type_assert_ptr(Linked_Ptr_t);
 
-        m_head->m_curr->print();
-    }
+		layers->print();
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::get_name() {
+		return *this;
+	}
 
-        return m_head->m_curr->get_name();
-    }
+	template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
+	LayersMaker<T_IN, T, B, mB, I, shapeNN...>
+	::LayersMaker() {
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::get_curr() {
+		std::cout << "#### LAYERS : CONSTRUCT >>>" << std::endl;
 
-        return m_head->m_curr;
-    }
+		nMiniBatch = mB;
+		nFullBatch = B;
+		//init_random_bitmap<DEBUG1, T_IN, I, mB>(input->get_curr()->V);
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::get_next() {
+		std::cout << m_shapeNN << std::endl;
 
+	}
 
-        return m_head->m_next;
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::Network(Layers_t &layers, Linked_Ptr_t &linkedPtr, Engine_Ptr &enginePtr, Datain_Ptr &datainPtr,
+	          Datagen_Ptr &datagenPtr) :
+			layers(layers), linkedPtr(linkedPtr), enginePtr(enginePtr), datainPtr(datainPtr), datagenPtr(datagenPtr), IDX(B) {
 
-    }
+		std::iota(IDX.begin(), IDX.end(), size_t{0});
+	}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    void Linked<Curr_t, Next_Linked_Ptr_t>
-    ::print_V() {
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::shuffle_idx() {
 
-        std::cout << get_name() << " : feed [V] : " << std::endl;
-        for (const auto &a : m_head->m_curr->V) {
-            std::cout << a << std::endl;
-        }
+		static std::random_device randEng;
+		std::mt19937 g(randEng());
+		std::shuffle(IDX.begin(), IDX.end(), g);
 
-    }
+	}
 
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	const void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::shuffle_idx() const {
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::V_begin() {
+		static std::random_device randEng;
+		std::mt19937 g(randEng());
+		std::shuffle(IDX.begin(), IDX.end(), g);
 
-        return m_head->m_curr->V_begin();
-    }
+	}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::V_end() {
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	const auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::get_next_mb() const {
 
-        return m_head->m_curr->V_end();
-    }
+		static size_t k = 0;
+		size_t begin = k * mB;
+		size_t end = (k + 1) * mB;
+		k = (k + 1) % (B / mB);
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::Z_begin() {
+		return std::tuple(k, begin, end);
 
-        return m_head->m_curr->Z_begin();
-    }
+	}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::Z_end() {
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<debug_e DEBUG_E, compute_e COMPUTE_E, class Curr_Linked_Ptr_t>
+	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::compute(Curr_Linked_Ptr_t curr, size_t l, size_t epoch, size_t iter) {
 
-        return m_head->m_curr->Z_end();
-    }
+		using Curr_Linked_t = std::remove_pointer_t<Curr_Linked_Ptr_t>;
+		constexpr bool HAS_NEXT = Curr_Linked_t::HAS_NEXT;
+		constexpr bool HAS_PREV = Curr_Linked_t::HAS_PREV;
+		auto next = curr->get_next();
 
+		if constexpr (HAS_NEXT) {
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::W_begin() {
+			using curr_t = decltype(curr);
+			using next_t = decltype(next);
+			using this_t = decltype(this);
 
-        return m_head->m_curr->W_begin();
-    }
+			using engine_t = typename Engine_Ptr::template InnerEngine<DEBUG_E, curr_t, next_t, this_t>;
+			static auto engine = engine_t(curr, next, this);
+			//            static auto engine = CEng::RawEngine<DEBUG_E, curr_t, next_t>(curr, next);
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::W_end() {
+			if constexpr (COMPUTE_E == FORWARD_E) {
+				engine.compute_forward(epoch, iter);
+				//compute<DEBUG_E, COMPUTE_E>(curr, next, l);
+				compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
+			} else if constexpr (COMPUTE_E == UPDATE_E) {
+					engine.compute_update(epoch, iter);
+					//compute<DEBUG_E, COMPUTE_E>(curr, next, l); //next, curr
+				
+				compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
 
-        return m_head->m_curr->W_end();
-    }
+			} else if constexpr(COMPUTE_E == BACKWARD_E) {
+				compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
+				if constexpr (HAS_PREV) {
+					engine.compute_backward(epoch, iter);
+				}
+			}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::dW_begin() {
+		}
 
-        return m_head->m_curr->dW_begin();
-    }
+	}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::dW_end() {
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<debug_e DEBUG_E>
+	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::compute(size_t epochs) {
 
-        return m_head->m_curr->dW_end();
-    }
+		const size_t EPOCHS = epochs;
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::dV_begin() {
+		if constexpr (DEBUG_E > DEBUG0) {
+			std::cout << "#### LAYERS : COMPUTE : START [DEBUG] >>>" << std::endl;
+			type_assert_ptr(Linked_Ptr_t);
+		}
 
-        return m_head->m_curr->dV_begin();
-    }
+		{
+			TIME_START
+			if constexpr (DEBUG_E > DEBUG0) {
+				std::cout << "[RESAMPLE INPUT]" << std::endl;
+				linkedPtr->print_name();
+			}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::dV_end() {
+			shuffle_idx();
 
-        return m_head->m_curr->dV_end();
-    }
+			/* 1. Resample mB minibatch from B images xTrain
+			 * 2. Match mB minibatch from B labels zTrain
+			 */
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::b_begin() {
+			compute < DEBUG_E, FORWARD_E > (linkedPtr, 0, 0, 0);
+			compute < DEBUG_E, BACKWARD_E > (linkedPtr, 0, 0, 0);
+			compute < DEBUG_E, UPDATE_E > (linkedPtr, 0, 0, 0);
 
-        return m_head->m_curr->b_begin();
-    }
+			TIME_CHECK
+		}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::b_end() {
+		if constexpr (DEBUG_E > DEBUG0) {
+			std::cout << "#### LAYERS : COMPUTE : START [EPOCHS : " << epochs << ", ITER : " << ITER << "] >>>"
+			          << std::endl;
+			type_assert_ptr(Linked_Ptr_t);
+		}
 
-        return m_head->m_curr->b_end();
-    }
+		size_t epoch = 0;
+		TIME_START
+		do {
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::Delta_begin() {
+			std::cout << "...epochs : " << epochs << std::endl;
 
-        return m_head->m_curr->Delta_begin();
-    }
+			if constexpr (DEBUG_E > DEBUG0) {
+				std::cout << "[RESAMPLE INPUT]" << std::endl;
+				linkedPtr->print_name();
+			}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::Delta_end() {
+			shuffle_idx();
 
-        return m_head->m_curr->Delta_end();
-    }
+			/* 1. Resample mB minibatch from B images xTrain
+			 * 2. Match mB minibatch from B labels zTrain
+			 */
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::Theta_begin() {
+			size_t iterations = ITER;
+			do {
+				if (iterations % (ITER / 10) == 0) std::cout << "...iterations : " << iterations << std::endl;
+				compute < DEBUG0, FORWARD_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
+				compute < DEBUG0, BACKWARD_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
+				compute < DEBUG0, UPDATE_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
+			} while (--iterations);
+		} while (--epochs);
 
-        return m_head->m_curr->Theta_begin();
-    }
+		TIME_CHECK
+	}
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::Theta_end() {
+	template<class Layers_t, class Linked_Ptr, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
+	auto Network<Layers_t, Linked_Ptr, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::init_parameters(Curr_Linked_Ptr_t currLinkedPtr) {
 
-        return std::move(m_head->m_curr->Theta_end());
-    }
+		using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
+		constexpr size_t N = Curr_Linked_t::N;
 
+		T mean = 0;
+		T var = T{1} / T{N};
+		var = var > 0 ? var : 1;
+		T stdev = std::sqrt(var);
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::dTheta_begin() {
+		if constexpr (DEBUG_E > DEBUG0) std::cout << "mean = " << mean << ", stdev = " << stdev << std::endl;
 
-        return std::move(m_head->m_curr->dTheta_begin());
-    }
+		if constexpr (DEBUG_E > DEBUG0) std::cout << "init random weights DEBUG_E = " << DEBUG_E << std::endl;
 
-    template<class Curr_t, class Next_Linked_Ptr_t>
-    auto Linked<Curr_t, Next_Linked_Ptr_t>
-    ::dTheta_end() {
+		if constexpr (DEBUG_E >= DEBUG0) {
+			datagenPtr.generate(currLinkedPtr->W_begin(), currLinkedPtr->W_end(), mean, stdev);
+		}
 
-        return std::move(m_head->m_curr->dTheta_end());
-    }
+		if constexpr (DEBUG_E >= DEBUG1) {
+			datagenPtr.validate(currLinkedPtr->W_begin(), currLinkedPtr->W_end(), mean, stdev);
+		}
 
-    void LayersBase::print() {
+	}
 
-    }
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
+	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::init_patterns(Curr_Linked_Ptr_t currLinkedPtr) {
 
-    LayersBase::LayersBase() {
+		using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
 
-    }
+		if constexpr(DEBUG_E >= DEBUG0) {
 
-    template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
-    template<debug_e DEBUG_E, size_t N, size_t M>
-    auto LayersMaker<T_IN, T, B, mB, I, shapeNN...>
-    ::alloc(size_t l) {
+			if constexpr (DEBUG_E > DEBUG0) std::cout << "... <DEBUG 0> init patterns" << std::endl;
 
-        auto next = new LayerNull(l + 1);
+			std::accumulate(
+					currLinkedPtr->V_begin(),
+					currLinkedPtr->V_end(),
+					size_t{0},
+					[&](size_t idx, auto &v) {
+						const size_t begin = idx * v.size();
+						const size_t end = (idx + 1) * v.size();
+						std::transform(
+								datainPtr.cbegin_xtrain() + begin,
+								datainPtr.cbegin_xtrain() + end,
+								v.data(),
+								[&](const auto &x) -> T_IN { return static_cast<T_IN>(x) / T_IN{255}; }
 
-        obj_assert_ptr(next);
+						);
+						return idx++;
+					}
+			);
+		}
 
-        assert(next != nullptr);
+		if constexpr(DEBUG_E >= DEBUG1) {
+			//datagenPtr.in.validate(feed->begin(), feed->end(), -1, 1);
 
-        auto link = new Linked<LayerOutput<T, B, mB, N, M>, decltype(next)>(next, l);
+			T_IN sum = 0;
 
-        assert(link != nullptr);
+			std::accumulate(
+					currLinkedPtr->V_begin(),
+					currLinkedPtr->V_end(),
+					T_IN{0},
+					[&](size_t idx, auto &v) {
+						sum += std::accumulate(v.data(), v.data() + v.size(), T_IN{0});
+						return idx++;
+					});
 
-        return link;
+			std::cout << "... <DEBUG 1> : INIT PATTERNS : SUM = " << sum << std::endl;
+		}
 
-    }
+	}
 
-    template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
-    template<debug_e DEBUG_E, size_t N, size_t M, size_t K, size_t ... nextShapeNN>
-    auto LayersMaker<T_IN, T, B, mB, I, shapeNN...>
-    ::alloc(size_t l) {
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
+	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::init_classifiers(Curr_Linked_Ptr_t currLinkedPtr) {
 
-        auto next = alloc<DEBUG_E, M, K, nextShapeNN...>(l + 1);
+		using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
 
-        assert(next != nullptr);
+		if constexpr(DEBUG_E >= DEBUG0) {
+			if constexpr (DEBUG_E > DEBUG0)std::cout << "... <DEBUG 0> init patterns" << std::endl;
 
-        obj_assert_ptr(next);
+			std::accumulate(
+					currLinkedPtr->Z_begin(),
+					currLinkedPtr->Z_end(),
+					size_t{0},
+					[&](size_t idx, auto &z) {
+						const size_t begin = idx * z.size();
+						const size_t end = (idx + 1) * z.size();
+						std::copy(datainPtr.cbegin_ztrain() + begin, datainPtr.cbegin_ztrain() + end, z.data());
+						return idx++;
+					}
+			);
+		}
 
-        auto link = new Linked<LayerHidden<T, mB, N, M>, decltype(next)>(next, l);
+		if constexpr(DEBUG_E >= DEBUG1) {
 
-        assert(link != nullptr);
+			T_IN sum = 0;
 
-        return link;
+			std::accumulate(
+					currLinkedPtr->Z_begin(),
+					currLinkedPtr->Z_end(),
+					T_IN{0},
+					[&](size_t idx, auto &z) {
+						sum += std::accumulate(z.data(), z.data() + z.size(), T_IN{0});
+						return idx++;
+					});
 
-    }
+			std::cout << "... <DEBUG 1> : INIT CLASSIFIERS : SUM = " << sum << std::endl;
+		}
 
-    template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
-    template<debug_e DEBUG_E>
-    auto LayersMaker<T_IN, T, B, mB, I, shapeNN...>
-    ::alloc() {
+	}
 
-        std::cout << "#### LAYERS : ALLOC : START >>>" << std::endl;
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
+	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::init(Curr_Linked_Ptr_t curr, size_t l) {
 
-        auto next = alloc<DEBUG_E, I, shapeNN...>(1);
+		using Curr_Linked_t = std::remove_pointer_t<Curr_Linked_Ptr_t>;
+		constexpr bool HAS_NEXT = Curr_Linked_t::HAS_NEXT;
+		constexpr layers_e EID = Curr_Linked_t::EID;
 
-        obj_assert_ptr(next);
+		if constexpr (HAS_NEXT) {
 
-        return new Linked<LayerInput<T_IN, B, mB, I>, decltype(next)>(next, 0);
+			auto next = curr->get_next();
 
-    }
+			if constexpr (DEBUG_E > DEBUG0) std::cout << "FORWARD: curr : " << curr->get_name() << std::endl;
 
-    template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
-    template<class Linked_Ptr_t>
-    auto LayersMaker<T_IN, T, B, mB, I, shapeNN...>
-    ::print(const Linked_Ptr_t layers) {
+			if constexpr(EID == LAYER_INPUT) {
+				if constexpr (DEBUG_E > DEBUG0)std::cout << "...INPUT" << std::endl;
+				init_patterns<DEBUG_E>(curr);
 
-        type_assert_ptr(Linked_Ptr_t);
+			} else if constexpr (EID == LAYER_HIDDEN) {
+				if constexpr (DEBUG_E > DEBUG0)std::cout << "...HIDDEN" << std::endl;
+				init_parameters<DEBUG_E>(curr);
+			}
 
-        layers->print();
+			init<DEBUG_E>(next, l + 1);
 
-        return *this;
-    }
+			if constexpr (DEBUG_E > DEBUG0)std::cout << "BACKWARD: curr : " << curr->get_name() << std::endl;
 
-    template<typename T_IN, typename T, size_t B, size_t mB, size_t I, size_t ... shapeNN>
-    LayersMaker<T_IN, T, B, mB, I, shapeNN...>
-    ::LayersMaker() {
+			if constexpr(EID == LAYER_INPUT) {
+				if constexpr (DEBUG_E > DEBUG0)std::cout << "...INPUT" << std::endl;
+			} else if constexpr (EID == LAYER_HIDDEN) {
+				if constexpr (DEBUG_E > DEBUG0)std::cout << "...HIDDEN" << std::endl;
+			}
 
-        std::cout << "#### LAYERS : CONSTRUCT >>>" << std::endl;
+		} else {
 
-        nMiniBatch = mB;
-        nFullBatch = B;
-        //init_random_bitmap<DEBUG1, T_IN, I, mB>(input->get_curr()->V);
+			if constexpr (DEBUG_E > DEBUG0) std::cout << "MIDDLE: is last : " << curr->get_name() << std::endl;
+			if constexpr (EID == LAYER_OUTPUT) {
+				if constexpr (DEBUG_E > DEBUG0) std::cout << "...OUTPUT" << std::endl;
+				init_classifiers<DEBUG_E>(curr);
+				init_parameters<DEBUG_E>(curr);
+			}
+		}
 
-        std::cout << m_shapeNN << std::endl;
+	}
 
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<debug_e DEBUG_E>
+	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::init() {
 
-    }
+		if constexpr (DEBUG_E > DEBUG0) {
+			std::cout << "#### LAYERS : INIT : START >>>" << std::endl;
+			type_assert_ptr(Linked_Ptr_t);
+			//type_assert_ptr(Datagen_Ptr);
+			std::cout << "... init input data" << std::endl;
 
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::Network(Layers_t &layers, Linked_Ptr_t &linkedPtr, Engine_Ptr &enginePtr, Datain_Ptr &datainPtr,
-              Datagen_Ptr &datagenPtr) :
-            layers(layers), linkedPtr(linkedPtr), enginePtr(enginePtr), datainPtr(datainPtr), datagenPtr(datagenPtr) {
+			linkedPtr->print_name();
+		}
 
-    }
+		init<DEBUG_E>(linkedPtr, 0);
 
+		return this;
 
+	}
 
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	::print() {
 
+		layers.print(linkedPtr);
 
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    template<debug_e DEBUG_E, compute_e COMPUTE_E, class Curr_Linked_Ptr_t>
-    void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::compute(Curr_Linked_Ptr_t curr, size_t l, size_t epoch, size_t iter) {
-
-        using Curr_Linked_t = std::remove_pointer_t<Curr_Linked_Ptr_t>;
-        constexpr bool HAS_NEXT = Curr_Linked_t::HAS_NEXT;
-        constexpr layers_e EID = Curr_Linked_t::EID;
-        auto next = curr->get_next();
-
-        if constexpr (HAS_NEXT) {
-
-            using curr_t = decltype(curr);
-            using next_t = decltype(next);
-
-
-            using engine_t = typename Engine_Ptr::template InnerEngine<DEBUG_E, curr_t, next_t>;
-            static auto engine = engine_t(curr, next);
-            //            static auto engine = CEng::RawEngine<DEBUG_E, curr_t, next_t>(curr, next);
-
-            if constexpr (COMPUTE_E == FORWARD_E) {
-                engine.compute_forward(epoch, iter);
-                //compute<DEBUG_E, COMPUTE_E>(curr, next, l);
-                compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
-            } else if constexpr (COMPUTE_E == UPDATE_E) {
-                engine.compute_update(epoch, iter);
-                //compute<DEBUG_E, COMPUTE_E>(curr, next, l); //next, curr
-                compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
-            } else if constexpr(COMPUTE_E == BACKWARD_E) {
-                compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
-                //compute<DEBUG_E, COMPUTE_E>(curr, next, l); //next, curr
-                engine.compute_backward(epoch, iter);
-            }
-
-        }
-
-    }
-
-
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    template<debug_e DEBUG_E>
-    void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::compute(size_t epochs) {
-
-        const size_t EPOCHS = epochs;
-
-        if constexpr (DEBUG_E > DEBUG0) {
-            std::cout << "#### LAYERS : COMPUTE : START [DEBUG] >>>" << std::endl;
-            type_assert_ptr(Linked_Ptr_t);
-        }
-
-        {
-            TIME_START
-            if constexpr (DEBUG_E > DEBUG0) {
-                std::cout << "[RESAMPLE INPUT]" << std::endl;
-                linkedPtr->print_name();
-            }
-
-            linkedPtr->shuffle_idx();
-
-            /* 1. Resample mB minibatch from B images xTrain
-             * 2. Match mB minibatch from B labels zTrain
-             */
-
-            compute < DEBUG_E, FORWARD_E > (linkedPtr, 0, 0, 0);
-            compute < DEBUG_E, BACKWARD_E > (linkedPtr, 0, 0, 0);
-            compute < DEBUG_E, UPDATE_E > (linkedPtr, 0, 0, 0);
-
-            TIME_CHECK
-        }
-
-        if constexpr (DEBUG_E > DEBUG0) {
-            std::cout << "#### LAYERS : COMPUTE : START [EPOCHS : " << epochs << ", ITER : " << ITER << "] >>>"
-                      << std::endl;
-            type_assert_ptr(Linked_Ptr_t);
-        }
-
-        size_t epoch = 0;
-        TIME_START
-        do {
-
-            std::cout << "...epochs : " << epochs << std::endl;
-
-            if constexpr (DEBUG_E > DEBUG0) {
-                std::cout << "[RESAMPLE INPUT]" << std::endl;
-                linkedPtr->print_name();
-            }
-
-            linkedPtr->shuffle_idx();
-
-            /* 1. Resample mB minibatch from B images xTrain
-             * 2. Match mB minibatch from B labels zTrain
-             */
-
-            size_t iterations = ITER;
-            do {
-                if (iterations % (ITER / 10) == 0) std::cout << "...iterations : " << iterations << std::endl;
-                compute < DEBUG0, FORWARD_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
-                compute < DEBUG0, BACKWARD_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
-                compute < DEBUG0, UPDATE_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
-            } while (--iterations);
-        } while (--epochs);
-
-        TIME_CHECK
-    }
-
-
-    template<class Layers_t, class Linked_Ptr, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-    auto Network<Layers_t, Linked_Ptr, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::init_parameters(Curr_Linked_Ptr_t currLinkedPtr) {
-
-        using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
-        constexpr size_t N = Curr_Linked_t::N;
-
-        T mean = 0;
-        T var = T{1} / T{N};
-        var = var > 0 ? var : 1;
-        T stdev = std::sqrt(var);
-
-        if constexpr (DEBUG_E > DEBUG0) std::cout << "mean = " << mean << ", stdev = " << stdev << std::endl;
-
-        if constexpr (DEBUG_E > DEBUG0) std::cout << "init random weights DEBUG_E = " << DEBUG_E << std::endl;
-
-        if constexpr (DEBUG_E >= DEBUG0) {
-            datagenPtr.generate(currLinkedPtr->W_begin(), currLinkedPtr->W_end(), mean, stdev);
-        }
-
-        if constexpr (DEBUG_E >= DEBUG1) {
-            datagenPtr.validate(currLinkedPtr->W_begin(), currLinkedPtr->W_end(), mean, stdev);
-        }
-
-    }
-
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-    auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::init_patterns(Curr_Linked_Ptr_t currLinkedPtr) {
-
-        using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
-
-        if constexpr(DEBUG_E >= DEBUG0) {
-
-            if constexpr (DEBUG_E > DEBUG0) std::cout << "... <DEBUG 0> init patterns" << std::endl;
-
-            std::accumulate(
-                    currLinkedPtr->V_begin(),
-                    currLinkedPtr->V_end(),
-                    size_t{0},
-                    [&](size_t idx, auto &v) {
-                        const size_t begin = idx * v.size();
-                        const size_t end = (idx + 1) * v.size();
-                        std::transform(
-                                datainPtr.cbegin_xtrain() + begin,
-                                datainPtr.cbegin_xtrain() + end,
-                                v.data(),
-                                [&](const auto &x) -> T_IN { return static_cast<T_IN>(x) / T_IN{255}; }
-
-                        );
-                        return idx++;
-                    }
-            );
-        }
-
-        if constexpr(DEBUG_E >= DEBUG1) {
-            //datagenPtr.in.validate(feed->begin(), feed->end(), -1, 1);
-
-            T_IN sum = 0;
-
-            std::accumulate(
-                    currLinkedPtr->V_begin(),
-                    currLinkedPtr->V_end(),
-                    T_IN{0},
-                    [&](size_t idx, auto &v) {
-                        sum += std::accumulate(v.data(), v.data() + v.size(), T_IN{0});
-                        return idx++;
-                    });
-
-            std::cout << "... <DEBUG 1> : INIT PATTERNS : SUM = " << sum << std::endl;
-        }
-
-    }
-
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-    auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::init_classifiers(Curr_Linked_Ptr_t currLinkedPtr) {
-
-        using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
-
-        if constexpr(DEBUG_E >= DEBUG0) {
-            if constexpr (DEBUG_E > DEBUG0)std::cout << "... <DEBUG 0> init patterns" << std::endl;
-
-            std::accumulate(
-                    currLinkedPtr->Z_begin(),
-                    currLinkedPtr->Z_end(),
-                    size_t{0},
-                    [&](size_t idx, auto &z) {
-                        const size_t begin = idx * z.size();
-                        const size_t end = (idx + 1) * z.size();
-                        std::copy(datainPtr.cbegin_ztrain() + begin, datainPtr.cbegin_ztrain() + end, z.data());
-                        return idx++;
-                    }
-            );
-        }
-
-        if constexpr(DEBUG_E >= DEBUG1) {
-
-            T_IN sum = 0;
-
-            std::accumulate(
-                    currLinkedPtr->Z_begin(),
-                    currLinkedPtr->Z_end(),
-                    T_IN{0},
-                    [&](size_t idx, auto &z) {
-                        sum += std::accumulate(z.data(), z.data() + z.size(), T_IN{0});
-                        return idx++;
-                    });
-
-            std::cout << "... <DEBUG 1> : INIT CLASSIFIERS : SUM = " << sum << std::endl;
-        }
-
-    }
-
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-    auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::init(Curr_Linked_Ptr_t curr, size_t l) {
-
-        using Curr_Linked_t = std::remove_pointer_t<Curr_Linked_Ptr_t>;
-        constexpr bool HAS_NEXT = Curr_Linked_t::HAS_NEXT;
-        constexpr layers_e EID = Curr_Linked_t::EID;
-
-        if constexpr (HAS_NEXT) {
-
-            auto next = curr->get_next();
-
-            if constexpr (DEBUG_E > DEBUG0) std::cout << "FORWARD: curr : " << curr->get_name() << std::endl;
-
-            if constexpr(EID == LAYER_INPUT) {
-                if constexpr (DEBUG_E > DEBUG0)std::cout << "...INPUT" << std::endl;
-                init_patterns<DEBUG_E>(curr);
-
-            } else if constexpr (EID == LAYER_HIDDEN) {
-                if constexpr (DEBUG_E > DEBUG0)std::cout << "...HIDDEN" << std::endl;
-                init_parameters<DEBUG_E>(curr);
-            }
-
-            init<DEBUG_E>(next, l + 1);
-
-            if constexpr (DEBUG_E > DEBUG0)std::cout << "BACKWARD: curr : " << curr->get_name() << std::endl;
-
-            if constexpr(EID == LAYER_INPUT) {
-                if constexpr (DEBUG_E > DEBUG0)std::cout << "...INPUT" << std::endl;
-            } else if constexpr (EID == LAYER_HIDDEN) {
-                if constexpr (DEBUG_E > DEBUG0)std::cout << "...HIDDEN" << std::endl;
-            }
-
-        } else {
-
-            if constexpr (DEBUG_E > DEBUG0) std::cout << "MIDDLE: is last : " << curr->get_name() << std::endl;
-            if constexpr (EID == LAYER_OUTPUT) {
-                if constexpr (DEBUG_E > DEBUG0) std::cout << "...OUTPUT" << std::endl;
-                init_classifiers<DEBUG_E>(curr);
-                init_parameters<DEBUG_E>(curr);
-            }
-        }
-
-    }
-
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    template<debug_e DEBUG_E>
-    auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::init() {
-
-        if constexpr (DEBUG_E > DEBUG0) {
-            std::cout << "#### LAYERS : INIT : START >>>" << std::endl;
-            type_assert_ptr(Linked_Ptr_t);
-            //type_assert_ptr(Datagen_Ptr);
-            std::cout << "... init input data" << std::endl;
-
-            linkedPtr->print_name();
-        }
-
-        init<DEBUG_E>(linkedPtr, 0);
-
-        return this;
-
-    }
-
-    template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-    void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-    ::print() {
-
-        layers.print(linkedPtr);
-
-    }
-
+	}
 
 };
-
 
 #endif //CPP_EXAMPLE_NNET_HXX

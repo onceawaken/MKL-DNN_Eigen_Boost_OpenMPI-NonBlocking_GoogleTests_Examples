@@ -1,0 +1,6 @@
+<map id="tbb::internal::rml::private_worker::start_shutdown" name="tbb::internal::rml::private_worker::start_shutdown">
+<area shape="rect" id="node2" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="203,5,380,47"/>
+<area shape="rect" id="node3" href="$a00307.html#a43c19dfa41213a92de3da1d0841cbf5a" title="tbb::internal::governor\l::does_client_join_workers" alt="" coords="203,71,379,112"/>
+<area shape="rect" id="node4" href="$a00606.html#a6e4301e948ea0fe1b57b4f5f3ec9375a" title="tbb::internal::rml\l::private_worker::release\l_handle" alt="" coords="209,135,374,191"/>
+<area shape="rect" id="node5" href="$a00605.html#af8d1c910ec7d64b8fc93b03bdc23ef64" title="tbb::internal::rml\l::private_server::remove\l_server_ref" alt="" coords="210,215,373,271"/>
+</map>

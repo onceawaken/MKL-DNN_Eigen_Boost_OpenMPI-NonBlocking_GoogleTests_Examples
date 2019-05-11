@@ -1,0 +1,5 @@
+<map id="tbb::internal::generic_scheduler::create_master" name="tbb::internal::generic_scheduler::create_master">
+<area shape="rect" id="node2" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="229,5,377,47"/>
+<area shape="rect" id="node4" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="229,71,377,112"/>
+<area shape="rect" id="node3" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="425,5,561,47"/>
+</map>

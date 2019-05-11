@@ -1,0 +1,4 @@
+<map id="tbb::internal::generic_scheduler::is_local_task_pool_quiescent" name="tbb::internal::generic_scheduler::is_local_task_pool_quiescent">
+<area shape="rect" id="node2" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="223,5,365,47"/>
+<area shape="rect" id="node3" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="223,71,365,112"/>
+</map>

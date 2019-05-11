@@ -1,0 +1,6 @@
+<map id="tbb::internal::generic_scheduler::acquire_task_pool" name="tbb::internal::generic_scheduler::acquire_task_pool">
+<area shape="rect" id="node2" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="256,5,415,32"/>
+<area shape="rect" id="node3" href="$a00302.html#a22a847d9945a845e136c9163f835adcd" title="tbb::internal::generic\l_scheduler::is_task_pool\l_published" alt="" coords="252,56,419,112"/>
+<area shape="rect" id="node4" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="267,135,404,177"/>
+<area shape="rect" id="node5" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="467,143,573,169"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="tbb::parallel_for" name="tbb::parallel_for">
+<area shape="rect" id="node2" href="$a00729.html#aa1762bde7c3f7fc628123175f52790c4" title="tbb::interface9::internal\l::start_for::run" alt="" coords="164,145,319,186"/>
+<area shape="rect" id="node3" href="$a00778.html#ac7a9405b422bec9110854acd71edb9f2" title="Returns proxy for overloaded new that allocates a root task. " alt="" coords="367,5,521,32"/>
+<area shape="rect" id="node4" href="$a00729.html#aec2eb848e57c22157c14dffb5c3124f0" title="Constructor for root task. " alt="" coords="367,57,521,98"/>
+<area shape="rect" id="node6" href="$a00778.html#ada4ae99995a8f7b0cf1bbb6febbff8bb" title="This method is deprecated and will be removed in the future. " alt="" coords="382,123,506,149"/>
+<area shape="rect" id="node7" href="$a01133.html#a603cf24656020b9d6be9a615c5807550" title="tbb::internal::fgt\l_begin_algorithm" alt="" coords="384,174,504,215"/>
+<area shape="rect" id="node8" href="$a00778.html#af19c8ef47d1feb6dae459a99efb8bd31" title="Spawn task allocated by allocate_root, wait for it to complete, and deallocate it. " alt="" coords="370,239,518,281"/>
+<area shape="rect" id="node12" href="$a01133.html#ab2933f17f42e558bfbf04cc6112c3fbf" title="tbb::internal::fgt\l_end_algorithm" alt="" coords="387,305,501,346"/>
+<area shape="rect" id="node5" href="$a01133.html#a54901d4a6cf835df398ca138ecfd4d24" title="tbb::internal::fgt\l_algorithm" alt="" coords="569,57,683,98"/>
+<area shape="rect" id="node9" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="569,247,683,273"/>
+<area shape="rect" id="node10" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="742,210,873,251"/>
+<area shape="rect" id="node11" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="731,276,884,303"/>
+</map>

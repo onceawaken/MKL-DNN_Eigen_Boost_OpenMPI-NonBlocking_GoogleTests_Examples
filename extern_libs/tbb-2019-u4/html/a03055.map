@@ -1,0 +1,6 @@
+<map id="tbb::interface7::task_arena" name="tbb::interface7::task_arena">
+<area shape="rect" id="node2" href="$a00780.html" title="{tbb::interface7::internal\l::task_arena_base\n|+ automatic\l+ not_initialized\l# my_arena\l# my_max_concurrency\l# my_master_slots\l# my_version_and_traits\l|# task_arena_base()\l# internal_initialize()\l# internal_terminate()\l# internal_attach()\l# internal_enqueue()\l# internal_execute()\l# internal_wait()\l# internal_current_slot()\l# internal_max_concurrency()\l}" alt="" coords="9,927,202,1209"/>
+<area shape="rect" id="node3" href="$a00784.html" title="Used to form groups of tasks. " alt="" coords="5,273,205,864"/>
+<area shape="rect" id="node4" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="32,132,179,224"/>
+<area shape="rect" id="node5" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="27,5,184,83"/>
+</map>

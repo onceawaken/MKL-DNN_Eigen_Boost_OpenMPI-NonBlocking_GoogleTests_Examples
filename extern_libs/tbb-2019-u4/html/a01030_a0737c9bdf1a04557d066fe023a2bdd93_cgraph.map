@@ -1,0 +1,6 @@
+<map id="__TBB_machine_try_lock_elided_cancel" name="__TBB_machine_try_lock_elided_cancel">
+<area shape="rect" id="node2" href="$a01030.html#a2f340405cebd7402cc496499a26a92f1" title="__TBB_machine_begin\l_transaction" alt="" coords="255,5,411,47"/>
+<area shape="rect" id="node3" href="$a01030.html#a04dc5a4535e9115f5b95bcd449f5c08a" title="__TBB_machine_end_transaction" alt="" coords="224,71,441,98"/>
+<area shape="rect" id="node4" href="$a01030.html#a0b08d01e4215d1979926cd0722dc53af" title="__TBB_machine_is_in\l_transaction" alt="" coords="257,123,409,164"/>
+<area shape="rect" id="node5" href="$a01030.html#adb060dbee393950023f1fe45fc37f0f1" title="__TBB_machine_transaction\l_conflict_abort" alt="" coords="238,188,427,229"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="tbb::flow::interface10::internal::unfolded_join_node&lt; 5, key_matching_port, OutputTuple, key_matching&lt; K, KHash &gt; &gt;" name="tbb::flow::interface10::internal::unfolded_join_node&lt; 5, key_matching_port, OutputTuple, key_matching&lt; K, KHash &gt; &gt;">
+<area shape="rect" id="node2" href="$a00430.html" title="join_node_base " alt="" coords="193,663,401,916"/>
+<area shape="rect" id="node3" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="12,463,156,613"/>
+<area shape="rect" id="node4" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,286,157,378"/>
+<area shape="rect" id="node5" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,71,163,149"/>
+<area shape="rect" id="node6" href="$a00434.html" title="join_node_FE : implements input port policy " alt="" coords="180,485,415,591"/>
+<area shape="rect" id="node7" href="$a00702.html" title="{tbb::flow::interface10\l::sender\&lt; OutputTuple \&gt;\n||+ try_get()\l+ try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="439,470,603,606"/>
+<area shape="rect" id="node8" href="$a00876.html" title="{tbb::flow::interface10\l::internal::untyped_sender\n||+ ~untyped_sender()\l+ register_successor()\l+ remove_successor()\l+ try_release()\l+ try_consume()\l# try_get()\l# try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="443,5,615,215"/>
+<area shape="rect" id="node9" href="$a00702.html" title="Forward declaration section. " alt="" coords="530,264,689,400"/>
+</map>

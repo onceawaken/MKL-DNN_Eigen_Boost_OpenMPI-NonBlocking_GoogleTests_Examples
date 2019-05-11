@@ -1,0 +1,6 @@
+<map id="tbb::internal::market::arena_in_need" name="tbb::internal::market::arena_in_need">
+<area shape="rect" id="node2" href="$a00391.html#a27a1cf03b6f163c2835d861fc6519aba" title="tbb::internal::intrusive\l_list_base::begin" alt="" coords="194,5,341,47"/>
+<area shape="rect" id="node3" href="$a00391.html#a6d959466117083ddb5fb3ed17bff818a" title="tbb::internal::intrusive\l_list_base::empty" alt="" coords="194,71,341,112"/>
+<area shape="rect" id="node4" href="$a00391.html#a61fa0658a500c11ff2cdf4c294c33e97" title="tbb::internal::intrusive\l_list_base::end" alt="" coords="194,136,341,177"/>
+<area shape="rect" id="node5" href="$a00059.html#a9789f9b89947588c60a2134203bfc6b0" title="The number of workers active in the arena. " alt="" coords="192,201,343,243"/>
+</map>

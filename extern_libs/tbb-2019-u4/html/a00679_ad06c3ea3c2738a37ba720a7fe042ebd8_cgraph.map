@@ -1,0 +1,4 @@
+<map id="tbb::spin_mutex::scoped_lock::internal_try_acquire" name="tbb::spin_mutex::scoped_lock::internal_try_acquire">
+<area shape="rect" id="node2" href="$a01089.html#ad95ec7e5b7103614f039c4019bf3b3f6" title="__TBB_TryLockByte" alt="" coords="228,13,371,39"/>
+<area shape="rect" id="node3" href="$a01107.html#a1ba16e606202cdec1e611e5c0df2b9f6" title="__TBB_machine_cmpswp1" alt="" coords="419,13,600,39"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="tbb::flow::interface10::internal::continue_input&lt; Output, Policy &gt;" name="tbb::flow::interface10::internal::continue_input&lt; Output, Policy &gt;">
+<area shape="rect" id="node2" href="$a00179.html" title="Base class for receivers of completion messages. " alt="" coords="883,1858,1051,2097"/>
+<area shape="rect" id="node3" href="$a00644.html" title="{tbb::flow::interface10\l::receiver\&lt; continue_msg \&gt;\n||+ try_put()\l+ try_put()\l# try_put_task_wrapper()\l# try_put_task()\l}" alt="" coords="960,1586,1141,1722"/>
+<area shape="rect" id="node4" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="936,132,1115,341"/>
+<area shape="rect" id="node5" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="861,657,1027,793"/>
+<area shape="rect" id="node6" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="789,1564,936,1744"/>
+<area shape="rect" id="node10" href="$a00308.html" title="The graph class. " alt="" coords="300,1807,473,2148"/>
+<area shape="rect" id="node7" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="662,672,818,779"/>
+<area shape="rect" id="node8" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="103,191,249,283"/>
+<area shape="rect" id="node17" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="215,2284,359,2405"/>
+<area shape="rect" id="node19" href="$a00784.html" title="Used to form groups of tasks. " alt="" coords="76,949,276,1540"/>
+<area shape="rect" id="node9" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="831,5,988,83"/>
+<area shape="rect" id="node20" href="$a00280.html" title="A functor that takes an Input and generates an Output. " alt="" coords="1099,365,1261,501"/>
+<area shape="rect" id="node13" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="283,525,498,925"/>
+<area shape="rect" id="node15" title="STL class. " alt="" coords="525,687,622,764"/>
+</map>

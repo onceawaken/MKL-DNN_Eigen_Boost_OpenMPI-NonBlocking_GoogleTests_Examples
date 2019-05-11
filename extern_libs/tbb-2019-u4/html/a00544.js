@@ -1,0 +1,26 @@
+var a00544 =
+[
+    [ "file_reader", "a00254.html", "a00254" ],
+    [ "opencl_device_filter", "a00536.html", "a00536" ],
+    [ "opencl_program_builder", "a00545.html", "a00545" ],
+    [ "kernel_type", "a00544.html#a8d3995abd89b7933f9155a71b468329f", null ],
+    [ "opencl_program", "a00544.html#aba6fe821c084403ed21fc7ae20f6fe77", null ],
+    [ "opencl_program", "a00544.html#ab7ea8bee6439e9cd71aa017b2d80ad04", null ],
+    [ "opencl_program", "a00544.html#ab065ffc8d739872373e76f5fa2feddf1", null ],
+    [ "opencl_program", "a00544.html#a5d553a0a47923e9febbff7e2fcf527fd", null ],
+    [ "opencl_program", "a00544.html#a673eda1eee74b84795f1f54cad6a7c3e", null ],
+    [ "opencl_program", "a00544.html#a6ff9429c5ae7799272dfb1d79adf055d", null ],
+    [ "opencl_program", "a00544.html#a400e941b0e338907e001dc46dfdbf735", null ],
+    [ "opencl_program", "a00544.html#abee242124a40c35771d4ec1135e86d15", null ],
+    [ "opencl_program", "a00544.html#a5c04c97a6af7737bdbe482a894a05606", null ],
+    [ "get_cl_kernel", "a00544.html#a058805b3f64658a1c8a2350142bb61df", null ],
+    [ "get_kernel", "a00544.html#a420dfd39624af3d089ac9589373ebb82", null ],
+    [ "init", "a00544.html#aabd0736aafe61ed19ace6f95c97f6888", null ],
+    [ "opencl_factory", "a00544.html#a357c187838aa075f23be7b8c86ddcbd3", null ],
+    [ "opencl_factory< DeviceFilter >::kernel", "a00544.html#ae5c7df2a18ff72b1c110470e8e28d8b7", null ],
+    [ "my_arg_str", "a00544.html#ac5060cd06a58ff83b66eec39c90a0b91", null ],
+    [ "my_cl_program", "a00544.html#a1dd3973ba5cac55e9961d16929f51e54", null ],
+    [ "my_do_once_flag", "a00544.html#aae4e65bc3ad80a2d8516310e06ba1051", null ],
+    [ "my_factory", "a00544.html#a214be6d37726172e93f03d6a64c4669a", null ],
+    [ "my_type", "a00544.html#ae30d20043beb4ce0aee18ad3532073b1", null ]
+];

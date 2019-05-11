@@ -1,0 +1,7 @@
+<map id="tbb::flow::interface9::gfx_buffer::data" name="tbb::flow::interface9::gfx_buffer::data">
+<area shape="rect" id="node2" href="$a01121.html#ac746efa3979d4efbc109fb947ce91e59" title="tbb::flow::interface9\l::gfx_offload::raw_data" alt="" coords="204,5,359,47"/>
+<area shape="rect" id="node5" href="$a00305.html#a638dfa4003a75d410f73a59260de4f13" title="tbb::flow::interface9\l::gfx_factory::share_data" alt="" coords="198,71,365,112"/>
+<area shape="rect" id="node6" href="$a00305.html#a704de1c64399fd206710a52dbcb417ce" title="tbb::flow::interface9\l::gfx_factory::unshare_data" alt="" coords="191,136,372,177"/>
+<area shape="rect" id="node3" href="$a01121.html#a3f7297d0b99732aba3a29f67f51fdf18" title="tbb::flow::interface9\l::gfx_offload::run_kernel" alt="" coords="420,5,583,47"/>
+<area shape="rect" id="node4" href="$a00305.html#ad02cbeeadac99f4ebecfb849439a3eb6" title="tbb::flow::interface9\l::gfx_factory::send_kernel" alt="" coords="631,5,804,47"/>
+</map>

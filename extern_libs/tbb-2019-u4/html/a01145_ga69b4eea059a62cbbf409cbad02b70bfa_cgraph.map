@@ -1,0 +1,9 @@
+<map id="tbb::parallel_deterministic_reduce" name="tbb::parallel_deterministic_reduce">
+<area shape="rect" id="node2" href="$a01145.html#ga1fd7e3c43592dfe1ae3e3572bd80d4f6" title="Parallel iteration with deterministic reduction and default simple partitioner. " alt="" coords="224,64,395,105"/>
+<area shape="rect" id="node3" href="$a00728.html#a5b1d6b6891c80f9694e1ad6ed7ee2b8b" title="tbb::interface9::internal\l::start_deterministic_reduce::run" alt="" coords="443,64,652,105"/>
+<area shape="rect" id="node4" href="$a00778.html#af19c8ef47d1feb6dae459a99efb8bd31" title="Spawn task allocated by allocate_root, wait for it to complete, and deallocate it. " alt="" coords="703,35,851,76"/>
+<area shape="rect" id="node8" href="$a00778.html#ac7a9405b422bec9110854acd71edb9f2" title="Returns proxy for overloaded new that allocates a root task. " alt="" coords="700,101,855,127"/>
+<area shape="rect" id="node5" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="903,42,1016,69"/>
+<area shape="rect" id="node6" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="1075,5,1206,47"/>
+<area shape="rect" id="node7" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="1064,71,1217,98"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="tbb::task::set_ref_count" name="tbb::task::set_ref_count">
+<area shape="rect" id="node2" href="$a01132.html#ac4236dcd3fe30778e6930c3785bd463c" title="allocate right task with new parent " alt="" coords="199,71,353,112"/>
+<area shape="rect" id="node6" href="$a00886.html#a1377f3dd127981bcb99990996bed7fb9" title="Should be overridden by derived classes. " alt="" coords="203,136,349,177"/>
+<area shape="rect" id="node7" href="$a00573.html#a20607ba5faa958144787d980aa850c16" title="Apply body.apply to each item in the stream. " alt="" coords="200,202,352,229"/>
+<area shape="rect" id="node8" href="$a00228.html#aebb622ab2f9e46491a9d7cdcf300c8bd" title="tbb::interface9::internal\l::do_task_iter::run_for\l_random_access_iterator" alt="" coords="192,253,360,309"/>
+<area shape="rect" id="node9" href="$a00783.html#ac846a7be5035e1f5c929bda05e1b4401" title="tbb::internal::task\l_group_base::task_group_base" alt="" coords="175,332,377,373"/>
+<area shape="rect" id="node10" href="$a00463.html#aa302c1fff8f466f88fd14dd818ad8fc1" title="Put item to successor; return task to run the successor if possible. " alt="" coords="195,397,357,453"/>
+<area shape="rect" id="node11" href="$a00308.html#afdc9f74767582a790e47f222a2263661" title="Destroys the graph. " alt="" coords="204,476,348,517"/>
+<area shape="rect" id="node3" href="$a00729.html#a176a32f32cd87efa33faf53d19a15c96" title="spawn right task, serves as callback for partitioner " alt="" coords="439,5,594,47"/>
+<area shape="rect" id="node4" href="$a00731.html#a01f8832834bde49b03c7d4b617acb06d" title="spawn right task, serves as callback for partitioner " alt="" coords="431,71,602,112"/>
+<area shape="rect" id="node5" href="$a00728.html#afe17dace21bda2ab77d9952903f319a6" title="tbb::interface9::internal\l::start_deterministic_reduce\l::offer_work" alt="" coords="425,135,608,191"/>
+</map>

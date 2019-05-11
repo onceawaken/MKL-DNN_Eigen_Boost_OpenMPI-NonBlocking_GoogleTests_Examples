@@ -1,0 +1,9 @@
+<map id="tbb::interface5::reader_writer_lock::set_next_writer" name="tbb::interface5::reader_writer_lock::set_next_writer">
+<area shape="rect" id="node2" href="$a01089.html#a4c867c719a6d9d6df0501968642dacb2" title="__TBB_AtomicOR" alt="" coords="210,5,341,32"/>
+<area shape="rect" id="node5" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="395,217,572,258"/>
+<area shape="rect" id="node6" href="$a01123.html#abb0654dc2e57471186987b2b045bda85" title="tbb::interface5::fetch\l_and_or" alt="" coords="204,187,347,229"/>
+<area shape="rect" id="node7" href="$a01123.html#a5b4596843e940a55b6d7f5c7d3766d8d" title="Spin UNTIL (location &amp; value) is true. " alt="" coords="207,57,344,98"/>
+<area shape="rect" id="node8" href="$a01123.html#a63e3aa12ad1f024245a8c80d0906379c" title="Spin WHILE the value at the location is greater than or equal to a given value. " alt="" coords="207,122,344,163"/>
+<area shape="rect" id="node3" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="415,90,552,131"/>
+<area shape="rect" id="node4" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="620,97,727,124"/>
+</map>

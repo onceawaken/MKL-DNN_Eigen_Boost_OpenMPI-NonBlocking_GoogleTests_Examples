@@ -1,0 +1,10 @@
+<map id="tbb::internal::market::try_destroy_arena" name="tbb::internal::market::try_destroy_arena">
+<area shape="rect" id="node2" href="$a00059.html#af5ce7404b60b78dee1ce689cfe903734" title="Notification that worker or master leaves its arena. " alt="" coords="194,109,329,151"/>
+<area shape="rect" id="node9" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="192,175,331,216"/>
+<area shape="rect" id="node3" href="$a00302.html#ac223f7892d65e496c37190c4009ea1f7" title="Perform necessary cleanup when a master thread stops using TBB. " alt="" coords="379,37,564,79"/>
+<area shape="rect" id="node7" href="$a00780.html#ae01d134b4edd1c8887f166fb55c66aa5" title="tbb::interface7::internal\l::task_arena_base::internal\l_initialize" alt="" coords="382,102,561,158"/>
+<area shape="rect" id="node8" href="$a00780.html#ac4dfdae54413299145035fee965972dd" title="tbb::interface7::internal\l::task_arena_base::internal\l_terminate" alt="" coords="382,182,561,238"/>
+<area shape="rect" id="node4" href="$a00307.html#a5fbd38947c75c1e8494bc1bac598a9fe" title="The internal routine to undo automatic initialization. " alt="" coords="612,5,760,47"/>
+<area shape="rect" id="node5" href="$a00307.html#a0962408ba1eaf67d0ad741a0749f3a4e" title="Processes scheduler termination request (possibly nested) in a master thread. " alt="" coords="612,71,760,112"/>
+<area shape="rect" id="node6" href="$a00791.html#a2647279bff44f88c82eead707d4c7a14" title="tbb::task_scheduler\l_init::internal_terminate" alt="" coords="808,71,965,112"/>
+</map>

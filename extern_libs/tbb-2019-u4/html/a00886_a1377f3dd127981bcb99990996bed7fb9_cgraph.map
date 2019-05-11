@@ -1,0 +1,10 @@
+<map id="tbb::internal::while_group_task::execute" name="tbb::internal::while_group_task::execute">
+<area shape="rect" id="node2" href="$a00778.html#a94c4982c71c3794f3cbb12434eb3498a" title="Returns proxy for overloaded new that allocates a child task of *this. " alt="" coords="221,5,347,47"/>
+<area shape="rect" id="node3" href="$a00788.html#a378e7c8d7a89afe3940b9c0e236bca09" title="Push task onto back of list. " alt="" coords="200,71,368,98"/>
+<area shape="rect" id="node8" href="$a00778.html#aca4ee1355d9f6acfd34f736fa889f3fd" title="Set reference count. " alt="" coords="223,123,345,164"/>
+<area shape="rect" id="node9" href="$a00778.html#a99ea4f316479857b3de302bb0966ef72" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="211,188,357,229"/>
+<area shape="rect" id="node4" href="$a01133.html#acf23419eb6d3adac787a4fee78cb3c27" title="tbb::internal::first" alt="" coords="416,46,536,73"/>
+<area shape="rect" id="node5" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="419,97,533,123"/>
+<area shape="rect" id="node6" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="584,67,737,94"/>
+<area shape="rect" id="node7" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="595,119,726,160"/>
+</map>

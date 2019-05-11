@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::callback_base" name="tbb::flow::interface10::callback_base">
+<area shape="rect" id="node4" href="$a00125.html" title="{tbb::flow::interface10\l::callback\&lt; Callback, T \&gt;\n|&#45; my_callback\l&#45; my_data\l|+ callback()\l+ call()\l}" alt="" coords="5,425,175,547"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="17,131,163,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="11,5,169,83"/>
+</map>

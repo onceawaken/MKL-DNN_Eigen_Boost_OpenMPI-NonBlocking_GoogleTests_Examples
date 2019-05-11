@@ -1,0 +1,23 @@
+<map id="tbb::strict_ppl::parallel_for" name="tbb::strict_ppl::parallel_for">
+<area shape="rect" id="node2" href="$a01141.html#a2a08fe076bb27638b30e570bcd37aaa5" title="Parallel iteration over a range of integers with a step provided and default partitioner. " alt="" coords="225,82,397,109"/>
+<area shape="rect" id="node5" href="$a01141.html#a3f4db314e9939d993804e88caed71b3b" title="Implementation of parallel iteration over stepped range of integers with explicit step..." alt="" coords="236,133,387,175"/>
+<area shape="rect" id="node3" href="$a01133.html#acf23419eb6d3adac787a4fee78cb3c27" title="tbb::internal::first" alt="" coords="451,31,571,58"/>
+<area shape="rect" id="node4" href="$a01133.html#acb741ec0fd6aa234c464640f37d7c812" title="tbb::internal::last" alt="" coords="451,82,570,109"/>
+<area shape="rect" id="node6" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="445,133,576,175"/>
+<area shape="rect" id="node11" href="$a01145.html#gaa8444c29dc4d2e527a1036717d109aef" title="Parallel iteration over range with default partitioner. " alt="" coords="455,231,566,258"/>
+<area shape="rect" id="node7" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="636,100,767,141"/>
+<area shape="rect" id="node8" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="858,5,977,47"/>
+<area shape="rect" id="node9" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="827,71,1008,112"/>
+<area shape="rect" id="node10" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="831,137,1003,163"/>
+<area shape="rect" id="node12" href="$a00729.html#aa1762bde7c3f7fc628123175f52790c4" title="tbb::interface9::internal\l::start_for::run" alt="" coords="624,289,779,331"/>
+<area shape="rect" id="node13" href="$a00778.html#ac7a9405b422bec9110854acd71edb9f2" title="Returns proxy for overloaded new that allocates a root task. " alt="" coords="840,187,995,214"/>
+<area shape="rect" id="node14" href="$a00778.html#ada4ae99995a8f7b0cf1bbb6febbff8bb" title="This method is deprecated and will be removed in the future. " alt="" coords="855,238,979,265"/>
+<area shape="rect" id="node15" href="$a01133.html#a603cf24656020b9d6be9a615c5807550" title="tbb::internal::fgt\l_begin_algorithm" alt="" coords="857,289,977,331"/>
+<area shape="rect" id="node16" href="$a01133.html#ab2933f17f42e558bfbf04cc6112c3fbf" title="tbb::internal::fgt\l_end_algorithm" alt="" coords="861,355,974,396"/>
+<area shape="rect" id="node17" href="$a00778.html#af19c8ef47d1feb6dae459a99efb8bd31" title="Spawn task allocated by allocate_root, wait for it to complete, and deallocate it. " alt="" coords="843,420,991,461"/>
+<area shape="rect" id="node21" href="$a00729.html#aec2eb848e57c22157c14dffb5c3124f0" title="Constructor for root task. " alt="" coords="840,485,995,527"/>
+<area shape="rect" id="node18" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="1056,427,1169,454"/>
+<area shape="rect" id="node19" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="1217,398,1371,425"/>
+<area shape="rect" id="node20" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="1229,449,1359,491"/>
+<area shape="rect" id="node22" href="$a01133.html#a54901d4a6cf835df398ca138ecfd4d24" title="tbb::internal::fgt\l_algorithm" alt="" coords="1056,485,1169,527"/>
+</map>

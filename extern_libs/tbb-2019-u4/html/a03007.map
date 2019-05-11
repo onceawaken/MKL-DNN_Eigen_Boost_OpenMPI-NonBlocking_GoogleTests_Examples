@@ -1,0 +1,6 @@
+<map id="tbb::interface6::internal::filter_node" name="tbb::interface6::internal::filter_node">
+<area shape="rect" id="node4" href="$a00257.html" title="Node in parse tree representing join of two filters. " alt="" coords="5,469,160,605"/>
+<area shape="rect" id="node5" href="$a00258.html" title="Node in parse tree representing result of make_filter. " alt="" coords="184,469,339,605"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="99,131,245,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="93,5,251,83"/>
+</map>

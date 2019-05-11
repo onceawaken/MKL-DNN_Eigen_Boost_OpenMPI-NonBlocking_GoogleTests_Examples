@@ -1,0 +1,5 @@
+<map id="tbb::internal::task_proxy::task_ptr" name="tbb::internal::task_proxy::task_ptr">
+<area shape="rect" id="node2" href="$a00790.html#a3a144ac1ce1252f4b4da060d5d3f5ded" title="Returns a pointer to the encapsulated task or NULL, and frees proxy if necessary. ..." alt="" coords="176,39,317,80"/>
+<area shape="rect" id="node3" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="371,5,513,47"/>
+<area shape="rect" id="node4" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="365,71,519,112"/>
+</map>

@@ -1,0 +1,79 @@
+<map id="tbb::internal::__TBB_store_with_release" name="tbb::internal::__TBB_store_with_release">
+<area shape="rect" id="node2" href="$a00684.html#ab4bf2fb86d6a418f9ea36474eb8893f9" title="Acquire lock on given mutex. " alt="" coords="231,64,388,105"/>
+<area shape="rect" id="node5" href="$a00302.html#ac223f7892d65e496c37190c4009ea1f7" title="Perform necessary cleanup when a master thread stops using TBB. " alt="" coords="481,345,667,387"/>
+<area shape="rect" id="node9" href="$a00302.html#a7f7d3a75d44d62525c8b31c32917d242" title="Makes newly spawned tasks visible to thieves. " alt="" coords="192,624,427,665"/>
+<area shape="rect" id="node15" href="$a00684.html#af0af63035147a3d8422f8c8d7b8d2629" title="Downgrade writer to become a reader. " alt="" coords="487,122,661,178"/>
+<area shape="rect" id="node16" href="$a00302.html#a10c72a4aad7308d944cef26502ece55e" title="Get a task from the local pool. " alt="" coords="503,528,645,569"/>
+<area shape="rect" id="node18" href="$a00351.html#a3f4cb1afbdd9c93244f2c0e411d8f59f" title="internal::indexer_node\l_base::handle_operations" alt="" coords="224,689,395,731"/>
+<area shape="rect" id="node19" href="$a00659.html#a4abef89b744417d1e26aaf203a11ac73" title="internal::reserving\l_port::handle_operations" alt="" coords="227,755,391,796"/>
+<area shape="rect" id="node20" href="$a00291.html#ab8dc0f13c7657f598e9c9da7782748dd" title="internal::function\l_input_base\&lt; Input,\l Policy, A, multifunction\l_input\&lt; Input, OutputPortSet,\l Policy, A \&gt; \&gt;::handle_operations" alt="" coords="201,821,417,906"/>
+<area shape="rect" id="node21" href="$a00146.html#aea4a5cc97588c94be5633b34e9ba5104" title="tbb::interface5::concurrent\l_priority_queue::handle\l_operations" alt="" coords="733,826,908,882"/>
+<area shape="rect" id="node23" href="$a00616.html#a756346f2024f8fa4852b5a1cc4ae4471" title="internal::queueing\l_port::handle_operations" alt="" coords="227,1163,391,1204"/>
+<area shape="rect" id="node24" href="$a00462.html#a35772abe108fe1319a6a9fb6548fc4ff" title="internal::key_matching\l_port::handle_operations" alt="" coords="227,1228,391,1269"/>
+<area shape="rect" id="node25" href="$a00435.html#a4ddea9e5a9c45cf1c43797c401264238" title="internal::join_node\l_FE\&lt; key_matching\&lt; K,\l KHash \&gt;, InputTuple,\l OutputTuple \&gt;::handle\l_operations" alt="" coords="227,1294,391,1379"/>
+<area shape="rect" id="node26" href="$a00429.html#aa28b193214aee745acb2d83bd511e686" title="internal::join_node\l_base::handle_operations" alt="" coords="224,1404,395,1445"/>
+<area shape="rect" id="node27" href="$a00613.html#a27faa515f007a56b88c6e11bfe4c6d7e" title="tbb::flow::interface10\l::queue_node::internal\l_consume" alt="" coords="234,1469,385,1525"/>
+<area shape="rect" id="node28" href="$a00603.html#a41a44b0d247c219c69ee15eeef7a37dc" title="tbb::flow::interface10\l::priority_queue_node\l::internal_consume" alt="" coords="236,1549,383,1605"/>
+<area shape="rect" id="node29" href="$a00291.html#aeea990ac5e72796c5b91d47a85e04b90" title="Creates tasks for postponed messages if available and if concurrency allows. " alt="" coords="208,1629,411,1714"/>
+<area shape="rect" id="node30" href="$a00119.html#a6d4b3472aa912f2fe43e7b439e573c38" title="tbb::flow::interface10\l::buffer_node::internal\l_forward_task_impl" alt="" coords="235,1738,383,1794"/>
+<area shape="rect" id="node31" href="$a00613.html#a24358b9814874f2071d694ef565565ce" title="tbb::flow::interface10\l::queue_node::internal_pop" alt="" coords="220,1817,399,1859"/>
+<area shape="rect" id="node32" href="$a00603.html#a8ca76c80d6c95fac9199f4323be203cc" title="tbb::flow::interface10\l::priority_queue_node\l::internal_pop" alt="" coords="236,1882,383,1938"/>
+<area shape="rect" id="node33" href="$a00705.html#a53079c678d233f94d97cd49b098e3ef4" title="tbb::flow::interface10\l::sequencer_node::internal_push" alt="" coords="204,1961,415,2003"/>
+<area shape="rect" id="node34" href="$a00603.html#a6079b0dc1cc4d29896b53c119c96a4d9" title="tbb::flow::interface10\l::priority_queue_node\l::internal_push" alt="" coords="236,2026,383,2082"/>
+<area shape="rect" id="node35" href="$a00119.html#ac9a2704f8c33afa71aba452a4d1d8182" title="tbb::flow::interface10\l::buffer_node::internal\l_release" alt="" coords="235,2106,383,2162"/>
+<area shape="rect" id="node36" href="$a00603.html#af154c5ee3b64a600b5e4feee080aa7eb" title="tbb::flow::interface10\l::priority_queue_node\l::internal_release" alt="" coords="236,2186,383,2242"/>
+<area shape="rect" id="node37" href="$a00613.html#aacccbf7cfc8264662934ff143a89b535" title="tbb::flow::interface10\l::queue_node::internal\l_reserve" alt="" coords="234,2266,385,2322"/>
+<area shape="rect" id="node38" href="$a00603.html#a902f4a3a13e2aed0e31d6a136f5ce5dc" title="tbb::flow::interface10\l::priority_queue_node\l::internal_reserve" alt="" coords="236,2346,383,2402"/>
+<area shape="rect" id="node39" href="$a00291.html#a621001db7407631901673ca677a96d26" title="Put to the node, but return the task instead of enqueueing it. " alt="" coords="213,2425,406,2525"/>
+<area shape="rect" id="node40" href="$a01133.html#aca67a648bfa612f17afbe381b8f84720" title="tbb::internal::itt\l_store_pointer_with\l_release_v3" alt="" coords="242,1031,377,1087"/>
+<area shape="rect" id="node42" href="$a00037.html#afbaa689b3664445e8bc54d250566ca98" title="Trigger the handling of operations when the handler is free. " alt="" coords="733,746,908,802"/>
+<area shape="rect" id="node47" href="$a00036.html#a779e53657aad2d95167fd4f12f44a96e" title="Trigger the handling of operations when the handler is free. " alt="" coords="726,1326,915,1382"/>
+<area shape="rect" id="node55" href="$a01133.html#a06a4ba809d4693c68d3bbb98b86ec84c" title="tbb::internal::itt\l_store_word_with_release" alt="" coords="223,2549,396,2591"/>
+<area shape="rect" id="node56" href="$a00302.html#ab80a47a82aea82a8ad418fbc36887ac9" title="tbb::internal::generic\l_scheduler::nested_arena_exit" alt="" coords="210,2615,409,2656"/>
+<area shape="rect" id="node57" href="$a00144.html#a632c3911a55cfda997acce279c471ec3" title="tbb::interface6::concurrent\l_lru_cache::operator[]" alt="" coords="222,2680,397,2721"/>
+<area shape="rect" id="node58" href="$a00059.html#aff17fc29650655b080b795be34179d20" title="Registers the worker with the arena and enters TBB scheduler dispatch loop. " alt="" coords="244,2745,375,2787"/>
+<area shape="rect" id="node61" href="$a00302.html#af222cccbf09e91c9c9caaad81f8d993d" title="Used by workers to enter the task pool. " alt="" coords="211,559,408,600"/>
+<area shape="rect" id="node62" href="$a00143.html#a7f29734b96e4dfb714200ba1bdf2e427" title="tbb::interface5::concurrent\l_hash_map::rehash_bucket" alt="" coords="218,2811,401,2852"/>
+<area shape="rect" id="node64" href="$a00681.html#a75112bddb38e011e9cfa69695050c771" title="Release lock. " alt="" coords="233,2876,386,2917"/>
+<area shape="rect" id="node66" href="$a00684.html#a50fb02b77f02a01c74754d163157ec77" title="Release lock. " alt="" coords="495,201,653,243"/>
+<area shape="rect" id="node67" href="$a00684.html#aca691e3a0f5debfe5965b071357bddcd" title="Release the internal lock. " alt="" coords="231,259,388,315"/>
+<area shape="rect" id="node68" href="$a00302.html#a24dd9ef31d1f73ea2fadcc35df6d9d21" title="Unlocks the local task pool. " alt="" coords="210,441,409,483"/>
+<area shape="rect" id="node70" href="$a00083.html#aeebdaf1648851542acbac12a401cf5ec" title="tbb::internal::atomic\l_impl\&lt; tbb::strict_ppl\l::internal::concurrent\l_queue_rep_base::page *\l \&gt;::store_with_release" alt="" coords="225,2942,394,3027"/>
+<area shape="rect" id="node71" href="$a00868.html#afdbb3d8b40599fa9470cff63c90886e2" title="tbb::flow::interface10\l::internal::unfolded_join\l_node\&lt; 5, key_matching_port,\l OutputTuple, key_matching\l\&lt; K, KHash \&gt; \&gt;::unfolded_join_node" alt="" coords="192,3051,427,3137"/>
+<area shape="rect" id="node72" href="$a00870.html#a052b531a2a704eedecd36b63c3b907ff" title="tbb::flow::interface10\l::internal::unfolded_join\l_node\&lt; 6, key_matching_port,\l OutputTuple, key_matching\l\&lt; K, KHash \&gt; \&gt;::unfolded_join_node" alt="" coords="192,3161,427,3246"/>
+<area shape="rect" id="node73" href="$a00871.html#a54af2cffa1e6f197757829183fe56026" title="tbb::flow::interface10\l::internal::unfolded_join\l_node\&lt; 7, key_matching_port,\l OutputTuple, key_matching\l\&lt; K, KHash \&gt; \&gt;::unfolded_join_node" alt="" coords="192,3270,427,3355"/>
+<area shape="rect" id="node74" href="$a00302.html#a5d6340b7bd950b0492e970ff62433198" title="Unlocks victim&#39;s task pool. " alt="" coords="212,3380,407,3421"/>
+<area shape="rect" id="node77" href="$a00684.html#ae0f28ecfbbc5f8b3024cd47048b72b5b" title="Upgrade reader to become a writer. " alt="" coords="495,266,653,322"/>
+<area shape="rect" id="node78" href="$a00206.html#a0c46d15569d9df879a84be6ae6a39cd9" title="tbb::interface7::internal\l::delegated_task::~delegated_task" alt="" coords="198,3445,421,3487"/>
+<area shape="rect" id="node3" href="$a00684.html#af1b55ca1839c9c7c2cd779cd2dd9c474" title="Acquire lock on given mutex. " alt="" coords="482,5,666,47"/>
+<area shape="rect" id="node4" href="$a00684.html#a6cb16cc55f884bbbd5a69430c47b288f" title="Release lock (if lock is held). " alt="" coords="725,165,917,207"/>
+<area shape="rect" id="node6" href="$a00307.html#a0962408ba1eaf67d0ad741a0749f3a4e" title="Processes scheduler termination request (possibly nested) in a master thread. " alt="" coords="747,376,895,417"/>
+<area shape="rect" id="node8" href="$a00307.html#a5fbd38947c75c1e8494bc1bac598a9fe" title="The internal routine to undo automatic initialization. " alt="" coords="747,311,895,352"/>
+<area shape="rect" id="node7" href="$a00791.html#a2647279bff44f88c82eead707d4c7a14" title="tbb::task_scheduler\l_init::internal_terminate" alt="" coords="981,376,1138,417"/>
+<area shape="rect" id="node10" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="491,645,657,687"/>
+<area shape="rect" id="node11" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="738,537,903,593"/>
+<area shape="rect" id="node13" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="751,616,891,657"/>
+<area shape="rect" id="node14" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="747,681,894,723"/>
+<area shape="rect" id="node12" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="979,537,1139,593"/>
+<area shape="rect" id="node17" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="749,472,892,513"/>
+<area shape="rect" id="node22" href="$a00513.html#a8474a4e1487fb16fe48265f31fe7838c" title="tbb::interface5::concurrent\l_priority_queue::my_functor\l_t::operator()" alt="" coords="968,826,1151,882"/>
+<area shape="rect" id="node41" href="$a01133.html#ac4715a28e1dc69356c2dae5c2e84b5f4" title="tbb::internal::itt\l_store_word_with_release" alt="" coords="487,1045,661,1087"/>
+<area shape="rect" id="node52" href="$a01133.html#a8fc0aa75d9aa4fe4948e1577ca0ab1ec" title="tbb::internal::itt\l_hide_store_word" alt="" coords="512,1413,636,1455"/>
+<area shape="rect" id="node43" href="$a00496.html#ade21bfb491d895a6c9cdd3cc4471ae15" title="tbb::strict_ppl::internal\l::micro_queue::invalidate\l_page_and_rethrow" alt="" coords="737,906,904,962"/>
+<area shape="rect" id="node44" href="$a00498.html#ab829ef658083c4097510788fd6a8cdec" title="tbb::strict_ppl::internal\l::micro_queue_pop_finalizer\l::~micro_queue_pop_finalizer" alt="" coords="725,986,917,1042"/>
+<area shape="rect" id="node45" href="$a00038.html#ac7edadfe74f475783f3b429904e7010a" title="Call finish when done handling this operation. " alt="" coords="733,1065,908,1107"/>
+<area shape="rect" id="node48" href="$a00326.html#ad12c1303eeb2555bb7a519a922f83a41" title="Enable segment. " alt="" coords="735,1406,906,1462"/>
+<area shape="rect" id="node49" href="$a00144.html#a9fc5a549b5602849b24e56f9cf1d2be3" title="tbb::interface6::concurrent\l_lru_cache::handle_operations" alt="" coords="721,1131,920,1172"/>
+<area shape="rect" id="node50" href="$a00267.html#a2e245646a9c38d70ff96a7ee978df292" title="Should be overridden by derived classes. " alt="" coords="740,1196,901,1237"/>
+<area shape="rect" id="node51" href="$a00731.html#a8b9c4b989fd0d5649ff7646b72e9c989" title="Should be overridden by derived classes. " alt="" coords="743,1261,899,1303"/>
+<area shape="rect" id="node46" href="$a00102.html#afb0dec67968e9abdabb5a0e3ec8064a4" title="tbb::interface6::internal\l::basic_handler::operator()" alt="" coords="973,1065,1146,1107"/>
+<area shape="rect" id="node53" href="$a00496.html#a7f1d7008d5bb576d54b608e31d70a6fe" title="tbb::strict_ppl::internal\l::micro_queue::push" alt="" coords="745,1551,896,1592"/>
+<area shape="rect" id="node54" href="$a00038.html#a03cf9fad0ca21da61b83325a50e17d0b" title="tbb::interface6::aggregator\l_operation::set_next" alt="" coords="733,1485,908,1527"/>
+<area shape="rect" id="node59" href="$a00489.html#a574c6275a73f185d391151478e4a7634" title="tbb::internal::market\l::process" alt="" coords="505,2739,643,2780"/>
+<area shape="rect" id="node60" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="751,2739,890,2780"/>
+<area shape="rect" id="node63" href="$a00116.html#a31a5ea9a4ec5a497513b9ad10dcb6f8d" title="find a bucket by masked hashcode, optionally rehash, and acquire the lock " alt="" coords="476,2803,672,2859"/>
+<area shape="rect" id="node65" href="$a00681.html#a469ec43836a8dd250ce0a22b02945630" title="Release lock (if lock is held). " alt="" coords="478,2883,670,2924"/>
+<area shape="rect" id="node69" href="$a00302.html#ad7c11742ee005f6d377095062b42a5d8" title="tbb::internal::generic\l_scheduler::generic_scheduler" alt="" coords="475,411,673,452"/>
+<area shape="rect" id="node75" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="481,3380,667,3421"/>
+<area shape="rect" id="node76" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="744,3380,897,3421"/>
+</map>

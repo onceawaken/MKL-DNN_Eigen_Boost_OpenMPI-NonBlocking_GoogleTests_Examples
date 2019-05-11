@@ -1,0 +1,5 @@
+<map id="tbb::interface5::reader_writer_lock::try_lock_read" name="tbb::interface5::reader_writer_lock::try_lock_read">
+<area shape="rect" id="node2" href="$a00634.html#a47c3c896a50a811f91a4ab52835047ef" title="Checks if current thread holds write lock. " alt="" coords="232,5,389,61"/>
+<area shape="rect" id="node3" href="$a01144.html#acaa17c2e4053a1c935b0911ac1a109fb" title="tbb::this_tbb_thread\l::get_id" alt="" coords="437,13,575,54"/>
+<area shape="rect" id="node4" href="$a01133.html#a7444a8c52dd26ba57c04aa00482b9ef9" title="tbb::internal::thread\l_get_id_v3" alt="" coords="623,13,757,54"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tbb::internal::intrusive_list_base&lt; List, T &gt;::iterator" name="tbb::internal::intrusive_list_base&lt; List, T &gt;::iterator">
+<area shape="rect" id="node2" href="$a00416.html" title="{tbb::internal::intrusive\l_list_base\&lt; List, T \&gt;::\literator_impl\&lt; iterator \&gt;\n|&#45; my_pos\l|+ iterator_impl()\l+ operator=()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ operator++()\l+ operator++()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l# iterator_impl()\l# item()\l&#45; self()\l}" alt="" coords="6,336,163,604"/>
+<area shape="rect" id="node3" href="$a00416.html" title="{tbb::internal::intrusive\l_list_base\&lt; List, T \&gt;::\literator_impl\&lt; Iterator \&gt;\n|&#45; my_pos\l|+ iterator_impl()\l+ operator=()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ operator++()\l+ operator&#45;&#45;()\l+ operator++()\l+ operator&#45;&#45;()\l# iterator_impl()\l# item()\l&#45; self()\l}" alt="" coords="5,5,164,273"/>
+</map>

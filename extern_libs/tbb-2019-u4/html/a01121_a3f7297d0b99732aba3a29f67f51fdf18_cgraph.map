@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface9::gfx_offload::run_kernel" name="tbb::flow::interface9::gfx_offload::run_kernel">
+<area shape="rect" id="node2" href="$a01121.html#a33f40a94b7a3761bf026571ce8bf2b02" title="tbb::flow::interface9\l::gfx_offload::check\l_enqueue_retcode" alt="" coords="225,5,362,61"/>
+<area shape="rect" id="node4" href="$a01121.html#ac746efa3979d4efbc109fb947ce91e59" title="tbb::flow::interface9\l::gfx_offload::raw_data" alt="" coords="216,85,371,126"/>
+<area shape="rect" id="node3" href="$a01121.html#a2ba2600642acfafb847d1b207a416314" title="tbb::flow::interface9\l::gfx_offload::throw\l_gfx_exception" alt="" coords="419,5,556,61"/>
+<area shape="rect" id="node5" href="$a00304.html#a919ae73a47d2ef2809fb65e10c9e0145" title="tbb::flow::interface9\l::gfx_buffer::data" alt="" coords="419,85,556,126"/>
+</map>

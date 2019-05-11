@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00519.html" title="tbb::flow::interface10\l::internal::node_cache\l\&lt; untyped_sender, tbb::\lnull_mutex \&gt;" alt="" coords="5,49,165,120"/>
+<area shape="rect" id="node2" href="$a00601.html" title="tbb::flow::interface10\l::internal::predecessor\l_cache\&lt; input_type, tbb\l::null_mutex \&gt;" alt="" coords="229,5,391,76"/>
+<area shape="rect" id="node3" href="$a00601.html" title="tbb::flow::interface10\l::internal::predecessor\l_cache\&lt; T, tbb::null_mutex \&gt;" alt="" coords="213,101,407,157"/>
+<area shape="rect" id="node4" href="$a00655.html" title="tbb::flow::interface10\l::internal::reservable\l_predecessor_cache\&lt; T,\l tbb::null_mutex \&gt;" alt="" coords="455,93,621,164"/>
+</map>

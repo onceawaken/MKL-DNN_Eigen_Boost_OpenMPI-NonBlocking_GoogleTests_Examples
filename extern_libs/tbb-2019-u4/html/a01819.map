@@ -1,0 +1,5 @@
+<map id="internal::type_to_key_function_body&lt; Input, Output &gt;" name="internal::type_to_key_function_body&lt; Input, Output &gt;">
+<area shape="rect" id="node3" href="$a00845.html" title="{internal::type_to_key\l_function_body_leaf\&lt;\l Input, Output \&gt;\n|&#45; body\l|+ type_to_key_function\l_body_leaf()\l+ operator()()\l+ get_body()\l+ clone()\l}" alt="" coords="5,375,164,540"/>
+<area shape="rect" id="node4" href="$a00841.html" title="{internal::type_to_key\l_function_body\&lt; count\l_element\&lt; tbb::internal\l::strip\&lt; K \&gt;::type \&gt;, tbb\l::internal::strip\&lt; K \&gt;::type &amp; \&gt;\n||+ ~type_to_key_function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="188,375,397,540"/>
+<area shape="rect" id="node2" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="110,5,267,83"/>
+</map>

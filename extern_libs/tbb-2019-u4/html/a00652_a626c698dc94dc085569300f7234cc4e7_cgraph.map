@@ -1,0 +1,5 @@
+<map id="internal::reservable_item_buffer::reserve_front" name="internal::reservable_item_buffer::reserve_front">
+<area shape="rect" id="node2" href="$a00414.html#aaa4c5988bdbb2a8ae6020d0dc32a3067" title="internal::item_buffer\l::front" alt="" coords="232,5,369,47"/>
+<area shape="rect" id="node3" href="$a00414.html#a37ac460f13dc42f2946984343f8586d8" title="internal::item_buffer\l::my_item_valid" alt="" coords="232,71,369,112"/>
+<area shape="rect" id="node4" href="$a00414.html#aa2a3fdd7c17bc37c60b1640802b23a80" title="internal::item_buffer\l::reserve_item" alt="" coords="232,136,369,177"/>
+</map>

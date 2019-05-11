@@ -1,0 +1,4 @@
+<map id="tbb::spin_mutex::internal_construct" name="tbb::spin_mutex::internal_construct">
+<area shape="rect" id="node2" href="$a00721.html#a6c96196965bf7df426311d282ad3c378" title="Construct unacquired lock. " alt="" coords="228,5,375,47"/>
+<area shape="rect" id="node3" href="$a00679.html#a9940d6e494466d9c53846ed347d79d83" title="Destroy lock. If holding a lock, releases the lock first. " alt="" coords="219,71,384,112"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="tbb::internal::custom_scheduler&lt; SchedulerTraits &gt;" name="tbb::internal::custom_scheduler&lt; SchedulerTraits &gt;">
+<area shape="rect" id="node2" href="$a00302.html" title="Work stealing task scheduler. " alt="" coords="207,499,385,1060"/>
+<area shape="rect" id="node3" href="$a00676.html" title="{tbb::internal::scheduler\n||+ spawn()\l+ wait_for_all()\l+ spawn_root_and_wait()\l+ ~scheduler()\l+ enqueue()\l}" alt="" coords="5,293,173,429"/>
+<area shape="rect" id="node4" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="16,131,163,223"/>
+<area shape="rect" id="node5" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="11,5,168,83"/>
+<area shape="rect" id="node7" href="$a00392.html" title="Data structure to be inherited by the types that can form intrusive lists. " alt="" coords="288,307,435,414"/>
+<area shape="rect" id="node8" href="$a00678.html" title="{tbb::internal::scheduler\l_state\n|+ my_arena_index\l+ my_arena_slot\l+ my_arena\l+ my_innermost_running_task\l+ my_inbox\l+ my_affinity_id\l+ my_properties\l|}" alt="" coords="459,271,656,451"/>
+</map>

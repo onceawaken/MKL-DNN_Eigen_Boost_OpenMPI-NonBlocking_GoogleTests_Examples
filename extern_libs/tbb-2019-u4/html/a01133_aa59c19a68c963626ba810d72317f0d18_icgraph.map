@@ -1,0 +1,11 @@
+<map id="tbb::internal::calc_workers_soft_limit" name="tbb::internal::calc_workers_soft_limit">
+<area shape="rect" id="node2" href="$a00489.html#a08ccaf89d501a9e56912eb5bd624066f" title="Factory method creating new market object. " alt="" coords="188,79,327,121"/>
+<area shape="rect" id="node3" href="$a00780.html#ae01d134b4edd1c8887f166fb55c66aa5" title="tbb::interface7::internal\l::task_arena_base::internal\l_initialize" alt="" coords="645,5,824,61"/>
+<area shape="rect" id="node4" href="$a00780.html#a2933ada6491744fc55f8d967919d9142" title="tbb::interface7::internal\l::task_arena_base::internal_attach" alt="" coords="375,46,597,87"/>
+<area shape="rect" id="node5" href="$a00489.html#aa73a40282b782676f30f27dcde0ea967" title="Creates an arena object. " alt="" coords="417,111,555,153"/>
+<area shape="rect" id="node9" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="398,177,574,218"/>
+<area shape="rect" id="node6" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="661,163,809,205"/>
+<area shape="rect" id="node8" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="665,98,804,139"/>
+<area shape="rect" id="node7" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="872,163,1008,205"/>
+<area shape="rect" id="node10" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="661,229,809,270"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="tbb::strict_ppl::concurrent_queue::clear" name="tbb::strict_ppl::concurrent_queue::clear">
+<area shape="rect" id="node2" href="$a00147.html#a22f35cb396178d494a3756d5700e2865" title="tbb::strict_ppl::concurrent\l_queue::concurrent_queue" alt="" coords="511,110,685,151"/>
+<area shape="rect" id="node3" href="$a00147.html#aeda3156929d0c250faed7b807ca6ab0e" title="Equivalent to size()==0. " alt="" coords="258,41,429,82"/>
+<area shape="rect" id="node4" href="$a00142.html#aaeba11bbcd368a7a3a6e6e2dd3082c9c" title="return allocator object " alt="" coords="261,106,426,147"/>
+<area shape="rect" id="node5" href="$a00142.html#ab1291bf6837ecfb8836c24dde5dd80b5" title="Destroy queue. " alt="" coords="224,171,463,213"/>
+<area shape="rect" id="node6" href="$a00147.html#aa0056b242f280f5e25332ce998f9f670" title="Destroy queue. " alt="" coords="252,237,435,278"/>
+</map>

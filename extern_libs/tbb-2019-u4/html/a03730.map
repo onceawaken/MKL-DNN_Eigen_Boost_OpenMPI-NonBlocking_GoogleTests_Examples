@@ -1,0 +1,6 @@
+<map id="tbb::strict_ppl::internal::micro_queue&lt; T &gt;" name="tbb::strict_ppl::internal::micro_queue&lt; T &gt;">
+<area shape="rect" id="node4" href="$a00496.html" title="{tbb::strict_ppl::internal\l::micro_queue\&lt; tbb_remove\l_cv\&lt; Value \&gt;::type \&gt;\n|+ head_page\l+ head_counter\l+ tail_page\l+ tail_counter\l+ page_mutex\l|+ push()\l+ pop()\l+ assign()\l+ make_copy()\l+ invalidate_page_and\l_rethrow()\l+ get_ref()\l&#45; copy_item()\l&#45; copy_item()\l&#45; assign_and_destroy_item()\l&#45; spin_wait_until_my_turn()\l}" alt="" coords="5,648,192,960"/>
+<area shape="rect" id="node5" href="$a00496.html" title="{tbb::strict_ppl::internal\l::micro_queue\&lt; Value \&gt;\n|+ head_page\l+ head_counter\l+ tail_page\l+ tail_counter\l+ page_mutex\l|+ push()\l+ pop()\l+ assign()\l+ make_copy()\l+ invalidate_page_and\l_rethrow()\l+ get_ref()\l&#45; copy_item()\l&#45; copy_item()\l&#45; assign_and_destroy_item()\l&#45; spin_wait_until_my_turn()\l}" alt="" coords="216,655,403,953"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="131,132,277,224"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="125,5,283,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::make_edge" name="tbb::flow::interface10::make_edge">
+<area shape="rect" id="node2" href="$a01115.html#a2534f3aa999f7cc3c1cf268d21c42a5c" title="Makes an edge between a single predecessor and a single successor. " alt="" coords="197,41,341,83"/>
+<area shape="rect" id="node3" href="$a01115.html#a6f29b910ba2c3b5a6b8fac87690f9117" title="tbb::flow::interface10\l::internal_make_edge" alt="" coords="389,41,536,83"/>
+<area shape="rect" id="node4" href="$a01133.html#af1acd73e011975bb3fb0de374ebb6c75" title="tbb::internal::fgt\l_make_edge" alt="" coords="613,5,727,47"/>
+<area shape="rect" id="node5" href="$a00876.html#ac741e0b13af8918175b46e5b2aa0de06" title="Add a new successor to this node. " alt="" coords="584,70,756,126"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="tbb::interface9::internal::start_deterministic_reduce::run" name="tbb::interface9::internal::start_deterministic_reduce::run">
+<area shape="rect" id="node2" href="$a00778.html#ac7a9405b422bec9110854acd71edb9f2" title="Returns proxy for overloaded new that allocates a root task. " alt="" coords="263,5,417,32"/>
+<area shape="rect" id="node3" href="$a00778.html#af19c8ef47d1feb6dae459a99efb8bd31" title="Spawn task allocated by allocate_root, wait for it to complete, and deallocate it. " alt="" coords="266,57,414,98"/>
+<area shape="rect" id="node4" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="465,64,579,91"/>
+<area shape="rect" id="node5" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="627,35,780,61"/>
+<area shape="rect" id="node6" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="638,86,769,127"/>
+</map>

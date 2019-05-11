@@ -1,0 +1,8 @@
+<map id="tbb::internal::allowed_parallelism_control" name="tbb::internal::allowed_parallelism_control">
+<area shape="rect" id="node2" href="$a00551.html" title="{tbb::internal::padded\l\&lt; control_storage \&gt;\n||}" alt="" coords="180,715,320,807"/>
+<area shape="rect" id="node3" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; control_storage,\l NFS_MaxLineSize, sizeof\l(control_storage)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="5,389,257,511"/>
+<area shape="rect" id="node4" href="$a00180.html" title="{tbb::internal::control\l_storage\n|# my_active_value\l# my_head\l# my_list_mutex\l|# default_value()\l# apply_active()\l# is_first_arg_preferred()\l# active_value()\l}" alt="" coords="6,132,169,297"/>
+<area shape="rect" id="node5" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, R \&gt;\n|+ pad\l|}" alt="" coords="323,169,463,261"/>
+<area shape="rect" id="node8" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, sizeof(T)%S \&gt;\n|+ pad\l|}" alt="" coords="299,404,486,496"/>
+<area shape="rect" id="node7" href="$a00551.html" title="Pads type T to fill out to a multiple of cache line size. " alt="" coords="264,560,404,652"/>
+</map>

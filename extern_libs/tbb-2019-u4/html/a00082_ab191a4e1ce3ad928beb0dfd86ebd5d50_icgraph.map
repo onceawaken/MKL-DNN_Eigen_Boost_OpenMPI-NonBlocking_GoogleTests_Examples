@@ -1,0 +1,4 @@
+<map id="tbb::internal::atomic_backoff::bounded_pause" name="tbb::internal::atomic_backoff::bounded_pause">
+<area shape="rect" id="node2" href="$a01133.html#a0c5ac9e978873b08137acc8b6d584567" title="tbb::internal::prolonged\l_pause" alt="" coords="224,13,379,54"/>
+<area shape="rect" id="node3" href="$a00194.html#a3825613e3650d5a9110b9b9f5ee4a3e9" title="Try getting a task from the mailbox or stealing from another scheduler. " alt="" coords="427,5,580,61"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tbb::internal::mail_outbox::internal_pop" name="tbb::internal::mail_outbox::internal_pop">
+<area shape="rect" id="node2" href="$a00480.html#a0fb84023310cef34c91ea39e2c7fbc0f" title="Get next piece of mail, or NULL if mailbox is empty. " alt="" coords="200,5,323,47"/>
+<area shape="rect" id="node3" href="$a00302.html#a5657ac6c517d9bbf59a424ef330640bb" title="Attempt to get a task from the mailbox. " alt="" coords="371,5,565,47"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="tbb::flow::interface10::graph::reset" name="tbb::flow::interface10::graph::reset">
+<area shape="rect" id="node2" href="$a01116.html#af77facced335fbcd8eaf6e6a10ae7f1b" title="tbb::flow::interface10\l::internal::activate_graph" alt="" coords="221,5,387,47"/>
+<area shape="rect" id="node3" href="$a00308.html#ad684bfd5adf8edc200ab34a2311ca7a3" title="start iterator " alt="" coords="232,71,376,112"/>
+<area shape="rect" id="node4" href="$a01116.html#a3f2a6953c53fa00b0ddbe162e1047095" title="tbb::flow::interface10\l::internal::deactivate_graph" alt="" coords="215,136,393,177"/>
+<area shape="rect" id="node5" href="$a00308.html#a48bbebadc7d4e825dea8d0449213dcbb" title="end iterator " alt="" coords="232,201,376,243"/>
+<area shape="rect" id="node6" href="$a00308.html#ac13fc5475d6cce3f079e4d23358b535b" title="tbb::flow::interface10\l::graph::prepare_task_arena" alt="" coords="212,267,396,308"/>
+<area shape="rect" id="node7" href="$a00784.html#af892e21ab275622d81c556214a4c877f" title="Forcefully reinitializes the context after the task tree it was associated with is completed..." alt="" coords="223,332,385,373"/>
+<area shape="rect" id="node8" href="$a00310.html#a7d211e4bc3d5018698572674f1bd9620" title="tbb::flow::interface10\l::graph_node::reset_node" alt="" coords="219,397,389,439"/>
+<area shape="rect" id="node9" href="$a01116.html#a3c767231059bfe26f0420ffd2294e6c1" title="Spawns a task inside graph arena. " alt="" coords="197,463,411,504"/>
+<area shape="rect" id="node10" href="$a00778.html#a3d541e86f39624d4cb8f8c90a39e57f9" title="Returns proxy for overloaded new that allocates a continuation task of *this. " alt="" coords="467,397,594,439"/>
+<area shape="rect" id="node11" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="465,463,596,504"/>
+<area shape="rect" id="node14" href="$a01116.html#acc478861d8f5bc0ddf7abad00bb89e46" title="Executes custom functor inside graph arena. " alt="" coords="459,527,603,583"/>
+<area shape="rect" id="node12" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="679,470,793,497"/>
+<area shape="rect" id="node13" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="869,470,1023,497"/>
+<area shape="rect" id="node15" href="$a01116.html#ab8685a8ff3216168bd16e201327f0227" title="tbb::flow::interface10\l::internal::is_graph_active" alt="" coords="651,535,821,576"/>
+</map>

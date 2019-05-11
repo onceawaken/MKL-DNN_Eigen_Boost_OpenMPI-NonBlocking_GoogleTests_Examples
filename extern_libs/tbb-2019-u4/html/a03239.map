@@ -1,0 +1,4 @@
+<map id="tbb::internal::atomic_impl&lt; T &gt;" name="tbb::internal::atomic_impl&lt; T &gt;">
+<area shape="rect" id="node2" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; T, sizeof(T)\&gt;\n||}" alt="" coords="5,175,164,267"/>
+<area shape="rect" id="node3" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; value_type,\l size \&gt;\n||}" alt="" coords="9,5,160,112"/>
+</map>

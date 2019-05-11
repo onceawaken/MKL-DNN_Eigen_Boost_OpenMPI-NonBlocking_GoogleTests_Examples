@@ -1,0 +1,4 @@
+<map id="tbb::interface5::reader_writer_lock::scoped_lock::internal_destroy" name="tbb::interface5::reader_writer_lock::scoped_lock::internal_destroy">
+<area shape="rect" id="node2" href="$a00680.html#a41e77cf094ed30b0a9a39ee217c3653b" title="Destructor, releases the write lock. " alt="" coords="227,5,401,61"/>
+<area shape="rect" id="node3" href="$a00691.html#acf0e23fb4d3aeb6bde18d5d1236bd9d5" title="Destructor, releases the read lock. " alt="" coords="227,85,401,141"/>
+</map>

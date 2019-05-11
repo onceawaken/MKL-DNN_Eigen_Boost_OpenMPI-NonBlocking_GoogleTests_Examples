@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00180.html" title="tbb::internal::control\l_storage" alt="" coords="5,39,143,80"/>
+<area shape="rect" id="node2" href="$a00552.html" title="tbb::internal::padded\l_base\&lt; control_storage,\l NFS_MaxLineSize, sizeof\l(control_storage)%NFS_MaxLineSize \&gt;" alt="" coords="191,24,443,95"/>
+<area shape="rect" id="node3" href="$a00551.html" title="tbb::internal::padded\l\&lt; control_storage \&gt;" alt="" coords="491,39,631,80"/>
+<area shape="rect" id="node4" href="$a00056.html" title="tbb::internal::allowed\l_parallelism_control" alt="" coords="679,5,821,47"/>
+<area shape="rect" id="node5" href="$a00726.html" title="tbb::internal::stack\l_size_control" alt="" coords="685,71,815,112"/>
+</map>

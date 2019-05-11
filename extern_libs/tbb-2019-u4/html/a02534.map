@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::internal::join_node_FE&lt; key_matching&lt; K, KHash &gt;, InputTuple, OutputTuple &gt;::key_matching_FE_operation" name="tbb::flow::interface10::internal::join_node_FE&lt; key_matching&lt; K, KHash &gt;, InputTuple, OutputTuple &gt;::key_matching_FE_operation">
+<area shape="rect" id="node3" href="$a00748.html" title="{tbb::internal::strip\l\&lt; key_type \&gt;\n||}" alt="" coords="205,329,327,421"/>
+<area shape="rect" id="node4" href="$a00748.html" title="Strips its template type argument from cv&#45; and ref&#45;qualifiers. " alt="" coords="185,20,339,97"/>
+<area shape="rect" id="node5" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="359,175,573,575"/>
+</map>

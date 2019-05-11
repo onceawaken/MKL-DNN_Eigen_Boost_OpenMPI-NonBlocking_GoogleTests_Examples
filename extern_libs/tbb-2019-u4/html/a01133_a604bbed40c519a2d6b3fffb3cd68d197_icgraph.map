@@ -1,0 +1,6 @@
+<map id="tbb::internal::atomic_update" name="tbb::internal::atomic_update">
+<area shape="rect" id="node2" href="$a00059.html#a91372ec03de43ecb3cd092952df15a93" title="Check if there is job anywhere in arena. " alt="" coords="191,8,321,49"/>
+<area shape="rect" id="node4" href="$a00059.html#a243c39a6b6c3981deedbe72bb03f7caa" title="Tries to occupy a slot in the arena. On success, returns the slot index; if no slot is available..." alt="" coords="191,75,321,116"/>
+<area shape="rect" id="node3" href="$a00885.html#a04ee8eb618b1ee0e14568319e1ce608f" title="Should be overridden by derived classes. " alt="" coords="381,5,536,47"/>
+<area shape="rect" id="node5" href="$a00780.html#aa214b4121b92399cfa50b223500219fd" title="tbb::interface7::internal\l::task_arena_base::internal\l_execute" alt="" coords="369,70,548,126"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tbb::task::note_affinity" name="tbb::task::note_affinity">
+<area shape="rect" id="node2" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="211,5,353,47"/>
+<area shape="rect" id="node3" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="211,71,353,112"/>
+<area shape="rect" id="node4" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="205,136,359,177"/>
+</map>

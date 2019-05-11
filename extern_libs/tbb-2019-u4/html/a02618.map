@@ -1,0 +1,6 @@
+<map id="tbb::flow::interface10::internal::predecessor_cache&lt; T, M &gt;" name="tbb::flow::interface10::internal::predecessor_cache&lt; T, M &gt;">
+<area shape="rect" id="node2" href="$a00519.html" title="{tbb::flow::interface10\l::internal::node_cache\l\&lt; untyped_sender, M \&gt;\n||+ empty()\l+ add()\l+ remove()\l+ clear()\l# internal_empty()\l# internal_size()\l# internal_push()\l# internal_pop()\l}" alt="" coords="89,775,247,984"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="167,145,281,223"/>
+<area shape="rect" id="node7" href="$a00519.html" title="A node_cache maintains a std::queue of elements of type T. Each operation is protected by a lock..." alt="" coords="266,503,417,712"/>
+<area shape="rect" id="node9" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="271,775,449,984"/>
+</map>

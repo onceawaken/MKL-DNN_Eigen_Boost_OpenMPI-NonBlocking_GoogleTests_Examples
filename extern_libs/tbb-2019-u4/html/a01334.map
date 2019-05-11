@@ -1,0 +1,19 @@
+<map id="parallel_sort.h" name="parallel_sort.h">
+<area shape="rect" id="node2" href="$a01039.html" title="parallel_for.h" alt="" coords="411,80,507,107"/>
+<area shape="rect" id="node11" href="$a01095.html" title="tbb_profiling.h" alt="" coords="95,393,198,420"/>
+<area shape="rect" id="node26" href="$a00967.html" title="blocked_range.h" alt="" coords="152,155,269,181"/>
+<area shape="rect" id="node28" href="$a00953.html" title="internal/_range_iterator.h" alt="" coords="819,80,984,107"/>
+<area shape="rect" id="node4" href="$a01073.html" title="task.h" alt="" coords="332,319,391,345"/>
+<area shape="rect" id="node15" href="$a01046.html" title="partitioner.h" alt="" coords="413,155,504,181"/>
+<area shape="rect" id="node17" href="$a01088.html" title="tbb_exception.h" alt="" coords="777,319,892,345"/>
+<area shape="rect" id="node27" href="$a00956.html" title="internal/_tbb_trace\l_impl.h" alt="" coords="82,229,211,271"/>
+<area shape="rect" id="node5" href="$a01098.html" title="tbb_stddef.h" alt="" coords="483,625,578,651"/>
+<area shape="rect" id="node10" href="$a01089.html" title="tbb_machine.h" alt="" coords="381,543,488,569"/>
+<area shape="rect" id="node6" href="$a01085.html" title="tbb_config.h" alt="" coords="503,707,596,733"/>
+<area shape="rect" id="node12" href="$a00955.html" title="internal/_tbb_strings.h" alt="" coords="43,468,194,495"/>
+<area shape="rect" id="node13" href="$a00965.html" title="atomic.h" alt="" coords="219,468,291,495"/>
+<area shape="rect" id="node16" href="$a01074.html" title="task_arena.h" alt="" coords="497,237,594,263"/>
+<area shape="rect" id="node23" href="$a00958.html" title="internal/_template\l_helpers.h" alt="" coords="625,617,751,659"/>
+<area shape="rect" id="node25" href="$a00962.html" title="aligned_space.h" alt="" coords="425,319,541,345"/>
+<area shape="rect" id="node20" href="$a01082.html" title="tbb_allocator.h" alt="" coords="720,393,827,420"/>
+</map>

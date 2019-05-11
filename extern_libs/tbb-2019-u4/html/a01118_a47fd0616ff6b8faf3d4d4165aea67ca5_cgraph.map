@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface10::opencl_info::available_devices" name="tbb::flow::interface10::opencl_info::available_devices">
+<area shape="rect" id="node2" href="$a01116.html#a03671113dc38c910610bcc69d841b06c" title="tbb::flow::interface10\l::internal::find_available\l_devices" alt="" coords="208,31,367,87"/>
+<area shape="rect" id="node3" href="$a00537.html#a5f2dcec269732a38f3f32cf2488ba3d2" title="tbb::flow::interface10\l::opencl_device_list::add" alt="" coords="415,5,581,47"/>
+<area shape="rect" id="node4" href="$a01115.html#a2404e93e290bab51602a278ff9ae5bd6" title="tbb::flow::interface10\l::enforce_cl_retcode" alt="" coords="426,71,570,112"/>
+</map>

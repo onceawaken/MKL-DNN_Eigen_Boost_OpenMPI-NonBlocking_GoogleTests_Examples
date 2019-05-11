@@ -1,0 +1,6 @@
+<map id="tbb::parallel_while&lt; Body &gt;" name="tbb::parallel_while&lt; Body &gt;">
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="24,611,171,703"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,323,163,400"/>
+<area shape="rect" id="node4" href="$a00241.html" title="task that does nothing. Useful for synchronization. " alt="" coords="202,618,318,695"/>
+<area shape="rect" id="node5" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="187,161,402,561"/>
+</map>

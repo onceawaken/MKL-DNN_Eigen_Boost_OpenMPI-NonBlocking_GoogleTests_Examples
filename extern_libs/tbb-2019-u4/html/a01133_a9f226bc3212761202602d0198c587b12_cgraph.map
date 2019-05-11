@@ -1,0 +1,7 @@
+<map id="tbb::internal::allocate_via_handler_v3" name="tbb::internal::allocate_via_handler_v3">
+<area shape="rect" id="node2" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="196,64,327,105"/>
+<area shape="rect" id="node3" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="375,64,505,105"/>
+<area shape="rect" id="node4" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="585,5,703,47"/>
+<area shape="rect" id="node5" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="558,71,730,98"/>
+<area shape="rect" id="node6" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="553,123,735,164"/>
+</map>

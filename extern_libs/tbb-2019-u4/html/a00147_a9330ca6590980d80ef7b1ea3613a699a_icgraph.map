@@ -1,0 +1,6 @@
+<map id="tbb::strict_ppl::concurrent_queue::push" name="tbb::strict_ppl::concurrent_queue::push">
+<area shape="rect" id="node2" href="$a00147.html#a43ac953152e60815c09fe4a4d4a623a9" title="[begin,end) constructor " alt="" coords="224,5,399,47"/>
+<area shape="rect" id="node3" href="$a00147.html#a4647d9bf5fd03b0850ada381916e9728" title="tbb::strict_ppl::concurrent\l_queue::emplace" alt="" coords="226,71,397,112"/>
+<area shape="rect" id="node4" href="$a00142.html#ab9009e8a1bdf70623f6480681bb6b56a" title="tbb::concurrent_bounded\l_queue::emplace" alt="" coords="229,136,394,177"/>
+<area shape="rect" id="node5" href="$a00142.html#ae5e9051772bbc93b2ccb8fd0a98a21f5" title="Enqueue an item at tail of queue. " alt="" coords="229,201,394,243"/>
+</map>

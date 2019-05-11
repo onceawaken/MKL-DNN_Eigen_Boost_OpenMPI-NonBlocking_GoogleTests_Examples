@@ -1,0 +1,12 @@
+<map id="tbb::internal::custom_scheduler::allocate_scheduler" name="tbb::internal::custom_scheduler::allocate_scheduler">
+<area shape="rect" id="node2" href="$a00302.html#a08edecb9bd9ef648bada9fb5b1febeec" title="tbb::internal::generic\l_scheduler::assert_task\l_pool_valid" alt="" coords="195,5,356,61"/>
+<area shape="rect" id="node4" href="$a01147.html#ga4844e4d5f62a0843af83cf534f908ddf" title="Allocate memory on cache/sector line boundary. " alt="" coords="213,103,338,145"/>
+<area shape="rect" id="node3" href="$a01133.html#acf23419eb6d3adac787a4fee78cb3c27" title="tbb::internal::first" alt="" coords="422,11,542,37"/>
+<area shape="rect" id="node5" href="$a01133.html#a90dc6f41bbea1ea94df0f0c776e246a3" title="A function to check if passed in pointer is aligned on a specific border. " alt="" coords="404,61,560,88"/>
+<area shape="rect" id="node6" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="407,113,557,154"/>
+<area shape="rect" id="node7" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="417,178,547,219"/>
+<area shape="rect" id="node8" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="608,178,739,219"/>
+<area shape="rect" id="node9" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="818,113,937,154"/>
+<area shape="rect" id="node10" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="787,178,968,219"/>
+<area shape="rect" id="node11" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="791,244,963,271"/>
+</map>

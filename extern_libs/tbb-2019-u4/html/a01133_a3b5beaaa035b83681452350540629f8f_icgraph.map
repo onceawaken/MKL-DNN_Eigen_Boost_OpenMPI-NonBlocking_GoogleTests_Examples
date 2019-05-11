@@ -1,0 +1,5 @@
+<map id="tbb::internal::thread_yield_v3" name="tbb::internal::thread_yield_v3">
+<area shape="rect" id="node2" href="$a00808.html#ae98915bfeccaa90d6f13add0ee1ab33a" title="tbb::internal::tbb\l_thread_v3::get_id" alt="" coords="192,5,321,47"/>
+<area shape="rect" id="node4" href="$a01144.html#a7d6322a24137528c0e137465d6c04ed7" title="Offers the operating system the opportunity to schedule another thread. " alt="" coords="188,71,325,112"/>
+<area shape="rect" id="node3" href="$a00808.html#ab312527ce3848c27e18eedbf881fb943" title="The completion of the thread represented by *this happens before join() returns. " alt="" coords="373,5,489,47"/>
+</map>

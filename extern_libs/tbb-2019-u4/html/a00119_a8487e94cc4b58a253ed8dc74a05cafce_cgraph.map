@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::buffer_node::reset_node" name="tbb::flow::interface10::buffer_node::reset_node">
+<area shape="rect" id="node2" href="$a00767.html#a55fd959cc3c1cbdfd31fbcea25ad1d43" title="tbb::flow::interface10\l::internal::successor\l_cache::clear" alt="" coords="224,5,368,61"/>
+<area shape="rect" id="node3" href="$a00653.html#a989fe0f8b11ef594a0c6be6f6518e769" title="tbb::flow::interface10\l::internal::reservable\l_item_buffer::reset" alt="" coords="224,85,368,141"/>
+</map>

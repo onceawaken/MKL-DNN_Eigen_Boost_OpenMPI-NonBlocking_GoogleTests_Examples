@@ -1,0 +1,9 @@
+<map id="Legacy API" name="Legacy API">
+<area shape="rect" id="node1" href="$a01171.html" title="Events" alt="" coords="198,5,261,32"/>
+<area shape="rect" id="node2" href="$a01159.html" title="Frames" alt="" coords="196,56,263,83"/>
+<area shape="rect" id="node3" href="$a01172.html" title="Memory Accesses" alt="" coords="164,107,295,133"/>
+<area shape="rect" id="node4" href="$a01168.html" title="Collection Control" alt="" coords="166,157,293,184"/>
+<area shape="rect" id="node5" href="$a01170.html" title="Synchronization" alt="" coords="172,208,287,235"/>
+<area shape="rect" id="node7" href="$a01173.html" title="Thread and Object States" alt="" coords="144,259,315,285"/>
+<area shape="rect" id="node8" href="$a01169.html" title="Threads" alt="" coords="195,309,264,336"/>
+</map>

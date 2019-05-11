@@ -1,0 +1,8 @@
+<map id="tbb::internal::task_stream_accessor&lt; accessor &gt;" name="tbb::internal::task_stream_accessor&lt; accessor &gt;">
+<area shape="rect" id="node5" href="$a00793.html" title="{task_stream\&lt; num_priority\l_levels \&gt;\n|&#45; population\l&#45; lanes\l&#45; N\l|+ task_stream()\l+ task_stream()\l+ initialize()\l+ initialize()\l+ ~task_stream()\l+ ~task_stream()\l+ push()\l+ push()\l+ pop()\l+ pop()\land 8 more...\l}" alt="" coords="5,556,183,824"/>
+<area shape="rect" id="node6" href="$a00793.html" title="The container for &quot;fairness&#45;oriented&quot; aka &quot;enqueued&quot; tasks. " alt="" coords="207,556,354,824"/>
+<area shape="rect" id="node2" href="$a00796.html" title="{tbb::internal::task\l_stream_base\n||}" alt="" coords="49,273,171,365"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="37,132,183,224"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="31,5,189,83"/>
+<area shape="rect" id="node7" href="$a00793.html" title="{tbb::internal::task\l_stream\&lt; num_priority\l_levels \&gt;\n|&#45; population\l&#45; lanes\l&#45; N\l|+ task_stream()\l+ task_stream()\l+ initialize()\l+ initialize()\l+ ~task_stream()\l+ ~task_stream()\l+ push()\l+ push()\l+ pop()\l+ pop()\land 8 more...\l}" alt="" coords="205,887,357,1169"/>
+</map>

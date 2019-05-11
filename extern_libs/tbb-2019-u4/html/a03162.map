@@ -1,0 +1,4 @@
+<map id="tbb::interface9::internal::simple_partition_type" name="tbb::interface9::internal::simple_partition_type">
+<area shape="rect" id="node2" href="$a00575.html" title="{tbb::internal::partition\l_type_base\&lt; simple_partition_type \&gt;\n||+ set_affinity()\l+ note_affinity()\l+ continue_after_execute\l_range()\l+ decide_whether_to_delay()\l+ spawn_or_delay()\l}" alt="" coords="5,248,241,413"/>
+<area shape="rect" id="node3" href="$a00575.html" title="Provides backward&#45;compatible methods for partition objects without affinity. " alt="" coords="29,5,218,171"/>
+</map>

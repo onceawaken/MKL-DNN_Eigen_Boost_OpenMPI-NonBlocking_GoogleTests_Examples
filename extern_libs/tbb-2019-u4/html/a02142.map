@@ -1,0 +1,9 @@
+<map id="tbb::flow::interface10::continue_receiver" name="tbb::flow::interface10::continue_receiver">
+<area shape="rect" id="node5" href="$a00195.html" title="{tbb::flow::interface10\l::internal::decrementer\l\&lt; tbb::flow::interface10\l::limiter_node\&lt; T \&gt; \&gt;\n|&#45; my_node\l|+ decrementer()\l+ set_owner()\l# graph_reference()\l&#45; execute()\l}" alt="" coords="5,1296,161,1461"/>
+<area shape="rect" id="node6" href="$a00175.html" title="Implements methods for an executable node that takes continue_msg as input. " alt="" coords="285,951,450,1219"/>
+<area shape="rect" id="node8" href="$a00195.html" title="{tbb::flow::interface10\l::internal::decrementer\&lt; T \&gt;\n|&#45; my_node\l|+ decrementer()\l+ set_owner()\l# graph_reference()\l&#45; execute()\l}" alt="" coords="77,1017,261,1153"/>
+<area shape="rect" id="node2" href="$a00644.html" title="{tbb::flow::interface10\l::receiver\&lt; continue_msg \&gt;\n||+ try_put()\l+ try_put()\l# try_put_task_wrapper()\l# try_put_task()\l}" alt="" coords="78,463,259,599"/>
+<area shape="rect" id="node3" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="97,5,275,215"/>
+<area shape="rect" id="node4" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="185,264,352,400"/>
+<area shape="rect" id="node7" href="$a00178.html" title="Implements an executable node that supports continue_msg &#45;&gt; Output. " alt="" coords="283,1296,452,1461"/>
+</map>

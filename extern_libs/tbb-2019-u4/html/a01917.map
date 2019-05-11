@@ -1,0 +1,6 @@
+<map id="tbb::blocked_range3d&lt; PageValue, RowValue, ColValue &gt;" name="tbb::blocked_range3d&lt; PageValue, RowValue, ColValue &gt;">
+<area shape="rect" id="node2" href="$a00107.html" title="{tbb::blocked_range\l\&lt; ColValue \&gt;\n|+ is_splittable_in_proportion\l&#45; my_end\l&#45; my_begin\l|+ blocked_range()\l+ blocked_range()\l+ blocked_range()\l+ begin()\l+ end()\l+ size()\l+ grainsize()\l+ empty()\l+ is_divisible()\l&#45; do_split()\l&#45; do_split()\l}" alt="" coords="5,461,189,729"/>
+<area shape="rect" id="node4" href="$a00107.html" title="A range over which to iterate. " alt="" coords="300,160,484,399"/>
+<area shape="rect" id="node6" href="$a00107.html" title="{tbb::blocked_range\l\&lt; PageValue \&gt;\n|+ is_splittable_in_proportion\l&#45; my_end\l&#45; my_begin\l|+ blocked_range()\l+ blocked_range()\l+ blocked_range()\l+ begin()\l+ end()\l+ size()\l+ grainsize()\l+ empty()\l+ is_divisible()\l&#45; do_split()\l&#45; do_split()\l}" alt="" coords="421,461,605,729"/>
+<area shape="rect" id="node7" href="$a00107.html" title="{tbb::blocked_range\l\&lt; RowValue \&gt;\n|+ is_splittable_in_proportion\l&#45; my_end\l&#45; my_begin\l|+ blocked_range()\l+ blocked_range()\l+ blocked_range()\l+ begin()\l+ end()\l+ size()\l+ grainsize()\l+ empty()\l+ is_divisible()\l&#45; do_split()\l&#45; do_split()\l}" alt="" coords="213,461,397,729"/>
+</map>

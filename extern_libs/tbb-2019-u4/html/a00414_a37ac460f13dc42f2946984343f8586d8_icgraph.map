@@ -1,0 +1,16 @@
+<map id="internal::item_buffer::my_item_valid" name="internal::item_buffer::my_item_valid">
+<area shape="rect" id="node2" href="$a00414.html#aeb475b2622026258c3329a07aeb3cad5" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::back" alt="" coords="214,5,367,47"/>
+<area shape="rect" id="node3" href="$a00414.html#a24a108a0d10cdff8325356918647136a" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::clean\l_up_buffer" alt="" coords="213,70,369,126"/>
+<area shape="rect" id="node4" href="$a00414.html#a170724771a4e56ad676d86439a916a3e" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::destroy_item" alt="" coords="191,149,391,191"/>
+<area shape="rect" id="node5" href="$a00414.html#a8bc870040aaa121903d73017a9192313" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::fetch_item" alt="" coords="197,215,384,256"/>
+<area shape="rect" id="node6" href="$a00414.html#aaa4c5988bdbb2a8ae6020d0dc32a3067" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::front" alt="" coords="215,280,366,321"/>
+<area shape="rect" id="node7" href="$a00414.html#ae4b403fb84b7c78ef9dcd4754633a18b" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::get\l_my_item" alt="" coords="219,345,362,401"/>
+<area shape="rect" id="node8" href="$a00414.html#a66eb34fe72aae8763d2c2ca605160957" title="Grows the internal array. " alt="" coords="214,425,367,481"/>
+<area shape="rect" id="node9" href="$a00414.html#a1ea798500c075d40e548f39dd4149ad1" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::move_item" alt="" coords="196,504,385,545"/>
+<area shape="rect" id="node10" href="$a00414.html#a359f7e1708916af78e02bd3635dc5c6f" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::place_item" alt="" coords="197,569,385,611"/>
+<area shape="rect" id="node11" href="$a00414.html#a1bf35c26d78a976b4c3bb8e44a7eb5a7" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::pop_back" alt="" coords="200,635,381,676"/>
+<area shape="rect" id="node12" href="$a00414.html#ab2541b289d48841c9679c0ad17feae4f" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::pop_front" alt="" coords="201,700,380,741"/>
+<area shape="rect" id="node13" href="$a00652.html#a626c698dc94dc085569300f7234cc4e7" title="internal::reservable\l_item_buffer::reserve_front" alt="" coords="201,765,380,807"/>
+<area shape="rect" id="node14" href="$a00414.html#aa2a3fdd7c17bc37c60b1640802b23a80" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::reserve_item" alt="" coords="191,831,391,872"/>
+<area shape="rect" id="node15" href="$a00414.html#ac4751d48bf1868349deda3a1de49ecba" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::swap_items" alt="" coords="193,896,388,937"/>
+</map>

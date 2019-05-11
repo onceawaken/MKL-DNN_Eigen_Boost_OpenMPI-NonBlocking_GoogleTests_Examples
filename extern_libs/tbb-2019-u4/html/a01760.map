@@ -1,0 +1,8 @@
+<map id="internal::predecessor_cache&lt; T, M &gt;" name="internal::predecessor_cache&lt; T, M &gt;">
+<area shape="rect" id="node3" href="$a00654.html" title="An cache of predecessors that supports requests and reservations. " alt="" coords="5,477,199,657"/>
+<area shape="rect" id="node5" href="$a00654.html" title="{reservable_predecessor\l_cache\&lt; T, null_mutex \&gt;\n|&#45; reserved_src\l|+ reservable_predecessor\l_cache()\l+ try_reserve()\l+ try_release()\l+ try_consume()\l+ reset()\l+ clear()\l}" alt="" coords="223,477,395,657"/>
+<area shape="rect" id="node6" href="$a00600.html" title="{internal::predecessor\l_cache\&lt; T, null_mutex \&gt;\n|# my_owner\l|+ predecessor_cache()\l+ set_owner()\l+ get_item()\l+ reset()\l}" alt="" coords="419,499,585,635"/>
+<area shape="rect" id="node7" href="$a00600.html" title="{internal::predecessor\l_cache\&lt; input_type, null\l_mutex \&gt;\n|# my_owner\l|+ predecessor_cache()\l+ set_owner()\l+ get_item()\l+ reset()\l}" alt="" coords="609,492,773,643"/>
+<area shape="rect" id="node2" href="$a00520.html" title="A node_cache maintains a std::queue of elements of type T. Each operation is protected by a lock..." alt="" coords="333,5,476,215"/>
+<area shape="rect" id="node4" href="$a00654.html" title="{internal::reservable\l_predecessor_cache\&lt; T,\l null_mutex \&gt;\n|&#45; reserved_src\l|+ reservable_predecessor\l_cache()\l+ try_reserve()\l+ try_release()\l+ try_consume()\l+ reset()\l+ clear()\l}" alt="" coords="16,720,188,915"/>
+</map>

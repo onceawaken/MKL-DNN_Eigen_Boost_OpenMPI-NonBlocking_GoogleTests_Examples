@@ -1,0 +1,8 @@
+<map id="tbb::flow::interface10::internal::reservable_predecessor_cache&lt; T, M &gt;" name="tbb::flow::interface10::internal::reservable_predecessor_cache&lt; T, M &gt;">
+<area shape="rect" id="node2" href="$a00601.html" title="A cache of predecessors that only supports try_get. " alt="" coords="235,1076,389,1227"/>
+<area shape="rect" id="node3" href="$a00519.html" title="{tbb::flow::interface10\l::internal::node_cache\l\&lt; untyped_sender, M \&gt;\n||+ empty()\l+ add()\l+ remove()\l+ clear()\l# internal_empty()\l# internal_size()\l# internal_push()\l# internal_pop()\l}" alt="" coords="89,775,247,984"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="167,145,281,223"/>
+<area shape="rect" id="node8" href="$a00519.html" title="A node_cache maintains a std::queue of elements of type T. Each operation is protected by a lock..." alt="" coords="266,503,417,712"/>
+<area shape="rect" id="node10" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="271,775,449,984"/>
+<area shape="rect" id="node11" href="$a00876.html" title="{tbb::flow::interface10\l::internal::untyped_sender\n||+ ~untyped_sender()\l+ register_successor()\l+ remove_successor()\l+ try_release()\l+ try_consume()\l# try_get()\l# try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="414,1047,586,1256"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="tbb::internal::generic_scheduler::prepare_task_pool" name="tbb::internal::generic_scheduler::prepare_task_pool">
+<area shape="rect" id="node2" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="549,296,687,337"/>
+<area shape="rect" id="node3" href="$a00302.html#a6e2af1d0f7af34dee87a5b207d498f59" title="Locks the local task pool. " alt="" coords="270,67,469,108"/>
+<area shape="rect" id="node5" href="$a00302.html#a22a847d9945a845e136c9163f835adcd" title="tbb::internal::generic\l_scheduler::is_task_pool\l_published" alt="" coords="535,122,701,178"/>
+<area shape="rect" id="node8" href="$a00061.html#a68ed52221d5eff32c230ccaf7a79fff7" title="tbb::internal::arena\l_slot::allocate_task_pool" alt="" coords="286,188,453,229"/>
+<area shape="rect" id="node17" href="$a00302.html#a08edecb9bd9ef648bada9fb5b1febeec" title="tbb::internal::generic\l_scheduler::assert_task\l_pool_valid" alt="" coords="289,383,450,439"/>
+<area shape="rect" id="node19" href="$a00302.html#aecf34e6a9902af76bbbeab1fd3851df8" title="Makes relocated tasks visible to thieves and releases the local task pool. " alt="" coords="252,543,487,584"/>
+<area shape="rect" id="node21" href="$a00061.html#a738e7bf1cdd82b4d174947bbc746c766" title="tbb::internal::arena\l_slot::fill_with_canary\l_pattern" alt="" coords="295,463,443,519"/>
+<area shape="rect" id="node22" href="$a00302.html#a41fe4dd6cf0d0bd7db3440ff1f5e70ff" title="tbb::internal::generic\l_scheduler::is_quiescent\l_local_task_pool_reset" alt="" coords="286,253,453,309"/>
+<area shape="rect" id="node23" href="$a01147.html#ga7814c9ccc02b8fe5f712fb6fd8a2b607" title="Free memory allocated by NFS_Allocate. " alt="" coords="290,609,449,635"/>
+<area shape="rect" id="node4" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="539,71,697,98"/>
+<area shape="rect" id="node6" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="549,5,687,47"/>
+<area shape="rect" id="node7" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="774,13,881,39"/>
+<area shape="rect" id="node9" href="$a01147.html#ga4844e4d5f62a0843af83cf534f908ddf" title="Allocate memory on cache/sector line boundary. " alt="" coords="555,201,681,243"/>
+<area shape="rect" id="node10" href="$a01133.html#a90dc6f41bbea1ea94df0f0c776e246a3" title="A function to check if passed in pointer is aligned on a specific border. " alt="" coords="749,209,905,235"/>
+<area shape="rect" id="node11" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="752,260,903,301"/>
+<area shape="rect" id="node12" href="$a01133.html#a61a681f9fd15fdb055f7725d6416ddf4" title="Versionless convenience wrapper for throw_exception_v4() " alt="" coords="762,143,893,184"/>
+<area shape="rect" id="node13" href="$a01133.html#adccc1f69ee5a85094eb6a5f9fbac89d7" title="Gathers all throw operators in one place. " alt="" coords="953,143,1084,184"/>
+<area shape="rect" id="node14" href="$a01133.html#a52bf5824abee2b87b339574e3ff6833c" title="tbb::internal::fix\l_broken_rethrow" alt="" coords="1163,77,1282,119"/>
+<area shape="rect" id="node15" href="$a01133.html#a01d042ccf49c2448856834818ebb80cf" title="tbb::internal::gcc\l_rethrow_exception_broken" alt="" coords="1132,143,1313,184"/>
+<area shape="rect" id="node16" href="$a01133.html#ad413aa12f103993fc8cf47ddc570bb9c" title="Cast between unrelated pointer types. " alt="" coords="1137,209,1309,235"/>
+<area shape="rect" id="node18" href="$a01133.html#acf23419eb6d3adac787a4fee78cb3c27" title="tbb::internal::first" alt="" coords="558,398,678,425"/>
+<area shape="rect" id="node20" href="$a01133.html#a1f6010c3e550e88ab739adbdee5dfdac" title="tbb::internal::__TBB\l_store_relaxed" alt="" coords="549,543,687,584"/>
+</map>

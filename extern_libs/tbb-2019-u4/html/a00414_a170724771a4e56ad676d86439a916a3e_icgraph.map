@@ -1,0 +1,8 @@
+<map id="internal::item_buffer::destroy_item" name="internal::item_buffer::destroy_item">
+<area shape="rect" id="node2" href="$a00414.html#a24a108a0d10cdff8325356918647136a" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::clean\l_up_buffer" alt="" coords="214,5,370,61"/>
+<area shape="rect" id="node3" href="$a00414.html#ab7aa6605c707c6e2a3c7fd7c886dc81b" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::destroy_back" alt="" coords="191,85,393,126"/>
+<area shape="rect" id="node4" href="$a00414.html#aea1592a817f8e18e76e9ce0a101504ba" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::destroy_front" alt="" coords="191,150,393,191"/>
+<area shape="rect" id="node5" href="$a00414.html#a8bc870040aaa121903d73017a9192313" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::fetch_item" alt="" coords="199,215,385,257"/>
+<area shape="rect" id="node6" href="$a00414.html#a1ea798500c075d40e548f39dd4149ad1" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::move_item" alt="" coords="197,281,387,322"/>
+<area shape="rect" id="node7" href="$a00414.html#aa281ccb21cd8c058d1eae54c59ec718b" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::set\l_my_item" alt="" coords="221,345,363,401"/>
+</map>

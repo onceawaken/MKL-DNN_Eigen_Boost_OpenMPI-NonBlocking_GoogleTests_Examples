@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::internal::async_body&lt; Input, Ports, Gateway, Body &gt;" name="tbb::flow::interface10::internal::async_body&lt; Input, Ports, Gateway, Body &gt;">
+<area shape="rect" id="node2" href="$a00069.html" title="{tbb::flow::interface10\l::internal::async_body\l_base\&lt; Gateway \&gt;\n|# my_gateway\l|+ async_body_base()\l+ set_gateway()\l}" alt="" coords="13,131,164,252"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="10,5,167,83"/>
+</map>

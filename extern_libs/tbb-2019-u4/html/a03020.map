@@ -1,0 +1,6 @@
+<map id="tbb::interface6::internal::pool_base" name="tbb::interface6::internal::pool_base">
+<area shape="rect" id="node4" href="$a00269.html" title="{tbb::interface6::fixed_pool\n|&#45; my_buffer\l&#45; my_size\l|+ fixed_pool()\l+ ~fixed_pool()\l&#45; allocate_request()\l}" alt="" coords="5,477,177,598"/>
+<area shape="rect" id="node5" href="$a00492.html" title="Thread&#45;safe growable pool allocator for variable&#45;size requests. " alt="" coords="202,469,362,605"/>
+<area shape="rect" id="node2" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="113,131,259,223"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="107,5,265,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tbb::internal::pipeline_root_task::execute" name="tbb::internal::pipeline_root_task::execute">
+<area shape="rect" id="node2" href="$a00255.html#a56303bf4c54964d7f47e7d99610cf1ce" title="has the filter not yet processed all the tokens it will ever see? " alt="" coords="196,5,369,32"/>
+<area shape="rect" id="node3" href="$a00255.html#aa3a4a81d3130c3749ada365387023623" title="True if filter is thread&#45;bound. " alt="" coords="216,56,349,83"/>
+<area shape="rect" id="node4" href="$a00255.html#a6efb96f4660820fc6d47f9f480c07d35" title="True if filter is serial. " alt="" coords="218,107,347,133"/>
+<area shape="rect" id="node5" href="$a00787.html#ab3f3113f09c5c37a656a3ed027f0f239" title="Set to initial state (no object, no token) " alt="" coords="221,158,344,199"/>
+</map>

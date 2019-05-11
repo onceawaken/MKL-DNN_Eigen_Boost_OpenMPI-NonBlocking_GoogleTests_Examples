@@ -1,0 +1,9 @@
+<map id="tbb::concurrent_bounded_queue::get_allocator" name="tbb::concurrent_bounded_queue::get_allocator">
+<area shape="rect" id="node2" href="$a00147.html#ad3384818fb6350a494d5ec62445e59ee" title="Clear the queue. not thread&#45;safe. " alt="" coords="219,17,389,58"/>
+<area shape="rect" id="node3" href="$a00147.html#aeda3156929d0c250faed7b807ca6ab0e" title="Equivalent to size()==0. " alt="" coords="437,17,608,58"/>
+<area shape="rect" id="node5" href="$a00147.html#aabb1acef18196fa11ed7db8e046c3943" title="Attempt to dequeue an item from head of queue. " alt="" coords="437,86,608,127"/>
+<area shape="rect" id="node4" href="$a00148.html#a8ad9bde66278affddce018f7848da572" title="check if the queue is empty; thread safe " alt="" coords="656,5,824,61"/>
+<area shape="rect" id="node6" href="$a00148.html#aba7c8bda7a044dce67f46a971dc7193a" title="Attempt to dequeue item from queue. " alt="" coords="656,85,824,141"/>
+<area shape="rect" id="node7" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="872,57,1049,98"/>
+<area shape="rect" id="node8" href="$a00158.html#a18c4afb8c4d7675520e4c3f3b8cd272e" title="tbb::strict_ppl::internal\l::concurrent_queue_rep\l::choose" alt="" coords="881,121,1040,177"/>
+</map>

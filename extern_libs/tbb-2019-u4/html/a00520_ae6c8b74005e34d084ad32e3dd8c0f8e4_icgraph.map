@@ -1,0 +1,5 @@
+<map id="internal::node_cache::add" name="internal::node_cache::add">
+<area shape="rect" id="node2" href="$a00600.html#a5e55ce0bcbb697c63fd211364ad306d1" title="internal::predecessor\l_cache\&lt; input_type, null\l_mutex \&gt;::get_item" alt="" coords="250,5,414,61"/>
+<area shape="rect" id="node3" href="$a00291.html#ab8dc0f13c7657f598e9c9da7782748dd" title="internal::function\l_input_base\&lt; Input,\l Policy, A, multifunction\l_input\&lt; Input, OutputPortSet,\l Policy, A \&gt; \&gt;::handle_operations" alt="" coords="224,85,440,171"/>
+<area shape="rect" id="node4" href="$a00654.html#a4fc7dee657d594fca77bc9290d034df6" title="internal::reservable\l_predecessor_cache\&lt; T,\l null_mutex \&gt;::try_reserve" alt="" coords="245,195,419,251"/>
+</map>

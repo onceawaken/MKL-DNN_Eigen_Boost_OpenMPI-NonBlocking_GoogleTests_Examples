@@ -1,0 +1,15 @@
+<map id="tbb::interface7::internal::task_arena_base::internal_wait" name="tbb::interface7::internal::task_arena_base::internal_wait">
+<area shape="rect" id="node2" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="311,5,449,47"/>
+<area shape="rect" id="node3" href="$a00778.html#ac7a9405b422bec9110854acd71edb9f2" title="Returns proxy for overloaded new that allocates a root task. " alt="" coords="303,71,457,98"/>
+<area shape="rect" id="node4" href="$a01133.html#ad83994557e481148b704625b46dece25" title="tbb::internal::as_atomic" alt="" coords="301,122,459,149"/>
+<area shape="rect" id="node5" href="$a00307.html#a529e907c8efd72821da3ae61cbf8abc0" title="tbb::internal::governor\l::local_scheduler_weak" alt="" coords="301,173,459,215"/>
+<area shape="rect" id="node7" href="$a00302.html#a84fe7450cc14ca226340cf8bffd379c7" title="True if the scheduler is on the outermost dispatch level in a master thread. " alt="" coords="264,239,496,280"/>
+<area shape="rect" id="node8" href="$a00059.html#a9789f9b89947588c60a2134203bfc6b0" title="The number of workers active in the arena. " alt="" coords="305,304,455,345"/>
+<area shape="rect" id="node9" href="$a00106.html#af2248191c45e9442d39805db03cdbb34" title="wait/acquire " alt="" coords="313,369,447,411"/>
+<area shape="rect" id="node10" href="$a00302.html#a2a0f285acb9cfb21b7df95a386bd6860" title="tbb::internal::generic\l_scheduler::wait_until_empty" alt="" coords="285,435,475,476"/>
+<area shape="rect" id="node6" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="555,173,684,215"/>
+<area shape="rect" id="node11" href="$a00778.html#a2bfe4567c87e5b783ca8595f95cfdb90" title="Get reference to corresponding task_prefix. " alt="" coords="563,409,676,435"/>
+<area shape="rect" id="node14" href="$a00302.html#a509997dbb9b97ad2cca0a3af76c04e90" title="tbb::internal::generic\l_scheduler::local_wait\l_for_all" alt="" coords="544,459,695,515"/>
+<area shape="rect" id="node12" href="$a01133.html#a3354e5fb6a188f3ae9d96fdce8b0c26d" title="tbb::internal::is_critical" alt="" coords="743,379,896,406"/>
+<area shape="rect" id="node13" href="$a01133.html#a844f3b737c2859905eed4dee8a8215f6" title="tbb::internal::make\l_critical" alt="" coords="754,431,885,472"/>
+</map>

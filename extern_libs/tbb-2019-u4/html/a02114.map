@@ -1,0 +1,14 @@
+<map id="tbb::flow::interface10::buffer_node&lt; T, A &gt;" name="tbb::flow::interface10::buffer_node&lt; T, A &gt;">
+<area shape="rect" id="node11" href="$a00603.html" title="Forwards messages in priority order. " alt="" coords="187,1225,354,1625"/>
+<area shape="rect" id="node12" href="$a00613.html" title="Forwards messages in FIFO order. " alt="" coords="378,1321,545,1530"/>
+<area shape="rect" id="node2" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="12,542,156,693"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="11,263,157,355"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,5,163,83"/>
+<area shape="rect" id="node5" href="$a00653.html" title="item_buffer with reservable front&#45;end. NOTE: if reserving, do not " alt="" coords="181,535,355,700"/>
+<area shape="rect" id="node6" href="$a00413.html" title="{tbb::flow::interface10\l::internal::item_buffer\l\&lt; T, A \&gt;\n|# my_array\l# my_array_size\l# my_head\l# my_tail\l# initial_buffer_size\l|+ item_buffer()\l+ ~item_buffer()\l+ reset()\l# buffer_empty()\l# item()\l# item()\l# my_item_valid()\l# my_item_reserved()\l# get_my_item()\l# set_my_item()\l# fetch_item()\l# move_item()\l# place_item()\land 16 more...\l}" alt="" coords="194,131,342,487"/>
+<area shape="rect" id="node7" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="379,549,546,685"/>
+<area shape="rect" id="node8" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="369,204,548,413"/>
+<area shape="rect" id="node9" href="$a00702.html" title="Forward declaration section. " alt="" coords="574,549,733,685"/>
+<area shape="rect" id="node10" href="$a00876.html" title="{tbb::flow::interface10\l::internal::untyped_sender\n||+ ~untyped_sender()\l+ register_successor()\l+ remove_successor()\l+ try_release()\l+ try_consume()\l# try_get()\l# try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="573,204,745,413"/>
+<area shape="rect" id="node13" href="$a00705.html" title="Forwards messages in sequence order. " alt="" coords="374,1673,549,1809"/>
+</map>

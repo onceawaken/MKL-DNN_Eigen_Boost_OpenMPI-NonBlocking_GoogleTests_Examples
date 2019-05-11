@@ -1,0 +1,4 @@
+<map id="tbb::mutex::scoped_lock::internal_acquire" name="tbb::mutex::scoped_lock::internal_acquire">
+<area shape="rect" id="node2" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="205,5,341,47"/>
+<area shape="rect" id="node3" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="389,5,525,47"/>
+</map>

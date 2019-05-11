@@ -1,0 +1,11 @@
+<map id="tbb::internal::__TBB_FetchAndStoreGeneric" name="tbb::internal::__TBB_FetchAndStoreGeneric">
+<area shape="rect" id="node2" href="$a01106.html#a8e744648f7303540a3e6b9c8b7a82a43" title="__TBB_machine_load8" alt="" coords="217,5,373,32"/>
+<area shape="rect" id="node3" href="$a01106.html#a17e07f87e476577fa5d89ee035bd8c18" title="__TBB_machine_store8" alt="" coords="215,56,376,83"/>
+<area shape="rect" id="node4" href="$a01113.html#aed82c77b389b208a1c27012a2fc0b5fd" title="tbb::load" alt="" coords="259,107,331,133"/>
+<area shape="rect" id="node5" href="$a00477.html#a92370c736ce03781f953758c32e1f420" title="tbb::internal::machine\l_load_store::load_with\l_acquire" alt="" coords="219,157,371,213"/>
+<area shape="rect" id="node6" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="227,237,364,278"/>
+<area shape="rect" id="node8" href="$a01113.html#a219b97248f55c909aa3d84e43934b105" title="tbb::store" alt="" coords="257,303,334,329"/>
+<area shape="rect" id="node9" href="$a00477.html#a6f04fb93302b58c393d09531dcbea5e9" title="tbb::internal::machine\l_load_store::store_with\l_release" alt="" coords="217,353,374,409"/>
+<area shape="rect" id="node7" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="451,244,558,271"/>
+<area shape="rect" id="node10" href="$a01135.html#ab32252a915fad6b9be9feaa01005842c" title="tbb::internal::icc\l_intrinsics_port::convert\l_argument" alt="" coords="424,353,585,409"/>
+</map>

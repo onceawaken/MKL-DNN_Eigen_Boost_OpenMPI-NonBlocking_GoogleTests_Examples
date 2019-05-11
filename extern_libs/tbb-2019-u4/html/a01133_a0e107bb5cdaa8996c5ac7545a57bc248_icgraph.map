@@ -1,0 +1,87 @@
+<map id="tbb::internal::__TBB_load_with_acquire" name="tbb::internal::__TBB_load_with_acquire">
+<area shape="rect" id="node2" href="$a00681.html#ac6b9289521c6b7568eedc8e0ff4e96d8" title="Acquire lock on given mutex. " alt="" coords="221,242,374,284"/>
+<area shape="rect" id="node5" href="$a00684.html#ab4bf2fb86d6a418f9ea36474eb8893f9" title="Acquire lock on given mutex. " alt="" coords="219,373,376,414"/>
+<area shape="rect" id="node8" href="$a00489.html#a3d741deee21180bed8e2bcebe3acce72" title="Returns next arena that needs more workers, or NULL. " alt="" coords="228,177,367,218"/>
+<area shape="rect" id="node21" href="$a00059.html#a91372ec03de43ecb3cd092952df15a93" title="Check if there is job anywhere in arena. " alt="" coords="1219,18,1350,60"/>
+<area shape="rect" id="node38" href="$a00684.html#af0af63035147a3d8422f8c8d7b8d2629" title="Downgrade writer to become a reader. " alt="" coords="210,968,385,1024"/>
+<area shape="rect" id="node39" href="$a00790.html#a3a144ac1ce1252f4b4da060d5d3f5ded" title="Returns a pointer to the encapsulated task or NULL, and frees proxy if necessary. ..." alt="" coords="227,106,368,148"/>
+<area shape="rect" id="node41" href="$a00019.html#a3d6e09b5b23edf10600c2ae2e6469659" title="tbb::internal::__TBB\l_InitOnce::initialization_done" alt="" coords="203,1048,392,1089"/>
+<area shape="rect" id="node49" href="$a00780.html#aa214b4121b92399cfa50b223500219fd" title="tbb::interface7::internal\l::task_arena_base::internal\l_execute" alt="" coords="208,503,387,559"/>
+<area shape="rect" id="node50" href="$a00780.html#ac2e8d6966eaf2b8c898bc6aa65149193" title="tbb::interface7::internal\l::task_arena_base::internal_wait" alt="" coords="192,582,403,624"/>
+<area shape="rect" id="node51" href="$a01133.html#aacaccf9a4a53d7438980620e7c1157c6" title="tbb::internal::itt\l_load_pointer_with_acquire_v3" alt="" coords="197,1178,397,1220"/>
+<area shape="rect" id="node64" href="$a01133.html#abc58cadf5c7f80571cd8068e7a53018b" title="tbb::internal::itt\l_load_word_with_acquire" alt="" coords="213,713,381,754"/>
+<area shape="rect" id="node65" href="$a00083.html#a5beaceb3b8130b5e32dfc11210400483" title="tbb::internal::atomic\l_impl\&lt; tbb::strict_ppl\l::internal::concurrent\l_queue_rep_base::page *\l \&gt;::operator value_type" alt="" coords="213,779,382,864"/>
+<area shape="rect" id="node66" href="$a00143.html#a7f29734b96e4dfb714200ba1bdf2e427" title="tbb::interface5::concurrent\l_hash_map::rehash_bucket" alt="" coords="455,1409,638,1450"/>
+<area shape="rect" id="node67" href="$a00684.html#a50fb02b77f02a01c74754d163157ec77" title="Release lock. " alt="" coords="219,648,376,689"/>
+<area shape="rect" id="node68" href="$a00489.html#a76b1783a39252c34da34d0cebfe101b5" title="Decrements market&#39;s refcount and destroys it in the end. " alt="" coords="228,1660,367,1701"/>
+<area shape="rect" id="node83" href="$a00146.html#a7d86ba200474b51ec99a6b917429c6bb" title="Returns the current number of elements contained in the queue. " alt="" coords="210,1113,385,1154"/>
+<area shape="rect" id="node84" href="$a00681.html#aa35c2a7b36eb58201a804be7a36b4ccd" title="Acquire lock on given mutex if free (i.e. non&#45;blocking) " alt="" coords="210,308,385,349"/>
+<area shape="rect" id="node85" href="$a00684.html#a4843d40dddc37c1aa3444e27d35d2433" title="Acquire lock on given mutex if free (i.e. non&#45;blocking) " alt="" coords="210,438,385,480"/>
+<area shape="rect" id="node86" href="$a00684.html#ae0f28ecfbbc5f8b3024cd47048b72b5b" title="Upgrade reader to become a writer. " alt="" coords="219,888,376,944"/>
+<area shape="rect" id="node3" href="$a00681.html#aa82d9da0dcfe5b21f1c08473f8223105" title="Acquire lock on given mutex. " alt="" coords="455,336,639,377"/>
+<area shape="rect" id="node4" href="$a00681.html#a469ec43836a8dd250ce0a22b02945630" title="Release lock (if lock is held). " alt="" coords="451,401,643,442"/>
+<area shape="rect" id="node6" href="$a00684.html#af1b55ca1839c9c7c2cd779cd2dd9c474" title="Acquire lock on given mutex. " alt="" coords="455,466,639,508"/>
+<area shape="rect" id="node7" href="$a00684.html#a6cb16cc55f884bbbd5a69430c47b288f" title="Release lock (if lock is held). " alt="" coords="451,545,643,586"/>
+<area shape="rect" id="node9" href="$a00489.html#ab5309747cd8e8e7e094b4417a8a28b76" title="tbb::internal::market\l::is_arena_in_list" alt="" coords="477,168,616,209"/>
+<area shape="rect" id="node10" href="$a00489.html#a2b45debebee21fca1aa3dafb61435736" title="tbb::internal::market\l::assert_market_valid" alt="" coords="715,226,862,268"/>
+<area shape="rect" id="node37" href="$a00489.html#a574c6275a73f185d391151478e4a7634" title="tbb::internal::market\l::process" alt="" coords="961,525,1099,566"/>
+<area shape="rect" id="node11" href="$a00489.html#a798355f9d896223c97ac403c879987be" title="Removes the arena from the market&#39;s list. " alt="" coords="961,838,1099,880"/>
+<area shape="rect" id="node20" href="$a00489.html#a2147b4639190ad49551f617784dc012b" title="Request that arena&#39;s need in workers should be adjusted. " alt="" coords="961,230,1099,272"/>
+<area shape="rect" id="node36" href="$a00489.html#ae5f4653c1ea43b7011f9099348849467" title="tbb::internal::market\l::create_one_job" alt="" coords="1468,897,1607,938"/>
+<area shape="rect" id="node12" href="$a00059.html#af5ce7404b60b78dee1ce689cfe903734" title="Notification that worker or master leaves its arena. " alt="" coords="1217,1641,1352,1682"/>
+<area shape="rect" id="node19" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="1692,838,1831,880"/>
+<area shape="rect" id="node13" href="$a00780.html#ae01d134b4edd1c8887f166fb55c66aa5" title="tbb::interface7::internal\l::task_arena_base::internal\l_initialize" alt="" coords="1448,1671,1627,1727"/>
+<area shape="rect" id="node14" href="$a00780.html#ac4dfdae54413299145035fee965972dd" title="tbb::interface7::internal\l::task_arena_base::internal\l_terminate" alt="" coords="1448,1580,1627,1636"/>
+<area shape="rect" id="node15" href="$a00302.html#ac223f7892d65e496c37190c4009ea1f7" title="Perform necessary cleanup when a master thread stops using TBB. " alt="" coords="1445,1802,1630,1844"/>
+<area shape="rect" id="node16" href="$a00307.html#a0962408ba1eaf67d0ad741a0749f3a4e" title="Processes scheduler termination request (possibly nested) in a master thread. " alt="" coords="1687,1737,1835,1778"/>
+<area shape="rect" id="node18" href="$a00307.html#a5fbd38947c75c1e8494bc1bac598a9fe" title="The internal routine to undo automatic initialization. " alt="" coords="1687,1802,1835,1844"/>
+<area shape="rect" id="node17" href="$a00791.html#a2647279bff44f88c82eead707d4c7a14" title="tbb::task_scheduler\l_init::internal_terminate" alt="" coords="1893,1737,2051,1778"/>
+<area shape="rect" id="node23" href="$a00302.html#a7c98d05ea5c1e309b836335ea9af79fa" title="tbb::internal::generic\l_scheduler::nested_arena_entry" alt="" coords="1181,296,1388,337"/>
+<area shape="rect" id="node25" href="$a00302.html#ab80a47a82aea82a8ad418fbc36887ac9" title="tbb::internal::generic\l_scheduler::nested_arena_exit" alt="" coords="1185,361,1384,402"/>
+<area shape="rect" id="node26" href="$a00059.html#adb8d121b4784a910d8d2861a7062446b" title="If necessary, raise a flag that there is new job in arena. " alt="" coords="1210,230,1359,272"/>
+<area shape="rect" id="node22" href="$a00885.html#a04ee8eb618b1ee0e14568319e1ce608f" title="Should be overridden by derived classes. " alt="" coords="1460,18,1615,60"/>
+<area shape="rect" id="node24" href="$a00514.html#a836d39a027baf51a4ff995cc44adee05" title="tbb::internal::nested\l_arena_context::nested\l_arena_context" alt="" coords="1458,412,1617,468"/>
+<area shape="rect" id="node27" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="1455,348,1620,389"/>
+<area shape="rect" id="node32" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="1690,230,1833,272"/>
+<area shape="rect" id="node33" href="$a00302.html#a10c72a4aad7308d944cef26502ece55e" title="Get a task from the local pool. " alt="" coords="1466,230,1609,272"/>
+<area shape="rect" id="node34" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="1444,165,1631,206"/>
+<area shape="rect" id="node28" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="1679,360,1844,416"/>
+<area shape="rect" id="node30" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="1691,440,1831,481"/>
+<area shape="rect" id="node31" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="1688,296,1835,337"/>
+<area shape="rect" id="node29" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="1892,360,2052,416"/>
+<area shape="rect" id="node35" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="1685,136,1838,177"/>
+<area shape="rect" id="node40" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="475,48,618,89"/>
+<area shape="rect" id="node42" href="$a00307.html#a1534625d2863ecea71a35972aee09c6f" title="Destroy the thread&#45;local storage key and deinitialize RML. " alt="" coords="473,662,621,704"/>
+<area shape="rect" id="node46" href="$a01133.html#a66931f1de2fe17bad8867074cc504825" title="Performs thread&#45;safe lazy one&#45;time general TBB initialization. " alt="" coords="946,721,1114,762"/>
+<area shape="rect" id="node47" href="$a00307.html#afe9a6e0c86063b682a133234ca3a2f2b" title="tbb::internal::governor\l::one_time_init" alt="" coords="1211,780,1359,821"/>
+<area shape="rect" id="node48" href="$a00019.html#aef2402e6d0b42fc5521b9f4ed008af11" title="Remove the initial reference to resources. " alt="" coords="935,590,1125,632"/>
+<area shape="rect" id="node43" href="$a00019.html#a78b2b1b7265cdedc9ea3689fff04ac35" title="Remove reference to resources. If last reference removed, release the resources. " alt="" coords="713,662,864,704"/>
+<area shape="rect" id="node44" href="$a00489.html#a5ca285e2d383ecaf3ff0460b30a3551e" title="Destroys and deallocates market object created by market::create() " alt="" coords="961,656,1099,697"/>
+<area shape="rect" id="node45" href="$a00489.html#abc37f18193cd93d6b5c54acef4feec17" title="tbb::internal::market\l::acknowledge_close_connection" alt="" coords="1177,594,1392,636"/>
+<area shape="rect" id="node52" href="$a01133.html#a911cbec92461f245730d2f47516525a3" title="tbb::internal::itt\l_load_word_with_acquire" alt="" coords="463,1178,631,1220"/>
+<area shape="rect" id="node53" href="$a00037.html#a4985caba10e390a7ee24ebc8a831a516" title="Execute an operation. " alt="" coords="691,830,886,872"/>
+<area shape="rect" id="node55" href="$a00036.html#ad376e5c31d10e885f33964592aa629d4" title="tbb::interface6::aggregator\l_ext\&lt; internal::basic_handler\l \&gt;::execute_impl" alt="" coords="694,960,883,1016"/>
+<area shape="rect" id="node56" href="$a00326.html#af39d3ddd00dc30a89eba7ce351f06157" title="Check for mask race. " alt="" coords="705,1040,873,1096"/>
+<area shape="rect" id="node57" href="$a00326.html#a3c8d4ba4b960fabcf03c54a4dde76ee0" title="Process mask race, check for rehashing collision. " alt="" coords="705,1120,873,1176"/>
+<area shape="rect" id="node58" href="$a00116.html#a31a5ea9a4ec5a497513b9ad10dcb6f8d" title="find a bucket by masked hashcode, optionally rehash, and acquire the lock " alt="" coords="691,1460,887,1516"/>
+<area shape="rect" id="node59" href="$a00143.html#adddfc01df4dc3681ab2bfaf910455e1f" title="Fast find when no concurrent erasure is used. For internal use inside TBB only! " alt="" coords="691,1200,887,1241"/>
+<area shape="rect" id="node60" href="$a00143.html#a2a319cf46fb9cf9a88aab6c0a20c98b3" title="Insert or find item and optionally acquire a lock on the item. " alt="" coords="701,1265,876,1306"/>
+<area shape="rect" id="node61" href="$a00143.html#a6fec452b31b8f0e185dc2de64b7128b2" title="delete item by accessor " alt="" coords="701,1330,876,1372"/>
+<area shape="rect" id="node62" href="$a00143.html#a5144122dbb946d933b94a92117543b33" title="Erase item. " alt="" coords="701,1396,876,1437"/>
+<area shape="rect" id="node63" href="$a00731.html#a8b9c4b989fd0d5649ff7646b72e9c989" title="Should be overridden by derived classes. " alt="" coords="711,896,867,937"/>
+<area shape="rect" id="node54" href="$a00035.html#af52e55d2c41ff608c8e1f8d6dc72fb43" title="tbb::interface6::internal\l::aggregator::execute" alt="" coords="953,904,1107,945"/>
+<area shape="rect" id="node69" href="$a00059.html#a2730864663493597ac0fed43356e953b" title="Completes arena shutdown, destructs and deallocates it. " alt="" coords="481,1525,612,1566"/>
+<area shape="rect" id="node70" href="$a00489.html#a50bb92619e74a81b3f8552ccca139c9f" title="Set number of active workers. " alt="" coords="459,1773,634,1814"/>
+<area shape="rect" id="node76" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="1197,1874,1373,1916"/>
+<area shape="rect" id="node71" href="$a00489.html#a08ccaf89d501a9e56912eb5bd624066f" title="Factory method creating new market object. " alt="" coords="961,1874,1099,1916"/>
+<area shape="rect" id="node78" href="$a00489.html#ac6ecbe31da77180a3ce42b7b3c46fc18" title="Returns the requested stack size of worker threads. " alt="" coords="719,1744,858,1785"/>
+<area shape="rect" id="node82" href="$a00056.html#a7f799048d0e217713c4efa295cbf0406" title="tbb::internal::allowed\l_parallelism_control::\lapply_active" alt="" coords="716,1860,861,1916"/>
+<area shape="rect" id="node72" href="$a00780.html#a2933ada6491744fc55f8d967919d9142" title="tbb::interface7::internal\l::task_arena_base::internal_attach" alt="" coords="1173,1940,1396,1981"/>
+<area shape="rect" id="node73" href="$a00489.html#aa73a40282b782676f30f27dcde0ea967" title="Creates an arena object. " alt="" coords="1215,1809,1354,1850"/>
+<area shape="rect" id="node74" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="1463,1868,1611,1909"/>
+<area shape="rect" id="node75" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="1693,1868,1829,1909"/>
+<area shape="rect" id="node77" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="1463,1933,1611,1974"/>
+<area shape="rect" id="node79" href="$a00489.html#a8278ffd03b0e1194cf44bec3163b764d" title="tbb::internal::market\l::min_stack_size" alt="" coords="961,1809,1099,1850"/>
+<area shape="rect" id="node80" href="$a00302.html#afd799eae7903abc75b7a7aafd36e20db" title="Sets up the data necessary for the stealing limiting heuristics. " alt="" coords="941,1744,1119,1785"/>
+<area shape="rect" id="node81" href="$a00302.html#aec1108924834fb3c3e1bc0d2142bccb0" title="Initialize a scheduler for a worker thread. " alt="" coords="1197,1576,1372,1617"/>
+</map>

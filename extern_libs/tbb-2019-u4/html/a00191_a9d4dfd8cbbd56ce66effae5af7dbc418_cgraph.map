@@ -1,0 +1,5 @@
+<map id="tbb::internal::cpu_ctl_env::set_env" name="tbb::internal::cpu_ctl_env::set_env">
+<area shape="rect" id="node2" href="$a01030.html#ae84bb69ae331f1ba8ab0ff52d8e5ffc8" title="__declspec" alt="" coords="217,5,305,32"/>
+<area shape="rect" id="node3" href="$a01030.html#ac4182b7725fe52cf40a5539844d36bd1" title="__TBB_set_cpu_ctl_env" alt="" coords="179,56,343,83"/>
+<area shape="rect" id="node4" href="$a01030.html#ad69582186c5f297c2b45cab78953af93" title="__TBB_get_cpu_ctl_env" alt="" coords="391,56,555,83"/>
+</map>

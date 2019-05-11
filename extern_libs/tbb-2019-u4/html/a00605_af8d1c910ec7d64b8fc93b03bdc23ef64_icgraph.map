@@ -1,0 +1,5 @@
+<map id="tbb::internal::rml::private_server::remove_server_ref" name="tbb::internal::rml::private_server::remove_server_ref">
+<area shape="rect" id="node2" href="$a00606.html#acfcd50e891e9815c7fb5c7422ee62a9f" title="Actions executed by the associated thread. " alt="" coords="220,5,361,47"/>
+<area shape="rect" id="node3" href="$a00606.html#a1fc69b65169acd8f06011e21d1892dcd" title="Called by a thread (usually not the associated thread) to commence termination. " alt="" coords="216,70,365,126"/>
+<area shape="rect" id="node4" href="$a00605.html#aa3168e9dc158c52625a69a47ebf840d5" title="tbb::internal::rml\l::private_server::request\l_close_connection" alt="" coords="413,70,576,126"/>
+</map>

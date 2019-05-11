@@ -1,0 +1,9 @@
+<map id="tbb::flow::interface10::graph_task" name="tbb::flow::interface10::graph_task">
+<area shape="rect" id="node4" href="$a00667.html" title="{tbb::flow::interface10\l::graph::run_and_put_task\l\&lt; Receiver, Body \&gt;\n|&#45; my_receiver\l&#45; my_body\l|+ run_and_put_task()\l+ execute()\l}" alt="" coords="5,755,179,891"/>
+<area shape="rect" id="node5" href="$a00673.html" title="{tbb::flow::interface10\l::graph::run_task\&lt; Body \&gt;\n|&#45; my_body\l|+ run_task()\l+ execute()\l}" alt="" coords="203,770,378,877"/>
+<area shape="rect" id="node6" href="$a00057.html" title="A task that calls a node&#39;s apply_body_bypass function, passing in an input of type Input..." alt="" coords="403,748,592,899"/>
+<area shape="rect" id="node7" href="$a00274.html" title="A task that calls a node&#39;s forward_task function. " alt="" coords="617,763,783,884"/>
+<area shape="rect" id="node8" href="$a00717.html" title="A task that calls a node&#39;s apply_body_bypass function with no input. " alt="" coords="808,763,971,884"/>
+<area shape="rect" id="node9" href="$a00649.html" title="Breaks an infinite loop between the node reservation and register_successor call. ..." alt="" coords="995,755,1189,891"/>
+<area shape="rect" id="node2" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="491,160,706,560"/>
+</map>

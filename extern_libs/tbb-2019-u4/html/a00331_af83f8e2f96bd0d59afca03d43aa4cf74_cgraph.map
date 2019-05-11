@@ -1,0 +1,8 @@
+<map id="tbb::internal::concurrent_vector_base_v3::helper::get_segment_value" name="tbb::internal::concurrent_vector_base_v3::helper::get_segment_value">
+<area shape="rect" id="node2" href="$a00696.html#afdee3df6fc6e03de5d3cfd9a16770803" title="tbb::internal::concurrent\l_vector_base_v3::segment\l_t::load" alt="" coords="228,5,407,61"/>
+<area shape="rect" id="node4" href="$a00695.html#afaa5884b4a7e533e0d8a5a2fb1066116" title="tbb::internal::concurrent\l_vector_base_v3::helper\l::segment_not_used_predicate\l::segment_not_used_predicate" alt="" coords="217,86,417,157"/>
+<area shape="rect" id="node5" href="$a01133.html#afc1dd7ac4bbb59b7a5097f603200e0b2" title="tbb::internal::spin\l_wait_while" alt="" coords="256,181,379,222"/>
+<area shape="rect" id="node3" href="$a00083.html#a8451d0ce6e14c18c64c4b02436dbdc7d" title="tbb::internal::atomic\l_impl::load" alt="" coords="465,13,603,54"/>
+<area shape="rect" id="node6" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="465,181,603,222"/>
+<area shape="rect" id="node7" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="651,188,757,215"/>
+</map>

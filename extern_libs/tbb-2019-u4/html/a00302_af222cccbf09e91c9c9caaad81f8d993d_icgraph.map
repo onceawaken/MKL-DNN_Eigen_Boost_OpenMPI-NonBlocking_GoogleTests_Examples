@@ -1,0 +1,9 @@
+<map id="tbb::internal::generic_scheduler::publish_task_pool" name="tbb::internal::generic_scheduler::publish_task_pool">
+<area shape="rect" id="node2" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="475,5,618,47"/>
+<area shape="rect" id="node3" href="$a00302.html#a10c72a4aad7308d944cef26502ece55e" title="Get a task from the local pool. " alt="" coords="262,64,405,105"/>
+<area shape="rect" id="node4" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="251,140,416,181"/>
+<area shape="rect" id="node5" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="464,70,629,126"/>
+<area shape="rect" id="node7" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="477,149,617,191"/>
+<area shape="rect" id="node8" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="473,215,620,256"/>
+<area shape="rect" id="node6" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="677,70,837,126"/>
+</map>

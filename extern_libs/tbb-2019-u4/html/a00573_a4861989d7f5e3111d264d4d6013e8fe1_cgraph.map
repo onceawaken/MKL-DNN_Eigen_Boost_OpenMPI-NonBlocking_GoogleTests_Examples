@@ -1,0 +1,7 @@
+<map id="tbb::parallel_while::add" name="tbb::parallel_while::add">
+<area shape="rect" id="node2" href="$a00778.html#a8a82c421e571d0a87fec2ac40f1b6741" title="The innermost task being executed or destroyed by the current thread at the moment. " alt="" coords="208,49,311,75"/>
+<area shape="rect" id="node3" href="$a00307.html#a529e907c8efd72821da3ae61cbf8abc0" title="tbb::internal::governor\l::local_scheduler_weak" alt="" coords="360,5,519,47"/>
+<area shape="rect" id="node5" href="$a00302.html#a08edecb9bd9ef648bada9fb5b1febeec" title="tbb::internal::generic\l_scheduler::assert_task\l_pool_valid" alt="" coords="359,70,520,126"/>
+<area shape="rect" id="node4" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="568,5,697,47"/>
+<area shape="rect" id="node6" href="$a01133.html#acf23419eb6d3adac787a4fee78cb3c27" title="tbb::internal::first" alt="" coords="573,85,693,111"/>
+</map>

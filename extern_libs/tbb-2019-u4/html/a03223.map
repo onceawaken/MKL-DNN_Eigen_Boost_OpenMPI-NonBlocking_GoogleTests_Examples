@@ -1,0 +1,11 @@
+<map id="tbb::internal::arena_base" name="tbb::internal::arena_base">
+<area shape="rect" id="node9" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; arena_base, NFS\l_MaxLineSize, sizeof(arena\l_base)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="107,1129,301,1251"/>
+<area shape="rect" id="node2" href="$a00551.html" title="{tbb::internal::padded\l\&lt; intrusive_list_node \&gt;\n||}" alt="" coords="127,685,281,777"/>
+<area shape="rect" id="node3" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; intrusive_list\l_node, NFS_MaxLineSize,\l sizeof(intrusive_list\l_node)%NFS_MaxLineSize \&gt;\n|+ pad\l|}" alt="" coords="12,345,207,481"/>
+<area shape="rect" id="node4" href="$a00392.html" title="Data structure to be inherited by the types that can form intrusive lists. " alt="" coords="5,132,152,239"/>
+<area shape="rect" id="node5" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, R \&gt;\n|+ pad\l|}" alt="" coords="241,139,381,231"/>
+<area shape="rect" id="node8" href="$a00552.html" title="{tbb::internal::padded\l_base\&lt; T, S, sizeof(T)%S \&gt;\n|+ pad\l|}" alt="" coords="231,367,417,459"/>
+<area shape="rect" id="node7" href="$a00551.html" title="Pads type T to fill out to a multiple of cache line size. " alt="" coords="214,531,354,623"/>
+<area shape="rect" id="node10" href="$a00551.html" title="{tbb::internal::padded\l\&lt; arena_base \&gt;\n||}" alt="" coords="134,1300,274,1392"/>
+<area shape="rect" id="node11" href="$a00059.html" title="{tbb::internal::arena\n|+ my_slots\l+ SNAPSHOT_EMPTY\l+ SNAPSHOT_FULL\l+ ref_external_bits\l+ ref_external\l+ ref_worker\l+ out_of_arena\l|+ arena()\l+ mailbox()\l+ free_arena()\l+ num_workers_active()\l+ advertise_new_work()\l+ is_out_of_work()\l+ enqueue_task()\l+ process()\l+ on_thread_leaving()\l+ has_enqueued_tasks()\l+ occupy_free_slot()\l+ occupy_free_slot_in\l_range()\l+ allocate_arena()\l+ num_arena_slots()\l+ allocation_size()\l+ is_busy_or_empty()\l&#45; restore_priority_if_need()\l}" alt="" coords="117,1441,291,1856"/>
+</map>

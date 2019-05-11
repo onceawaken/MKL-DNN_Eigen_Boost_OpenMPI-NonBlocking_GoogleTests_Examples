@@ -1,0 +1,4 @@
+<map id="tbb::interface5::internal::hash_map_base::get_bucket" name="tbb::interface5::internal::hash_map_base::get_bucket">
+<area shape="rect" id="node2" href="$a00116.html#a31a5ea9a4ec5a497513b9ad10dcb6f8d" title="find a bucket by masked hashcode, optionally rehash, and acquire the lock " alt="" coords="251,5,447,61"/>
+<area shape="rect" id="node3" href="$a00143.html#a0bc3593f82b3b4f9839fc051780212ab" title="Copy &quot;source&quot; to *this, where *this must start out empty. " alt="" coords="261,85,436,126"/>
+</map>

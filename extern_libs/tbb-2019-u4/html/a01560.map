@@ -1,0 +1,10 @@
+<map id="internal::function_body&lt; Input, Output &gt;" name="internal::function_body&lt; Input, Output &gt;">
+<area shape="rect" id="node3" href="$a00281.html" title="the leaf for function_body " alt="" coords="5,338,191,474"/>
+<area shape="rect" id="node4" href="$a00284.html" title="the leaf for function_body specialized for Input and output of continue_msg " alt="" coords="215,331,387,481"/>
+<area shape="rect" id="node5" href="$a00286.html" title="the leaf for function_body specialized for Input of continue_msg " alt="" coords="411,331,561,481"/>
+<area shape="rect" id="node6" href="$a00288.html" title="the leaf for function_body specialized for Output of continue_msg " alt="" coords="585,331,768,481"/>
+<area shape="rect" id="node7" href="$a00279.html" title="{internal::function\l_body\&lt; Input, continue_msg \&gt;\n||+ ~function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="792,345,991,467"/>
+<area shape="rect" id="node8" href="$a00279.html" title="{internal::function\l_body\&lt; continue_msg,\l continue_msg \&gt;\n||+ ~function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="1014,338,1169,474"/>
+<area shape="rect" id="node9" href="$a00279.html" title="{internal::function\l_body\&lt; continue_msg,\l Output \&gt;\n||+ ~function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="1195,338,1350,474"/>
+<area shape="rect" id="node2" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="598,5,755,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="tbb::strict_ppl::concurrent_queue::copy_construct_item" name="tbb::strict_ppl::concurrent_queue::copy_construct_item">
+<area shape="rect" id="node2" href="$a00147.html#ae918807d098d5d5b41cc6d606fa2e7a1" title="Copy constructor. " alt="" coords="247,39,421,80"/>
+<area shape="rect" id="node3" href="$a00147.html#a9330ca6590980d80ef7b1ea3613a699a" title="Enqueue an item at tail of queue. " alt="" coords="249,104,419,145"/>
+<area shape="rect" id="node4" href="$a00147.html#a43ac953152e60815c09fe4a4d4a623a9" title="[begin,end) constructor " alt="" coords="469,5,644,47"/>
+<area shape="rect" id="node5" href="$a00147.html#a4647d9bf5fd03b0850ada381916e9728" title="tbb::strict_ppl::concurrent\l_queue::emplace" alt="" coords="471,71,642,112"/>
+<area shape="rect" id="node6" href="$a00142.html#ae5e9051772bbc93b2ccb8fd0a98a21f5" title="Enqueue an item at tail of queue. " alt="" coords="474,136,639,177"/>
+<area shape="rect" id="node7" href="$a00142.html#ab9009e8a1bdf70623f6480681bb6b56a" title="tbb::concurrent_bounded\l_queue::emplace" alt="" coords="474,201,639,243"/>
+</map>

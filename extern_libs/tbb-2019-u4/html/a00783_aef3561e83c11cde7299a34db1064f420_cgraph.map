@@ -1,0 +1,4 @@
+<map id="tbb::internal::task_group_base::internal_run_and_wait" name="tbb::internal::task_group_base::internal_run_and_wait">
+<area shape="rect" id="node2" href="$a00784.html#a08021e5a97f6ffbf40a95f3f6b11f807" title="Returns true if the context received cancellation request. " alt="" coords="200,5,404,47"/>
+<area shape="rect" id="node3" href="$a00784.html#a64a5938ce7cbab57a7345d3a373b94e6" title="Records the pending exception, and cancels the task group. " alt="" coords="208,71,396,112"/>
+</map>

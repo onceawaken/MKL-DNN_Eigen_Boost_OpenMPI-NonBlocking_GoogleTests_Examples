@@ -1,0 +1,11 @@
+<map id="tbb::flow::interface10::internal::function_body&lt; Input, Output &gt;" name="tbb::flow::interface10::internal::function_body&lt; Input, Output &gt;">
+<area shape="rect" id="node3" href="$a00282.html" title="the leaf for function_body " alt="" coords="5,345,167,496"/>
+<area shape="rect" id="node4" href="$a00280.html" title="{tbb::flow::interface10\l::internal::function_body\l\&lt; T, size_t \&gt;\n||+ ~function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="191,353,352,489"/>
+<area shape="rect" id="node5" href="$a00280.html" title="{tbb::flow::interface10\l::internal::function_body\l\&lt; Input, continue_msg \&gt;\n||+ ~function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="376,353,540,489"/>
+<area shape="rect" id="node7" href="$a00280.html" title="{tbb::flow::interface10\l::internal::function_body\l\&lt; continue_msg, continue_msg \&gt;\n||+ ~function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="565,353,781,489"/>
+<area shape="rect" id="node9" href="$a00280.html" title="{tbb::flow::interface10\l::internal::function_body\l\&lt; continue_msg, Output \&gt;\n||+ ~function_body()\l+ operator()()\l+ clone()\l}" alt="" coords="812,353,987,489"/>
+<area shape="rect" id="node2" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="379,5,537,83"/>
+<area shape="rect" id="node6" href="$a00287.html" title="the leaf for function_body specialized for Output of continue_msg " alt="" coords="339,553,548,703"/>
+<area shape="rect" id="node8" href="$a00283.html" title="the leaf for function_body specialized for Input and output of continue_msg " alt="" coords="573,545,773,711"/>
+<area shape="rect" id="node10" href="$a00285.html" title="the leaf for function_body specialized for Input of continue_msg " alt="" coords="797,553,1015,703"/>
+</map>

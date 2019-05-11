@@ -1,0 +1,4 @@
+<map id="tbb::internal::mail_outbox::recipient_is_idle" name="tbb::internal::mail_outbox::recipient_is_idle">
+<area shape="rect" id="node2" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="223,5,409,47"/>
+<area shape="rect" id="node3" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="457,5,611,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tbb::task::change_group" name="tbb::task::change_group">
+<area shape="rect" id="node2" href="$a00778.html#a30f13aac27c8d2ee6e85865e54115862" title="Invoked by scheduler to notify task that it ran on unexpected thread. " alt="" coords="216,78,368,105"/>
+<area shape="rect" id="node3" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="421,5,564,47"/>
+<area shape="rect" id="node4" href="$a00302.html#aad832dcce47939c2fd150a0e63a395ec" title="Get a task from the local pool at specified location T. " alt="" coords="421,71,564,112"/>
+<area shape="rect" id="node5" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="416,136,569,177"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="__itt_id_make" name="__itt_id_make">
+<area shape="rect" id="node2" href="$a01157.html#ga935dd3611e942563fb60db1ccee453c7" title="Create an instance of identifier. This establishes the beginning of the lifetime of an instance of th..." alt="" coords="168,5,275,32"/>
+<area shape="rect" id="node3" href="$a01157.html#ga9b1b0ac6c1084ae77b22708886f468a5" title="Destroy an instance of identifier. This ends the lifetime of the current instance of the given ID val..." alt="" coords="164,56,279,83"/>
+<area shape="rect" id="node4" href="$a01158.html#ga353ab13a4b9325ded923c1c951f6f849" title="Create a string handle. Create and return handle value that can be associated with a string..." alt="" coords="156,107,287,149"/>
+<area shape="rect" id="node5" href="$a01158.html#ga01b031a1ec465e650ccfacae18a3c121" title="__itt_string_handle\l_createW" alt="" coords="156,173,287,214"/>
+</map>

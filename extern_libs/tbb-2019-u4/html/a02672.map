@@ -1,0 +1,4 @@
+<map id="tbb::flow::interface10::internal::tagged_msg&lt; TagType, T0, T1, T2, T3, T4, T5, T6, T7, T8, T9 &gt;::variant" name="tbb::flow::interface10::internal::tagged_msg&lt; TagType, T0, T1, T2, T3, T4, T5, T6, T7, T8, T9 &gt;::variant">
+<area shape="rect" id="node3" href="$a00042.html" title="{tbb::aligned_space\l\&lt; AlignType, MaxNElements \&gt;\n|&#45; array\l|+ begin()\l+ end()\l&#45; __TBB_TypeWithAlignmentAt\lLeastAsStrict()\l}" alt="" coords="87,204,291,340"/>
+<area shape="rect" id="node4" href="$a00042.html" title="Block of space aligned sufficiently to construct an array T with N elements. " alt="" coords="87,5,291,141"/>
+</map>

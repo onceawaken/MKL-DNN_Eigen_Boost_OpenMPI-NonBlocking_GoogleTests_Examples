@@ -1,0 +1,11 @@
+<map id="tbb::interface9::internal::static_partition_type" name="tbb::interface9::internal::static_partition_type">
+<area shape="rect" id="node2" href="$a00476.html" title="{tbb::interface9::internal\l::linear_affinity_mode\l\&lt; static_partition_type \&gt;\n||+ linear_affinity_mode()\l+ linear_affinity_mode()\l+ linear_affinity_mode()\l+ set_affinity()\l}" alt="" coords="541,1325,703,1476"/>
+<area shape="rect" id="node3" href="$a00607.html" title="{tbb::interface9::internal\l::proportional_mode\&lt; static\l_partition_type \&gt;\n||+ proportional_mode()\l+ proportional_mode()\l+ proportional_mode()\l+ do_split()\l+ is_divisible()\l+ get_split()\l}" alt="" coords="339,1068,519,1248"/>
+<area shape="rect" id="node4" href="$a00027.html" title="{tbb::interface9::internal\l::adaptive_mode\&lt; static\l_partition_type \&gt;\n|+ factor\l|+ adaptive_mode()\l+ adaptive_mode()\l+ do_split()\l}" alt="" coords="190,840,353,976"/>
+<area shape="rect" id="node5" href="$a00575.html" title="{tbb::internal::partition\l_type_base\&lt; static_partition_type \&gt;\n||+ set_affinity()\l+ note_affinity()\l+ continue_after_execute\l_range()\l+ decide_whether_to_delay()\l+ spawn_or_delay()\l}" alt="" coords="5,437,236,603"/>
+<area shape="rect" id="node6" href="$a00575.html" title="Provides backward&#45;compatible methods for partition objects without affinity. " alt="" coords="93,5,282,171"/>
+<area shape="rect" id="node9" href="$a00575.html" title="{tbb::internal::partition\l_type_base\&lt; Partition \&gt;\n||+ set_affinity()\l+ note_affinity()\l+ continue_after_execute\l_range()\l+ decide_whether_to_delay()\l+ spawn_or_delay()\l}" alt="" coords="161,248,350,413"/>
+<area shape="rect" id="node8" href="$a00027.html" title="Provides default splitting strategy for partition objects. " alt="" coords="391,627,581,748"/>
+<area shape="rect" id="node11" href="$a00476.html" title="Provides default linear indexing of partitioner&#39;s sequence. " alt="" coords="543,1083,701,1233"/>
+<area shape="rect" id="node10" href="$a00607.html" title="Provides proportional splitting strategy for partition objects. " alt="" coords="377,825,585,991"/>
+</map>

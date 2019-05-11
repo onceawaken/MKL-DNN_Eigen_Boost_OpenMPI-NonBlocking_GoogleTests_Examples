@@ -1,0 +1,8 @@
+<map id="tbb::internal::allocate_root_proxy::free" name="tbb::internal::allocate_root_proxy::free">
+<area shape="rect" id="node2" href="$a01133.html#a9c68ba9b3309fdabe739f77b71ed9a67" title="tbb::internal::__TBB\l_load_relaxed" alt="" coords="227,5,366,47"/>
+<area shape="rect" id="node3" href="$a01133.html#a1f6010c3e550e88ab739adbdee5dfdac" title="tbb::internal::__TBB\l_store_relaxed" alt="" coords="227,71,366,112"/>
+<area shape="rect" id="node4" href="$a00051.html#abc9d76cedf3ce4d19c1b6368ffa4183e" title="tbb::internal::allocate\l_root_with_context_proxy\l::allocate" alt="" coords="211,135,382,191"/>
+<area shape="rect" id="node5" href="$a00051.html#a431f6f50c7785dd7032a41a52b9dee67" title="tbb::internal::allocate\l_root_with_context_proxy::free" alt="" coords="196,215,397,256"/>
+<area shape="rect" id="node6" href="$a00307.html#a529e907c8efd72821da3ae61cbf8abc0" title="tbb::internal::governor\l::local_scheduler_weak" alt="" coords="217,280,376,321"/>
+<area shape="rect" id="node7" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="445,280,575,321"/>
+</map>

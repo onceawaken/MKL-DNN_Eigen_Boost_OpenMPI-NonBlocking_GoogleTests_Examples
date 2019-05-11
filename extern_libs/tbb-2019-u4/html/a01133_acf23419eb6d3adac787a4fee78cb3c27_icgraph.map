@@ -1,0 +1,42 @@
+<map id="tbb::internal::first" name="tbb::internal::first">
+<area shape="rect" id="node2" href="$a00302.html#a08edecb9bd9ef648bada9fb5b1febeec" title="tbb::internal::generic\l_scheduler::assert_task\l_pool_valid" alt="" coords="206,195,367,251"/>
+<area shape="rect" id="node16" href="$a00788.html#aed585c9304ac5bf4879455efdf67e4e5" title="Clear the list. " alt="" coords="220,497,353,524"/>
+<area shape="rect" id="node19" href="$a00788.html#ad390e1166591a6d124f2e7869ebe0dcd" title="True if list if empty; false otherwise. " alt="" coords="216,548,357,575"/>
+<area shape="rect" id="node20" href="$a00143.html#a1d6b7a7e3d4361bb12fb5185cd6d0e65" title="Insert range [first, last) " alt="" coords="199,599,374,641"/>
+<area shape="rect" id="node21" href="$a00143.html#a76750c61ad670e130850148543f67147" title="tbb::interface5::concurrent\l_hash_map::internal_copy" alt="" coords="199,665,374,706"/>
+<area shape="rect" id="node22" href="$a00161.html#ace20aead6a2246eff0969ced944e5ef6" title="tbb::interface5::internal\l::concurrent_unordered\l_base\&lt; concurrent_unordered\l_map_traits\&lt; Key, T, internal\l::hash_compare\&lt; Key, Hasher,\l Key_equality \&gt;, Allocator, false\l \&gt; \&gt;::internal_equal_range" alt="" coords="183,731,391,845"/>
+<area shape="rect" id="node23" href="$a00414.html#a33b603d02542bdb9a3f7e183ed946389" title="internal::item_buffer\l\&lt; OutputTuple \&gt;::item" alt="" coords="211,870,362,911"/>
+<area shape="rect" id="node24" href="$a01133.html#af62504c1198fa4293c462755160260c5" title="tbb::internal::last" alt="" coords="227,936,346,963"/>
+<area shape="rect" id="node25" href="$a00725.html#ac92295046844992ed791bc2531e2314e" title="tbb::interface5::internal\l::split_ordered_list\&lt; value\l_type, typename concurrent\l_unordered_set_traits\&lt; Key,\l internal::hash_compare\&lt; Key,\l Hasher, Key_equality \&gt;, Allocator,\l false \&gt;::allocator_type \&gt;::move_all" alt="" coords="173,987,400,1101"/>
+<area shape="rect" id="node26" href="$a01145.html#ga135f72b966cd78a14f6aa1ddf0480701" title="tbb::parallel_do" alt="" coords="725,1332,836,1359"/>
+<area shape="rect" id="node27" href="$a01140.html#ad81ca398fadd17fb054737716881865e" title="Parallel iteration over a range of integers with explicit step and default partitioner. " alt="" coords="215,1177,359,1218"/>
+<area shape="rect" id="node28" href="$a01141.html#a2a08fe076bb27638b30e570bcd37aaa5" title="Parallel iteration over a range of integers with a step provided and default partitioner. " alt="" coords="201,1243,373,1269"/>
+<area shape="rect" id="node30" href="$a01145.html#ga72131543fd218b67dbb048b768d534e4" title="Calls function f for all items from rng using user&#45;supplied context. " alt="" coords="213,1293,360,1320"/>
+<area shape="rect" id="node31" href="$a01145.html#ga61ce8ba64868c5c15f9d98840193b9bf" title="Sorts the data in rng using the given comparator. " alt="" coords="227,1344,346,1371"/>
+<area shape="rect" id="node32" href="$a00592.html#abe35c6b57f063e84eb119b9b4c21eaa0" title="tbb::internal::pipeline\l_root_task::pipeline_root_task" alt="" coords="189,1395,385,1437"/>
+<area shape="rect" id="node33" href="$a00788.html#a378e7c8d7a89afe3940b9c0e236bca09" title="Push task onto back of list. " alt="" coords="203,1461,371,1488"/>
+<area shape="rect" id="node38" href="$a00228.html#a9eb2970424b9f5e3d5a54598eaa8d07f" title="tbb::interface9::internal\l::do_task_iter::run_for\l_forward_iterator" alt="" coords="209,1512,364,1568"/>
+<area shape="rect" id="node39" href="$a01145.html#ga4a8ac659491c077e9c4b254033fb1035" title="For internal use only. " alt="" coords="209,1595,364,1637"/>
+<area shape="rect" id="node3" href="$a00194.html#ad5456333f61bee29b4d908df6b85b6ee" title="tbb::internal::custom\l_scheduler::allocate\l_scheduler" alt="" coords="477,5,618,61"/>
+<area shape="rect" id="node4" href="$a00302.html#ad7c11742ee005f6d377095062b42a5d8" title="tbb::internal::generic\l_scheduler::generic_scheduler" alt="" coords="448,85,647,126"/>
+<area shape="rect" id="node5" href="$a00302.html#a0460616fb84af745b12688927ff1bb7d" title="Makes sure that the task pool can accommodate at least n more elements. " alt="" coords="448,202,647,243"/>
+<area shape="rect" id="node6" href="$a00302.html#ae43166ffd9d7fb624158872394832f17" title="tbb::internal::generic\l_scheduler::local_spawn" alt="" coords="698,141,863,182"/>
+<area shape="rect" id="node11" href="$a00302.html#a21fedf3ec39056fdd7b7718f2421e229" title="For internal use only. " alt="" coords="709,206,852,247"/>
+<area shape="rect" id="node12" href="$a00778.html#a8a82c421e571d0a87fec2ac40f1b6741" title="The innermost task being executed or destroyed by the current thread at the moment. " alt="" coords="496,324,599,351"/>
+<area shape="rect" id="node7" href="$a00302.html#a9dacb8fead5795de1011018b83d68d61" title="tbb::internal::generic\l_scheduler::local_spawn\l_root_and_wait" alt="" coords="915,97,1080,153"/>
+<area shape="rect" id="node9" href="$a00302.html#a4d51eca32dc45cba3e0ec161240bfaca" title="For internal use only. " alt="" coords="927,177,1067,218"/>
+<area shape="rect" id="node10" href="$a00778.html#aa4b70779d4c99558dda8f8a97db9520e" title="Similar to spawn followed by wait_for_all, but more efficient. " alt="" coords="924,333,1071,374"/>
+<area shape="rect" id="node8" href="$a00302.html#a6e0b5fdf74860259585e55f7bf2edb8e" title="For internal use only. " alt="" coords="1128,97,1288,153"/>
+<area shape="rect" id="node13" href="$a00573.html#a4861989d7f5e3111d264d4d6013e8fe1" title="Add a work item while running. " alt="" coords="703,272,858,299"/>
+<area shape="rect" id="node14" href="$a01113.html#aaef1698b222ba9312ab24dcdcd98bbd8" title="tbb::is_current_task\l_group_canceling" alt="" coords="712,323,849,365"/>
+<area shape="rect" id="node15" href="$a00623.html#a157150b811f393b1d58f4fbd83afb0e8" title="tbb::interface9::internal\l::quick_sort_pretest_body\l::operator()" alt="" coords="695,388,867,444"/>
+<area shape="rect" id="node17" href="$a00781.html#a685b1386235d50c9b54f1d03c278eea6" title="Spawn multiple tasks and clear list. " alt="" coords="470,519,625,561"/>
+<area shape="rect" id="node18" href="$a00778.html#a093a4da885180ae584a56fb7c02e4c38" title="Spawn root tasks on list and wait for all of them to finish. " alt="" coords="473,585,621,626"/>
+<area shape="rect" id="node29" href="$a01141.html#aca472f027037274edc916bd8265ee9f7" title="Parallel iteration over a range of integers with a default step value, explicit task group context..." alt="" coords="461,1243,633,1269"/>
+<area shape="rect" id="node34" href="$a00886.html#a1377f3dd127981bcb99990996bed7fb9" title="Should be overridden by derived classes. " alt="" coords="474,1299,621,1341"/>
+<area shape="rect" id="node35" href="$a00218.html#a91131ee96dac1ac1b6e23ba708205200" title="Should be overridden by derived classes. " alt="" coords="465,1364,630,1420"/>
+<area shape="rect" id="node36" href="$a00219.html#a59c601e88ba31f2818ebcc3955599482" title="Should be overridden by derived classes. " alt="" coords="468,1444,627,1500"/>
+<area shape="rect" id="node37" href="$a00228.html#aebb622ab2f9e46491a9d7cdcf300c8bd" title="tbb::interface9::internal\l::do_task_iter::run_for\l_random_access_iterator" alt="" coords="463,1524,631,1580"/>
+<area shape="rect" id="node40" href="$a01145.html#ga533f6732498ade8634a9470cbf89192d" title="Parallel iteration over a range, with optional addition of more work. " alt="" coords="492,1604,603,1631"/>
+<area shape="rect" id="node41" href="$a00568.html#a6feb63b5a2eff38d040399ca2a5b0f5a" title="tbb::internal::parallel\l_for_each_impl::doit" alt="" coords="711,1597,850,1638"/>
+</map>

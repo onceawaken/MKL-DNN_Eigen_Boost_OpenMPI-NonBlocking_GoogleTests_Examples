@@ -1,0 +1,12 @@
+<map id="tbb_main.h" name="tbb_main.h">
+<area shape="rect" id="node2" href="$a00965.html" title="tbb/atomic.h" alt="" coords="515,251,609,278"/>
+<area shape="rect" id="node9" href="$a01005.html" title="governor.h" alt="" coords="313,80,395,107"/>
+<area shape="rect" id="node16" href="$a01087.html" title="tbb_environment.h" alt="" coords="600,80,729,107"/>
+<area shape="rect" id="node4" href="$a01089.html" title="tbb_machine.h" alt="" coords="423,333,530,360"/>
+<area shape="rect" id="node5" href="$a01098.html" title="tbb_stddef.h" alt="" coords="339,408,433,435"/>
+<area shape="rect" id="node6" href="$a01085.html" title="tbb_config.h" alt="" coords="437,483,530,509"/>
+<area shape="rect" id="node10" href="$a01077.html" title="tbb/task_scheduler\l_init.h" alt="" coords="139,155,271,196"/>
+<area shape="rect" id="node13" href="$a01093.html" title="tbb_misc.h" alt="" coords="437,162,524,189"/>
+<area shape="rect" id="node14" href="$a01104.html" title="tls.h" alt="" coords="60,162,107,189"/>
+<area shape="rect" id="node15" href="$a01105.html" title="tbb/machine/windows\l_api.h" alt="" coords="5,244,153,285"/>
+</map>

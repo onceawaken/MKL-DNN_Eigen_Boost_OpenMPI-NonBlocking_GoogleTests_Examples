@@ -1,0 +1,8 @@
+<map id="tbb::tbb_allocator::construct" name="tbb::tbb_allocator::construct">
+<area shape="rect" id="node2" href="$a01113.html#ac41903d6b80e61bd6c605412e7820e08" title="tbb::move" alt="" coords="176,46,256,73"/>
+<area shape="rect" id="node3" href="$a01133.html#abb11c7c316e44b5f97962d62e9ea5f70" title="tbb::internal::move_v3" alt="" coords="304,46,455,73"/>
+<area shape="rect" id="node4" href="$a00808.html#a4ddee0e2030f8fa947fd93f403178104" title="tbb::internal::tbb\l_thread_v3::joinable" alt="" coords="684,5,823,47"/>
+<area shape="rect" id="node5" href="$a00808.html#aed1dc35a70fc537682452a1c7bd77faf" title="When detach() returns, *this no longer represents the possibly continuing thread of execution..." alt="" coords="503,69,636,111"/>
+<area shape="rect" id="node6" href="$a01133.html#a5aee4a416446e4270c5758f55a5336a0" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="685,71,821,112"/>
+<area shape="rect" id="node7" href="$a01133.html#ab4841a5edb13e2982963a55e900a4812" title="Throws std::runtime_error with what() returning error_code description prefixed with aux_info..." alt="" coords="871,100,1007,141"/>
+</map>

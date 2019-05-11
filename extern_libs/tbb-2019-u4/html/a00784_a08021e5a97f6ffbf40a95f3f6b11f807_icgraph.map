@@ -1,0 +1,9 @@
+<map id="tbb::task_group_context::is_group_execution_cancelled" name="tbb::task_group_context::is_group_execution_cancelled">
+<area shape="rect" id="node2" href="$a00783.html#aef3561e83c11cde7299a34db1064f420" title="tbb::internal::task\l_group_base::internal\l_run_and_wait" alt="" coords="272,5,419,61"/>
+<area shape="rect" id="node3" href="$a00783.html#a91b0943033a9e802cea00ac4af9e4ae2" title="tbb::internal::task\l_group_base::is_canceling" alt="" coords="257,85,433,126"/>
+<area shape="rect" id="node4" href="$a01145.html#ga8ea99adce8e471393803c5abca0c34fe" title="Wrapper method to initiate the sort by calling parallel_for. " alt="" coords="268,150,423,191"/>
+<area shape="rect" id="node7" href="$a00783.html#a9a05d8b3350796df951c701978cec816" title="tbb::internal::task\l_group_base::wait" alt="" coords="281,215,409,257"/>
+<area shape="rect" id="node5" href="$a01145.html#gabdc90813499f91d3e32298cd6dc2fe45" title="Sorts the data in [begin,end) using the given comparator. " alt="" coords="491,157,610,184"/>
+<area shape="rect" id="node6" href="$a01145.html#ga73b58ac9249f49587d0b081c152af551" title="Sorts the data in [begin,end) with a default comparator std::less&lt;RandomAccessIterator&gt; ..." alt="" coords="668,157,787,184"/>
+<area shape="rect" id="node8" href="$a00765.html#a0578ff577290a108d395ab29a0a04e04" title="tbb::structured_task\l_group::wait" alt="" coords="481,215,620,257"/>
+</map>

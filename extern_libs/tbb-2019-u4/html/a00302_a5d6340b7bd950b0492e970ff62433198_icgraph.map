@@ -1,0 +1,4 @@
+<map id="tbb::internal::generic_scheduler::unlock_task_pool" name="tbb::internal::generic_scheduler::unlock_task_pool">
+<area shape="rect" id="node2" href="$a00302.html#a15b506cb1b1da8e37255fc2fcdf250f0" title="Steal task from another scheduler&#39;s ready pool. " alt="" coords="248,5,435,47"/>
+<area shape="rect" id="node3" href="$a00302.html#abb8f3f3967170ca9398e55b90220c3cb" title="Attempts to steal a task from a randomly chosen thread/scheduler. " alt="" coords="483,5,636,47"/>
+</map>

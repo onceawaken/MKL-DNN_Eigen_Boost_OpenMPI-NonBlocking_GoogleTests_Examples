@@ -1,0 +1,24 @@
+<map id="tbb::flow::interface10::priority_queue_node&lt; T, Compare, A &gt;" name="tbb::flow::interface10::priority_queue_node&lt; T, Compare, A &gt;">
+<area shape="rect" id="node2" href="$a00119.html" title="Forwards messages in arbitrary order. " alt="" coords="871,2364,1067,2779"/>
+<area shape="rect" id="node3" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="1326,1390,1470,1511"/>
+<area shape="rect" id="node6" href="$a00308.html" title="The graph class. " alt="" coords="1641,1732,1814,2073"/>
+<area shape="rect" id="node4" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="961,153,1107,245"/>
+<area shape="rect" id="node14" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="631,461,787,568"/>
+<area shape="rect" id="node16" href="$a00784.html" title="Used to form groups of tasks. " alt="" coords="1383,739,1583,1329"/>
+<area shape="rect" id="node26" href="$a00767.html" title="{tbb::flow::interface10\l::internal::successor\l_cache\&lt; T, tbb::null_rw\l_mutex \&gt;\n||+ successor_cache()\l+ set_owner()\l+ ~successor_cache()\l+ register_successor()\l+ remove_successor()\l+ empty()\l+ clear()\l}" alt="" coords="424,1798,583,2007"/>
+<area shape="rect" id="node29" href="$a00767.html" title="An abstract cache of successors. " alt="" coords="646,1353,798,1548"/>
+<area shape="rect" id="node5" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="955,5,1113,83"/>
+<area shape="rect" id="node9" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="2064,315,2279,715"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="1901,160,1999,237"/>
+<area shape="rect" id="node13" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="1155,1361,1302,1541"/>
+<area shape="rect" id="node27" href="$a00523.html" title="A rw mutex which does nothing. " alt="" coords="475,1397,622,1504"/>
+<area shape="rect" id="node17" href="$a00653.html" title="item_buffer with reservable front&#45;end. NOTE: if reserving, do not " alt="" coords="881,2136,1056,2301"/>
+<area shape="rect" id="node18" href="$a00413.html" title="{tbb::flow::interface10\l::internal::item_buffer\l\&lt; T, A \&gt;\n||+ item_buffer()\l+ ~item_buffer()\l+ reset()\l# buffer_empty()\l# item()\l# item()\l# my_item_valid()\l# my_item_reserved()\l# get_my_item()\l# set_my_item()\l# fetch_item()\l# move_item()\l# place_item()\land 16 more...\l}" alt="" coords="895,1754,1043,2051"/>
+<area shape="rect" id="node19" href="$a00837.html" title="type mimicking std::pair but with trailing fill to ensure each element of an array ..." alt="" coords="975,1383,1131,1519"/>
+<area shape="rect" id="node21" href="$a00644.html" title="Pure virtual template class that defines a receiver of messages of type T. " alt="" coords="1375,2151,1541,2287"/>
+<area shape="rect" id="node22" href="$a00875.html" title="{tbb::flow::interface10\l::internal::untyped_receiver\n||+ ~untyped_receiver()\l+ try_put()\l+ register_predecessor()\l+ remove_predecessor()\l# try_put_task()\l# try_put_task_wrapper()\l# graph_reference()\l# reset_receiver()\l# is_continue_receiver()\l}" alt="" coords="1371,1798,1550,2007"/>
+<area shape="rect" id="node23" href="$a00702.html" title="Forward declaration section. " alt="" coords="5,1572,164,1708"/>
+<area shape="rect" id="node24" href="$a00876.html" title="{tbb::flow::interface10\l::internal::untyped_sender\n||+ ~untyped_sender()\l+ register_successor()\l+ remove_successor()\l+ try_release()\l+ try_consume()\l# try_get()\l# try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="223,410,395,619"/>
+<area shape="rect" id="node25" href="$a00666.html" title="{tbb::flow::interface10\l::internal::round_robin\l_cache\&lt; T, tbb::null_rw\l_mutex \&gt;\n||+ round_robin_cache()\l+ size()\l+ try_put_task()\l}" alt="" coords="616,2143,775,2294"/>
+<area shape="rect" id="node31" href="$a00666.html" title="A cache of successors that are put in a round&#45;robin fashion. " alt="" coords="620,1835,771,1971"/>
+</map>

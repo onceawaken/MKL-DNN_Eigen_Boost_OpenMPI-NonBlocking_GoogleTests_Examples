@@ -1,0 +1,5 @@
+<map id="tbb::flow::interface9::gfx_factory::callback" name="tbb::flow::interface9::gfx_factory::callback">
+<area shape="rect" id="node2" href="$a01121.html#ae21ed5a277ebcc0035ef64fa0ce19c9d" title="tbb::flow::interface9\l::gfx_offload::wait_for_task" alt="" coords="204,13,384,54"/>
+<area shape="rect" id="node3" href="$a01121.html#ad6799c989aad12e25ea75ccd71c73a36" title="tbb::flow::interface9\l::gfx_offload::check\l_gfx_retcode" alt="" coords="432,5,569,61"/>
+<area shape="rect" id="node4" href="$a01121.html#a2ba2600642acfafb847d1b207a416314" title="tbb::flow::interface9\l::gfx_offload::throw\l_gfx_exception" alt="" coords="617,5,755,61"/>
+</map>

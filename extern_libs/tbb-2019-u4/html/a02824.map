@@ -1,0 +1,4 @@
+<map id="tbb::interface5::concurrent_hash_map&lt; Key, T, HashCompare, Allocator &gt;::accessor" name="tbb::interface5::concurrent_hash_map&lt; Key, T, HashCompare, Allocator &gt;::accessor">
+<area shape="rect" id="node2" href="$a00170.html" title="Combines data access, locking, and garbage collection. " alt="" coords="5,404,241,599"/>
+<area shape="rect" id="node4" href="$a00518.html" title="{tbb::interface5::concurrent\l_hash_map\&lt; Key, T, HashCompare,\l Allocator \&gt;::node\n|+ item\l|+ node()\l+ node()\l+ node()\l+ node()\l+ node()\l+ node()\l+ operator new()\l+ operator delete()\l}" alt="" coords="143,132,379,341"/>
+</map>

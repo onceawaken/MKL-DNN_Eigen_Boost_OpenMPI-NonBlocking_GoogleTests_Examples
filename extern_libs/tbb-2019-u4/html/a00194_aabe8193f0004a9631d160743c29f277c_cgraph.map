@@ -1,0 +1,4 @@
+<map id="tbb::internal::custom_scheduler::wait_for_all" name="tbb::internal::custom_scheduler::wait_for_all">
+<area shape="rect" id="node2" href="$a00307.html#af2d5dff302cbba60bcf7becbdce2ade9" title="Obtain the thread&#45;local instance of the TBB scheduler. " alt="" coords="212,5,360,47"/>
+<area shape="rect" id="node3" href="$a00105.html#a636ef4cc45424603061a811110622a4b" title="tbb::internal::basic\l_tls::get" alt="" coords="408,5,537,47"/>
+</map>

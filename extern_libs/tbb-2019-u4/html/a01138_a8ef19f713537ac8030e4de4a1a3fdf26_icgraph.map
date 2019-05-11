@@ -1,0 +1,13 @@
+<map id="tbb::internal::rml::make_private_server" name="tbb::internal::rml::make_private_server">
+<area shape="rect" id="node2" href="$a00307.html#aec70bdc2a20ee8377a1676dd3b4c843b" title="tbb::internal::governor\l::create_rml_server" alt="" coords="204,118,352,159"/>
+<area shape="rect" id="node3" href="$a00489.html#acdbf87ad0efe5f3e224d88ecb2536e93" title="Constructor. " alt="" coords="400,118,539,159"/>
+<area shape="rect" id="node4" href="$a00489.html#a08ccaf89d501a9e56912eb5bd624066f" title="Factory method creating new market object. " alt="" coords="587,118,725,159"/>
+<area shape="rect" id="node5" href="$a00489.html#aa73a40282b782676f30f27dcde0ea967" title="Creates an arena object. " alt="" coords="815,85,954,126"/>
+<area shape="rect" id="node8" href="$a00780.html#ae01d134b4edd1c8887f166fb55c66aa5" title="tbb::interface7::internal\l::task_arena_base::internal\l_initialize" alt="" coords="1044,5,1223,61"/>
+<area shape="rect" id="node10" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="797,150,973,191"/>
+<area shape="rect" id="node12" href="$a00780.html#a2933ada6491744fc55f8d967919d9142" title="tbb::interface7::internal\l::task_arena_base::internal_attach" alt="" coords="773,215,996,257"/>
+<area shape="rect" id="node6" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="1059,150,1207,191"/>
+<area shape="rect" id="node9" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="1064,85,1203,126"/>
+<area shape="rect" id="node7" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="1271,150,1407,191"/>
+<area shape="rect" id="node11" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="1059,215,1207,257"/>
+</map>

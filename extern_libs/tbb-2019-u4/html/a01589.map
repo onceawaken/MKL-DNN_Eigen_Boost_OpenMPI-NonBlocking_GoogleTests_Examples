@@ -1,0 +1,5 @@
+<map id="internal::function_output&lt; Output &gt;" name="internal::function_output&lt; Output &gt;">
+<area shape="rect" id="node2" href="$a00702.html" title="{tbb::flow::interface10\l::sender\&lt; Output \&gt;\n||+ try_get()\l+ try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="5,463,164,599"/>
+<area shape="rect" id="node3" href="$a00876.html" title="{tbb::flow::interface10\l::internal::untyped_sender\n||+ ~untyped_sender()\l+ register_successor()\l+ remove_successor()\l+ try_release()\l+ try_consume()\l# try_get()\l# try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="15,5,187,215"/>
+<area shape="rect" id="node4" href="$a00702.html" title="Forward declaration section. " alt="" coords="101,264,260,400"/>
+</map>

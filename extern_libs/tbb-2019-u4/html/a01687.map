@@ -1,0 +1,16 @@
+<map id="internal::join_node_FE&lt; reserving, InputTuple, OutputTuple &gt;" name="internal::join_node_FE&lt; reserving, InputTuple, OutputTuple &gt;">
+<area shape="rect" id="node2" href="$a00276.html" title="{internal::forwarding_base\n||+ forwarding_base()\l+ ~forwarding_base()\l+ decrement_port_count()\l+ increment_port_count()\l}" alt="" coords="129,1347,300,1468"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,1038,163,1115"/>
+<area shape="rect" id="node5" href="$a00429.html" title="join_node_base " alt="" coords="463,1288,622,1527"/>
+<area shape="rect" id="node7" href="$a00433.html" title="join_node_FE : implements input port policy " alt="" coords="380,1023,527,1130"/>
+<area shape="rect" id="node8" href="$a00702.html" title="{tbb::flow::interface10\l::sender\&lt; OutputTuple \&gt;\n||+ try_get()\l+ try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="551,1009,715,1145"/>
+<area shape="rect" id="node9" href="$a00876.html" title="{tbb::flow::interface10\l::internal::untyped_sender\n||+ ~untyped_sender()\l+ register_successor()\l+ remove_successor()\l+ try_release()\l+ try_consume()\l# try_get()\l# try_reserve()\l# try_get_wrapper()\l# try_reserve_wrapper()\l}" alt="" coords="489,175,661,384"/>
+<area shape="rect" id="node10" href="$a00702.html" title="Forward declaration section. " alt="" coords="574,619,733,755"/>
+<area shape="rect" id="node13" href="$a00079.html" title="{tbb::atomic\&lt; size_t \&gt;\n||+ atomic()\l+ atomic()\l+ operator=()\l+ operator=()\l}" alt="" coords="927,1347,1073,1468"/>
+<area shape="rect" id="node14" href="$a00083.html" title="{tbb::internal::atomic\l_impl\&lt; size_t \&gt;\n||+ atomic_impl()\l+ atomic_impl()\l+ fetch_and_store()\l+ fetch_and_store()\l+ compare_and_swap()\l+ compare_and_swap()\l+ operator value_type()\l+ load()\l+ load()\l+ store()\l+ store()\l# store_with_release()\l&#45; to_bits()\l&#45; to_value()\l&#45; to_bits_ref()\l}" alt="" coords="921,928,1079,1225"/>
+<area shape="rect" id="node15" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; size_t, sizeof\l(size_t)\&gt;\n||}" alt="" coords="903,408,1065,515"/>
+<area shape="rect" id="node16" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; value_type,\l size \&gt;\n||}" alt="" coords="997,5,1147,112"/>
+<area shape="rect" id="node18" href="$a00043.html" title="{tbb::internal::aligned\l_storage\&lt; T, sizeof(T)\&gt;\n||}" alt="" coords="1082,233,1241,325"/>
+<area shape="rect" id="node17" href="$a00083.html" title="Base class that provides basic functionality for atomic&lt;T&gt; without fetch_and_add. ..." alt="" coords="1085,539,1243,836"/>
+<area shape="rect" id="node19" href="$a00079.html" title="Primary template for atomic. " alt="" coords="1105,1016,1223,1137"/>
+</map>

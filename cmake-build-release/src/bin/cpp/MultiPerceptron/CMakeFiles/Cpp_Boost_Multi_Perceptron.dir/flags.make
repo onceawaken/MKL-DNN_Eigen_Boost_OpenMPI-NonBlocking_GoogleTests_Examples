@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/daisy/W/W.priv/NonBlockingProtocol/extern_libs/Eigen/include/eigen3 
+CXX_INCLUDES = -I/home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/extern_libs/Eigen/include/eigen3 
 

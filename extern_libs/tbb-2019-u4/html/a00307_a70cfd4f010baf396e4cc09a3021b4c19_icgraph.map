@@ -1,0 +1,16 @@
+<map id="tbb::internal::governor::acquire_resources" name="tbb::internal::governor::acquire_resources">
+<area shape="rect" id="node2" href="$a00019.html#aeb552d69cd0db07e0ec3526c22e8899a" title="Add reference to resources. If first reference added, acquire the resources. " alt="" coords="201,104,340,145"/>
+<area shape="rect" id="node3" href="$a00019.html#a38012fc1dc4a713f1b5b46f58dfec319" title="Add initial reference to resources. " alt="" coords="392,5,575,47"/>
+<area shape="rect" id="node4" href="$a01133.html#a66931f1de2fe17bad8867074cc504825" title="Performs thread&#45;safe lazy one&#45;time general TBB initialization. " alt="" coords="399,71,567,112"/>
+<area shape="rect" id="node7" href="$a00489.html#a08ccaf89d501a9e56912eb5bd624066f" title="Factory method creating new market object. " alt="" coords="414,136,553,177"/>
+<area shape="rect" id="node15" href="$a00019.html#aef2402e6d0b42fc5521b9f4ed008af11" title="Remove the initial reference to resources. " alt="" coords="388,201,579,243"/>
+<area shape="rect" id="node5" href="$a00307.html#afe9a6e0c86063b682a133234ca3a2f2b" title="tbb::internal::governor\l::one_time_init" alt="" coords="664,19,812,60"/>
+<area shape="rect" id="node6" href="$a00780.html#ae01d134b4edd1c8887f166fb55c66aa5" title="tbb::interface7::internal\l::task_arena_base::internal\l_initialize" alt="" coords="897,70,1076,126"/>
+<area shape="rect" id="node8" href="$a00780.html#a2933ada6491744fc55f8d967919d9142" title="tbb::interface7::internal\l::task_arena_base::internal_attach" alt="" coords="627,136,849,177"/>
+<area shape="rect" id="node9" href="$a00489.html#aa73a40282b782676f30f27dcde0ea967" title="Creates an arena object. " alt="" coords="669,201,807,243"/>
+<area shape="rect" id="node13" href="$a00302.html#ac7fb04a73dbb75dd8db5c9637bfadeae" title="Initialize a scheduler for a master thread. " alt="" coords="650,267,826,308"/>
+<area shape="rect" id="node10" href="$a00307.html#abf62b8bc4890ad846ff01349f8d46a84" title="Processes scheduler initialization request (possibly nested) in a master thread. " alt="" coords="913,240,1061,281"/>
+<area shape="rect" id="node12" href="$a00489.html#ac34ffcef09382c724dc962361d6fd2b1" title="tbb::internal::market\l::policy" alt="" coords="917,175,1056,216"/>
+<area shape="rect" id="node11" href="$a00791.html#a786a7c6c49faa40101d5f4ca2209b1cb" title="The overloaded method with stack size parameter. " alt="" coords="1124,240,1260,281"/>
+<area shape="rect" id="node14" href="$a00307.html#a2fb697c689050c0d4f5438b0e29ad41c" title="Automatic initialization of scheduler in a master thread with default settings without arena..." alt="" coords="913,305,1061,347"/>
+</map>

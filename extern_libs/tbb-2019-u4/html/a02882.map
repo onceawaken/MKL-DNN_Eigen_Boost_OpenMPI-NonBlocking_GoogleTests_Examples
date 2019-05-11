@@ -1,0 +1,4 @@
+<map id="tbb::interface5::internal::concurrent_unordered_base&lt; Traits &gt;::range_type" name="tbb::interface5::internal::concurrent_unordered_base&lt; Traits &gt;::range_type">
+<area shape="rect" id="node2" href="$a00172.html" title="{tbb::interface5::internal\l::concurrent_unordered\l_base\&lt; Traits \&gt;::const_range_type\n|&#45; my_table\l&#45; my_begin_node\l&#45; my_end_node\l&#45; my_midpoint_node\l|+ empty()\l+ is_divisible()\l+ const_range_type()\l+ const_range_type()\l+ begin()\l+ end()\l+ grainsize()\l+ set_midpoint()\l}" alt="" coords="5,131,231,384"/>
+<area shape="rect" id="node3" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="39,5,197,83"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="tbb::internal::DummyFree" name="tbb::internal::DummyFree">
+<area shape="rect" id="node2" href="$a01133.html#a408cda99f26f50b451ac562e96a4d760" title="Defined in cache_aligned_allocator.cpp. " alt="" coords="224,195,392,236"/>
+<area shape="rect" id="node3" href="$a01133.html#a1082394ca8392ef2aa6795b57a756fa5" title="One&#45;time initialization function. " alt="" coords="444,104,581,145"/>
+<area shape="rect" id="node9" href="$a01133.html#ad81b5f8ef24a819263e662348983fb5d" title="Initialize the allocation/free handler pointers. " alt="" coords="440,279,585,320"/>
+<area shape="rect" id="node4" href="$a00083.html#a4bb94f1a0d9cc00c5abb6fb3b110b2fc" title="tbb::internal::atomic\l_impl::compare_and_swap" alt="" coords="636,5,813,47"/>
+<area shape="rect" id="node5" href="$a01133.html#a4c2293788c0e215e6f6f44ea162b3bc7" title="tbb::internal::run\l_initializer" alt="" coords="667,71,783,112"/>
+<area shape="rect" id="node6" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="663,136,786,177"/>
+<area shape="rect" id="node7" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="864,136,1001,177"/>
+<area shape="rect" id="node8" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="1049,143,1156,170"/>
+<area shape="rect" id="node10" href="$a01133.html#a017b2dc8729e0abacdcb39735b376b5e" title="Dummy routine used for first indirect call via MallocHandler. " alt="" coords="633,202,816,229"/>
+<area shape="rect" id="node11" href="$a00992.html#aca8bbbbc28690d986ae2636bae2754f7" title="dynamic_link" alt="" coords="675,253,774,279"/>
+<area shape="rect" id="node12" href="$a01133.html#a53b20002ba2abdc3326f3741a8608f22" title="tbb::internal::padded\l_allocate" alt="" coords="655,304,795,345"/>
+<area shape="rect" id="node13" href="$a01133.html#ad794dd567905ec5005396fec4e96cf6a" title="tbb::internal::padded_free" alt="" coords="640,370,809,397"/>
+<area shape="rect" id="node14" href="$a01133.html#a89891ef24359a1304be463a41071684c" title="Prints arbitrary extra TBB version information on stderr. " alt="" coords="647,421,803,463"/>
+</map>

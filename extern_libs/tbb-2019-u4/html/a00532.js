@@ -1,0 +1,25 @@
+var a00532 =
+[
+    [ "value_type", "a00532.html#aa3c63f3f5da681da27e2aa133f8bffd2", null ],
+    [ "opencl_async_msg", "a00532.html#a2ad7b779cdac9478994000840cd2ef8f", null ],
+    [ "opencl_async_msg", "a00532.html#aadd4b2e6518cf36405fd47ac87db7f19", null ],
+    [ "opencl_async_msg", "a00532.html#a4371b06eb85a3abaf7ba0ca3d66bc5cc", null ],
+    [ "opencl_async_msg", "a00532.html#a46fe2dd1ef8547701e58e14a483e0de3", null ],
+    [ "opencl_async_msg", "a00532.html#aa70010c232651e11ff07e88991717745", null ],
+    [ "~opencl_async_msg", "a00532.html#adecb2ade5cb158956855fba6a8c0a82b", null ],
+    [ "clear_event", "a00532.html#a93064e1bfa9bb387c650faa75401981a", null ],
+    [ "data", "a00532.html#ac8a163f1a440bcddf34dc8b06eb61b21", null ],
+    [ "data", "a00532.html#ae47837a584dc42f4c7bd44dad7708e9d", null ],
+    [ "finalize", "a00532.html#a15d3b949f1ce48860a05fb3e0a537907", null ],
+    [ "get_event", "a00532.html#ae07788102cdb52b24ffa3c60bf35b561", null ],
+    [ "operator const T &", "a00532.html#ae6c7c0102d601788ff6c54f34b066293", null ],
+    [ "operator T &", "a00532.html#ac1c1cf1accbc0f7b9b2e9104dcfdc0c9", null ],
+    [ "operator=", "a00532.html#a384293c9b08c51e87164e1e4fffbeddf", null ],
+    [ "register_callback", "a00532.html#af267060e5a040c3db3c26ae16e088914", null ],
+    [ "register_callback_func", "a00532.html#a9a6c57f3e3f6829a3a35e1ad3e321c2e", null ],
+    [ "set_event", "a00532.html#a030a92451783a9c07287983339b927d4", null ],
+    [ "my_callback_flag_ptr", "a00532.html#a36afd28b4241fd335f9ddb8934429c80", null ],
+    [ "my_data", "a00532.html#aabf5afb014f67aacc58e17a7a90391fd", null ],
+    [ "my_event", "a00532.html#a657138f7e8217613a43b9506ea3260f2", null ],
+    [ "my_is_event", "a00532.html#a29d4cc394c206b43b8652699284be236", null ]
+];

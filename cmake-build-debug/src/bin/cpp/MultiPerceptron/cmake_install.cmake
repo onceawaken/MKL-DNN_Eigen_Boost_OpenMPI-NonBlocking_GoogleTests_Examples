@@ -1,4 +1,4 @@
-# Install script for directory: /home/daisy/W/W.priv/NonBlockingProtocol/src/bin/cpp/MultiPerceptron
+# Install script for directory: /home/egrzrbr/W/W.priv/HPC/NonBlockingProtocol/src/bin/cpp/MultiPerceptron
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

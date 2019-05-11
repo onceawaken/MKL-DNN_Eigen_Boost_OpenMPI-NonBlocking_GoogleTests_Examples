@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00825.html" title="tbb::internal::thread\l_closure_base" alt="" coords="5,71,140,112"/>
+<area shape="rect" id="node2" href="$a00822.html" title="tbb::internal::thread\l_closure_0\&lt; F \&gt;" alt="" coords="196,5,331,47"/>
+<area shape="rect" id="node3" href="$a00823.html" title="Structure used to pass user function with 1 argument to thread. " alt="" coords="196,71,331,112"/>
+<area shape="rect" id="node4" href="$a00824.html" title="tbb::internal::thread\l_closure_2\&lt; F, X, Y \&gt;" alt="" coords="188,136,339,177"/>
+</map>

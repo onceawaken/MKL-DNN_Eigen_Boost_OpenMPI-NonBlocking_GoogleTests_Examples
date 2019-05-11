@@ -1,0 +1,11 @@
+<map id="tbb::flow::interface10::internal::forwarding_base" name="tbb::flow::interface10::internal::forwarding_base">
+<area shape="rect" id="node2" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="93,5,251,83"/>
+<area shape="rect" id="node4" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="567,139,713,231"/>
+<area shape="rect" id="node3" href="$a00308.html" title="The graph class. " alt="" coords="412,1583,585,1924"/>
+<area shape="rect" id="node11" href="$a00310.html" title="The base of all graph nodes. " alt="" coords="527,2009,671,2130"/>
+<area shape="rect" id="node13" href="$a00512.html" title="{tbb::internal::mutex\l_copy_deprecated_and\l_disabled\n||}" alt="" coords="562,448,718,555"/>
+<area shape="rect" id="node15" href="$a00784.html" title="Used to form groups of tasks. " alt="" coords="661,725,861,1316"/>
+<area shape="rect" id="node7" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="43,301,258,701"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="282,463,379,540"/>
+<area shape="rect" id="node12" href="$a00721.html" title="A lock that occupies a single byte. " alt="" coords="567,1340,713,1520"/>
+</map>

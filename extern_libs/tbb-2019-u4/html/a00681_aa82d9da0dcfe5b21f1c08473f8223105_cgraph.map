@@ -1,0 +1,9 @@
+<map id="tbb::queuing_mutex::scoped_lock::scoped_lock" name="tbb::queuing_mutex::scoped_lock::scoped_lock">
+<area shape="rect" id="node2" href="$a00681.html#ac6b9289521c6b7568eedc8e0ff4e96d8" title="Acquire lock on given mutex. " alt="" coords="240,71,393,112"/>
+<area shape="rect" id="node7" href="$a00681.html#a59f276bc4fe30ca24998fc8b1693b0b9" title="Initialize fields to mean &quot;no lock held&quot;. " alt="" coords="237,136,396,177"/>
+<area shape="rect" id="node3" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="452,5,575,47"/>
+<area shape="rect" id="node6" href="$a01133.html#a0e107bb5cdaa8996c5ac7545a57bc248" title="tbb::internal::__TBB\l_load_with_acquire" alt="" coords="444,71,583,112"/>
+<area shape="rect" id="node4" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="631,5,768,47"/>
+<area shape="rect" id="node5" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="816,13,923,39"/>
+<area shape="rect" id="node8" href="$a01133.html#a58dafd43fac118e984cc4f19f3901609" title="tbb::internal::poison\l_pointer" alt="" coords="445,136,581,177"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="tbb::internal::micro_queue::pop" name="tbb::internal::micro_queue::pop">
+<area shape="rect" id="node2" href="$a00149.html#a3db6728b63f0332b4122ec700225dca2" title="tbb::internal::concurrent\l_queue_base_v3::assign\l_and_destroy_item" alt="" coords="184,5,351,61"/>
+<area shape="rect" id="node3" href="$a01133.html#ae4046a97e0542e3bb86bf9c54b0861e2" title="A function to compute arg modulo divisor where divisor is a power of 2. " alt="" coords="197,85,337,126"/>
+<area shape="rect" id="node5" href="$a01133.html#a9006317b947d3f9f7a457e295e5b8330" title="Spin UNTIL the value of the variable is equal to a given value. " alt="" coords="206,150,329,191"/>
+<area shape="rect" id="node8" href="$a01133.html#af06e92f81977291b074b4de815acc31e" title="Spin WHILE the value of the variable is equal to a given value. " alt="" coords="206,215,329,257"/>
+<area shape="rect" id="node4" href="$a01133.html#a9083f0017633fb48d690ba23fbd4387f" title="A function to check if passed integer is a power of 2. " alt="" coords="399,85,549,126"/>
+<area shape="rect" id="node6" href="$a00082.html#a03a7500cc7bb0ad8ab421b2cafd48e9c" title="Pause for a while. " alt="" coords="405,182,543,223"/>
+<area shape="rect" id="node7" href="$a01089.html#af59caf1e16dfe886e37ae0cb69f79c28" title="__TBB_Pause" alt="" coords="597,189,704,216"/>
+</map>

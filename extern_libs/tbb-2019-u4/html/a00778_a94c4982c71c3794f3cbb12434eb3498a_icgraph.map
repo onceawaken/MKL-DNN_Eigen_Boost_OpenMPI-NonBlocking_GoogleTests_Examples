@@ -1,0 +1,8 @@
+<map id="tbb::task::allocate_child" name="tbb::task::allocate_child">
+<area shape="rect" id="node2" href="$a01132.html#ac4236dcd3fe30778e6930c3785bd463c" title="allocate right task with new parent " alt="" coords="187,71,341,112"/>
+<area shape="rect" id="node6" href="$a00886.html#a1377f3dd127981bcb99990996bed7fb9" title="Should be overridden by derived classes. " alt="" coords="191,136,337,177"/>
+<area shape="rect" id="node7" href="$a00228.html#aebb622ab2f9e46491a9d7cdcf300c8bd" title="tbb::interface9::internal\l::do_task_iter::run_for\l_random_access_iterator" alt="" coords="180,201,348,257"/>
+<area shape="rect" id="node3" href="$a00729.html#a176a32f32cd87efa33faf53d19a15c96" title="spawn right task, serves as callback for partitioner " alt="" coords="410,5,565,47"/>
+<area shape="rect" id="node4" href="$a00731.html#a01f8832834bde49b03c7d4b617acb06d" title="spawn right task, serves as callback for partitioner " alt="" coords="402,71,573,112"/>
+<area shape="rect" id="node5" href="$a00728.html#afe17dace21bda2ab77d9952903f319a6" title="tbb::interface9::internal\l::start_deterministic_reduce\l::offer_work" alt="" coords="396,135,579,191"/>
+</map>

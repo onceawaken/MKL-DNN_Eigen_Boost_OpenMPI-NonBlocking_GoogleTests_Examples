@@ -1,0 +1,7 @@
+<map id="tbb::interface9::internal::parallel_do_feeder_impl&lt; Body, Item &gt;" name="tbb::interface9::internal::parallel_do_feeder_impl&lt; Body, Item &gt;">
+<area shape="rect" id="node2" href="$a00562.html" title="Class the user supplied algorithm body uses to add new tasks. " alt="" coords="36,611,191,776"/>
+<area shape="rect" id="node3" href="$a00516.html" title="Base class for types that should not be copied or assigned. " alt="" coords="12,315,159,407"/>
+<area shape="rect" id="node4" href="$a00515.html" title="Base class for types that should not be assigned. " alt="" coords="5,20,163,97"/>
+<area shape="rect" id="node5" href="$a00241.html" title="task that does nothing. Useful for synchronization. " alt="" coords="218,655,334,732"/>
+<area shape="rect" id="node6" href="$a00778.html" title="Base class for user&#45;defined tasks. " alt="" coords="185,161,399,561"/>
+</map>
