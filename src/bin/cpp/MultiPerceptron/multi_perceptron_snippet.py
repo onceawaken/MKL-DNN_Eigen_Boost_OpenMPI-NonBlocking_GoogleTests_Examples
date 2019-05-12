@@ -138,11 +138,14 @@ def train_perceptron(mB, epochs, iterations, g, dg, eta, shapeNN,
 
                 Delta[HL][:M, :mB] = (V['Z'][:M, :mB] - V[HL][:M, :mB]) * dV[HL][:M, :mB]
 
-                for l in reversed(range(1, HL)):
+                #DeltaV = (Z - V) * dV
 
+                for l in reversed(range(1, HL)):
                     N = shapeNN[l]
                     M = shapeNN[l + 1]
                     Delta[l][:N, :mB] = np.einsum('im,ij->jm', Delta[l + 1][:M, :mB], W[l + 1][:M, :N]) * dV[l][:N, :mB]
+
+                    #DeltaX = (DeltaV*W)*dX;
 
                 for l in range(1, L):
                     N = shapeNN[l - 1]

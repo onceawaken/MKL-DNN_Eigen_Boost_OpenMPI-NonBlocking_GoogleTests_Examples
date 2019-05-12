@@ -366,17 +366,21 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-	Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
-	::Network(Layers_t &layers, Linked_Ptr_t &linkedPtr, Engine_Ptr &enginePtr, Datain_Ptr &datainPtr,
-	          Datagen_Ptr &datagenPtr) :
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
+	Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
+	::Network(const Layers_t &layers, const Linked_Ptr_t &linkedPtr, const Engine_Ptr_t &enginePtr, const Datain_Ptr_t &datainPtr, const Datagen_Ptr_t &datagenPtr) :
 			layers(layers), linkedPtr(linkedPtr), enginePtr(enginePtr), datainPtr(datainPtr), datagenPtr(datagenPtr), IDX(B) {
+
+//		type_assert_ptr(Linked_Ptr_t);
+//		type_assert_ptr(Engine_Ptr_t);
+//		type_assert_ptr(Datain_Ptr_t);
+//		type_assert_ptr(Datagen_Ptr_t);
 
 		std::iota(IDX.begin(), IDX.end(), size_t{0});
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
+	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::shuffle_idx() {
 
 		static std::random_device randEng;
@@ -385,8 +389,8 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-	const void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
+	const void Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::shuffle_idx() const {
 
 		static std::random_device randEng;
@@ -395,8 +399,8 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-	const auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
+	const auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::get_next_mb() const {
 
 		static size_t k = 0;
@@ -408,9 +412,9 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
 	template<debug_e DEBUG_E, compute_e COMPUTE_E, class Curr_Linked_Ptr_t>
-	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::compute(Curr_Linked_Ptr_t curr, size_t l, size_t epoch, size_t iter) {
 
 		using Curr_Linked_t = std::remove_pointer_t<Curr_Linked_Ptr_t>;
@@ -424,24 +428,23 @@ namespace NNet {
 			using next_t = decltype(next);
 			using this_t = decltype(this);
 
-			using engine_t = typename Engine_Ptr::template InnerEngine<DEBUG_E, curr_t, next_t, this_t>;
-			static auto engine = engine_t(curr, next, this);
-			//            static auto engine = CEng::RawEngine<DEBUG_E, curr_t, next_t>(curr, next);
+			using engine_t = typename Engine_Ptr_t::template ParametersEngine<DEBUG_E, Engine_Ptr_t, curr_t, next_t, this_t>;
+			static auto engine = engine_t(enginePtr, curr, next, this);
 
 			if constexpr (COMPUTE_E == FORWARD_E) {
-				engine.compute_forward(epoch, iter);
+				engine.compute_forward(iter);
 				//compute<DEBUG_E, COMPUTE_E>(curr, next, l);
 				compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
 			} else if constexpr (COMPUTE_E == UPDATE_E) {
-					engine.compute_update(epoch, iter);
-					//compute<DEBUG_E, COMPUTE_E>(curr, next, l); //next, curr
-				
+				engine.compute_update(iter);
+				//compute<DEBUG_E, COMPUTE_E>(curr, next, l); //next, curr
+
 				compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
 
 			} else if constexpr(COMPUTE_E == BACKWARD_E) {
 				compute < DEBUG_E, COMPUTE_E > (next, l + 1, epoch, iter);
 				if constexpr (HAS_PREV) {
-					engine.compute_backward(epoch, iter);
+					engine.compute_backward(iter);
 				}
 			}
 
@@ -449,9 +452,9 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
 	template<debug_e DEBUG_E>
-	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::compute(size_t epochs) {
 
 		const size_t EPOCHS = epochs;
@@ -507,18 +510,18 @@ namespace NNet {
 			size_t iterations = ITER;
 			do {
 				if (iterations % (ITER / 10) == 0) std::cout << "...iterations : " << iterations << std::endl;
-				compute < DEBUG0, FORWARD_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
-				compute < DEBUG0, BACKWARD_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
-				compute < DEBUG0, UPDATE_E > (linkedPtr, 0, EPOCHS - epochs, ITER - iterations);
+				compute < DEBUG0, FORWARD_E > (linkedPtr, 0, EPOCHS - epoch, ITER - iterations);
+				compute < DEBUG0, BACKWARD_E > (linkedPtr, 0, EPOCHS - epoch, ITER - iterations);
+				compute < DEBUG0, UPDATE_E > (linkedPtr, 0, EPOCHS - epoch, ITER - iterations);
 			} while (--iterations);
 		} while (--epochs);
 
 		TIME_CHECK
 	}
 
-	template<class Layers_t, class Linked_Ptr, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
 	template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-	auto Network<Layers_t, Linked_Ptr, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	auto Network<Layers_t, Linked_Ptr, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::init_parameters(Curr_Linked_Ptr_t currLinkedPtr) {
 
 		using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
@@ -543,9 +546,9 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
 	template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::init_patterns(Curr_Linked_Ptr_t currLinkedPtr) {
 
 		using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
@@ -592,9 +595,9 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
 	template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::init_classifiers(Curr_Linked_Ptr_t currLinkedPtr) {
 
 		using Curr_Linked_t =  std::remove_pointer_t<Curr_Linked_Ptr_t>;
@@ -633,9 +636,9 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
 	template<debug_e DEBUG_E, class Curr_Linked_Ptr_t>
-	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::init(Curr_Linked_Ptr_t curr, size_t l) {
 
 		using Curr_Linked_t = std::remove_pointer_t<Curr_Linked_Ptr_t>;
@@ -679,15 +682,15 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
 	template<debug_e DEBUG_E>
-	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	auto Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::init() {
 
 		if constexpr (DEBUG_E > DEBUG0) {
 			std::cout << "#### LAYERS : INIT : START >>>" << std::endl;
 			type_assert_ptr(Linked_Ptr_t);
-			//type_assert_ptr(Datagen_Ptr);
+			//type_assert_ptr(Datagen_Ptr_t);
 			std::cout << "... init input data" << std::endl;
 
 			linkedPtr->print_name();
@@ -699,8 +702,8 @@ namespace NNet {
 
 	}
 
-	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr, class Datain_Ptr, class Datagen_Ptr>
-	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr, Datain_Ptr, Datagen_Ptr>
+	template<class Layers_t, class Linked_Ptr_t, class Engine_Ptr_t, class Datain_Ptr_t, class Datagen_Ptr_t>
+	void Network<Layers_t, Linked_Ptr_t, Engine_Ptr_t, Datain_Ptr_t, Datagen_Ptr_t>
 	::print() {
 
 		layers.print(linkedPtr);

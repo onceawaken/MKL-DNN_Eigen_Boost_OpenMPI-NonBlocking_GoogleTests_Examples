@@ -584,8 +584,7 @@ namespace NNet {
 		using T = typename Layers_t::m_T;
 
 	  public:
-		Network(Layers_t &layers, Linked_Ptr_t &linkedPtr, Engine_Ptr &enginePtr, Datain_Ptr &datainPtr,
-		        Datagen_Ptr &datagenPtr);
+		Network(const Layers_t &layers, const Linked_Ptr_t &linkedPtr, const Engine_Ptr &enginePtr, const Datain_Ptr &datainPtr, const Datagen_Ptr &datagenPtr);
 
 		template<debug_e DEBUG_E, compute_e COMPUTE_E, class Prev_Linked_Ptr_t, class Next_Linked_Ptr_t>
 		void compute(Prev_Linked_Ptr_t prevLinkedPtr, Next_Linked_Ptr_t nextLinkedPtr, size_t l);

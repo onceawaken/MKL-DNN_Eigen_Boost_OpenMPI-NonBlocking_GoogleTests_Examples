@@ -1,0 +1,12 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <Objective-C>
+      <option name="INDENT_VISIBILITY_KEYWORDS" value="2" />
+      <option name="INDENT_PREPROCESSOR_DIRECTIVE" value="4" />
+      <option name="INDENT_DIRECTIVE_AS_CODE" value="true" />
+      <option name="KEEP_STRUCTURES_IN_ONE_LINE" value="true" />
+      <option name="DISCHARGED_SHORT_TERNARY_OPERATOR" value="true" />
+      <option name="HEADER_GUARD_STYLE_PATTERN" value="${FILE_NAME}_${EXT}" />
+    </Objective-C>
+  </code_scheme>
+</component>

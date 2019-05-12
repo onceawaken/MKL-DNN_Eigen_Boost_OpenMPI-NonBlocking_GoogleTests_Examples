@@ -64,7 +64,8 @@ int main() {
 	constexpr size_t INPUT_LAYER = datain.get_pattern_size();
 	constexpr size_t OUTPUT_LAYER = datain.get_labels_size();
 	constexpr size_t B = datain.get_train_batch_size();
-	constexpr size_t mB = 2000;
+	constexpr size_t mB = 100;
+	constexpr HL_T eta = 0.3;
 
 	{
 		TIME_START
@@ -81,9 +82,9 @@ int main() {
 
 	std::srand(0);
 
-	constexpr size_t epochs = 30;
+	constexpr size_t epochs = 2;
 
-	auto layersMaker = NNet::LayersMaker<IN_T, HL_T, B, mB, INPUT_LAYER, 100, OUTPUT_LAYER>();
+	auto layersMaker = NNet::LayersMaker<IN_T, HL_T, B, mB, INPUT_LAYER, 100, 100, 30, OUTPUT_LAYER>();
 
 	auto layersPtr = layersMaker.alloc<DEBUG1>();
 
@@ -91,7 +92,7 @@ int main() {
 
 	auto datagen = DGen::Datagen<HL_T, DGen::RANDOM_NORMAL>();
 
-	auto engine = CEng::Engine();
+	auto engine = CEng::Engine<HL_T, CEng::SEQUENTIAL_E>(eta);
 
 	auto network = NNet::Network(layersMaker, layersPtr, engine, datain, datagen);
 
@@ -100,27 +101,6 @@ int main() {
 	network.init<DEBUG1>();
 
 	network.compute<DEBUG2>(epochs);
-
-
-
-
-
-/*	auto start = clock();
-
-	size_t o = 0;
-	for (size_t i = 0; i < 1000; i++) {
-		o += 1;
-		compute<DEBUG0, Layers_t, I, shapeNN...>(1, layersWrap, enginePtr);
-	}
-
-	std::cout << "Took " << clock() - start << " ms" << std::endl;
-
-	std::cout << o << std::endl;
-*/
-
-	//auto * lh = (LayerHidden<int, 100, 100, mB> * ) layersWrap.layersTraining[1];
-	//lh->V;
-	//layersWrap->print();
 
 	std::cout << "Done." << std::endl;
 
