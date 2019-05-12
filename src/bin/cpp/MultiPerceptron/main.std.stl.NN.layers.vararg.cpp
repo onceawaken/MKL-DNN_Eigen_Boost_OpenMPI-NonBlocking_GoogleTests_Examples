@@ -84,7 +84,7 @@ int main() {
 
 	constexpr size_t epochs = 2;
 
-	auto layersMaker = NNet::LayersMaker<IN_T, HL_T, B, mB, INPUT_LAYER, 100, 100, 30, OUTPUT_LAYER>();
+	auto layersMaker = NNet::LayersMaker<IN_T, HL_T, B, mB, INPUT_LAYER, 100, 30, OUTPUT_LAYER>();
 
 	auto layersPtr = layersMaker.alloc<DEBUG1>();
 

@@ -48,40 +48,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b7f49f4-32f1-4352-b120-e45c048c909a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/libfoo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/libfoo.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/libfoo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/libfoo.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/libfoo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/libfoo.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/libfoo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/libfoo.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/libfoo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-C/bin/libfoo.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/libfoo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/cpp/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/libfoo.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/libfoo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-C/bin/libfoo.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/libfoo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/src/bin/eigen/examples/CMakeFiles/_CMakeLTOTest-CXX/bin/libfoo.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/multi_perceptron_snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/multi_perceptron_snippet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/release/bin/Cpp_Boost_Multi_Perceptron" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/bin/Cpp_Boost_Multi_Perceptron" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -117,33 +87,14 @@
     <expand />
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/multi_perceptron_snippet.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="17">
-                    <caret line="148" selection-start-line="148" selection-end-line="148" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="588" selection-start-line="588" selection-end-line="588" />
+            <state relative-caret-position="614">
+              <caret line="586" column="135" selection-start-line="586" selection-start-column="135" selection-end-line="586" selection-end-column="135" />
             </state>
           </provider>
         </entry>
@@ -151,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hxx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="552" selection-start-line="552" selection-end-line="552" />
+            <state relative-caret-position="419">
+              <caret line="431" column="12" selection-start-line="431" selection-start-column="12" selection-end-line="431" selection-end-column="12" />
               <folding>
                 <element signature="e#869#932#0" expanded="true" />
                 <element signature="e#8989#9086#0" expanded="true" />
@@ -182,21 +133,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hxx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="102" column="44" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+            <state relative-caret-position="854">
+              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
               <folding>
                 <element signature="e#398#424#0" expanded="true" />
                 <element signature="e#723#749#0" expanded="true" />
                 <element signature="e#919#945#0" expanded="true" />
                 <element signature="e#1140#1166#0" expanded="true" />
                 <element signature="e#1368#1395#0" expanded="true" />
-                <element signature="e#1390#1472#0" expanded="true" />
-                <element signature="e#1881#1908#0" expanded="true" />
-                <element signature="e#1918#2000#0" expanded="true" />
-                <element signature="e#3258#3285#0" expanded="true" />
-                <element signature="e#3295#3377#0" expanded="true" />
-                <element signature="e#4509#4536#0" expanded="true" />
-                <element signature="e#4546#4628#0" expanded="true" />
+                <element signature="e#1591#1681#0" expanded="true" />
+                <element signature="e#2162#2189#0" expanded="true" />
+                <element signature="e#2202#2292#0" expanded="true" />
+                <element signature="e#4205#4232#0" expanded="true" />
+                <element signature="e#4245#4335#0" expanded="true" />
+                <element signature="e#5813#5840#0" expanded="true" />
+                <element signature="e#5853#5943#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,7 +166,7 @@
         <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="574">
-              <caret line="86" column="83" selection-start-line="86" selection-start-column="83" selection-end-line="86" selection-end-column="83" />
+              <caret line="86" column="78" selection-start-line="86" selection-start-column="78" selection-end-line="86" selection-end-column="78" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -226,8 +177,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="279" column="58" selection-start-line="279" selection-start-column="58" selection-end-line="279" selection-end-column="58" />
+            <state relative-caret-position="104">
+              <caret line="667" selection-start-line="667" selection-end-line="667" />
               <folding>
                 <element signature="e#128#154#0" expanded="true" />
                 <element signature="e#288#314#0" expanded="true" />
@@ -236,25 +187,22 @@
                 <element signature="e#870#896#0" expanded="true" />
                 <element signature="e#749#7077#1" />
                 <element signature="e#806#877#0" expanded="true" />
-                <element signature="e#886#2358#1" />
                 <element signature="e#1289#1302#0" expanded="true" />
                 <element signature="e#2039#2051#0" expanded="true" />
                 <element signature="e#2377#2409#0" expanded="true" />
-                <element signature="e#2418#4266#1" />
                 <element signature="e#2680#2727#0" expanded="true" />
                 <element signature="e#3594#3617#0" expanded="true" />
                 <element signature="e#4285#4365#0" expanded="true" />
-                <element signature="e#4374#7069#1" />
                 <element signature="e#4817#4830#0" expanded="true" />
                 <element signature="e#6865#6877#0" expanded="true" />
                 <element signature="e#694#765#0" expanded="true" />
-                <element signature="e#767#1903#1" />
                 <element signature="e#1057#1070#0" expanded="true" />
                 <element signature="e#1637#1649#0" expanded="true" />
                 <element signature="e#1915#1947#0" expanded="true" />
-                <element signature="e#1949#3344#1" />
                 <element signature="e#2138#2185#0" expanded="true" />
+                <element signature="e#2130#2823#0" />
                 <element signature="e#2835#2858#0" expanded="true" />
+                <element signature="e#2827#3340#0" />
                 <element signature="e#3356#3436#0" expanded="true" />
                 <element signature="e#3768#3781#0" expanded="true" />
                 <element signature="e#5297#5309#0" expanded="true" />
@@ -293,9 +241,9 @@
                 <element signature="e#18335#18348#0" expanded="true" />
                 <element signature="e#18784#18796#0" expanded="true" />
                 <element signature="e#8757#8784#0" expanded="true" />
-                <element signature="e#8935#9017#0" expanded="true" />
-                <element signature="e#9059#9086#0" expanded="true" />
-                <element signature="e#5649#5731#0" expanded="true" />
+                <element signature="e#19210#19300#0" expanded="true" />
+                <element signature="e#19354#19381#0" expanded="true" />
+                <element signature="e#19394#19484#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -312,10 +260,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>template&lt;typename T, size_t B, size_t N&gt;</find>
-      <find>constexpr static</find>
-      <find>#define</find>
-      <find>fprintf(stderr,</find>
       <find>//SDP</find>
       <find>TAG</find>
       <find>&amp;m_head-</find>
@@ -342,12 +286,12 @@
       <find>template&lt;typename T&gt;</find>
       <find>template&lt;typename T, mode_e MODE_E&gt;</find>
       <find>Engine&lt;T, MODE_E&gt;</find>
+      <find>Prev_t</find>
+      <find>Next_Linked_t</find>
+      <find>prev_t</find>
+      <find>next_t</find>
     </findStrings>
     <replaceStrings>
-      <replace>init_classifiers</replace>
-      <replace>t_</replace>
-      <replace>_V</replace>
-      <replace>LayerInput&lt;T, B, mB, N&gt;</replace>
       <replace>template&lt;typename T, size_t B, size_t mB, size_t N&gt;</replace>
       <replace>static constexpr</replace>
       <replace>constexpr size_t</replace>
@@ -374,6 +318,10 @@
       <replace>template&lt;typename T, mode_e MODE_E&gt;</replace>
       <replace>template&lt;mode_e MODE_E, typename T&gt;</replace>
       <replace>Engine&lt;MODE_E, T&gt;</replace>
+      <replace>Prev_t</replace>
+      <replace>Next_t</replace>
+      <replace>Prev_Ptr_t</replace>
+      <replace>Next_Ptr_t</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/extern/Boost/include/boost/python/numpy</dir>
@@ -431,10 +379,10 @@
         <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/multi_perceptron.py" />
         <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/multi_perceptron_snippet.py" />
+        <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp" />
         <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hpp" />
         <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hxx" />
         <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hxx" />
-        <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp" />
         <option value="$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hpp" />
       </list>
     </option>
@@ -776,12 +724,12 @@
       <workItem from="1557508911543" duration="21754000" />
       <workItem from="1557568960643" duration="1041000" />
       <workItem from="1557572251489" duration="22157000" />
-      <workItem from="1557653164307" duration="23927000" />
+      <workItem from="1557653164307" duration="26347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332788000" />
+    <option name="totallyTimeSpent" value="335208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
@@ -803,7 +751,7 @@
       <window_info anchor="bottom" id="TeamCity" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" weight="0.20610687" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053364" side_tool="true" weight="0.3298279" />
-      <window_info anchor="bottom" auto_hide="true" x="24" y="343" width="1552" height="240" id="Messages" order="13" sideWeight="0.4994664" weight="0.25621414" />
+      <window_info anchor="bottom" auto_hide="true" x="24" y="343" width="1552" height="240" id="Messages" order="13" sideWeight="0.4994664" weight="0.5659656" />
       <window_info anchor="bottom" x="1920" y="26" width="1920" height="1174" id="Profiler" maximized="true" order="14" type="WINDOWED" weight="0.6156788" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -812,7 +760,7 @@
       <window_info anchor="right" id="Cargo" order="4" />
       <window_info anchor="right" id="make" order="5" weight="0.32977587" />
       <window_info anchor="right" id="Key Promoter X" order="6" weight="0.32977587" />
-      <window_info active="true" anchor="right" x="848" y="72" width="997" height="1053" id="Run" order="7" visible="true" weight="0.36766276" />
+      <window_info active="true" anchor="right" x="848" y="72" width="997" height="1053" id="Run" order="7" visible="true" weight="0.45944503" />
       <window_info anchor="right" x="0" y="26" width="960" height="1054" id="CMake" order="8" weight="0.31376734" />
     </layout>
     <layout-to-restore>
@@ -1159,17 +1107,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="86" column="78" selection-start-line="86" selection-start-column="78" selection-end-line="86" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="588" selection-start-line="588" selection-end-line="588" />
+        <state relative-caret-position="614">
+          <caret line="586" column="135" selection-start-line="586" selection-start-column="135" selection-end-line="586" selection-end-column="135" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/NNet.hxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="552" selection-start-line="552" selection-end-line="552" />
+        <state relative-caret-position="419">
+          <caret line="431" column="12" selection-start-line="431" selection-start-column="12" selection-end-line="431" selection-end-column="12" />
           <folding>
             <element signature="e#869#932#0" expanded="true" />
             <element signature="e#8989#9086#0" expanded="true" />
@@ -1197,39 +1155,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="102" column="44" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+        <state relative-caret-position="854">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
           <folding>
             <element signature="e#398#424#0" expanded="true" />
             <element signature="e#723#749#0" expanded="true" />
             <element signature="e#919#945#0" expanded="true" />
             <element signature="e#1140#1166#0" expanded="true" />
             <element signature="e#1368#1395#0" expanded="true" />
-            <element signature="e#1390#1472#0" expanded="true" />
-            <element signature="e#1881#1908#0" expanded="true" />
-            <element signature="e#1918#2000#0" expanded="true" />
-            <element signature="e#3258#3285#0" expanded="true" />
-            <element signature="e#3295#3377#0" expanded="true" />
-            <element signature="e#4509#4536#0" expanded="true" />
-            <element signature="e#4546#4628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/main.std.stl.NN.layers.vararg.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="86" column="83" selection-start-line="86" selection-start-column="83" selection-end-line="86" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#1591#1681#0" expanded="true" />
+            <element signature="e#2162#2189#0" expanded="true" />
+            <element signature="e#2202#2292#0" expanded="true" />
+            <element signature="e#4205#4232#0" expanded="true" />
+            <element signature="e#4245#4335#0" expanded="true" />
+            <element signature="e#5813#5840#0" expanded="true" />
+            <element signature="e#5853#5943#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/cpp/MultiPerceptron/CEng.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="279" column="58" selection-start-line="279" selection-start-column="58" selection-end-line="279" selection-end-column="58" />
+        <state relative-caret-position="104">
+          <caret line="667" selection-start-line="667" selection-end-line="667" />
           <folding>
             <element signature="e#128#154#0" expanded="true" />
             <element signature="e#288#314#0" expanded="true" />
@@ -1238,25 +1186,22 @@
             <element signature="e#870#896#0" expanded="true" />
             <element signature="e#749#7077#1" />
             <element signature="e#806#877#0" expanded="true" />
-            <element signature="e#886#2358#1" />
             <element signature="e#1289#1302#0" expanded="true" />
             <element signature="e#2039#2051#0" expanded="true" />
             <element signature="e#2377#2409#0" expanded="true" />
-            <element signature="e#2418#4266#1" />
             <element signature="e#2680#2727#0" expanded="true" />
             <element signature="e#3594#3617#0" expanded="true" />
             <element signature="e#4285#4365#0" expanded="true" />
-            <element signature="e#4374#7069#1" />
             <element signature="e#4817#4830#0" expanded="true" />
             <element signature="e#6865#6877#0" expanded="true" />
             <element signature="e#694#765#0" expanded="true" />
-            <element signature="e#767#1903#1" />
             <element signature="e#1057#1070#0" expanded="true" />
             <element signature="e#1637#1649#0" expanded="true" />
             <element signature="e#1915#1947#0" expanded="true" />
-            <element signature="e#1949#3344#1" />
             <element signature="e#2138#2185#0" expanded="true" />
+            <element signature="e#2130#2823#0" />
             <element signature="e#2835#2858#0" expanded="true" />
+            <element signature="e#2827#3340#0" />
             <element signature="e#3356#3436#0" expanded="true" />
             <element signature="e#3768#3781#0" expanded="true" />
             <element signature="e#5297#5309#0" expanded="true" />
@@ -1295,9 +1240,9 @@
             <element signature="e#18335#18348#0" expanded="true" />
             <element signature="e#18784#18796#0" expanded="true" />
             <element signature="e#8757#8784#0" expanded="true" />
-            <element signature="e#8935#9017#0" expanded="true" />
-            <element signature="e#9059#9086#0" expanded="true" />
-            <element signature="e#5649#5731#0" expanded="true" />
+            <element signature="e#19210#19300#0" expanded="true" />
+            <element signature="e#19354#19381#0" expanded="true" />
+            <element signature="e#19394#19484#0" expanded="true" />
           </folding>
         </state>
       </provider>

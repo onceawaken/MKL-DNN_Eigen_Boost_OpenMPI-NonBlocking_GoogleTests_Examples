@@ -56,25 +56,26 @@ namespace CEng {
     }
 
     template<typename T, mode_e MODE_E>
-    template<debug_e DEBUG_E, class Engine_t, class prev_t, class next_t, class Network_Ptr_t>
+    template<debug_e DEBUG_E, class Engine_t, class Prev_Ptr_t, class Next_Ptr_t, class Network_Ptr_t>
     Engine<T, MODE_E>
-    ::ParametersEngine<DEBUG_E, Engine_t, prev_t, next_t, Network_Ptr_t>
-    ::ParametersEngine(const Engine_t &engine, prev_t prev, next_t next, Network_Ptr_t networkPtr)  :
+    ::ParametersEngine<DEBUG_E, Engine_t, Prev_Ptr_t, Next_Ptr_t, Network_Ptr_t>
+    ::ParametersEngine(const Engine_t &engine, const Prev_Ptr_t prev, const Next_Ptr_t next, const Network_Ptr_t networkPtr)
+            :
             engine(engine), prev(prev), next(next), networkPtr(networkPtr) {
 
         if constexpr (DEBUG_E) {
-            type_assert_ptr(prev_t);
-            type_assert_ptr(next_t);
+            type_assert_ptr(Prev_Ptr_t);
+            type_assert_ptr(Next_Ptr_t);
             type_assert_ptr(Network_Ptr_t);
         }
 
     }
 
     template<typename T, mode_e MODE_E>
-    template<debug_e DEBUG_E, class Engine_t, class prev_t, class next_t, class Network_Ptr_t>
-    constexpr inline void
+    template<debug_e DEBUG_E, class Engine_t, class Prev_Ptr_t, class Next_Ptr_t, class Network_Ptr_t>
+    inline void
     Engine<T, MODE_E>
-    ::ParametersEngine<DEBUG_E, Engine_t, prev_t, next_t, Network_Ptr_t>
+    ::ParametersEngine<DEBUG_E, Engine_t, Prev_Ptr_t, Next_Ptr_t, Network_Ptr_t>
     ::compute_forward(size_t iter) {
 
         /* for l in range(1, L):
@@ -100,8 +101,8 @@ namespace CEng {
         using dV_t = decltype(dV);
         using b_t = decltype(b);
 
-        using compute_forward_t =  typename compute_t:: template Compute_Forward<W_t, Theta_t, X_t, V_t, dV_t, b_t>;
-        auto computer = compute_forward_t(W, Theta, X, V, dV, b);
+        using compute_forward_t =  typename compute_t::template Compute_Forward<W_t, Theta_t, X_t, V_t, dV_t, b_t>;
+        static auto computer = compute_forward_t(W, Theta, X, V, dV, b);
         //auto computer = typename compute_t::Compute_Forward(W, Theta, X, V, dV, b);
 
         if constexpr(PREV_EID == NNet::LAYER_INPUT) {
@@ -130,10 +131,10 @@ namespace CEng {
     }
 
     template<typename T, mode_e MODE_E>
-    template<debug_e DEBUG_E, class Engine_t, class prev_t, class next_t, class Network_Ptr_t>
-    constexpr inline void
+    template<debug_e DEBUG_E, class Engine_t, class Prev_Ptr_t, class Next_Ptr_t, class Network_Ptr_t>
+    inline void
     Engine<T, MODE_E>
-    ::ParametersEngine<DEBUG_E, Engine_t, prev_t, next_t, Network_Ptr_t>
+    ::ParametersEngine<DEBUG_E, Engine_t, Prev_Ptr_t, Next_Ptr_t, Network_Ptr_t>
     ::compute_backward(size_t iter) {
 
         const auto &W = next->get_W();
@@ -149,7 +150,7 @@ namespace CEng {
         using DeltaX_t = decltype(DeltaX);
 
         using compute_backward_t = typename compute_t::template Compute_Backward<DeltaV_t, DeltaX_t>;
-        auto computer = compute_backward_t(DeltaV, DeltaX);
+        static auto computer = compute_backward_t(DeltaV, DeltaX);
 
         if constexpr (NEXT_EID == NNet::LAYER_OUTPUT) {
             if constexpr (DEBUG_E > DEBUG0) {
@@ -177,10 +178,10 @@ namespace CEng {
     }
 
     template<typename T, mode_e MODE_E>
-    template<debug_e DEBUG_E, class Engine_t, class prev_t, class next_t, class Network_Ptr_t>
-    constexpr inline void
+    template<debug_e DEBUG_E, class Engine_t, class Prev_Ptr_t, class Next_Ptr_t, class Network_Ptr_t>
+    inline void
     Engine<T, MODE_E>
-    ::ParametersEngine<DEBUG_E, Engine_t, prev_t, next_t, Network_Ptr_t>
+    ::ParametersEngine<DEBUG_E, Engine_t, Prev_Ptr_t, Next_Ptr_t, Network_Ptr_t>
     ::compute_update(size_t iter) {
 
         const auto &X = prev->get_V();
@@ -207,7 +208,7 @@ namespace CEng {
         using dTheta_t = decltype(dTheta);
 
         using compute_update_t = typename compute_t::template Compute_Update<X_t, Delta_t, W_t, dW_t, Theta_t, dTheta_t>;
-        auto computer = compute_update_t(X, Delta, W, dW, Theta, dTheta);
+        static auto computer = compute_update_t(X, Delta, W, dW, Theta, dTheta);
 
         if constexpr(PREV_EID == NNet::LAYER_INPUT) {
             const auto &idx = networkPtr->get_idx();
