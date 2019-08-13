@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCppUtils.a  CMakeFiles/CppUtils.dir/template_utils.cpp.o CMakeFiles/CppUtils.dir/Containers/std_vector_3d.cpp.o CMakeFiles/CppUtils.dir/Containers/std_vector_2d.cpp.o
-/usr/bin/ranlib libCppUtils.a

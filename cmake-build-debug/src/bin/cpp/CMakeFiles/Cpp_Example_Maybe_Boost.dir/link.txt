@@ -1,1 +1,0 @@
-/usr/bin/g++-8  -g   CMakeFiles/Cpp_Example_Maybe_Boost.dir/matrix_operations.cpp.o CMakeFiles/Cpp_Example_Maybe_Boost.dir/__/eigen/project/NNet.cpp.o  -o ../../../../target/debug/bin/Cpp_Example_Maybe_Boost 

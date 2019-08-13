@@ -1,1 +1,0 @@
-/usr/bin/g++-8  -g -flto -fno-fat-lto-objects   CMakeFiles/Cpp_Example_Simple.dir/main.cpp.o  -o ../../../../target/debug/bin/Cpp_Example_Simple libCpp_Example_Simple_Lib.a 

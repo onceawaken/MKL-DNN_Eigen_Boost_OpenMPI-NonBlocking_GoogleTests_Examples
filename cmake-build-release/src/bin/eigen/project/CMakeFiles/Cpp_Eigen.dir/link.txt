@@ -1,1 +1,0 @@
-/usr/bin/g++-8  -O3 -DNDEBUG -flto -fno-fat-lto-objects   CMakeFiles/Cpp_Eigen.dir/NNet.cpp.o  -o ../../../../../target/release/bin/Cpp_Eigen 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCpp_Example_Simple_Lib.a  CMakeFiles/Cpp_Example_Simple_Lib.dir/simple_lib.cpp.o
-/usr/bin/ranlib libCpp_Example_Simple_Lib.a
